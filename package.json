@@ -1,0 +1,26 @@
+{
+  "name": "furkot-directions",
+  "version": "0.0.0",
+  "description": "Directions service for Furkot",
+  "author": {
+    "name": "Damian Krzeminski",
+    "email": "pirxpilot@code42day.com",
+    "url": "https://code42day.com"
+  },
+  "repository": "furkot/furkot-directions",
+  "license": "MIT",
+  "keywords": [
+    "furkot-directions",
+    "furkot",
+    "directions"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "should": "^11.1.1"
+  },
+  "scripts": {
+    "test": "make check"
+  }
+}
