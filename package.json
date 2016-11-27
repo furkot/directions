@@ -14,7 +14,9 @@
     "furkot",
     "directions"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "async": "^2.1.4"
+  },
   "devDependencies": {
     "jshint": "^2.9.4",
     "mocha": "^3.2.0",
