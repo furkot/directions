@@ -15,7 +15,8 @@
     "directions"
   ],
   "dependencies": {
-    "async": "^2.1.4"
+    "async": "^2.1.4",
+    "lodash": "^4.17.2"
   },
   "devDependencies": {
     "jshint": "^2.9.4",
