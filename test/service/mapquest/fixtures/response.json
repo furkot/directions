@@ -1,0 +1,371 @@
+{
+    "route": {
+        "hasBridge": false,
+        "hasTunnel": false,
+        "timeOverage": 1.25,
+        "hasHighway": false,
+        "hasUnpaved": false,
+        "realTime": 1898,
+        "boundingBox": {
+            "ul": {
+                "lng": -103.691642,
+                "lat": 35.389934
+            },
+            "lr": {
+                "lng": -103.3973,
+                "lat": 35.171916
+            }
+        },
+        "time": 1939,
+        "distance": 41.6031,
+        "locations": [ {
+            "latLng": {
+                "lng": -103.397827,
+                "lat": 35.393528
+            },
+            "adminArea4": "",
+            "adminArea5Type": "City",
+            "adminArea4Type": "County",
+            "adminArea5": "",
+            "street": "",
+            "adminArea1": "",
+            "adminArea3": "",
+            "type": "s",
+            "displayLatLng": {
+                "lng": -103.397827,
+                "lat": 35.393528
+            },
+            "linkId": 30832843,
+            "postalCode": "",
+            "sideOfStreet": "N",
+            "dragPoint": false,
+            "adminArea1Type": "Country",
+            "geocodeQuality": "LATLNG",
+            "geocodeQualityCode": "XXXXX",
+            "adminArea3Type": "State"
+        }, {
+            "latLng": {
+                "lng": -103.694458,
+                "lat": 35.182788
+            },
+            "adminArea4": "",
+            "adminArea5Type": "City",
+            "adminArea4Type": "County",
+            "adminArea5": "",
+            "street": "",
+            "adminArea1": "",
+            "adminArea3": "",
+            "type": "s",
+            "displayLatLng": {
+                "lng": -103.694458,
+                "lat": 35.182788
+            },
+            "linkId": 31278651,
+            "postalCode": "",
+            "sideOfStreet": "N",
+            "dragPoint": false,
+            "adminArea1Type": "Country",
+            "geocodeQuality": "LATLNG",
+            "geocodeQualityCode": "XXXXX",
+            "adminArea3Type": "State"
+        } ],
+        "hasSeasonalClosure": false,
+        "mapState": {
+            "center": {
+                "lng": -103.544471,
+                "lat": 35.280919
+            },
+            "scale": 162199,
+            "height": 1024,
+            "width": 768
+        },
+        "name": "US-54 W",
+        "realTimeAlternatePercentSavingsThreshhold": "5",
+        "hasCountryCross": false,
+        "routeError": {
+            "message": "",
+            "errorCode": -400
+        },
+        "options": {
+            "mustAvoidLinkIds": [],
+            "drivingStyle": 2,
+            "countryBoundaryDisplay": true,
+            "generalize": 20,
+            "narrativeType": "text",
+            "locale": "en_US",
+            "avoidTimedConditions": false,
+            "destinationManeuverDisplay": false,
+            "filterZoneFactor": -1,
+            "enhancedNarrative": false,
+            "date": "01/19/2017",
+            "timeType": 2,
+            "maxWalkingDistance": -1,
+            "routeType": "SHORTEST",
+            "isoLocal": "2017-01-19T12:00",
+            "transferPenalty": -1,
+            "walkingSpeed": -1,
+            "stateBoundaryDisplay": true,
+            "maxLinkId": 50,
+            "arteryWeights": [],
+            "dateType": 0,
+            "tryAvoidLinkIds": [],
+            "unit": "K",
+            "routeNumber": 8,
+            "doReverseGeocode": true,
+            "shapeFormat": "raw",
+            "maneuverPenalty": -1,
+            "useTraffic": false,
+            "returnLinkDirections": false,
+            "avoidTripIds": [],
+            "manmaps": "false",
+            "highwayEfficiency": 22,
+            "localTime": "12:00",
+            "sideOfStreetDisplay": true,
+            "cyclingRoadFactor": 1,
+            "urbanAvoidFactor": -1
+        },
+        "bestFit": {
+            "scale": 162199,
+            "height": 1024,
+            "newScale": 96540,
+            "newCenter": {
+                "lng": -103.617737,
+                "lat": 35.224833
+            },
+            "width": 768,
+            "margin": 0,
+            "newLevel": 12
+        },
+        "hasTollRoad": false,
+        "computedWaypoints": [],
+        "fuelUsed": 1.2,
+        "shape": {
+            "maneuverIndexes": [ 0, 3, 25, 29, 34, 36, 38 ],
+            "shapePoints": [ 35.389934, -103.397506, 35.382312, -103.39756,
+                    35.381828, -103.3973, 35.381828, -103.3973, 35.375183,
+                    -103.402748, 35.374431, -103.40422, 35.372962, -103.409149,
+                    35.372352, -103.410064, 35.371284, -103.410835, 35.370121,
+                    -103.411056, 35.359661, -103.410987, 35.357215,
+                    -103.412338, 35.351688, -103.41883, 35.348552, -103.42073,
+                    35.346038, -103.421279, 35.327896, -103.423416, 35.325489,
+                    -103.424041, 35.323402, -103.425025, 35.301612,
+                    -103.444931, 35.298389, -103.448791, 35.295612,
+                    -103.454124, 35.250938, -103.566223, 35.203468,
+                    -103.657669, 35.202388, -103.660453, 35.200721,
+                    -103.666862, 35.200721, -103.666862, 35.199722,
+                    -103.666633, 35.195331, -103.666603, 35.172733,
+                    -103.666694, 35.172733, -103.666694, 35.17266, -103.676002,
+                    35.172935, -103.678985, 35.172706, -103.679687, 35.172008,
+                    -103.679939, 35.172008, -103.679939, 35.171916,
+                    -103.684448, 35.171916, -103.684448, 35.186481,
+                    -103.684341, 35.186481, -103.684341, 35.186347, -103.691642 ],
+            "legIndexes": [ 0, 40 ]
+        },
+        "locationSequence": [ 0, 1 ],
+        "sessionId": "583f8f9e-0195-0005-02b7-49f6-00163e3f3cf3",
+        "realTimeAlternateTimeSavingsThreshhold": "120",
+        "legs": [ {
+            "hasTollRoad": false,
+            "index": 0,
+            "hasBridge": false,
+            "hasTunnel": false,
+            "roadGradeStrategy": [ [] ],
+            "hasHighway": false,
+            "hasUnpaved": false,
+            "distance": 41.6031,
+            "time": 1939,
+            "origIndex": 1,
+            "hasSeasonalClosure": false,
+            "origNarrative": "Go west on US-54 W.",
+            "hasCountryCross": false,
+            "formattedTime": "00:32:19",
+            "destNarrative": "Proceed to your destination.",
+            "destIndex": 1,
+            "maneuvers": [
+                    {
+                        "signs": [],
+                        "index": 0,
+                        "maneuverNotes": [],
+                        "direction": 4,
+                        "narrative": "Start out going south on Quay Road V toward US Highway 54/US-54 W/US-54 E.",
+                        "iconUrl": "https://content.mapquest.com/mqsite/turnsigns/icon-dirs-start_sm.gif",
+                        "distance": 0.9061,
+                        "time": 86,
+                        "linkIds": [ 30832843, 30379159, 30493262 ],
+                        "streets": [ "Quay Road V" ],
+                        "attributes": 0,
+                        "transportMode": "AUTO",
+                        "formattedTime": "00:01:26",
+                        "directionName": "South",
+                        "startPoint": {
+                            "lng": -103.397506,
+                            "lat": 35.389934
+                        },
+                        "turnType": 0
+                    },
+                    {
+                        "signs": [ {
+                            "text": "54",
+                            "extraText": "",
+                            "direction": 7,
+                            "type": 2,
+                            "url": "https://icons.mapquest.com/icons/rs2.png?n=54&d=WEST"
+                        } ],
+                        "index": 1,
+                        "maneuverNotes": [],
+                        "direction": 7,
+                        "narrative": "Turn right onto US-54 W.",
+                        "iconUrl": "https://content.mapquest.com/mqsite/turnsigns/rs_right_sm.gif",
+                        "distance": 33.6176,
+                        "time": 1287,
+                        "linkIds": [ 30657973, 30657975, 30494325, 30490381,
+                                30576229, 30658256, 30658259, 30658261,
+                                30658263, 30658266, 30142040, 30440714,
+                                30658294, 30658305, 30500732, 30658313,
+                                30658319, 30658323, 30658326, 30658329,
+                                30658331, 30658334, 30658336, 30658338,
+                                30658655, 30658658, 30658661, 30658663,
+                                30577984, 30658665, 30510254, 30658668,
+                                30272540, 30658671, 30492683, 30658676,
+                                30658704, 30658705, 30658708, 30658711,
+                                30658713, 30658716, 30303324, 30658720,
+                                30603833, 30659041, 30659042, 30435880,
+                                30659047, 30659049 ],
+                        "streets": [ "US-54 W" ],
+                        "attributes": 0,
+                        "transportMode": "AUTO",
+                        "formattedTime": "00:21:27",
+                        "directionName": "West",
+                        "startPoint": {
+                            "lng": -103.3973,
+                            "lat": 35.381828
+                        },
+                        "turnType": 2
+                    },
+                    {
+                        "signs": [],
+                        "index": 2,
+                        "maneuverNotes": [],
+                        "direction": 4,
+                        "narrative": "Turn left onto Quay Road AL.",
+                        "iconUrl": "https://content.mapquest.com/mqsite/turnsigns/rs_left_sm.gif",
+                        "distance": 3.1093,
+                        "time": 231,
+                        "linkIds": [ 30383378, 30531034, 30526906, 30972027,
+                                30475960, 30188533, 30836184, 31163470,
+                                31029979, 31029981, 31035699, 30294130,
+                                31333832, 30314504, 30769587, 30790835,
+                                30426248, 30338778, 30510256, 30365575,
+                                30527828 ],
+                        "streets": [ "Quay Road AL" ],
+                        "attributes": 0,
+                        "transportMode": "AUTO",
+                        "formattedTime": "00:03:51",
+                        "directionName": "South",
+                        "startPoint": {
+                            "lng": -103.666862,
+                            "lat": 35.200721
+                        },
+                        "turnType": 6
+                    },
+                    {
+                        "signs": [],
+                        "index": 3,
+                        "maneuverNotes": [],
+                        "direction": 7,
+                        "narrative": "Turn right onto Quay Road 63.",
+                        "iconUrl": "https://content.mapquest.com/mqsite/turnsigns/rs_right_sm.gif",
+                        "distance": 1.2762,
+                        "time": 101,
+                        "linkIds": [ 30527827, 30527830, 30229010, 30527829 ],
+                        "streets": [ "Quay Road 63" ],
+                        "attributes": 0,
+                        "transportMode": "AUTO",
+                        "formattedTime": "00:01:41",
+                        "directionName": "West",
+                        "startPoint": {
+                            "lng": -103.666694,
+                            "lat": 35.172733
+                        },
+                        "turnType": 2
+                    },
+                    {
+                        "signs": [],
+                        "index": 4,
+                        "maneuverNotes": [],
+                        "direction": 7,
+                        "narrative": "Turn right onto E Route 66 Blvd.",
+                        "iconUrl": "https://content.mapquest.com/mqsite/turnsigns/rs_right_sm.gif",
+                        "distance": 0.4136,
+                        "time": 25,
+                        "linkIds": [ 30780953, 30363670, 30330453 ],
+                        "streets": [ "E Route 66 Blvd" ],
+                        "attributes": 0,
+                        "transportMode": "AUTO",
+                        "formattedTime": "00:00:25",
+                        "directionName": "West",
+                        "startPoint": {
+                            "lng": -103.679939,
+                            "lat": 35.172008
+                        },
+                        "turnType": 2
+                    },
+                    {
+                        "signs": [],
+                        "index": 5,
+                        "maneuverNotes": [],
+                        "direction": 1,
+                        "narrative": "Turn right onto Quay Road AM.",
+                        "iconUrl": "https://content.mapquest.com/mqsite/turnsigns/rs_right_sm.gif",
+                        "distance": 1.6158,
+                        "time": 149,
+                        "linkIds": [ 31288330, 31075859, 30716093 ],
+                        "streets": [ "Quay Road AM" ],
+                        "attributes": 0,
+                        "transportMode": "AUTO",
+                        "formattedTime": "00:02:29",
+                        "directionName": "North",
+                        "startPoint": {
+                            "lng": -103.684448,
+                            "lat": 35.171916
+                        },
+                        "turnType": 2
+                    },
+                    {
+                        "signs": [],
+                        "index": 6,
+                        "maneuverNotes": [],
+                        "direction": 7,
+                        "narrative": "Turn left onto Quay Road 64.",
+                        "iconUrl": "https://content.mapquest.com/mqsite/turnsigns/icon-dirs-end_sm.gif",
+                        "distance": 0.6647,
+                        "time": 60,
+                        "linkIds": [ 31294512, 31331219, 30335402, 31278651 ],
+                        "streets": [ "Quay Road 64" ],
+                        "attributes": 0,
+                        "transportMode": "AUTO",
+                        "formattedTime": "00:01:00",
+                        "directionName": "West",
+                        "startPoint": {
+                            "lng": -103.684341,
+                            "lat": 35.186481
+                        },
+                        "turnType": 6
+                    } ],
+            "hasFerry": false
+        } ],
+        "formattedTime": "00:32:19",
+        "maxRoutes": "",
+        "hasFerry": false
+    },
+    "info": {
+        "debug": "diff=0.0000, AKA 'Shortest'",
+        "copyright": {
+            "text": "© 2016 MapQuest, Inc.",
+            "imageUrl": "https://api-s.mqcdn.com/res/mqlogo.gif",
+            "imageAltText": "© 2016 MapQuest, Inc."
+        },
+        "statuscode": 0,
+        "messages": []
+    }
+}
