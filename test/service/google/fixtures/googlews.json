@@ -1,0 +1,80 @@
+{
+    "geocoded_waypoints": [ {
+        "geocoder_status": "OK",
+        "place_id": "ChIJw7vlfeDsloARdR8YTnnyioo",
+        "types": [ "street_address" ]
+    }, {
+        "geocoder_status": "OK",
+        "place_id": "ChIJFyAEEZHyloARDKA1w6APmZI",
+        "types": [ "route" ]
+    } ],
+    "routes": [ {
+        "bounds": {
+            "northeast": {
+                "lat": 37.7068447,
+                "lng": -119.5850725
+            },
+            "southwest": {
+                "lat": 37.666327,
+                "lng": -119.6598637
+            }
+        },
+        "copyrights": "Map data ©2016 Google",
+        "legs": [ {
+            "distance": {
+                "text": "7.5 mi",
+                "value": 12139
+            },
+            "duration": {
+                "text": "12 mins",
+                "value": 705
+            },
+            "duration_in_traffic": {
+                "text": "12 mins",
+                "value": 704
+            },
+            "end_address": "Glacier Point Rd, Yosemite Village, CA 95389, USA",
+            "end_location": {
+                "lat": 37.7068447,
+                "lng": -119.5886429
+            },
+            "start_address": "5105 Glacier Point Rd, California 95389, USA",
+            "start_location": {
+                "lat": 37.6687792,
+                "lng": -119.6598637
+            },
+            "steps": [ {
+                "distance": {
+                    "text": "7.5 mi",
+                    "value": 12139
+                },
+                "duration": {
+                    "text": "12 mins",
+                    "value": 705
+                },
+                "end_location": {
+                    "lat": 37.7068447,
+                    "lng": -119.5886429
+                },
+                "html_instructions": "Head <b>northeast</b> on <b>Glacier Point Rd</b> toward <b>Yosemite National Park Rd</b><div style=\"font-size:0.9em\">May be closed at certain times or days</div><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                "polyline": {
+                    "points": "{d|dFbajyUGKuA{B{AkBmAaAoB{AyAcAyCkDgB_CiAwBgAuCcAyD{@kEs@eGc@cDY_CKaAAcA@qAJyAPoA^qA^iAf@cAlCiFfBmDv@gBf@wAXaATkAF}@P}BNsBBiAEm@QgAg@eA{@o@cASi@Os@[}@s@_@i@q@uA[mAKaCHwA^}A\\}@|@gA|@g@hBeAfA{@l@g@^k@\\o@\\aA^iBReC|@mMn@kIL}BDs@F_AJ_ADc@Fe@D]F]ReALk@J_@J[d@sAb@wAJ[`AqD~BcKzAwGXsAZgB\\kB\\sBX_BZgBf@aCd@wBZqAd@oBPeAD_@Bg@@g@As@EgAMcAOq@Oe@k@qAq@eAwAoAm@g@yCaCaA{@eAy@m@i@]]Y]Ui@Oc@Ga@Eq@@g@@_@F]Ni@Rg@V_@rBiC`@g@fB_C\\a@RY^m@\\w@Xw@L_@Pm@Nq@Js@Fe@Dw@HkA@U?_@?GQmHGaBg@iQIaAE]My@[wAc@{A_@aBKw@Eg@AWAoAHwAJu@R}AT{APuAFeAB}AGsBEoAS}HMmEMyDMoBMeASs@]eAi@aAYg@m@w@_@[kAw@a@S}@Uc@KMCgAKe@AeAHYD_BTI@kDz@q@Rc@Xi@n@GJ_@|@YdAe@bA_@f@CDi@Xm@TcAH_AHoAPA@iAZaBp@sCfAeCh@{AJuBj@aBl@q@L[BO@QAOCg@Im@Km@KYEe@E_@I]EsCi@sASg@Ke@EYC_@A_@@g@Bi@DWHi@Pw@\\cAh@oBhAcAl@q@XWJUFSBS@Y?_@@I?Y@WBWDUDUFQDs@Ta@Hq@NO@U@OAMA}CQwAKSCOCMCICQGKEKGQMQO[e@KYM]M}@KaAEaAKcBKw@Kg@Oa@Ya@OQWUYOe@OgBk@oFeBy@U]IUCSA_@@[BYFeCh@m@LWDQ@a@BU@oADqFJ_BFm@BcBBoABy@BoABgBFg@@c@Dm@Dg@DeALyAX_B\\kQtEgG|Ao@NE@"
+                },
+                "start_location": {
+                    "lat": 37.6687792,
+                    "lng": -119.6598637
+                },
+                "travel_mode": "DRIVING"
+            } ],
+            "traffic_speed_entry": [],
+            "via_waypoint": []
+        } ],
+        "overview_polyline": {
+            "points": "{d|dFbajyU}AgC{AkBmAaAiE_DyCkDgB_CiAwBgAuCcAyD{@kEwAiLe@aE?uCJyAPoA~@{CtDmH~CuG`AyCTkAF}@`@qFBiAEm@QgAg@eA{@o@cASi@Os@[}@s@_@i@q@uA[mAKaCHwA^}A\\}@|@gA|@g@hBeAfA{@l@g@^k@\\o@\\aA^iBReClByWRqDR_CZeC`@qBV{@hAkDlAmEzE{St@{DpBgLlAyF`AaEVeBDoAG{BMcAOq@{@wBq@eAwAoAgEiDgCuBkAgAY]Ui@WeACyAH}@b@qAjCiDhCgDp@{@^m@\\w@f@wA`@_BRyANcC@u@QuHo@kTIaASwA_AsD_@aBKw@G_AAoAHwA^sCf@qDJcDo@oUMyDMoBMeASs@]eAi@aAgA_BkBsAa@S}@Uq@OgAKe@A_BNiBVkDz@q@Rc@Xi@n@g@hAYdAe@bAc@l@i@Xm@TcCRqARiAZaBp@sCfAeCh@{AJuBj@aBl@q@Lk@Da@E}Cg@wF_A{B_@_AI_A?qAHaAZ{BfAsDvBiAd@i@Jm@@i@@q@Dm@Jg@LuA^aAPe@?kDSkBO]Gs@Yc@]g@_AM]M}@QcCKcBKw@[iAi@s@WUYOmC{@iH{Bs@Ms@?u@JsDv@i@Fw@DoM\\}HNoCHqAJmBRyDv@i[dI"
+        },
+        "summary": "Glacier Point Rd",
+        "warnings": [],
+        "waypoint_order": []
+    } ],
+    "status": "OK"
+}
