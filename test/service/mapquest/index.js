@@ -5,7 +5,6 @@ var model = require('../../../lib/model');
 var response;
 var directions = require('../../../lib/service/mapquest')({
   skip: function () {},
-  mapquest_key: true,
   request: function (url, req, fn) {
     fn(undefined, {
       body: response
@@ -26,6 +25,7 @@ describe('mapquest directions', function () {
       [response.route.locations[1].latLng.lng, response.route.locations[1].latLng.lat]
     ];
     query[0].alternate = true;
+    query[0].units = 'km';
     directions(query, result, function (err, value, query, result) {
       should.not.exist(err);
       value.should.equal(false);
@@ -38,12 +38,12 @@ describe('mapquest directions', function () {
       result[0].places.should.deepEqual([undefined, undefined]);
       result[0].should.have.property('routes').with.length(1);
       result[0].routes[0].should.have.property('duration', 1939);
-      result[0].routes[0].should.have.property('distance', 41603.1);
+      result[0].routes[0].should.have.property('distance', 41603);
       result[0].routes[0].should.have.property('path').with.length(40);
       result[0].routes[0].should.have.property('segmentIndex', 0);
       result[0].should.have.property('segments').with.length(7);
       result[0].segments[0].should.have.property('duration', 86);
-      result[0].segments[0].should.have.property('distance', 906.1);
+      result[0].segments[0].should.have.property('distance', 906);
       result[0].segments[0].should.have.property('path').with.length(3);
       result[0].segments[0].should.have.property('instructions',
         'Start out going south on Quay Road V toward US Highway 54/US-54 W/US-54 E.');
@@ -76,12 +76,12 @@ describe('open mapquest directions', function () {
       result[0].places.should.deepEqual([undefined, undefined]);
       result[0].should.have.property('routes').with.length(1);
       result[0].routes[0].should.have.property('duration', 1939);
-      result[0].routes[0].should.have.property('distance', 41603.1);
+      result[0].routes[0].should.have.property('distance', 66954);
       result[0].routes[0].should.have.property('path').with.length(40);
       result[0].routes[0].should.have.property('segmentIndex', 0);
       result[0].should.have.property('segments').with.length(7);
       result[0].segments[0].should.have.property('duration', 86);
-      result[0].segments[0].should.have.property('distance', 906.1);
+      result[0].segments[0].should.have.property('distance', 1458);
       result[0].segments[0].should.have.property('path').with.length(3);
       result[0].segments[0].should.have.property('instructions',
         'Start out going south on Quay Road V toward US Highway 54/US-54 W/US-54 E.');
