@@ -12,40 +12,33 @@ function mockService(query, result, fn) {
 }
 
 describe('furkot-directions node module', function () {
-  it('no input no output', function () {
-    var returned;
+  it('no input no output', function (done) {
     furkotDirections(undefined)(undefined, function (query, result) {
       should.not.exist(query);
       should.not.exist(result);
-      returned = true;
+      done();
     });
-    should.ok(returned, 'no callback');
   });
 
-  it('empty input empty output', function () {
-    var returned;
+  it('empty input empty output', function (done) {
     furkotDirections(undefined)([], function (query, result) {
       query.should.have.length(0);
       result.should.have.length(0);
-      returned = true;
+      done();
     });
-    should.ok(returned, 'no callback');
   });
 
-  it('no service', function () {
-    var returned;
+  it('no service', function (done) {
     furkotDirections({
       services: []
     })([{}], function (query, result) {
       query.should.have.length(1);
       result.should.have.length(1);
-      returned = true;
+      done();
     });
-    should.ok(returned, 'no callback');
   });
 
-  it('service', function () {
-    var returned;
+  it('service', function (done) {
     furkotDirections({
       services: [
         mockService
@@ -57,8 +50,7 @@ describe('furkot-directions node module', function () {
       should.exist(result);
       result.should.have.property('name', 'success');
       result.should.have.property('query', query[0]);
-      returned = true;
+      done();
     });
-    should.ok(returned, 'no callback');
   });
 });
