@@ -1,4 +1,5 @@
-var _ = require('lodash');
+var _cloneDeep = require('lodash.clonedeep');
+var _cloneDeepWith = require('lodash.clonedeepwith');
 var should = require('should');
 var model = require('../../../lib/model');
 var directions = require('../../../lib/service/google')({
@@ -43,7 +44,7 @@ describe('google maps API directions', function () {
       DirectionsService: function () {
         this.route = function (req, fn) {
           var res = response.shift();
-          res = _.cloneDeepWith(res, function (value) {
+          res = _cloneDeepWith(res, function (value) {
             if (value.hasOwnProperty('lat') && value.hasOwnProperty('lng')) {
               return new google.maps.LatLng(value.lat, value.lng);
             }
@@ -74,7 +75,7 @@ describe('google maps API directions', function () {
     response = require('./fixtures/response');
     initDirectionsService(response);
 
-    query = _.cloneDeep(model.directionsQuery);
+    query = _cloneDeep(model.directionsQuery);
     query[0].points = [
       [response.request.origin.lng, response.request.origin.lat],
       [response.request.destination.lng, response.request.destination.lat]
@@ -117,7 +118,7 @@ describe('google maps API directions', function () {
       status: 'ZERO_RESULTS'
     }]);
 
-    query = _.cloneDeep(model.directionsQuery);
+    query = _cloneDeep(model.directionsQuery);
     query[0].points = [
       [response.request.origin.lng, response.request.origin.lat],
       [response.request.destination.lng, response.request.destination.lat],

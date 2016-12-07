@@ -1,4 +1,4 @@
-var _ = require('lodash');
+var _cloneDeep = require('lodash.clonedeep');
 var should = require('should');
 var model = require('../../../lib/model');
 
@@ -21,7 +21,7 @@ describe('google WS directions', function () {
 
     response = require('./fixtures/googlews');
 
-    query = _.cloneDeep(model.directionsQuery);
+    query = _cloneDeep(model.directionsQuery);
     query[0].points = [
       [response.routes[0].legs[0].start_location.lng, response.routes[0].legs[0].start_location.lat],
       [response.routes[0].legs[0].end_location.lng, response.routes[0].legs[0].end_location.lat]

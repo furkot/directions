@@ -1,4 +1,4 @@
-var _ = require('lodash');
+var _cloneDeep = require('lodash.clonedeep');
 var should = require('should');
 var model = require('../../../lib/model');
 
@@ -22,7 +22,7 @@ describe('mapquest directions', function () {
 
     response = require('./fixtures/response');
 
-    query = _.cloneDeep(model.directionsQuery);
+    query = _cloneDeep(model.directionsQuery);
     query[0].points = [
       [response.route.locations[0].latLng.lng, response.route.locations[0].latLng.lat],
       [response.route.locations[1].latLng.lng, response.route.locations[1].latLng.lat]
@@ -60,8 +60,8 @@ describe('open mapquest directions', function () {
     var query, result = [];
 
     response = require('./fixtures/response');
-    
-    query = _.cloneDeep(model.directionsQuery);
+
+    query = _cloneDeep(model.directionsQuery);
     query[0].points = [
       [response.route.locations[0].latLng.lng, response.route.locations[0].latLng.lat],
       [response.route.locations[1].latLng.lng, response.route.locations[1].latLng.lat]
