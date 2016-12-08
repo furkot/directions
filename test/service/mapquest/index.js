@@ -4,9 +4,7 @@ var model = require('../../../lib/model');
 
 var response;
 var directions = require('../../../lib/service/mapquest')({
-  check: function() {
-    return true;
-  },
+  skip: function () {},
   mapquest_key: true,
   request: function (url, req, fn) {
     fn(undefined, {

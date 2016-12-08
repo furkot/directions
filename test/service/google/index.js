@@ -3,9 +3,7 @@ var _cloneDeepWith = require('lodash.clonedeepwith');
 var should = require('should');
 var model = require('../../../lib/model');
 var directions = require('../../../lib/service/google')({
-  check: function () {
-    return true;
-  }
+  skip: function () {}
 });
 
 /* global window:true, google:true */

@@ -4,9 +4,7 @@ var model = require('../../../lib/model');
 
 var response;
 var directions = require('../../../lib/service/google/webservice')({
-  check: function () {
-    return true;
-  },
+  skip: function () {},
   request: function (url, req, fn) {
     fn(undefined, {
       body: response
