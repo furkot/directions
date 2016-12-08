@@ -25,6 +25,7 @@ describe('google WS directions', function () {
       [response.routes[0].legs[0].end_location.lng, response.routes[0].legs[0].end_location.lat]
     ];
     query[0].begin = new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString().substr(0, 16);
+    query[0].path = model.pathType.coarse;
     directions(query, result, function (err, value, query, result) {
       should.not.exist(err);
       value.should.equal(false);

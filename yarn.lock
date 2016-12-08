@@ -32,6 +32,16 @@ cli@~1.0.0:
     exit "0.1.2"
     glob "^7.1.1"
 
+code42day-binary-heap@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/code42day-binary-heap/-/code42day-binary-heap-2.2.0.tgz#fa55b1e3dcdef8bf9d204d02ba3d6b7eaa46e4df"
+
+code42day-vis-why@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/code42day-vis-why/-/code42day-vis-why-1.1.4.tgz#5412eb9179237cec11eb2c1849daff298ca11661"
+  dependencies:
+    code42day-binary-heap "^2.2.0"
+
 combined-stream@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.5.tgz#938370a57b4a51dea2c77c15d5c5fdf895164009"
@@ -148,6 +158,10 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
 
+geodesy@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/geodesy/-/geodesy-1.1.1.tgz#918c414a5cc247c8128332b7624050c467e98a5d"
+
 glob@7.0.5:
   version "7.0.5"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.0.5.tgz#b4202a69099bbb4d292a7c1b95b6682b67ebdc95"
@@ -180,7 +194,7 @@ growl@1.9.2:
 
 has-flag@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-1.0.0.tgz#9d9e793165ce017a00f00418c43f942a7b1d11fa"
+  resolved "http://registry.npmjs.org/has-flag/-/has-flag-1.0.0.tgz#9d9e793165ce017a00f00418c43f942a7b1d11fa"
 
 htmlparser2@3.8.x:
   version "3.8.3"
@@ -433,8 +447,8 @@ should-util@^1.0.0:
   resolved "https://registry.yarnpkg.com/should-util/-/should-util-1.0.0.tgz#c98cda374aa6b190df8ba87c9889c2b4db620063"
 
 should@^11.1.1:
-  version "11.1.1"
-  resolved "https://registry.yarnpkg.com/should/-/should-11.1.1.tgz#760756475f0217ebbc5a141cbbf35f02f64feb07"
+  version "11.1.2"
+  resolved "https://registry.yarnpkg.com/should/-/should-11.1.2.tgz#3cad9c6fc600ffe2e1547d948be3284e984da946"
   dependencies:
     should-equal "^1.0.0"
     should-format "^3.0.2"

@@ -26,6 +26,7 @@ describe('mapquest directions', function () {
     ];
     query[0].alternate = true;
     query[0].turnbyturn = true;
+    query[0].path = model.pathType.full;
     query[0].units = 'km';
     directions(query, result, function (err, value, query, result) {
       should.not.exist(err);
@@ -64,6 +65,7 @@ describe('open mapquest directions', function () {
       [response.route.locations[0].latLng.lng, response.route.locations[0].latLng.lat],
       [response.route.locations[1].latLng.lng, response.route.locations[1].latLng.lat]
     ];
+    query[0].path = model.pathType.smooth;
     directions(query, result, function (err, value, query, result) {
       should.not.exist(err);
       value.should.equal(false);
@@ -77,7 +79,7 @@ describe('open mapquest directions', function () {
       result[0].routes[0].should.have.property('duration', 1939);
       result[0].routes[0].should.have.property('distance', 41603);
       result[0].routes[0].should.have.property('path').with.length(40);
-      result[0].routes[0].should.not.have.property('segmentIndex');
+      result[0].routes[0].should.have.property('segmentIndex', 0);
       result[0].should.not.have.property('segments');
       done();
     });
