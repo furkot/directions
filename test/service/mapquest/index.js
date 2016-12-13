@@ -48,6 +48,7 @@ describe('mapquest directions', function () {
       result[0].segments[0].should.have.property('path').with.length(3);
       result[0].segments[0].should.have.property('instructions',
         'Start out going south on Quay Road V toward US Highway 54/US-54 W/US-54 E.');
+      result[0].should.have.property('provider', 'mapquest');
       done();
     });
   });
@@ -81,6 +82,7 @@ describe('open mapquest directions', function () {
       result[0].routes[0].should.have.property('path').with.length(40);
       result[0].routes[0].should.have.property('segmentIndex', 0);
       result[0].should.not.have.property('segments');
+      result[0].should.have.property('provider', 'openmapquest');
       done();
     });
   });

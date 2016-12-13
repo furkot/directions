@@ -50,6 +50,7 @@ describe('google WS directions', function () {
       result[0].segments[0].should.have.property('path').with.length(312);
       result[0].segments[0].should.have.property('instructions',
         'Head <b>northeast</b> on <b>Glacier Point Rd</b> toward <b>Yosemite National Park Rd</b><div style=\"font-size:0.9em\">May be closed at certain times or days</div><div style=\"font-size:0.9em\">Destination will be on the right</div>');
+      result[0].should.have.property('provider', 'googlews');
       done();
     });
   });

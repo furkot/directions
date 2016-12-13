@@ -103,6 +103,7 @@ describe('google maps API directions', function () {
       result[0].segments[0].should.have.property('path').with.length(6);
       result[0].segments[0].should.have.property('instructions',
         'Head <b>northeast</b> on <b>Qr 64</b> toward <b>Quay Rd Am</b>');
+      result[0].should.have.property('provider', 'google');
       done();
     });
   });
@@ -148,12 +149,14 @@ describe('google maps API directions', function () {
       result[0].segments[0].should.have.property('path').with.length(6);
       result[0].segments[0].should.have.property('instructions',
         'Head <b>northeast</b> on <b>Qr 64</b> toward <b>Quay Rd Am</b>');
+      result[0].should.have.property('provider', 'google');
       result[1].should.have.property('query');
       result[1].query.should.deepEqual(query[1]);
       result[1].should.not.have.property('name');
       result[1].should.not.have.property('places');
       result[1].should.not.have.property('routes');
       result[1].should.not.have.property('segments');
+      result[1].should.have.property('provider', 'google');
       done();
     });
   });
