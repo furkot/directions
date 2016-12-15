@@ -1,4 +1,10 @@
 
+0.0.4 / 2016-12-15
+==================
+
+ * handle timing out requests that take too long
+ * return the name of provider supplying the directions
+
 0.0.3 / 2016-12-12
 ==================
 
