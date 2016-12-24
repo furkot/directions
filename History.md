@@ -1,4 +1,9 @@
 
+0.0.5 / 2016-12-23
+==================
+
+ * replace polyline-encoded with code42day-google-polyline
+
 0.0.4 / 2016-12-15
 ==================
 
