@@ -48,7 +48,7 @@ describe('service', function () {
       query.should.have.length(1);
       result.should.have.length(1);
       result[0].should.equal('response');
-      setTimeout(done, Math.max(s.timeout , reqTimeout));
+      setTimeout(done, Math.max(s.timeout, reqTimeout));
     });
   });
 
@@ -104,6 +104,28 @@ describe('service', function () {
       query.should.have.length(1);
       result.should.have.length(0);
       setTimeout(done, Math.max(timeout, reqTimeout));
+    });
+  });
+
+  it('no points', function (done) {
+    s([{}], [], function (err, trueValue, query, result) {
+      should.not.exist(err);
+      trueValue.should.equal(true);
+      should.not.exist(query);
+      should.not.exist(result);
+      done();
+    });
+  });
+
+  it('one point', function (done) {
+    s([{
+      points: [[0, 0]]
+    }], [], function (err, trueValue, query, result) {
+      should.not.exist(err);
+      trueValue.should.equal(true);
+      should.not.exist(query);
+      should.not.exist(result);
+      done();
     });
   });
 });
