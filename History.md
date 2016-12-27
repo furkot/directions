@@ -1,4 +1,11 @@
 
+0.0.6 / 2016-12-27
+==================
+
+ * Mapzen Turn-by-turn Directions Service
+ * invoke a service only when explicitly enabled
+ * fix links to travis and gemnasium
+
 0.0.5 / 2016-12-23
 ==================
 
