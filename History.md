@@ -1,4 +1,10 @@
 
+0.0.7 / 2017-01-04
+==================
+
+ * OSMR as a main routing engine for driving
+ * replace superagent with fetchagent
+
 0.0.6 / 2016-12-27
 ==================
 
