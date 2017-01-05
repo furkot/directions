@@ -80,6 +80,7 @@ describe('google maps API directions', function () {
       [response.request.destination.lng, response.request.destination.lat]
     ];
     query[0].path = model.pathType.coarse;
+    query[0].turnbyturn = true;
     directions(query, result, function (err, value, query, result) {
       should.not.exist(err);
       value.should.equal(false);
@@ -126,6 +127,7 @@ describe('google maps API directions', function () {
       [response.request.origin.lng, response.request.origin.lat]
     ];
     query[0].path = model.pathType.coarse;
+    query[0].turnbyturn = true;
     directions(query, result, function (err, value, query, result) {
       should.not.exist(err);
       value.should.equal(false);

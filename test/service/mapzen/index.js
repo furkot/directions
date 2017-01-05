@@ -26,6 +26,7 @@ describe('mapzen directions', function () {
       [response.trip.locations[1].lon, response.trip.locations[1].lat]
     ];
     query[0].units = 'km';
+    query[0].path = model.pathType.full;
     directions(query, result, function (err, value, query, result) {
       should.not.exist(err);
       value.should.equal(false);
@@ -57,6 +58,7 @@ describe('mapzen directions', function () {
       [response.trip.locations[1].lon, response.trip.locations[1].lat]
     ];
     query[0].turnbyturn = true;
+    query[0].path = model.pathType.full;
     directions(query, result, function (err, value, query, result) {
       should.not.exist(err);
       value.should.equal(false);
