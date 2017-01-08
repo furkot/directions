@@ -1,4 +1,11 @@
 
+0.0.8 / 2017-01-08
+==================
+
+ * refactor simplify route path
+ * simplify route path after processing response
+ * refactor OSRM service
+
 0.0.7 / 2017-01-04
 ==================
 
