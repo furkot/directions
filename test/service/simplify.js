@@ -1,9 +1,11 @@
 var LatLon = require('geodesy').LatLonSpherical;
 var pathType = require("../../lib/model").pathType;
 
-var simplify = require('../../lib/service/simplify')(function (path, num) {
-  num = num / 2;
-  return path.slice(0, Math.ceil(num)).concat(path.slice(- Math.floor(num)));
+var simplify = require('../../lib/service/simplify')({
+  algorithm: function (path, num) {
+    num = num / 2;
+    return path.slice(0, Math.ceil(num)).concat(path.slice(- Math.floor(num)));
+  }
 });
 
 function distance(path) {
