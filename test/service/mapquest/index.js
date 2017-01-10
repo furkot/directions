@@ -7,9 +7,7 @@ var directions = require('../../../lib/service/mapquest')({
   name: 'mapquest',
   skip: function () {},
   request: function (url, req, fn) {
-    fn(undefined, {
-      body: response
-    });
+    fn(undefined, response);
   }
 });
 

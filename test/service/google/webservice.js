@@ -7,9 +7,7 @@ var directions = require('../../../lib/service/google/webservice')({
   name: 'googlews',
   skip: function () {},
   request: function (url, req, fn) {
-    fn(undefined, {
-      body: response
-    });
+    fn(undefined, response);
   }
 });
 

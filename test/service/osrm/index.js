@@ -21,13 +21,10 @@ describe('osrm', function () {
         { alternatives: false, steps: true, overview: false, radiuses: '1000;1000;1000' }
       )
       .onFirstCall()
-      .yieldsAsync(null, {
-        status: 200,
-        body: require('./fixtures/turnbyturn.json')
-      });
+      .yieldsAsync(null, require('./fixtures/turnbyturn.json'));
 
     // otherwise
-    request.yieldsAsync(400, { status: 400 });
+    request.yieldsAsync(400);
 
     var directions = osrm({
       name: 'osrm',
@@ -91,13 +88,10 @@ describe('osrm', function () {
         { alternatives: false, steps: true, overview: false, radiuses: '1000;1000' }
       )
       .onFirstCall()
-      .yieldsAsync(null, {
-        status: 200,
-        body: require('./fixtures/zeroresults.json')
-      });
+      .yieldsAsync(null, require('./fixtures/zeroresults.json'));
 
     // otherwise
-    request.yieldsAsync(400, { status: 400 });
+    request.yieldsAsync(400);
 
     var directions = osrm({
       name: 'osrm',

@@ -7,9 +7,7 @@ var directions = require('../../../lib/service/mapzen')({
   name: 'mapzen',
   skip: function () {},
   request: function (url, req, fn) {
-    fn(undefined, {
-      body: response
-    });
+    fn(undefined, response);
   }
 });
 
