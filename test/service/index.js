@@ -3,10 +3,11 @@ var service = require('../../lib/service');
 var status = require('../../lib/service/status');
 
 describe('service', function () {
-  var s, st, reqTimeout, noAbort, timeout = 200;
+  var s, st, reqTimeout, noAbort, reqResponse, timeout = 200;
 
   beforeEach(function () {
     st = [];
+    reqResponse = 'response';
     reqTimeout = undefined;
     noAbort = undefined;
 
@@ -18,7 +19,7 @@ describe('service', function () {
       request: function (url, req, fn) {
         reqTimeout = reqTimeout || 1;
         return setTimeout(function () {
-          fn(undefined, 'response');
+          fn(undefined, reqResponse);
         }, reqTimeout);
       },
       abort: function (req) {
@@ -126,6 +127,20 @@ describe('service', function () {
       should.not.exist(query);
       should.not.exist(result);
       done();
+    });
+  });
+
+  it('cascade to next service', function (done) {
+    reqResponse = undefined;
+    s([{
+      points: [[0, 0], [1, 1]]
+    }], [], function (err, trueValue, query, result) {
+      should.not.exist(err);
+      trueValue.should.equal(false);
+      query.should.have.length(1);
+      result.should.have.length(1);
+      should.not.exist(result[0]);
+      setTimeout(done, Math.max(s.timeout, reqTimeout));
     });
   });
 });
