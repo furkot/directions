@@ -1,4 +1,11 @@
 
+0.0.11 / 2017-01-10
+===================
+
+ * equate no response with empty (i.e. no route available)
+ * fix checking Maquest status
+ * fix Google Maps API response status
+
 0.0.10 / 2017-01-10
 ===================
 
