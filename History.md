@@ -1,4 +1,11 @@
 
+0.0.10 / 2017-01-10
+===================
+
+ * fix OSRM request format
+ * fix response format after switching to fetch agent
+ * fix cascading to the next service
+
 0.0.9 / 2017-01-08
 ==================
 
