@@ -27,7 +27,7 @@ describe('mapquest directions', function () {
     query[0].turnbyturn = true;
     query[0].path = model.pathType.full;
     query[0].units = 'km';
-    directions(query, result, function (err, value, query, result) {
+    directions(1, query, result, function (err, value, id, query, result) {
       should.not.exist(err);
       value.should.equal(false);
       should.exist(result);
@@ -66,7 +66,7 @@ describe('open mapquest directions', function () {
       [response.route.locations[1].latLng.lng, response.route.locations[1].latLng.lat]
     ];
     query[0].path = model.pathType.smooth;
-    directions(query, result, function (err, value, query, result) {
+    directions(2, query, result, function (err, value, id, query, result) {
       should.not.exist(err);
       value.should.equal(false);
       should.exist(result);

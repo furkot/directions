@@ -81,7 +81,7 @@ describe('google maps API directions', function () {
     ];
     query[0].path = model.pathType.coarse;
     query[0].turnbyturn = true;
-    directions(query, result, function (err, value, query, result) {
+    directions(1, query, result, function (err, value, id, query, result) {
       should.not.exist(err);
       value.should.equal(false);
       should.exist(result);
@@ -128,7 +128,7 @@ describe('google maps API directions', function () {
     ];
     query[0].path = model.pathType.coarse;
     query[0].turnbyturn = true;
-    directions(query, result, function (err, value, query, result) {
+    directions(2, query, result, function (err, value, id, query, result) {
       should.not.exist(err);
       value.should.equal(false);
       should.exist(result);

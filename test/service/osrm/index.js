@@ -39,7 +39,7 @@ describe('osrm', function () {
     ];
     this.query[0].turnbyturn = true;
 
-    directions(this.query, [], function (err, value, query, results) {
+    directions(1, this.query, [], function (err, value, id, query, results) {
       should.not.exist(err);
       should.exist(results);
 
@@ -105,7 +105,7 @@ describe('osrm', function () {
     ];
     this.query[0].turnbyturn = true;
 
-    directions(this.query, [], function (err, value, query, results) {
+    directions(2, this.query, [], function (err, value, id, query, results) {
       should.not.exist(err);
       should.exist(results);
 

@@ -1,17 +1,41 @@
 var should = require('should');
 var furkotDirections = require('../lib/directions');
 
-function mockService(query, result, fn) {
+function mockService(queryId, query, result, fn) {
   query.forEach(function (res, i) {
     result[i] = {
       query: query[i],
       name: 'success'
     };
   });
-  fn(undefined, false, query, result);
+  fn(undefined, false, queryId, query, result);
+}
+
+function timeService(timeout) {
+  var service, timeoutId, queryInProgress, resultInProgress, callback;
+  service = function (queryId, query, result, fn) {
+    queryInProgress = query;
+    resultInProgress = result;
+    callback = fn;
+    timeoutId = setTimeout(function () {
+      query.forEach(function (res, i) {
+        result[i] = {
+          query: query[i],
+          name: 'success'
+        };
+      });
+      fn(undefined, false, queryId, query, result);
+    }, timeout);
+  };
+  service.abort = function (queryId) {
+    clearTimeout(timeoutId);
+    callback(undefined, false, queryId, queryInProgress, resultInProgress);
+  };
+  return service;
 }
 
 describe('furkot-directions node module', function () {
+
   it('no input no output', function (done) {
     furkotDirections(undefined)(undefined, function (query, result) {
       should.not.exist(query);
@@ -60,5 +84,20 @@ describe('furkot-directions node module', function () {
     };
     furkotDirections(options);
     options.should.have.property('services').with.length(1);
+  });
+
+  it('timeout', function (done) {
+    furkotDirections({
+      services: [
+        timeService(200)
+      ],
+      timeout: 100
+    })([{}], function (query, result) {
+      
+      query.should.have.length(1);
+      result.should.have.length(1);
+      should.not.exists(result[0]);
+      setTimeout(done, 250);
+    });
   });
 });
