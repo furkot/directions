@@ -1,4 +1,15 @@
 
+0.0.12 / 2017-01-13
+===================
+
+ * split query after determining that the service is supposed to handle it
+ * enforce one limiter per service regardless the number of instances of furkot directions
+ * refactor directions service to streamline aborting on timeout
+ * debug logging of 'query over limit' condition when using google or google web service
+ * debug@2.6.0
+ * only invoke enabled services
+ * code42day-vis-why 1.1.4 -> 1.1.6
+
 0.0.11 / 2017-01-10
 ===================
 
