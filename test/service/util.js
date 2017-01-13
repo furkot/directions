@@ -1,41 +1,41 @@
+var should = require('should');
 var util = require('../../lib/service/util');
 
 describe('util', function () {
   it('splitPoints', function () {
-    var legs;
+    var query, segments;
 
-    legs = util.splitPoints([], [], 10);
-    legs.should.have.property('maxPoints', 10);
-    legs.should.have.property('query').with.length(0);
-    legs.should.have.property('result').with.length(0);
-    legs.should.have.property('superResult').with.length(0);
+    segments = util.splitPoints({}, 10);
+    should.not.exist(segments);
 
-    legs = util.splitPoints([{
+    query = {
       points: new Array(2)
-    }], [], 10);
-    legs.should.have.property('maxPoints', 10);
-    legs.should.have.property('query').with.length(1);
-    legs.should.have.property('result').with.length(1);
-    legs.should.have.property('superResult').with.length(0);
+    };
+    segments = util.splitPoints(query, 10);
+    segments.should.equal(query);
 
-    legs = util.splitPoints([{
-      points: new Array(22)
-    }], [], 10);
-    legs.should.have.property('maxPoints', 10);
-    legs.should.have.property('query').with.length(3);
-    legs.should.have.property('result').with.length(3);
-    legs.should.have.property('superResult').with.length(0);
+    query = {
+      points: new Array(11),
+      opt: true
+    };
+    segments = util.splitPoints(query, 10);
+    segments.should.have.length(2);
+    segments[0].should.have.property('points').with.length(10);
+    segments[0].should.have.property('opt', true);
+    segments[1].should.have.property('points').with.length(2);
+    segments[1].should.have.property('opt', true);
 
-    legs = util.splitPoints([{}], [], 10);
-    legs.should.have.property('error', true);
-
-    legs = util.splitPoints([{
-      points: new Array(1)
-    }, {
-      points: new Array(1)
-    }, {
-      points: new Array(1)
-    }], [], 10);
-    legs.should.have.property('error', true);
+    query = {
+      points: new Array(22),
+      opt: true
+    };
+    segments = util.splitPoints(query, 10);
+    segments.should.have.length(3);
+    segments[0].should.have.property('points').with.length(10);
+    segments[0].should.have.property('opt', true);
+    segments[1].should.have.property('points').with.length(10);
+    segments[1].should.have.property('opt', true);
+    segments[2].should.have.property('points').with.length(4);
+    segments[2].should.have.property('opt', true);
   });
 });

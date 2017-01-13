@@ -90,8 +90,7 @@ describe('service', function () {
       should.not.exist(err);
       trueValue.should.equal(false);
       query.should.have.length(1);
-      result.should.have.length(1);
-      should.not.exist(result[0]);
+      result.should.have.length(0);
       setTimeout(done, Math.max(s.timeout, reqTimeout));
     });
   });
