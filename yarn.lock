@@ -32,9 +32,9 @@ code42day-google-polyline@~2:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/code42day-google-polyline/-/code42day-google-polyline-2.0.1.tgz#482ea12302f48bbd75fb2af4c5226cdb53200e67"
 
-code42day-vis-why@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/code42day-vis-why/-/code42day-vis-why-1.1.4.tgz#5412eb9179237cec11eb2c1849daff298ca11661"
+code42day-vis-why@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/code42day-vis-why/-/code42day-vis-why-1.1.6.tgz#936193f99165ff0aab9ab561d63e94065863fc24"
   dependencies:
     code42day-binary-heap "^2.2.0"
 

@@ -16,7 +16,7 @@
   ],
   "dependencies": {
     "code42day-google-polyline": "~2",
-    "code42day-vis-why": "^1.1.4",
+    "code42day-vis-why": "^1.1.6",
     "fetchagent": "^1.0.0",
     "geodesy": "^1.1.1",
     "limiter-component": "^0.2.1",
