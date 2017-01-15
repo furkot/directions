@@ -1,4 +1,12 @@
 
+0.0.13 / 2017-01-14
+===================
+
+ * use the same limiter for all Google requests
+ * simplify unwiding outstanding requests upon abort
+ * skip limiter interval when not executing a request because query has been aborted
+ * limiter-component 0.2.1 -> 1.0.0
+
 0.0.12 / 2017-01-13
 ===================
 
