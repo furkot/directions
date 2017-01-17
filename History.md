@@ -1,4 +1,10 @@
 
+0.0.14 / 2017-01-16
+===================
+
+ * use documented 'status' parameter instead of undocumented response field to determine the result of Google Maps API directions query
+ * allow requests to return meaningful response with HTTP status other than 200
+
 0.0.13 / 2017-01-14
 ===================
 
