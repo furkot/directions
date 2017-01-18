@@ -1,4 +1,10 @@
 
+0.0.15 / 2017-01-17
+===================
+
+ * convert coordinates when querying Google in China
+ * eviltransform 0.2.2
+
 0.0.14 / 2017-01-16
 ===================
 
