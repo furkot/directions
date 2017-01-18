@@ -118,6 +118,10 @@ escape-string-regexp@1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
+eviltransform@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/eviltransform/-/eviltransform-0.2.2.tgz#246c310edfca1c980103182c0c307f65ce00f270"
+
 exit@0.1.2, exit@0.1.x:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/exit/-/exit-0.1.2.tgz#0632638f8d877cc82107d30a0fff1a17cba1cd0c"
