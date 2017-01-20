@@ -15,7 +15,7 @@
     "directions"
   ],
   "dependencies": {
-    "code42day-google-polyline": "~2",
+    "code42day-google-polyline": "^2.0.2",
     "code42day-vis-why": "^1.1.6",
     "debug": "^2.6.0",
     "eviltransform": "^0.2.2",
