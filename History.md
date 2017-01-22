@@ -1,4 +1,10 @@
 
+0.0.17 / 2017-01-21
+===================
+
+ * collect request statistics
+ * fix reusing the same structure for query that resuls in multiple requests
+
 0.0.16 / 2017-01-20
 ===================
 
