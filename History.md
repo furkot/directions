@@ -1,4 +1,9 @@
 
+0.0.18 / 2017-01-28
+===================
+
+ * return partial results in case of error or timeout
+
 0.0.17 / 2017-01-21
 ===================
 
