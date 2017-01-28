@@ -64,8 +64,7 @@ describe('service', function () {
     s(3, [{}], [], function (err, trueValue, id, query, result) {
       should.not.exist(err);
       trueValue.should.equal(true);
-      should.not.exist(query);
-      should.not.exist(result);
+      result.should.have.length(0);
       done();
     });
   });
@@ -76,8 +75,7 @@ describe('service', function () {
     }], [], function (err, trueValue, id, query, result) {
       should.not.exist(err);
       trueValue.should.equal(true);
-      should.not.exist(query);
-      should.not.exist(result);
+      result.should.have.length(0);
       done();
     });
   });
