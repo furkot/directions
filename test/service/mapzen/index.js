@@ -76,6 +76,7 @@ describe('mapzen directions', function () {
       result[0].segments[0].should.have.property('distance', 254);
       result[0].segments[0].should.have.property('path').with.length(2);
       result[0].segments[0].should.have.property('instructions', 'Drive south.');
+      result[0].segments.reduce(function (len, seg) { return len + seg.path.length; }, 0).should.equal(511);
       result[0].should.have.property('provider', 'mapzen');
       done();
     });
