@@ -1,4 +1,9 @@
 
+0.0.19 / 2017-02-20
+===================
+
+ * include the last point of the path returned by the Mapzen service
+
 0.0.18 / 2017-01-28
 ===================
 
