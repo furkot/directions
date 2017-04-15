@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@pirxpilot/google-polyline@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@pirxpilot/google-polyline/-/google-polyline-2.0.3.tgz#4049a0938485dda4ea42f93aaa5f2c0428e3be0b"
+
 balanced-match@^0.4.1:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-0.4.2.tgz#cb3f3e3c732dc0f01ee70b403f302e61d7709838"
@@ -23,20 +27,6 @@ cli@~1.0.0:
   dependencies:
     exit "0.1.2"
     glob "^7.1.1"
-
-code42day-binary-heap@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/code42day-binary-heap/-/code42day-binary-heap-2.2.0.tgz#fa55b1e3dcdef8bf9d204d02ba3d6b7eaa46e4df"
-
-code42day-google-polyline@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/code42day-google-polyline/-/code42day-google-polyline-2.0.2.tgz#a483478108d42e577daf87638c594567b7448026"
-
-code42day-vis-why@^1.1.6:
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/code42day-vis-why/-/code42day-vis-why-1.1.6.tgz#936193f99165ff0aab9ab561d63e94065863fc24"
-  dependencies:
-    code42day-binary-heap "^2.2.0"
 
 commander@2.9.0:
   version "2.9.0"
@@ -417,6 +407,10 @@ sinon@^1.17.6:
     samsam "1.1.2"
     util ">=0.10.3 <1"
 
+sterta@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/sterta/-/sterta-2.2.1.tgz#0b2530583ea09799c1d5ddd34e565ea38beabf63"
+
 string_decoder@~0.10.x:
   version "0.10.31"
   resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
@@ -436,6 +430,12 @@ supports-color@3.1.2:
   resolved "https://registry.yarnpkg.com/util/-/util-0.10.3.tgz#7afb1afe50805246489e3db7fe0ed379336ac0f9"
   dependencies:
     inherits "2.0.1"
+
+vis-why@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/vis-why/-/vis-why-1.2.2.tgz#97a638476a2861c334e32bf7f40a26d01776f6d0"
+  dependencies:
+    sterta "^2.2.1"
 
 wrappy@1:
   version "1.0.2"

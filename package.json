@@ -4,8 +4,8 @@
   "description": "Directions service for Furkot",
   "author": {
     "name": "Damian Krzeminski",
-    "email": "pirxpilot@code42day.com",
-    "url": "https://code42day.com"
+    "email": "pirxpilot@furkot.com",
+    "url": "https://pirxpilot.me"
   },
   "repository": "furkot/directions",
   "license": "MIT",
@@ -15,8 +15,7 @@
     "directions"
   ],
   "dependencies": {
-    "code42day-google-polyline": "^2.0.2",
-    "code42day-vis-why": "^1.1.6",
+    "@pirxpilot/google-polyline": "^2.0.3",
     "debug": "^2.6.0",
     "eviltransform": "^0.2.2",
     "fetchagent": "^1.0.0",
@@ -24,7 +23,8 @@
     "limiter-component": "^1.0.0",
     "lodash.defaults": "^4.2.0",
     "run-series": "^1.1.4",
-    "run-waterfall": "^1.1.3"
+    "run-waterfall": "^1.1.3",
+    "vis-why": "^1.2.2"
   },
   "devDependencies": {
     "jshint": "^2.9.4",

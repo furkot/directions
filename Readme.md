@@ -22,7 +22,7 @@ furkotDirections('Rainbow');
 
 ## License
 
-MIT © [Damian Krzeminski](https://code42day.com)
+MIT © [Damian Krzeminski](https://pirxpilot.me)
 
 [npm-image]: https://img.shields.io/npm/v/furkot-directions.svg
 [npm-url]: https://npmjs.org/package/furkot-directions
