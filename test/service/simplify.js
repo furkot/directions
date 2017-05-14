@@ -1,4 +1,4 @@
-var LatLon = require('geodesy').LatLonSpherical;
+var LatLon = require('geodesy/latlon-spherical');
 var pathType = require("../../lib/model").pathType;
 
 var simplify = require('../../lib/service/simplify')({
