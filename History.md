@@ -1,4 +1,9 @@
 
+0.0.25 / 2017-10-31
+===================
+
+ * cascade to the next service when google cannot find directions and seasonal roads are permitted
+
 0.0.24 / 2017-10-31
 ===================
 
