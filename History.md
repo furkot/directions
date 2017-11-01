@@ -1,4 +1,9 @@
 
+0.0.24 / 2017-10-31
+===================
+
+ * allow order of services to be determined by the client
+
 0.0.23 / 2017-10-31
 ===================
 
