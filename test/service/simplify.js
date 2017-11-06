@@ -84,7 +84,7 @@ describe('simplify', function () {
     }], path = [], i;
 
     for (i = 0; i < 105; i += 1) {
-      path.push([i / 10, i / 10]);
+      path.push([i / 5, i / 5]);
     }
     routes[0].distance = distance(path);
 
