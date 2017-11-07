@@ -1,0 +1,1413 @@
+{
+  "hints" : {
+    "visited_nodes.average" : "3650.0",
+    "visited_nodes.sum" : "3650"
+  },
+  "paths" : [
+    {
+      "instructions" : [
+          {
+            "distance" : 508.329,
+            "sign" : 0,
+            "interval" : [
+                0, 12
+            ],
+            "text" : "Continue",
+            "time" : 182998,
+            "street_name" : ""
+          }, {
+            "distance" : 543.283,
+            "sign" : 2,
+            "interval" : [
+                12, 24
+            ],
+            "text" : "Turn right",
+            "time" : 112560,
+            "street_name" : ""
+          }, {
+            "distance" : 3189.233,
+            "sign" : 2,
+            "interval" : [
+                24, 69
+            ],
+            "text" : "Turn right onto K 7931",
+            "time" : 138608,
+            "street_name" : "K 7931"
+          }, {
+            "distance" : 8124.18,
+            "sign" : 2,
+            "interval" : [
+                69, 176
+            ],
+            "text" : "Turn right onto Heuersdorfer Straße",
+            "time" : 509128,
+            "street_name" : "Heuersdorfer Straße"
+          }, {
+            "distance" : 411.796,
+            "sign" : 0,
+            "interval" : [
+                176, 187
+            ],
+            "text" : "Continue onto Ramsdorfer Straße, L 1350",
+            "time" : 31168,
+            "street_name" : "Ramsdorfer Straße, L 1350"
+          }, {
+            "distance" : 2538.267,
+            "sign" : -2,
+            "interval" : [
+                187, 215
+            ],
+            "text" : "Turn left onto Pegauer Straße, L 1350",
+            "time" : 270735,
+            "street_name" : "Pegauer Straße, L 1350"
+          }, {
+            "distance" : 4231.08,
+            "sign" : -2,
+            "interval" : [
+                215, 250
+            ],
+            "text" : "Turn left onto L 1361",
+            "time" : 260494,
+            "street_name" : "L 1361"
+          }, {
+            "distance" : 9851.986,
+            "sign" : 2,
+            "interval" : [
+                250, 322
+            ],
+            "text" : "Turn right onto Zeitzer Straße, B 180",
+            "time" : 470570,
+            "street_name" : "Zeitzer Straße, B 180"
+          }, {
+            "distance" : 4195.015,
+            "sign" : -2,
+            "interval" : [
+                322, 359
+            ],
+            "text" : "Turn left onto K 2217",
+            "time" : 160907,
+            "street_name" : "K 2217"
+          }, {
+            "distance" : 1911.679,
+            "sign" : 2,
+            "interval" : [
+                359, 380
+            ],
+            "text" : "Turn right",
+            "time" : 104941,
+            "street_name" : ""
+          }, {
+            "distance" : 6199.255,
+            "sign" : -2,
+            "interval" : [
+                380, 439
+            ],
+            "text" : "Turn left onto B 2",
+            "time" : 267400,
+            "street_name" : "B 2"
+          }, {
+            "distance" : 2824.639,
+            "sign" : -7,
+            "interval" : [
+                439, 470
+            ],
+            "text" : "Keep left onto B 2",
+            "time" : 101677,
+            "street_name" : "B 2"
+          }, {
+            "distance" : 1979.929,
+            "sign" : 0,
+            "interval" : [
+                470, 487
+            ],
+            "text" : "Continue onto Stadtring Nord-Ost, B 2",
+            "time" : 75051,
+            "street_name" : "Stadtring Nord-Ost, B 2"
+          }, {
+            "distance" : 20330.379,
+            "sign" : 7,
+            "interval" : [
+                487, 593
+            ],
+            "text" : "Keep right",
+            "time" : 649345,
+            "street_name" : ""
+          }, {
+            "distance" : 5727.303,
+            "sign" : 0,
+            "interval" : [
+                593, 617
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 187417,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 7780.445,
+            "sign" : 0,
+            "interval" : [
+                617, 645
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 233405,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 3350.191,
+            "sign" : 0,
+            "interval" : [
+                645, 662
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 106934,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 2335.112,
+            "sign" : 0,
+            "interval" : [
+                662, 680
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 104249,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 6920.565,
+            "sign" : 0,
+            "interval" : [
+                680, 730
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 287513,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 4555.116,
+            "sign" : 0,
+            "interval" : [
+                730, 750
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 136652,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 5355.43,
+            "sign" : 0,
+            "interval" : [
+                750, 769
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 160657,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 2605.798,
+            "sign" : 0,
+            "interval" : [
+                769, 787
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 78169,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 4480.681,
+            "sign" : 0,
+            "interval" : [
+                787, 807
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 134414,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 3624.215,
+            "sign" : 0,
+            "interval" : [
+                807, 818
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 108722,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 3051.992,
+            "sign" : 0,
+            "interval" : [
+                818, 825
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 91553,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 2133.552,
+            "sign" : 0,
+            "interval" : [
+                825, 832
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 64001,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 3189.796,
+            "sign" : 0,
+            "interval" : [
+                832, 851
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 95691,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 9528.407,
+            "sign" : 0,
+            "interval" : [
+                851, 885
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 285846,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 3382.529,
+            "sign" : 0,
+            "interval" : [
+                885, 896
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 101468,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 2356.323,
+            "sign" : 0,
+            "interval" : [
+                896, 908
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 70683,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 7461.631,
+            "sign" : 0,
+            "interval" : [
+                908, 943
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 223838,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 7443.481,
+            "sign" : 0,
+            "interval" : [
+                943, 983
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 223296,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 8513.52,
+            "sign" : 0,
+            "interval" : [
+                983, 1015
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 255394,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 1709.467,
+            "sign" : 0,
+            "interval" : [
+                1015, 1031
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 51282,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 3463.231,
+            "sign" : 0,
+            "interval" : [
+                1031, 1052
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 103892,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 5717.811,
+            "sign" : 0,
+            "interval" : [
+                1052, 1094
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 171530,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 6345.408,
+            "sign" : 0,
+            "interval" : [
+                1094, 1137
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 190359,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 2970.527,
+            "sign" : 0,
+            "interval" : [
+                1137, 1146
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 89113,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 10573.137,
+            "sign" : 0,
+            "interval" : [
+                1146, 1217
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 317188,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 5969.929,
+            "sign" : 0,
+            "interval" : [
+                1217, 1263
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 183136,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 4707.572,
+            "sign" : 0,
+            "interval" : [
+                1263, 1283
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 141222,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 8213.669,
+            "sign" : 0,
+            "interval" : [
+                1283, 1352
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 246403,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 2937.001,
+            "sign" : 0,
+            "interval" : [
+                1352, 1380
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 91041,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 6718.263,
+            "sign" : 0,
+            "interval" : [
+                1380, 1440
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 212150,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 5184.135,
+            "sign" : -7,
+            "interval" : [
+                1440, 1490
+            ],
+            "text" : "Keep left onto A 4",
+            "time" : 163704,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 1844.214,
+            "sign" : 0,
+            "interval" : [
+                1490, 1501
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 56449,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 11845.09,
+            "sign" : -7,
+            "interval" : [
+                1501, 1619
+            ],
+            "text" : "Keep left onto A 4",
+            "time" : 412834,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 10157.972,
+            "sign" : 0,
+            "interval" : [
+                1619, 1698
+            ],
+            "text" : "Continue onto A 4",
+            "time" : 333495,
+            "street_name" : "A 4"
+          }, {
+            "distance" : 1295.863,
+            "sign" : -7,
+            "interval" : [
+                1698, 1720
+            ],
+            "text" : "Keep left",
+            "time" : 71875,
+            "street_name" : ""
+          }, {
+            "distance" : 3224.625,
+            "sign" : -7,
+            "interval" : [
+                1720, 1759
+            ],
+            "text" : "Keep left",
+            "time" : 120776,
+            "street_name" : ""
+          }, {
+            "distance" : 5362.899,
+            "sign" : -7,
+            "interval" : [
+                1759, 1814
+            ],
+            "text" : "Keep left onto A 5",
+            "time" : 170679,
+            "street_name" : "A 5"
+          }, {
+            "distance" : 2670.267,
+            "sign" : 0,
+            "interval" : [
+                1814, 1851
+            ],
+            "text" : "Continue onto A 5",
+            "time" : 84323,
+            "street_name" : "A 5"
+          }, {
+            "distance" : 6946.433,
+            "sign" : 7,
+            "interval" : [
+                1851, 1903
+            ],
+            "text" : "Keep right",
+            "time" : 208879,
+            "street_name" : ""
+          }, {
+            "distance" : 4965.166,
+            "sign" : 0,
+            "interval" : [
+                1903, 1945
+            ],
+            "text" : "Continue onto A 5",
+            "time" : 148949,
+            "street_name" : "A 5"
+          }, {
+            "distance" : 4244.851,
+            "sign" : 0,
+            "interval" : [
+                1945, 1980
+            ],
+            "text" : "Continue onto A 5",
+            "time" : 127336,
+            "street_name" : "A 5"
+          }, {
+            "distance" : 10099.669,
+            "sign" : 0,
+            "interval" : [
+                1980, 2046
+            ],
+            "text" : "Continue onto A 5",
+            "time" : 302979,
+            "street_name" : "A 5"
+          }, {
+            "distance" : 13237.451,
+            "sign" : 0,
+            "interval" : [
+                2046, 2139
+            ],
+            "text" : "Continue onto A 5",
+            "time" : 397110,
+            "street_name" : "A 5"
+          }, {
+            "distance" : 1722.207,
+            "sign" : 0,
+            "interval" : [
+                2139, 2145
+            ],
+            "text" : "Continue onto A 5",
+            "time" : 51663,
+            "street_name" : "A 5"
+          }, {
+            "distance" : 2997.345,
+            "sign" : 0,
+            "interval" : [
+                2145, 2158
+            ],
+            "text" : "Continue onto A 5",
+            "time" : 89916,
+            "street_name" : "A 5"
+          }, {
+            "distance" : 2242.752,
+            "sign" : 0,
+            "interval" : [
+                2158, 2162
+            ],
+            "text" : "Continue onto A 5",
+            "time" : 67278,
+            "street_name" : "A 5"
+          }, {
+            "distance" : 5231.98,
+            "sign" : 0,
+            "interval" : [
+                2162, 2186
+            ],
+            "text" : "Continue onto A 5",
+            "time" : 156992,
+            "street_name" : "A 5"
+          }, {
+            "distance" : 1793.56,
+            "sign" : -7,
+            "interval" : [
+                2186, 2200
+            ],
+            "text" : "Keep left onto A 5",
+            "time" : 53803,
+            "street_name" : "A 5"
+          }, {
+            "distance" : 6470.001,
+            "sign" : 0,
+            "interval" : [
+                2200, 2224
+            ],
+            "text" : "Continue onto A 5",
+            "time" : 194091,
+            "street_name" : "A 5"
+          }, {
+            "distance" : 2949.483,
+            "sign" : 0,
+            "interval" : [
+                2224, 2228
+            ],
+            "text" : "Continue onto A 5",
+            "time" : 88479,
+            "street_name" : "A 5"
+          }, {
+            "distance" : 5414.113,
+            "sign" : 0,
+            "interval" : [
+                2228, 2241
+            ],
+            "text" : "Continue onto A 5",
+            "time" : 166984,
+            "street_name" : "A 5"
+          }, {
+            "distance" : 22357.391,
+            "sign" : 0,
+            "interval" : [
+                2241, 2337
+            ],
+            "text" : "Continue onto A 5",
+            "time" : 705999,
+            "street_name" : "A 5"
+          }, {
+            "distance" : 458.5,
+            "sign" : 0,
+            "interval" : [
+                2337, 2338
+            ],
+            "text" : "Continue onto A 5",
+            "time" : 14477,
+            "street_name" : "A 5"
+          }, {
+            "distance" : 20361.501,
+            "sign" : 0,
+            "interval" : [
+                2338, 2395
+            ],
+            "text" : "Continue onto A 5",
+            "time" : 643161,
+            "street_name" : "A 5"
+          }, {
+            "distance" : 4848.444,
+            "sign" : 0,
+            "interval" : [
+                2395, 2424
+            ],
+            "text" : "Continue onto A 5",
+            "time" : 178031,
+            "street_name" : "A 5"
+          }, {
+            "distance" : 1884.51,
+            "sign" : 0,
+            "interval" : [
+                2424, 2425
+            ],
+            "text" : "Continue onto A 5",
+            "time" : 61120,
+            "street_name" : "A 5"
+          }, {
+            "distance" : 256.078,
+            "sign" : 7,
+            "interval" : [
+                2425, 2427
+            ],
+            "text" : "Keep right",
+            "time" : 11522,
+            "street_name" : ""
+          }, {
+            "distance" : 1229.164,
+            "sign" : 7,
+            "interval" : [
+                2427, 2445
+            ],
+            "text" : "Keep right onto B 43",
+            "time" : 37981,
+            "street_name" : "B 43"
+          }, {
+            "distance" : 999.149,
+            "sign" : -7,
+            "interval" : [
+                2445, 2452
+            ],
+            "text" : "Keep left onto B 43",
+            "time" : 31091,
+            "street_name" : "B 43"
+          }, {
+            "distance" : 1734.44,
+            "sign" : -7,
+            "interval" : [
+                2452, 2460
+            ],
+            "text" : "Keep left onto B 43",
+            "time" : 53057,
+            "street_name" : "B 43"
+          }, {
+            "distance" : 377.831,
+            "sign" : -7,
+            "interval" : [
+                2460, 2463
+            ],
+            "text" : "Keep left onto B 43",
+            "time" : 15528,
+            "street_name" : "B 43"
+          }, {
+            "distance" : 4080.533,
+            "sign" : 0,
+            "interval" : [
+                2463, 2479
+            ],
+            "text" : "Continue onto B 43",
+            "time" : 151200,
+            "street_name" : "B 43"
+          }, {
+            "distance" : 572.854,
+            "sign" : 7,
+            "interval" : [
+                2479, 2483
+            ],
+            "text" : "Keep right",
+            "time" : 19846,
+            "street_name" : ""
+          }, {
+            "distance" : 3210.741,
+            "sign" : -7,
+            "interval" : [
+                2483, 2527
+            ],
+            "text" : "Keep left onto A 67",
+            "time" : 110129,
+            "street_name" : "A 67"
+          }, {
+            "distance" : 1455.593,
+            "sign" : 0,
+            "interval" : [
+                2527, 2538
+            ],
+            "text" : "Continue onto A 67",
+            "time" : 43665,
+            "street_name" : "A 67"
+          }, {
+            "distance" : 1282.783,
+            "sign" : -7,
+            "interval" : [
+                2538, 2547
+            ],
+            "text" : "Keep left onto A 67",
+            "time" : 38482,
+            "street_name" : "A 67"
+          }, {
+            "distance" : 2312.198,
+            "sign" : 7,
+            "interval" : [
+                2547, 2570
+            ],
+            "text" : "Keep right onto A 60",
+            "time" : 69365,
+            "street_name" : "A 60"
+          }, {
+            "distance" : 1486.265,
+            "sign" : 0,
+            "interval" : [
+                2570, 2578
+            ],
+            "text" : "Continue onto A 60",
+            "time" : 44586,
+            "street_name" : "A 60"
+          }, {
+            "distance" : 2830.294,
+            "sign" : 0,
+            "interval" : [
+                2578, 2594
+            ],
+            "text" : "Continue onto A 60",
+            "time" : 84904,
+            "street_name" : "A 60"
+          }, {
+            "distance" : 2691.396,
+            "sign" : -7,
+            "interval" : [
+                2594, 2615
+            ],
+            "text" : "Keep left onto A 60",
+            "time" : 80740,
+            "street_name" : "A 60"
+          }, {
+            "distance" : 2933.457,
+            "sign" : -7,
+            "interval" : [
+                2615, 2643
+            ],
+            "text" : "Keep left onto A 60",
+            "time" : 109245,
+            "street_name" : "A 60"
+          }, {
+            "distance" : 1293.31,
+            "sign" : 0,
+            "interval" : [
+                2643, 2658
+            ],
+            "text" : "Continue onto A 60",
+            "time" : 48496,
+            "street_name" : "A 60"
+          }, {
+            "distance" : 3618.002,
+            "sign" : -7,
+            "interval" : [
+                2658, 2680
+            ],
+            "text" : "Keep left onto A 60",
+            "time" : 149629,
+            "street_name" : "A 60"
+          }, {
+            "distance" : 478.9,
+            "sign" : 0,
+            "interval" : [
+                2680, 2685
+            ],
+            "text" : "Continue onto A 60",
+            "time" : 17957,
+            "street_name" : "A 60"
+          }, {
+            "distance" : 455.936,
+            "sign" : 7,
+            "interval" : [
+                2685, 2702
+            ],
+            "text" : "Keep right onto A 63",
+            "time" : 41053,
+            "street_name" : "A 63"
+          }, {
+            "distance" : 6841.381,
+            "sign" : 0,
+            "interval" : [
+                2702, 2752
+            ],
+            "text" : "Continue onto A 63",
+            "time" : 206889,
+            "street_name" : "A 63"
+          }, {
+            "distance" : 2446.326,
+            "sign" : 0,
+            "interval" : [
+                2752, 2764
+            ],
+            "text" : "Continue onto A 63",
+            "time" : 73386,
+            "street_name" : "A 63"
+          }, {
+            "distance" : 6065.727,
+            "sign" : 0,
+            "interval" : [
+                2764, 2788
+            ],
+            "text" : "Continue onto A 63",
+            "time" : 181969,
+            "street_name" : "A 63"
+          }, {
+            "distance" : 5404.676,
+            "sign" : 0,
+            "interval" : [
+                2788, 2810
+            ],
+            "text" : "Continue onto A 63",
+            "time" : 162137,
+            "street_name" : "A 63"
+          }, {
+            "distance" : 2344.114,
+            "sign" : 0,
+            "interval" : [
+                2810, 2825
+            ],
+            "text" : "Continue onto A 63",
+            "time" : 70322,
+            "street_name" : "A 63"
+          }, {
+            "distance" : 581.362,
+            "sign" : 0,
+            "interval" : [
+                2825, 2826
+            ],
+            "text" : "Continue onto A 63",
+            "time" : 17438,
+            "street_name" : "A 63"
+          }, {
+            "distance" : 3828.524,
+            "sign" : 0,
+            "interval" : [
+                2826, 2852
+            ],
+            "text" : "Continue onto A 63",
+            "time" : 114850,
+            "street_name" : "A 63"
+          }, {
+            "distance" : 3835.708,
+            "sign" : 0,
+            "interval" : [
+                2852, 2866
+            ],
+            "text" : "Continue onto A 63",
+            "time" : 115068,
+            "street_name" : "A 63"
+          }, {
+            "distance" : 4042.509,
+            "sign" : 0,
+            "interval" : [
+                2866, 2871
+            ],
+            "text" : "Continue onto A 63",
+            "time" : 121272,
+            "street_name" : "A 63"
+          }, {
+            "distance" : 2003.607,
+            "sign" : 0,
+            "interval" : [
+                2871, 2884
+            ],
+            "text" : "Continue onto A 63",
+            "time" : 60107,
+            "street_name" : "A 63"
+          }, {
+            "distance" : 8100.107,
+            "sign" : 0,
+            "interval" : [
+                2884, 2942
+            ],
+            "text" : "Continue onto A 63",
+            "time" : 243000,
+            "street_name" : "A 63"
+          }, {
+            "distance" : 3060.342,
+            "sign" : 0,
+            "interval" : [
+                2942, 2948
+            ],
+            "text" : "Continue onto A 63",
+            "time" : 91806,
+            "street_name" : "A 63"
+          }, {
+            "distance" : 8527.434,
+            "sign" : 0,
+            "interval" : [
+                2948, 3027
+            ],
+            "text" : "Continue onto A 63",
+            "time" : 255817,
+            "street_name" : "A 63"
+          }, {
+            "distance" : 5803.475,
+            "sign" : 0,
+            "interval" : [
+                3027, 3071
+            ],
+            "text" : "Continue onto A 63",
+            "time" : 174098,
+            "street_name" : "A 63"
+          }, {
+            "distance" : 6509.747,
+            "sign" : 0,
+            "interval" : [
+                3071, 3129
+            ],
+            "text" : "Continue onto A 63",
+            "time" : 206754,
+            "street_name" : "A 63"
+          }, {
+            "distance" : 7318.409,
+            "sign" : -7,
+            "interval" : [
+                3129, 3196
+            ],
+            "text" : "Keep left onto A 63",
+            "time" : 237041,
+            "street_name" : "A 63"
+          }, {
+            "distance" : 11941.397,
+            "sign" : -7,
+            "interval" : [
+                3196, 3261
+            ],
+            "text" : "Keep left onto A 6",
+            "time" : 358231,
+            "street_name" : "A 6"
+          }, {
+            "distance" : 1670.839,
+            "sign" : 0,
+            "interval" : [
+                3261, 3271
+            ],
+            "text" : "Continue onto A 6",
+            "time" : 50122,
+            "street_name" : "A 6"
+          }, {
+            "distance" : 7654.448,
+            "sign" : -7,
+            "interval" : [
+                3271, 3288
+            ],
+            "text" : "Keep left onto A 6",
+            "time" : 229623,
+            "street_name" : "A 6"
+          }, {
+            "distance" : 4912.06,
+            "sign" : 0,
+            "interval" : [
+                3288, 3310
+            ],
+            "text" : "Continue onto A 6",
+            "time" : 147358,
+            "street_name" : "A 6"
+          }, {
+            "distance" : 1207.227,
+            "sign" : 0,
+            "interval" : [
+                3310, 3319
+            ],
+            "text" : "Continue onto A 6",
+            "time" : 36214,
+            "street_name" : "A 6"
+          }, {
+            "distance" : 5177.546,
+            "sign" : -7,
+            "interval" : [
+                3319, 3331
+            ],
+            "text" : "Keep left onto A 6",
+            "time" : 161900,
+            "street_name" : "A 6"
+          }, {
+            "distance" : 4896.102,
+            "sign" : -7,
+            "interval" : [
+                3331, 3348
+            ],
+            "text" : "Keep left onto A 6",
+            "time" : 146872,
+            "street_name" : "A 6"
+          }, {
+            "distance" : 540.987,
+            "sign" : -7,
+            "interval" : [
+                3348, 3349
+            ],
+            "text" : "Keep left onto A 6",
+            "time" : 16228,
+            "street_name" : "A 6"
+          }, {
+            "distance" : 6209.851,
+            "sign" : 0,
+            "interval" : [
+                3349, 3379
+            ],
+            "text" : "Continue onto A 6",
+            "time" : 186289,
+            "street_name" : "A 6"
+          }, {
+            "distance" : 2150.523,
+            "sign" : -7,
+            "interval" : [
+                3379, 3403
+            ],
+            "text" : "Keep left onto A 6",
+            "time" : 64511,
+            "street_name" : "A 6"
+          }, {
+            "distance" : 1222.674,
+            "sign" : -7,
+            "interval" : [
+                3403, 3417
+            ],
+            "text" : "Keep left onto A 6",
+            "time" : 36678,
+            "street_name" : "A 6"
+          }, {
+            "distance" : 3058.91,
+            "sign" : -7,
+            "interval" : [
+                3417, 3450
+            ],
+            "text" : "Keep left onto A 6",
+            "time" : 91763,
+            "street_name" : "A 6"
+          }, {
+            "distance" : 4907.752,
+            "sign" : -7,
+            "interval" : [
+                3450, 3498
+            ],
+            "text" : "Keep left onto A 6",
+            "time" : 167530,
+            "street_name" : "A 6"
+          }, {
+            "distance" : 3584.888,
+            "sign" : 0,
+            "interval" : [
+                3498, 3536
+            ],
+            "text" : "Continue onto A 6",
+            "time" : 132307,
+            "street_name" : "A 6"
+          }, {
+            "distance" : 4986.784,
+            "sign" : 7,
+            "interval" : [
+                3536, 3589
+            ],
+            "text" : "Keep right onto A 6",
+            "time" : 165947,
+            "street_name" : "A 6"
+          }, {
+            "distance" : 296.903,
+            "sign" : -7,
+            "interval" : [
+                3589, 3593
+            ],
+            "text" : "Keep left onto A 6",
+            "time" : 15827,
+            "street_name" : "A 6"
+          }, {
+            "distance" : 2522.708,
+            "sign" : -7,
+            "interval" : [
+                3593, 3617
+            ],
+            "text" : "Keep left onto A 6",
+            "time" : 118597,
+            "street_name" : "A 6"
+          }, {
+            "distance" : 5261.909,
+            "sign" : -7,
+            "interval" : [
+                3617, 3673
+            ],
+            "text" : "Keep left onto A 320",
+            "time" : 182139,
+            "street_name" : "A 320"
+          }, {
+            "distance" : 6906.952,
+            "sign" : -7,
+            "interval" : [
+                3673, 3733
+            ],
+            "text" : "Keep left onto A 320",
+            "time" : 243350,
+            "street_name" : "A 320"
+          }, {
+            "distance" : 286.886,
+            "sign" : 0,
+            "interval" : [
+                3733, 3736
+            ],
+            "text" : "Continue onto A 320",
+            "time" : 11056,
+            "street_name" : "A 320"
+          }, {
+            "distance" : 41177.937,
+            "sign" : -7,
+            "interval" : [
+                3736, 4000
+            ],
+            "text" : "Keep left",
+            "time" : 1262173,
+            "street_name" : ""
+          }, {
+            "distance" : 14226.357,
+            "sign" : 7,
+            "interval" : [
+                4000, 4112
+            ],
+            "text" : "Keep right onto Autoroute de l'Est, A 4",
+            "time" : 426774,
+            "street_name" : "Autoroute de l'Est, A 4"
+          }, {
+            "distance" : 20753.052,
+            "sign" : 0,
+            "interval" : [
+                4112, 4254
+            ],
+            "text" : "Continue onto Autoroute de l'Est, A 4",
+            "time" : 629257,
+            "street_name" : "Autoroute de l'Est, A 4"
+          }, {
+            "distance" : 124511.193,
+            "sign" : -7,
+            "interval" : [
+                4254, 5021
+            ],
+            "text" : "Keep left onto Autoroute de l'Est, A 4",
+            "time" : 3737635,
+            "street_name" : "Autoroute de l'Est, A 4"
+          }, {
+            "distance" : 75658.807,
+            "sign" : 7,
+            "interval" : [
+                5021, 5379
+            ],
+            "text" : "Keep right",
+            "time" : 2297979,
+            "street_name" : ""
+          }, {
+            "distance" : 685.882,
+            "sign" : 7,
+            "interval" : [
+                5379, 5395
+            ],
+            "text" : "Keep right",
+            "time" : 30864,
+            "street_name" : ""
+          }, {
+            "distance" : 307.44,
+            "sign" : 7,
+            "interval" : [
+                5395, 5400
+            ],
+            "text" : "Keep right",
+            "time" : 13834,
+            "street_name" : ""
+          }, {
+            "exit_number" : 1,
+            "distance" : 3021.274,
+            "sign" : 6,
+            "exited" : true,
+            "turn_angle" : -1.87,
+            "interval" : [
+                5400, 5429
+            ],
+            "text" : "At roundabout, take exit 1 onto D 15",
+            "time" : 125344,
+            "street_name" : "D 15"
+          }, {
+            "exit_number" : 2,
+            "distance" : 6637.896,
+            "sign" : 6,
+            "exited" : true,
+            "turn_angle" : -5.02,
+            "interval" : [
+                5429, 5463
+            ],
+            "text" : "At roundabout, take exit 2 onto D 677",
+            "time" : 266260,
+            "street_name" : "D 677"
+          }, {
+            "exit_number" : 1,
+            "distance" : 3646.745,
+            "sign" : 6,
+            "exited" : true,
+            "turn_angle" : -3.3,
+            "interval" : [
+                5463, 5488
+            ],
+            "text" : "At roundabout, take exit 1",
+            "time" : 128800,
+            "street_name" : ""
+          }, {
+            "distance" : 1510.238,
+            "sign" : 0,
+            "interval" : [
+                5488, 5500
+            ],
+            "text" : "Continue onto D 610",
+            "time" : 57888,
+            "street_name" : "D 610"
+          }, {
+            "distance" : 2328.823,
+            "sign" : -7,
+            "interval" : [
+                5500, 5525
+            ],
+            "text" : "Keep left onto D 610",
+            "time" : 93274,
+            "street_name" : "D 610"
+          }, {
+            "distance" : 698.211,
+            "sign" : 7,
+            "interval" : [
+                5525, 5528
+            ],
+            "text" : "Keep right onto D 610",
+            "time" : 22850,
+            "street_name" : "D 610"
+          }, {
+            "distance" : 359.084,
+            "sign" : 7,
+            "interval" : [
+                5528, 5533
+            ],
+            "text" : "Keep right",
+            "time" : 11751,
+            "street_name" : ""
+          }, {
+            "exit_number" : 2,
+            "distance" : 1531.151,
+            "sign" : 6,
+            "exited" : true,
+            "turn_angle" : -1.94,
+            "interval" : [
+                5533, 5544
+            ],
+            "text" : "At roundabout, take exit 2 onto D 660",
+            "time" : 61462,
+            "street_name" : "D 660"
+          }, {
+            "exit_number" : 2,
+            "distance" : 1561.986,
+            "sign" : 6,
+            "exited" : true,
+            "turn_angle" : -4.68,
+            "interval" : [
+                5544, 5561
+            ],
+            "text" : "At roundabout, take exit 2 onto D 660",
+            "time" : 91391,
+            "street_name" : "D 660"
+          }, {
+            "exit_number" : 2,
+            "distance" : 1499.668,
+            "sign" : 6,
+            "exited" : true,
+            "turn_angle" : -3.85,
+            "interval" : [
+                5561, 5574
+            ],
+            "text" : "At roundabout, take exit 2 onto D 660",
+            "time" : 74981,
+            "street_name" : "D 660"
+          }, {
+            "exit_number" : 2,
+            "distance" : 7105.336,
+            "sign" : 6,
+            "exited" : true,
+            "turn_angle" : -3.93,
+            "interval" : [
+                5574, 5606
+            ],
+            "text" : "At roundabout, take exit 2 onto D 660",
+            "time" : 355258,
+            "street_name" : "D 660"
+          }, {
+            "distance" : 2802.052,
+            "sign" : -2,
+            "interval" : [
+                5606, 5645
+            ],
+            "text" : "Turn left onto Rue Pierre Brossolette, D 15",
+            "time" : 175879,
+            "street_name" : "Rue Pierre Brossolette, D 15"
+          }, {
+            "distance" : 627.856,
+            "sign" : -2,
+            "interval" : [
+                5645, 5656
+            ],
+            "text" : "Turn left onto Rue Jean Thomas Bonnemain, D 34",
+            "time" : 70633,
+            "street_name" : "Rue Jean Thomas Bonnemain, D 34"
+          }, {
+            "distance" : 4554.545,
+            "sign" : 2,
+            "interval" : [
+                5656, 5727
+            ],
+            "text" : "Turn right onto Rue du Stade, D 15",
+            "time" : 274285,
+            "street_name" : "Rue du Stade, D 15"
+          }, {
+            "distance" : 243.339,
+            "sign" : 2,
+            "interval" : [
+                5727, 5735
+            ],
+            "text" : "Turn right onto Rue du Moulin, D 15",
+            "time" : 24951,
+            "street_name" : "Rue du Moulin, D 15"
+          }, {
+            "distance" : 27.66,
+            "sign" : -2,
+            "interval" : [
+                5735, 5736
+            ],
+            "text" : "Turn left onto Rue des Fourmis, D 23",
+            "time" : 3556,
+            "street_name" : "Rue des Fourmis, D 23"
+          }, {
+            "distance" : 174.129,
+            "sign" : -1,
+            "interval" : [
+                5736, 5738
+            ],
+            "text" : "Turn slight left onto Rue du Lavoir",
+            "time" : 39179,
+            "street_name" : "Rue du Lavoir"
+          }, {
+            "distance" : 786.223,
+            "sign" : -2,
+            "interval" : [
+                5738, 5748
+            ],
+            "text" : "Turn left onto Rue du Lavoir",
+            "time" : 256708,
+            "street_name" : "Rue du Lavoir"
+          }, {
+            "distance" : 0.0,
+            "sign" : 4,
+            "interval" : [
+                5748, 5748
+            ],
+            "text" : "Arrive at destination",
+            "time" : 0,
+            "street_name" : ""
+          }
+      ],
+      "descend" : 10932.584945678711,
+      "ascend" : 10955.38444519043,
+      "distance" : 885618.176,
+      "bbox" : [
+          3.851161, 48.223204, 12.42556, 51.140401
+      ],
+      "weight" : 29740.360276,
+      "points_encoded" : true,
+      "points" : "awawHqbxjAI?MFk@NuDl@y@\\kANi@Ne@T_ChBaD`Bs@V}@h@{DsDgJuFq@WaAiAm@e@QUOYM[Ia@Iy@@[Ds@^Jf@H~JnAvBR`EJfEI~Nu@xCSn@I`Bg@p@[~@m@|@y@n@w@n@aAtEqIz@uAt@_Ar@s@lAy@t@_@`A[z@QbAKp]cB|@G|@Mz@UbA_@zA{@fG{Dt@Wp@Ob@Cf@?bAJnAb@h@^b@`@f@n@b@n@zJpRRRXNZDJlB`@|LZbCnB`Ft@jAh@h@lTlPt@r@~@nAdCnDnA~Ax@r@h@^|@\\~@PzQ`BvA`@d@XZV\\\\d@j@t@tAXt@^nANz@Jl@RvBBbAA|@EdBy@hTy@`VMnBUhB}BdQQjBCzAB|BLzAR|AVbAZdA`@`Af@v@f@l@x@r@dAh@l@NtAFtBStAE|AH`SdD~Ab@`@VbAbAjAlBtLp]\\rAZlBB|@?x@CfAOpB_@xCc@tCSfCQlEAvA`@jR?pBIjIM|@{@rDm@dDK`AChA@b@Jl@T~@Vh@j@p@jBxCl@lA\\|@l@nBb@vBVvBP~BDdCi@`p@_@tM{@rLaAtIqAzHwAxG{A|FkAlDmBjFwChGcDtF{B`DgDvDeD|CmA`AeBlAsChB{@l@iAlA{@pAg@fA]jAYhAWzAOrAGpAElBDxCfEaAX@zDt@dB?hAX~@\\`@Bz@KZDn@f@tBlBp@h@~RzK`QlJrDzBzHbEdGhDhDdBvLzG`A\\dB`@hC`@rEf@xAF`@F\\XNXPh@lAeAz@e@jDcAlAUdAKfAAhAB|GjAbE|@lCv@bHpCdAr@nHnH`]nZtA~@zAv@pFfB|M~DzV|HjCbAnGlC|BfAd@`@d@j@f@fA|EtNz@hBfLbTtBtD`ErGj@l@pAhAzBlAvClAvA~Ag@lB[dBM`AKtAGzAEtELpE`@xGRtE|@~c@`@hG`@`EApQJhB`@hFDfA@~NhAdPT|FHfQDvAJbCPdBTzAt@hD`Nlg@xF|QdPlg@nAbEd@fBf@rBn@hDbG~^fD`NxFhRd@jBd@tCNzAJlBBdCI|E_Bvt@]fQOxHMdDSrLe@fUoAvk@IzE?~BD`CJtBJxAPhBt@rEhM`l@|@jEz@`G\\zC~@bNpCja@RdDDbBArDsApr@M|CMrAWzB[hBy@tCc@lAmG|NVTj@V^?XK^U`A_AdAg@n@Sd@AtVb@bAHh@Ldl@zRxEl@|@Dz@CjGg@bHMlIJdFIhDKdDWvC_@fDk@d@GlOg@pAM`KyAxDY`AOjEyApDgApCm@~Dq@lAG|DJrId@nGpd@NpA?v@QdGBzAHhATfAv@fCr@jDn@xAtF~KX|@JnAFjJD|ARfBdHde@RfAx@tCVxAHdBVCbAFfAXx_@xQdAXzAXhANfEp@rH`BbJdBfBl@zAz@~@^|@Xv@LlABhAAnASnJuCbCc@hAEpA@fIZzAPfCLjC@n@@XFlDfBpFtEh@^nF~An@Vj@d@tUfYvOrR`EtExEdGfTtWxIfLjJzMzCzDlCnCzBpBfChB~AbAhBx@x@VfBb@pAP|AHbA@dCUpB]nA]dAc@xAy@~@o@nBeBnBeCdBwC`AqBh@wAr@wBbAyDp@kDjBmOn@sEdBwJbBwH`EuLbB}DzA}CrCeFdA_BpAgBrAcBtDcEpC}BrCuBhC{AjDcBvBw@`FyAdDc@vFYzCA|@DxDRlBTlLvAjPlAvMh@lJPtH@pCRxAPbCl@nC`AhB|@~BzAfBxAnBpBlAvAl@hAhBvCx@|AV~@Jn@@r@]jDQdF?`ABr@TdBF`AAb@IhAa@hAE\\qDpJkA~Da@bBKjAeAjDkBjH{@fEyAbImA~IeDrX{LnfAy@~HYbDUrD]xGU`HMbK?bEFpHT~HZfGR|ClI|eArEnm@|@dNfFr}@|@rQTjK^fWZlNbBt~@vA|x@\\rNVhHb@hHv@|HvLrdA~BhRjOrs@lBtJz@tFdAjKbEnp@fAdPn@lGn@xEh@zCv@bEzAjGlMjh@jD~M~DhQrChOhD~WdBhT`ArSP|JFxFF~LGdISrIS~GW`G]dGa@`GwDbd@aHzt@aA`Mi@vLwB~bAgBb|@?pJNlH\\fH~@zKx@lG\\vBh@zCnA|Fv@rCbAnDvCfIlh@flAnBfFfAhDb@xAh@nBf@zBn@jD\\fCzAfMv@pIZxEdF~|@HjBVvDhAjTvBh^t@bOp@rKZrG~@hT~DhgAbC~q@z@tR\\fEn@hGh@bE`AtGZfBnCdMjUp}@lBxIjAvG~@hGfA`J~AfNpEh`@lChVlGpi@nAbNn@|KNrJCbJWxKe@`Ik@hHiA~HcBzI{B|IsEjMaTbh@}BdGaCjIyAtG}@~Fk@nFUdCUpDYdGsBdk@{SftFs@bUClGFzGThG`@nGvEpl@\\`F^bIPpEXlJNfJFfH@pJGbKKjGc@lOS~E}@tOiF`p@eGrt@}@hKgCj[e@rHMtDEdBEnED`EHzBd@nGX|BZjBvApGpBhGx@pBnDzHfT`f@hFxKfBbEnBlFpA|DhAxEh@xC`@lCVrBPpBRlDJjCFlC?dGKtEYvFQ`CkBnQkWrbCcStlBiA`NWfFKxI?`CDzFRxGRjEZ|E\\tDXtCj@`En@`EjA~FfEdRt@xDn@tDb@~C`@|Cl@zFl@fJVtHLhJAtDEdEK`FYbG[lEe@pFm@fFm@zDk@jDw@xDcAdE}@jDaDvK}\\diAwShs@_DfLkCnKmBhI_BvH_B`ImBhK_C|NkBfM_Jxq@kAlIs@xEq@|D{AbIyA~GsA~FmD|LiDfK}EtMoL`[}FbOqTxk@qEdK{DnHmFzIyCnEuFhHu_AxcAoCzCeCxCwDbFqCdEwBjDiB~CmXlg@_KhRoCnFgKxRyDbI}@|B_BpEkAdEsAlFu@vD}@fF]bC}G~k@m@hHa@fIOzGCnGD|EZ`VVdQh@lb@@zA?|HKlIk@|Ms@hKiA`KePdhAgBzMgAxJcBfRs@pMi@tNa@xOGxJDz{@KhESrEiBpSeBjRqMhwA_BpRg@rGW|EUhHGpCy@xp@w@~j@U~LMbFqDfaAwC~v@]fKSpICjCGhOFpFlFbcD`Ath@v@lNj@hHhAdKdInm@~F|b@|CvT|A|Id@bCfB~HdAzDdEzMxWlr@rCpGjCvEnB|CzD|EtJxKbGhHtC|DvBlDfC|EpAzC|A|DdBdFrL~^jDnKnBbHjAnF`@vB`BzJn@hGj@xHrCdf@`@|E^hDh@`EtBhLlHj\\bDtPlBfKxArI|Ipi@`DdSbHza@lDrWx@tG`Ev^bEha@pA~P\\pGb@bMXzNv@xf@h@n`@X~N^~\\~@|a@z@dU~Q`uDp@pNdA~Qf@vGjAnLrHfi@jQvmArAlJtD|V~BhPtGbd@~BnPn@fEvJ|p@vAvLz@jIt@dK^jHb@pOFhG@vGCrEKxIgBhr@qDtsAQ`LGfJ?jGDnERrMNhFl@|N^dHtKh`CTfEn@`JtAlMt@bFx@zElAfG~@|D`ArDtAxExAjE~\\laA~Ypz@fBpF~@hDfAzEp@vD`@jCx@bHd@xFNnCLfEFvCD|DEpFmA`g@_Cd~@s@vV{Bj{@oAdd@S~Fc@pIc@~FgAvKsAlJaApFyEdVmWvoAaBxHeBlHcA~DiC|IwD|KiCxG}@tBwBvEeBnDmD~GeN|V}BlEoFlKcCfFcDrHiBzEuCxIeArDyBnI}@pEgAfG}@jGu@tFm@dGe@|FYtE]nIOhHGfL@zKp@buD?zN?|JEhHMhJq@vRo@|K{@vKuAnNgApIaBnLgVh`B_@rCo@rF_@nDObBi@bIW~FMdEGxCIxKDtHPrH`EvtA\\rPNfWDbPJvNNfOlA`p@l@~[FhE@hJEpEYvKWrFa@~F[bEa@`Eg@vDq@`FcA|FeBjIkBlHo@zBcBbF_@hA{AxDmApCmBfEuSnb@gF|Kg@pAyCjIyA~EeAvDu@xC_BvHiBtKs@xFi@lFa@`F]dFYxGQxGIdGmAvcBUnTe@nWMvEk@xOYxG_@hGi@bIg@dGi@vFi@`FiBrNaAhGgB~JuA|GiAbF}AjGsCdKwAtEyAjEuB|FaBdE{BjFsCjGyDpHeCfEsEtHsFtIsL|R{DbH_M|UkEvHyBdDqAhBkDhEoErEsC`CsCxBeF`DwGdDyGlCwFxAcBXqC^mCVoCL}ADqB?wGQmCUoFq@sk@iK}Eu@}Gu@cCOaEMaE@{CHmDR_Fl@aEr@{D|@wDlAuCfA}DdB{CzAeCvA_I`FgDvCyFbHqE~FwCfEiDrFwFxK}CjHoCrHoBfGgBdGoAdFiAbFeAjF_AnF{@pFu@nFcBnNaNnpAw_@npDwAvLyAhK_AjFiArFgAdFcBvGkA`EwBdHsUnu@aDrJ}DzKsClHkEjKuCpGmDnHsKvS{E|J_DrHuCnIeAlDsBpH_ArDeAbFoAtG{@hFuAhKu@fH]~Do@bJe@lKUjJEjEAvKBfETzKR|Fp@`Mf@zFl@dHvC|Xt@lHh@hHTvCPfD\\~HJ~ELrI@`HC~GElEw@v^_@|SGtGCpL?xKFvKHfIZ|O^vK\\`J~@xQj@|Ip@|IfA|LjBlQdC~R`AxGbChOlDbRxDnQrI`^`BtHpAnHj@jDf@xDp@rFd@zEl@zHl@rLH`CRjLBfFAxFG`HM`G[~Ha@hH[`Ei@pGw@vHiE``@e@zEiCxU{@jJ}A`Sk@tIg@fKoHjtAKlC[pKEvCCdHD`G^|L`@hH~@fKz@|GbBtJbB|HnAvEr@bCdAfDnFfPv@dC~@nDj@hCVxAT~A\\rCXhELhEA~FCfBe@vJcAjNyMxdBiAvOaAdMu@nIc@jDaAjHaBjLyKfu@wBnNiC|NmBzJyGz^uApLWdDUlHi@jV[~KU|OUxHQdJK`J@vBRvFT~C\\`Dp@jEr@jDr@tC`@rAdLrZ~HfTxCpIn@~ArAtC~BrDvGzIbD~EdAnB`AxBfA|CxHbU|@tB`ApBr@rAzBdD~@fAlCfCfBnAfD`Bnb@zMvCnAxAz@nBtAjPdNrBrBdBzBtAbC~@pBj@zAn@nBxKda@~@~Cj@zAhB~DbAfBx@hAjAvApAtApAfAnAz@tAt@jAd@pA`@jB^|D\\p]~A~BXzBn@pBr@nAn@xAz@fBtAvArArBfClBpCfh@rx@vBtDrBpE~@lCr@zBdAfEdEnSjHf_@dIp_@lApGl@rD^xC\\dENvCL|FEpHKhDObCYdDc@pDs@hEu@fDe@fBgBlFoD`KaAlDs@dDWxAk@hEa@fEWpGAlFDzCF`BPtCF~@j@lFp@~DdAbFvQdz@`@~Bb@xCZfCPlBZnFRnHHp]BvCDrBLvCNhCNbBPbBj@~Dv@fEl@fCdGfSnAjEtA`H~DdUb@xBz@pDlAzDdUtj@`AvCt@~BdBtGt@hDp@xDbA|GZrCZbDf@|GNbDPnHDpHWhs@DrGHxCZnFPbBf@`Er@~Dz@rDd@fBr@zBz@zBx@jBj@fAt@rArAnBzPhUdCtCjBrB~TnU`AlAdCzDj@hAv@jBjQxg@t@fBp@pA|@tAz@`ApAnAnAfAlAp@tBx@nLxC|@XpCpAtA|@~@r@`C`CtBjCdA`BfAnB`A|Bp@dBr@xB|@xCbJp\\x@jDd@jCdCjPXzA^`Bl@pBv@xBp@vAtNdVv@`BjA|CbA`D|Kha@lApDt@fBnBzD~@vAvAfBvAvAhB|AhLbJrCzCr@`AjAhBnAdCf@hAx@xB`Xfx@tBhHlCbKrC`LbDlJhCzGhE~I`AhBtGpNnBhFbGfOfCxHxAzE`ArDVrAl@vBl@tCfB`KfAzGdC|Ub@~F\\rI^nLd@bTPxQ^tQ^|Ld@pJx@|L`@xElAxKv@xF`B~JjBnJbDfNdLp^~Ln_@p@fBxA`DpAxB|DvFlOtShAnA|@z@t@j@|A`A|At@tCx@`CX~ADvFItB?`BJ~Bh@~@Z|Av@hBtAnApAxBzCt@vAl@tAl@|Az@~Cz@fEnCtUh@vCh@xBl@nBt@jBz@fBdAhBlNrSr@vA~@zBn@lBn@vB`@dBr@bEPxA^fEPjEBzF]zR?dBDxDHhBLnBNbBPpAZjBlEdTl@xDRfB\\tEPnF@~BAtCGbCGbBYfEQ~A_BbMwAvLSdCI|BEjC@bEN`EXxCRzA^~BTjAd@hBbFzNf@`Bl@|B^jB`@bC^hEJvBP|LTlUz@bz@BjDArDB~g@D`DFrCL|CR`DpBhRbBtNnAlLpKn_AXnBb@~Bl@hCzG|T\\xA\\~Ab@`Cp@~FPvBHlBb@|MvAdg@JzIGhMObI}Az]o@fNq@|Ey@~DaF~Qq@zCo@fE]dFG`EFxER|C`@pFb@vDh@vFfBjPrAzIpB`IrBrFbEbKnO~\\`B~DxAlE|@~Db@`DXlFNvYFdC`@~HvAxLr@vEp@lF^nDV`ENhDHbDGjHMnCWzCq@|G}@rG{@xFWdCSrCE~@IjFBzBD|Ab@xFx@lGjBjMZtCr@zIb@lF`@nDd@tCf@xB`@zAf@xAt@jB~@fBjAdBz@fAhAhAn@j@r@d@`A\\`AVx@JtBJ`D@nBLv@N~BfA|ItG|HpFlBhAzBjA`@EnFdCvHbDrEbBfAd@tAt@pAz@~@v@dClCr@|@~AhCnAjCvAbDbB~EbCnIj@fC`@lCf@tFJvD@dACrCOlEs@bMGdBAbBBnDLhDLxAZnCh@jDj@`Cp@~Bv@tBbMtXrCrFdBnCrBbDxGlJnJfNl@hAh@jAhAnCp@lBfA|D`@lBVtAb@|Cd@lFTlEbCbu@FpECxDCxAO`DWfDsAfOUnEElBAjHP~EX|Dd@`Ep@dE`@lBjAhEnI|UvCxHvAtCzA`CrB|BzFrFnAtAjBdCbAdBb@|@xAjD|BlG|A`F|@bDh@fCf@xCh@jFb@xHV|GRbDTfC\\~C^|B\\hBhB~HdGpVh@tBhAdEb@nAp@hBt@~AfBjDjG|JbAfBrAzCbA`DRv@|@|ENxAZzDFfBBbBAxDIdCObCUnBYnB_@pBgJ~b@}@jEg@fDUfCWvFA|C@pBVfFLbBR~Ar@fEdAxDdAlCdAzBlBjDdArDRf@nBhDh@^hAjA`A`ChAnDZlAbAbF`@vCp@lFzChXtBjQ~BfQlGj`@|BhO`PdkAhInh@b@xB`@hB|@|Ct@`CrAhDrAtC~@`BhGxJjArBnAfClAzClCpIzNze@lClIjKv[p@lBpA~ChAxBxAhCbB`CfBtBvIzIpAxAnAfBzCjFdA|BlAbDnBtGh@`C`@|Br@vE\\`Dr@bIl@pF`@pCj@vCrGtZh@zCvUjcBZfCf@dGLfCJfDDhEAbEE~ASzFUpCq@`HgH`p@e@~E]rEMbCSxFCrBAhDBdFDfCRzF`@bGr@vGb@~CrAvHj@fC`BfGt@xBtArD|@rB~@nBxApClDfFlAxAbBhBdB`BlDxC`DhCrGhFpF|EfAlAdB|BjApB|@`BbA|Br@jBvAtEj@fCv@~Dd@pDTrBRbCNpCHtCDlDB~ZFxGLfGTtE`@tFf@fFh@~DvJzk@l@xCnCdPx@fFn@hE|BdQ`AdJjAzLvAnQbDre@XhDNhBp@rFVtBv@fFnBpKx@rDl@`CfDdLxA`E|AzDpAxCpIrQlCzGxAbEtAnErB~HvYlnAxA|FnArEzArExBhFlDhH`l@rjAn@pAhAjCrAtDnAtE|@~E\\|Bb@jEVlDNrDDdD?fDC`BE`BUjEqB`WQpCOvFC|FBdDNlHfBxj@xAxg@FhICvFEtEQxG]rHk@nI_@bEs@lGmAzIy@lFiFt[k@|D]pCi@|FUzCQzCYpIiBvbBBvIFlENpG\\nHzB|]NtCHlE@lGO`GGbBc@zFsAtOcDtc@mCb_@_@zGOdDIfEC~F@jFFvC\\nHTdDVpCz@`HfAjGxAlGr@`CxAlEfBdEtDnHjRh]|BpExCxG`CrGx@fC`Nbe@zC`KfA~C~AdEbB~D|AbDfBdD|@zA|D`GpAdBzCpDtDtDvBjBvSfOpD|BvBjAdBz@lEdBzC~@z[jIzB|@lBhA`Ap@jAbArBtBp@|@bAxAbJ~NbBdCt@z@pB|Br@n@nAbAtBzAno@|a@nJ`GfGvC`DvA`VjJ|KrEhCnAhCxAlChBjCpBbBxApCjCbBjB~BvCvBvCtCtElBhD~a@tx@tQt]nApCn@`Bv@zBl@rBhAxE\\bB~@nGbBzNtCvUh@bFVtCbLhyAt@bMXdHJnChBbx@bBfs@VfGVvD^rEj@rFf@|D^lC^tBx@jE`FjUnT~aAnn@xrCpBpI`BlGpBlHnv@|sC`E~N`CdKj@zCv@jFn@hFb@vE\\|FJjCNdGDlDGniAAzHMxT?|GFdW?dYJlFTzEL~AVjCZpCf@bDr@nDvAtFl@nB`AlC~@vB~A~Cp@jAjAdB~AjBzDvDpg@xc@fDnC`BjAbCvAjCxAvJ`Ef{@l\\fErBxAx@nBpAjDjC~RvO~AfAvAv@vB|@`Cv@nXnHlCbAbCdAdE~BvDfCtVpRbHxElIbFtwAlu@`B`AlBnAdUxOzE~DrGzGfkBhqB~IhJxHrItGrG`ErDnZlWxJbJpGvGlFfFnCrBjDdCpSbNlG|DvEbCdH|CbyChpArxAbn@z@d@dEfBbDdBdDpBdDdC|ClCvCvCpB~BdBzBxAtB`DbFxAlCpCzF~BxF~BrGpUvr@xAfE|AtDbBdD`BfC~BvC`D|CtCnBvAv@zCnA~Cv@dCZbDL|BEvAI~J_AlaKmbApCQjDEzDDdCJ~Db@zB\\`E|@zA`@vCdA|D`BpCzAjC`BbCfBfs@`j@fC`BzEhCrEnBdEpAnBd@fCf@zC`@bBP`DLdBDdC?hEKhCUfC[zBa@zBg@v^eKlCo@xBc@tB[fCWnBMfFI~BBfCJxAJzEl@ttAfStHlAxBd@|Bp@~Bv@vB|@bBv@pCzAtEzClEpDnDlDzDrEzh@xo@fExEhDjDrEpDxA`AvDzBnCtAhFnBfBj@np@zOdXpGf{Bdi@nDn@jC`@xBP~CLlFBthGwBhEB|DP`BP~BZ~E~@vDjAxDvAnDbBtEnCvB|AfFlEfBhBvDnErCzDzBhDxAhCnDfHpj@ljAb_AvmBvBzDjCfElDxEjAvA~ChD`ErDhBxAlFjDvAv@jGxCnb@pR~OvHnKnE`l@|WpkDb~ArE`B|Cx@`C`@nBVnEThC@nDMlBS`C]`E_AtCcAtB}@jAk@jQyJzNmIfH}DnbA}j@xHqEhCiBrC_C~CyCjCkC~G{HhRyUzCmDhBiBrBgBnDmCnA{@vD{B`CgAxEiBfA]bCo@|Du@|ZyDdFg@dFQzD?`DLpBNnEl@zB`@bCl@vEzAzcBjq@d@n@dKlEb@d@xBbB`CzBvAzA^h@z@hB`@hAVdA\\xBLxAFxBAp@FrA{@~VKvI?dJBtCNjGP|@HvALzAr@bG`Izi@dAvH~AhM\\xC`CjUbDx_@fFvt@Z|DpAnMXbC`AxGrAbIvAbHrBtIrBpHlAzD^bB|@rFl@pB|@rB`BdCj@fAPb@r@jCf@z@xQ`n@pDtLrd@d}A|Kz_@xYpaANdBjCfMnDtQtArHdAlFXjAZ`ARb@h@dAz@hA`@^bAt@bAj@x@\\jA\\z@NvAHz@?`AE`AOx@S`Bo@vA}@~AsAzBuCrB{CnBaCvBeBjBgAjBy@lCe@lAG|@?nEPhBd@pDjApEnBjCtArChBnDnClD`DpCzC`EhFnBtCbBlC`BrCpHhNxHvO`GjLbCrE`EdHjFlIfE|F`EfF|ElF~BbCnChCnCbClDrCdChBvCnBrFfD~EfC|DhBfHpChHtBnJpBxGfArJxBrA`@t@Zr@`@rA|@~A~At@bAr@lA|@jBx@xBj@`Cn@pDP|ATrDLtEHfKP|Nj@~M`@`GZlEhCrY`BtTt@lLp@xMf@dOTjKNfKDfH@~OCfKYjb@ElTBfIBvEHrHVvMl@zQ\\xIbBb_@h@xLl@pSV`MNpOFdMAnKI|NQ~Lc@fSm@bPg@bKy@|Mg@nHaBpRqBrRiAxI}@nGeAjG_AjEuB`I}@tCmA~C_CnF}AdDwGpMy@lBy@pB{AbFy@fDi@xCc@pDKpAK~AGlC?zB@bBFrBThDN|A|@rFl@lCjAfElBvFz@|BzLlZtFhMpO`_@xJ`VpAlDt@~Bj@tBp@nCr@fD^rB~@|G`@vEb@xHNzG?jDGbGSvFWtDWpCg@jE_@jCwAnHqAhF{ElQm@bCa@dBeAlF_@rB_AvGo@|Fe@xF[lFW|HA~AEzD?|DJdJLvDZlGz@|Jr@~Fl@zDt@nEdB|ItYdwA`Olt@bApFz@zEr@dFf@nEt@jIR`DZfIHjCFfJOzBIf@KTONMFY@OGYc@w@uFAm@BSFWVYHEb@BZJ`EhFjSpW`EfFdFfGpF`GxDzDbHzGxFzF|FpGnEtFhD`F`BhC~AxCdBjDvAfDjA~CfAbDzAnFbA`ErG~YpA|ElAtDfBtEjAdCtAhC|BnDxAnB~AhBnCdCrCtB|A|@bChA|Bx@zBn@xBd@lLhB`Dn@dDx@bDjAfEjBrQzI`F|BbUrJxIbDjExA`DbA|IfCfE`A`JjBzEv@vMjBh]fE|KbBbHpAfFjAhGbBjGlB~HtCxGpChI`EdInEbF~ChH|ElLzI|GzFpGvF|EpEvKpKxSpTxy@`~@~IpJlGlG`InHhJbInElDtK`I`N`JzD|BfIrEpE~BhJnEpInDtDxAtKxDvGtBdLzCnHbBdJhBpLjBnNbBxDZxKt@hL`@dLNhLA`_@{@hiA{CnJQ`NGtBB~JVjDRtE`@nEj@nEv@|Dz@|HbCjFtBzDjBlBbA`GpDnF|DvBdBjC`CxDxDrEfFtDzEfGbJlEtHbGlLpIlRtBhF|GbQbEtKnRrg@~JzWxHfShEhKxDzIjB|DhFzJjCnE~BlDxB~CtBnCdCzCtCdDpCrCvCpCjB`BrDxCtFxDlEjCbDbBdD~A~B~@dDnAlJrCxG~AvL~B|QtCtaAjOnv@~L~E~@zDx@lG~AbF|A|Bx@nHvCnG`D~FdDxCjB~FbElDpCvG|FdHfHpHjIxGjInDtExmClxDpMxQxHxJ|ClD|EzEbFjEbFrDzExCtFrChJ~DjDnAfD`AfFrAdCd@vDl@hFl@`DZtI\\dCBdD?rDEpEQlIu@zF}@xFgA`FqAzEyAzFoB~F}BzHcDfRkI~HcD`JgD~FiBzC{@fGuA|Ci@~JmAjCUnDQdJGtCBtGRjHn@jDb@pDl@fEz@bFtAfF|A~CjAvD`BvDjBpDpBnC~A`HxEtC|BlCzBnHfHlD|DtExF|EzG|DfGbGpKzAvCnC|FjBhE~AtD~DhKtB~FvElN~FvRpDlMpEfPdx@txCjLjc@zAdGjAjFhA|FhAxG`BxLj@`FnC`XdB`Ot@hFpA~HzAxHtBvIjB|GlCfInAhD`B~DzBbFzBzEbLnUdBvDvAdDxAtDzAhEvAjEpApE|BdJpAhGrAjHj@tDjAtIf@zEt@jItC~_@d@zF^|D|@zHhAbIp@rDt@pDlAtEt@lCxAhExArDpC`Gt@pAzAdCnBtCbCxCzC|CbDlCzBzAnEbCnBx@rPzFtAl@pB|@pC`BrA~@vDzCbEhEfArAxClEhCpEbBlDpAbDvAzD`AdDjAlEjAjFb@~BbA~Gh@tEx@pKt@`Nl@pI^lDf@`Ev@pEz@|Db@fBn@zBxAnEh]f_AbCdGxAzClAnBbAxAlAvAhBlBvBdBlC|AxB|@zBn@bCd@fGv@tCn@rDpA|B|AlCxBjFvFhJfLvC`DnBjBtAjAdDbCxA~@vBjAxBdA|D~A~Af@hDz@~Ev@fE\\dCJvFDxBC~DQ`EIbUuA~ESxFIzFBdHXbGh@fFt@zSfDbKtAzI|@nHn@`mAhHbGl@vFbAxFxAlE|AvErB`Bx@tD|BnAx@~AhArB`BpFzElDvDxAdBxDhFdCpDxBhDfSj\\nAfBtBbCvBjBhAr@pBbAl@T|@XhAR`CZhEN~IG~AD|BP~@N|@ThA`@lAl@xA`Av@t@nArAbAvAnA|Br@|AbAvCj@xBZ`Bb@rC\\|DHxBDvBA|BErCc@nHu@dKOnE?fF@tALhEXvDZrCR|Al@hDfBlIVbBV~BHfADfA@vACdBM|BUnBeAtHm@|Eg@zE@r@a@pFWrEQfGGzE@rFBxDJ|D`@vIZlE`@~D|@rGvDdVbAfIdOp`AZdCX~CHhBN|Fn@lk@ZnER`Eh@dQTxFbCfb@h@fI\\tD`@fD^~Bd@dCdAfErBxGtBrGZdA~@nEf@bB|AxEtCtKnBzIh@|Cv@bFrAbLRtBf@`HZ~GVnINlIHhJPlJ^jNZzHp@lMv@vLfAhNjBnQjAxJnDbWxAlM~ArQx@`Lt@dNPnE|@t^\\nRv@n`@`@tOl@rPZhHj@pKn@zIl@vHt@`In@|Ft@lGbB~LhBdLx@pEnDlQjDzNbCnJpCpJdDpKpEtMhFxNbN~]|GpPnLjZ`IjTpEnNxBxHhBfHnBtItAtGbBnJbChPt@zFn@xFtAjOx@|L`@nIb@vLNfGHhGBzJ@vKGnLY|R_@fP_Cpy@e@bTMrIG`JCnI@bGBjGX`Sb@pOTpFr@~N`AvN`@pF`BhQ|@dIlA|JvB~OdAdHlEnX`ArF|CfQxG`^jiAx`GrL~m@|Idc@nFzVxCnMlCdLvHnZpClKvGpUjEbOnF`QvEzNxLt^bFxNbR~i@xJpZrChJrE~OjDrMhClK~AhHbB|HpBlKrA~HnAfItA~JfBdOxAjOp@fIv@jLt@vNf@jM`@zO~@ni@j@~WTjHf@vLNxCl@|Jh@dH^hEnAzLt@`GbCnPj@|C~BzL|A`HxAjGlApEfDhLhAnDdEpLnEnLnOv_@xpBj~EpQjc@hPv`@hIrRxDvIfDrHhJtRzGrMpGdL~CpFdH~KjDhFbCpDhH|JdIvK`C~C~I|Kjr@tz@fW`[lNbQpDdFpBzChB|C~ClGlAnCzB|FtBhGzApFl@`CrAdGtAjHrArHbx@haF~I|i@hAlGn@~CxArGn@`Cp@~BzB|GjBrEhCnFdChEbA|AhBdCzAjBlBxBhBpBdD`DtL|KvEpEpE|E|C~DbAvArAxBjArBr@xAh@hA|@xBn@hBz@rC`@bBf@zB^jBf@jD^`Df@~GXjGNlK@bEAtCI~IUtNSdTBrIBpDLfFd@~HZnD\\tCv@dFb@`C|@xDl@xBr@|Bp@nBrAhDzDfI|D|HfA~BhCvGfArDf@vBf@dCl@pDVlBVdCZxEHfBJlE?dFKfFy@hXGdFB|EBjBVzFLfBh@~Ej@pD\\pBt@dDfAxDr@vBlCtGtBnElJdRfAbC`A~BfCzGx@pB|GjRrEzLhAnCdA|BdC|EpClErAjBdAnAjCrCjAfAtBdBjD`ChE|BjC`ArBp@dG~AvNzCpCr@hA^|CzA`B~@bBhA`BrAhAdArCxCbI~JlBxBpBpBpB~A~BzA`Af@zDxAdDx@bEj@bCVdHd@`Qb@vDRvFh@tB\\|Bf@vDhAvAj@dBv@`EbChCjBpAjAjBdBbBjBfBxB~A|BnApBdBbDnDdI|LlXfElI|AnCfBfChBvBjBfBxHlGtDrCjGpFzB|B~AjBlCtDhAnB|@nBfAtCp@vBlBdH|@jDn@jDj@bEd@fELrBTjFH|HExDI~CKxBUrDe@zEq@fGw@|FyBtKq@vDmAnH_@pC_AxIg@hHQdEs@hZIvBW~Da@vDo@zDy@`EuDfP_DnMyApG{AzHkA~HS|A_@bEc@fHIrCG`E?~AH|FD|A^vG^nDb@rDnArHlExUj@hDz@nGP|A\\dEPrEFpCB|CAhAG~DI~BMnB_@nESbBoAtIuCbQ_AlGi@jFQ~BSbEIpCCfEHxFThFZjE\\|Cn@~Dp@nDp@rChA`Ep@vBbBpEx@tBzBfF|CrG|J|QrB~DlArCdBxE`ArDr@fDPjAb@xD`@lFZhFn@zJX~CVdCZfChAxHnGnb@h@vC`BvHfAxDhAfDr@hBz@hB|@dB~@~AdBfClD`EfD`DhMzKvDhElC`ElClFzEhLnG~O`B~DjA`CvA|BdBzBnCdC|AdAfB~@jA`@dBb@tB\\vGh@zANtAV|Ad@dAh@fAr@zBxB|A`CdAzBl@fBp@~Bn@|CbBfLl@pGZjDh@|KN~GDrHGnTGlH@`HBjCH|DN|DN`Ch@jGhAlIzAbIvArFf@bBhBhFxBhFfBhD`E~Gv_@pm@vAdCnAdCt@dBx@`Cr@nCb@`C`@~CXxDJtCd@~WLrDTvDz@rGvAvG~@fDx@hCtChIjAzCfAbC`AhB~@rAtA~A`Ax@|AjAjGpDlCbB`C|BzAlBbAdBbA`Cl@`Bd@`Bh@|Bb@|BrA~JtBvNfAhGlArFdAnEhBzGvKl`@bE`NfBjFdHtPtCxGfAbCjCtGfBbGhAzE~CzNn@lCtDbMxBtG`ExKt@|BpBpHvAzFhBvJ|BvOZdC|@hJn@xInBza@v@tHb@nCtGn^hB`LrBzNZnCRnCVxFDlFIzF]nFUrBU~A}@~EqJh^_GzUqA|Gq@jFw@|H]lFSnL@rETdIb@nHhAfJxJjp@hIni@XzBh@tFLrCFtBBfBAlCIbE[|EOxAk@jEa@~BiAhGeAvGm@pFMnBQ|F?bKRrxA?fCO~JGjLb@jWBrXF~CHnDXlFd@|Fp@`Fv@tEhAhFdAzDxEdRhAlFpA~JfAfNZnKDlEKpIgAjWeBtZaB|UeChZmCrXgDpZ}CpVgD`WwApLa@~FShFK|KNdIb@pH~@fI~AbKjDvO~A`I^pCp@dGTfCX~FFjHGfKm@rLqAdL{Fv[qAfMc@pKEpJJbG^vItAlMbEj[jMtbAbAtL^pJNtJBhPZbP|A~WZ`JLjFBbJQrJWtGe@jHu@hI_DlX[pDWzD[zHGbEDfIDfBd@tJt@vJh@|FxArPz@rLj@|J^xJ`@lOHhIDvFK~WQxJ]tKaAvR{@tLw@nIm@xFoAfKaAxGcAvGkAxGqArG{CfNoDrNaMlf@cAtEcA|EqAlIs@pFs@nHo@bKSfEQdIEjG?hFDxEv@jc@|B~lAPnM@xCApHQfJo@tM_@bF}Dfb@m@dIe@~KKdKBfFHlF^nJ^`Ff@tFrAzJlBbKjCtKfErNnCbKz@fEp@hEl@nE^lEXzELbEBjEAxDIhFUjF_@vEg@dEm@fEeCdMoCxMu@lEs@nFg@pFU~DQlEItCCnDDbGHhDPnE^fFf@fFx@|FbDbRpBzKhDvRdAvG`AvGhAzLr@xMTvJDxJMbSGhTDtTHlMRvM\\hQf@vPp@lPpA`W~A|VpBlVlExa@lBdOvBnO`ElWxB~LxFhYnBbL|A~LdAjM^tIT~JB~HInIi@rSQfLD~M`@pL|@fOp@zNFtG?bES|IO|Ci@tHg@lEm@dE{@~EaD|Po@lE_@vCo@pHSrESzEWlJShE_@tEk@lFq@bEiAfFwAfFsBxFiBtD}AlCaB|BuA~AaD~CeDdC{DrBkC~@gCn@}Dh@eCPqFLkDGmHo@aCY_B[aFoAqDkAkHeDeRcKgJuEoCkAeEsA}EmA}Ew@}Hs@mKL_Fd@}Er@oEbAcHjBmGhBmEdAmEl@aDTgHFuGAuGFmFZuDd@sCh@aDbAoD|AuDtBoCpBoE|DsBzB}DhFkAlBaBvCwBpE{ApDsBpGy@tCs@vCcAvE_AlF{@lFeDzTqAlHgBdIsAfFwAzEsB|FgBlEiF`L{BjEsLzTyDxH{EhKkF~NwBjHeCbKgCfMm@vDs@rFiArJgCnVqBnWc@rIKnCc@vQaBhz@EdE?zDLfGFhBXhEp@fHbArGpApGzAnG|Kvc@xBnJt@xDp@`E\\~Cf@dGNvCH~CDrEIlFKjEYxEiAbJs@pEw@lDw@lCy@fCoBfFwA~CyA~BoEbGkN~NaEjEeBrBuAlBmCrEeBdEm@~AuBvHeBnKa@vFSbFE`FJfG`@dHTvBlEhY|CtTnCfU~AhGdGlRhCpMlAnFdB|E`JtObCrGjElQvCjH|DvF|JvJbCvDxCxH|C~JdCxGjC~ElD`EnM|IxB`CfDfFnB|EfBbI`AbJP`KLzMZjGp@vFjBtIbI|ZvAbGhAjIZbETzD~Dz{@hAxW@~JWfHw@pIsFtc@{AzOw@tP{@xv@_@`Pa@hIk@fI{AtOcBtLqB|KoCxLgDpLcEnLu@fByDzIiEjIkBzC{FlI}AlBcS~SqF|HcBxC{B`FgC|H}@jD}AxHaAvG_BzVy@bJoAtIiBbIkDfNeJr_@uChRs@dIi@~ISrHOhIS`VAlE@rBDfBLxCP~BVlCTnBZlBb@dCh@|BlAdEhA~CxIfUnAfEd@vB^xB\\nC`@vFPrEvAjf@ObH@fDDxDP~Dd@pF\\hFd@hL\\dMJ~GArGIhGIrC_A`XO`JCzIBdDJhHHtDX~HhFdbAl@jPF`FTx`@VjM`@~LVhFn@xKnAbPdAxJ~ArMj@`E`AfGtR|lAlBhNhAxJp@nHb@`GTtD^bIVlI\\vRT|ILrDd@zIZbF`A|Kd@pEbDbYz@|I`@tE`@vFp@bL~Aj]VpEVjEz@dL~@nJr@hGzBpPtAtInC`O|Ofz@rBnLv@lFtLz{@p@vEdAtGlA`H~BfLdAvEbB~G|AtFfBhGrCzIhBfFrDnJlDdIrAtC~CjGtCnFbBrC`EtGlQrWtQnW`FnHtEfH~ChF|CrFpGvLhGlMlCdG~CpHbFrMhDtJnCnIvCrJfQbn@lC`J|EjOnShl@nB|FzA~EtDfMpFxSbCrKzBnKvD`S~Fz[nAlGbB~HxTp~@vA`HnArGbAbGx@lFz@pGbAzIh@xFd@tF^hFd@nIXjG`@jNL|K^x`@PlKp@tShAbW`@xJZlMFvI@nGGra@A|KF~IJvFR|HXhH^nHZpErAjPn@dGn@bFrApJfBnKnBbKpAjHz@vFn@vEp@vF`BbPzArLvApI`AxEbBhHdBbGrB~FdApCrA`D|BvEnC~ExBjDtRdY|@zAz@bB|@jBpAjD|@pC`@zAp@zCl@bDd@dDb@jEPhCPnEFfCA`HSjGU~Ce@|E_@nCs@|Dk@fCs@`Cy@dCy@|BaW~m@iEtKw@xB_B|Fk@nCi@zCa@jCo@bHOxCKxCGbDB~ELdFlArXVxGL`MAbKa@bRq@tOo@dPYdPClK?~XLbj@KbJ}@rSkDz[qCvRc@`EQtB[dFIxCEhERjQdB|NrBjOp@zOChFkAjVWjLDzE`ArMdCfRfOtg@`AhItArWf@lMfBlRdCpMnGtQdPf\\~Nha@~BzM~@nQCfMu@`L}A~J[`BqR|w@w@zCkBdGyBxFsB`EaBlCwArB_EbFiDrEiClEu@|Ay@jByAhE{@|Cg@zBc@vBe@rCy@tGQvBMtCGdBGrEBhFDzBHvB\\pGRpC|ApNh@tDtAhIz@~DhAzE`AhDhAfDnB`FbMhZ~A~DvAbExAxExApFvAnGnAtGl@~Dj@fEn@|FZtDTdD^tGrAp[\\fGX~Dh@nGjEr`@x@rI`Ebd@r@rH|AnM`BfLjAdHtCvObBpJnA~Ip@|Fb@~Eb@tFdB~Wb@fD^jCr@pDl@bCfAxDbE|M~@jDp@jCr@jDj@bDj@`EZjC^vDVvDR~ENdHHnQDlFPbKTzGpJzoBn@lM`@~Gz@tKr@lHpAdKfExZd@fE`@nEXdETlEr@rPRlEXrD`@rDj@jEp@zDbDvPv@hE^fCf@~DP|BPxCHbCFdB@zCA~CGpCK~BYtEw@`J}Cj\\c@zFOhCMvFAjBBzEFpCjBjd@VnIDzE@hDAx\\DvFHxFLbHNtETjFfAlPr@nJvEbi@d@|GZjGJfDHtDD`F@|EElGeAnd@G`D@fFFdCJ`CNjCd@pF\\lCvCxRf@|DNxATrCNbCLlDDvCAfDGtDKtCQtCY~Cc@dDg@dD{@dEiK|e@o@fDe@vCk@lEc@zDYfDc@hH[nHkFr{AKnEEtGDvGFbCPnDVpEhC|\\ZtEThGHjG?rFe@|vAGfFQ~G[rG_@lEe@rEo@|Eg@bDy@fE{@xDeAbE{H~XkAvEi@`Cc@tBcAjGa@fDs@rHSvDK~BM`GCtC?jDFzEJ~CTfERtCXdDjFpg@v@dI^|DTfDTrEHhCJ|EDzD@lEE|DKfF]vIYvD]bE_@rDy@fGeAvGwPhaA{@fF]jCYlCSxCKpBKxCEdDB|FL|DL~BP|BZfDb@`D`@xBl@xCv@zCr@|B~@fCxAfDnA`CnApBjA`BtIdLrAnBhAjBx@|AdA~B~@~BjA|Dx@dDj@nCh@nDh@rEZ`ENxDHtD?rCM~HgAhUu@lNwD|x@ElBA|FBnCHdDX`Gd@vFh@`Ev@|Eb@zBjAzEr@`Ct@zBlA|Cx@jBz@bBlAzBbC`ElC`FvAxC`A~Bx@tB~BhIt@vCf@`CnAhHzXdfBxDjYdClPbFnj@`Fjn@jBzXXxEXjJL`ORpJ`@tG`AjIvDzUzH~g@bBhKzAbMj@xGb@|GXhGRxJDlJIlJe@|SuEffBW~Ga@jI_@zFk@nHaCvY]vE_@hGWhFSjGOnHElDEnJDzVHtY?rEKbHGxBO`DSxC_@pEg@hEm@~D_AjFuApHg@|Co@pEk@jFc@`HY|IC|CAjDBlCF~CRpF~@`WdDdx@zA~T~Gvr@pThxBlBrRn@vHbA|OXxF`@bLNbGLpIF|NC~LGxEs@bb@CrEDjSDrCT~JXhHd@~Iz@dLnAbMl@~Ex@|F|@vFbA|F|@pEjDnOhH~YrBvJbAjF~@tFfAtHfAfIj_@lvC`B~Kf@|ClAzG|AtHbDrMrQ`n@hC~IvDnOpBzIpCdN|BrMhAbHvBbPpD`[fA|IbA`HfAxG|@~EnAbGnBjI~VvbAlCrLbBhIdCrNjAfHbAhHnArJdAdJn@jGj@nGh@xGl@vIn@vLp@zPV`JTzMHlLAnMEjMuA|yAGbJ?rHBbFRhL^xKX~FXnEl@nHhAnLlF~d@dAjKvApP`A`OjAfSp@xIz@xIrAtLlCrW`AxKn@nLhChm@fA~Y|@nOrEfm@n@tJz@nRZvJNpM?jM[xTm@~Pq@nLkBdUyBnVqBpWqAvZmBxh@}@~NsB|SuDdYcD~WiBtT_AdTa@fTY~i@Y`PQvEc@tJcEhp@g@zJc@jKUlHQzKItMAjHJ~KR|KLnFTxFXxFf@|In@`K|C~c@t@fNl@fTJxQSzT}@rXiApXq@rYCfPLtMbBnj@^pRQpR{@lP{ApN_DjQ{HfX_DvJ}@fDeBpHw@xDq@bEm@nEi@rE_@~DYvE[~FaApYaA|Q_@lFk@jGoAxLy@~F{AxJqQhaAsCvPwEp]yAjJmAdH{AnHsCrL{CnKuD`L}CdIg@p@qE~Im@t@]XYTsBrAQP[b@a@bAUpAElA@d@Fx@Lt@x@rCnD~Kf@hATb@\\d@z@v@dAn@h@TjBh@bFlAhBXpFd@`Db@dARpIpBzCl@nGx@zD\\xCPpFJlJEbIk@zHmAfFeAbFwApG{BnCkAvFmCnOeJhPqKzNsItL{G~LqHpN}IdKkG~FgDjFgC|Am@xFcBvCm@dEi@vFa@rBIfE@bBDvAJlD^vGbAtAT`EdAde@`JlLdBjJ~A~Cr@jDz@lHtCfFtC|CtBvJjI~RtOfIhFfDhBdHdD|EdBjCx@xCr@zBb@tDd@xCRrELrFGrGi@lHeAxEeAjFyA~JqD`EqBlIuD|FwBnHwBfKqB`Dc@vHk@xGK|E@pDNvEZ~Gx@|HzAbIxBjDlAzWpHnUvFzOrCzPnBbM|@rK\\zLNrQAp]WvPs@t]wCjd@qFpLaBxJiBdLiCpTsF`LmCfCg@fEo@fFk@tIo@tGKtHEfJ\\xDZ~LtAjNpBrQnCxMdCzPlDdIxAdFv@nHv@zE\\xHNjIFpJStS{Afc@yDzPqAvh@iEpQ}@ha@cAnm@iB|HKlGHdFTdFj@~HtAhPnEnFxB|H~DlG`E~IbHdG~Fz_@`b@rIxIdRhRxFtFdJ`IhJhHzHtF|XdRnXrQxMjJ~KnJbKlKhJjLnFxHpHxL`IbNfFfJvI~N|C|ErGbJrBfCrHpInGdGbHvFzF|DxG`EpFjCnF|BtHjCdFrAdFjApDn@nWlDf]|EnE|@hHbB`GlBzBz@tElBpCtA`ExBxDxBv`@lVdIvE`I`EhMzFzb@lQbI~DxD~BpD`C~ExD|DfD|B|B`EpE`DvDbFpG`F~G~GdK|HnM|KbSbb@bu@pWne@hDpF`FzGpFrGfFjF`GhF`FrD|E|C`FlC~DjBlDrAzHdChEbAnEz@fHx@`If@~GH~FKzF]lGq@`GeAdGwAbIiCpJaDxR_HvH_CjHmBxHeBnQsCbMaBtJyAnc@iIzIwAvJkAhZcDfb@}DzIq@vHQ|DAhGPlN`A`Y`C|]vDlMlAxG`@zCJpGJfHIpI[fIw@vFw@|LcC`JgCzPmGvd@uQlX_Kxb@gOlVeIpIgCnKgChIsAfHm@tJ_@|G?vHRjF\\pKpAfKvBlKbD`I`Dhe@xSdSvIpP|GxJpDjFrBnMrExKvDll@hRhJjDtH`DtIhEtGpDtRbMxAhA~UxP|DfCtElCxE`CrGhC`F~AbGzAzF`AjFp@vF^bHRt[c@~IOhLMtKItf@U|H?|DHdFVxD\\vEp@dEv@jG|AdF`BtMbFdLrEzEfBhGtB`G|AhDr@tKbBtg@xGtI|@jLp@h\\~@xET~CT~Df@lEp@|FnArF`BvFxBjIxDzo@p^fD|A`FjB`GhBhEdAjEz@lGz@lF`@tGRlF?t@J`IM`AVf@V\\Vt@x@f@`APb@V~@`AbFf@hAl@v@p@b@t@Jr@Et@QpFeApCcAXSfAcAb@YTTNZHX|@dPZrC`@bCXlA`AbDpJ`X|A|En@bCXnAnHp_@rArFrM|g@hAhDl@rAl@jA~@zAx@bA`AdAbOjMhAhAx@fAz@vA^v@vB|FNr@Bv@GLGXAZDb@JZNNRFPAPIPYNGn@MdAEjAIvAAf@@lFdB|@RxFp@nFh@rq@pF|Ht@ha@dDfvDlZ|CX|CRbFH~@D~Ct@bBRfCNjPpAl@LVVBPHNLHLBJAh@f@LV|EpOR|@b@zB`DbOxWvtAxA|Hh@tDx@xG\\fEXhELnDHtCBzC?bM[joACvEKhDMvBUnCa@~CcFnYWfBYtCOtBInBChGB`BFbBXpDhI`r@zA`MVbBx@rDv@|BxAxCv@jAf@p@`AbAlA~@`IbE~AdAv@p@`AfAl@t@r@jAr@zAvC`Ij@nApAbCpBdClCzBnDjBbDn@`DNp_@gDnYkD~B[fGsAdEkAdCe@lAa@nBiArAwAb@Rt@v@hAlEtEpW`Nfw@rB~JhBlIDd@Jn@Bt@CRENA`@D`@HPPPTBXLp@pAhGbQzXfp@xAlEn@|BlDzPPb@Nt@D`@ATGVCXBZFTJNNHHTF`@NzCnEjcBNlHAlBE`@IRGV?XBXHRLLFPHbAFbBNzBjE~`BJvCL`CVvBbCtPdKdq@tGvf@NvArB~OxQtyAx@nLfB|WfBpVHvDA|D]tOg@h_@W`UqAj}@[zWK`Ck@bE`ERj@F`JbAfOnBp@Lf@Vl@^j@l@V`@Xd@Xv@Tz@PpAFlABpHEvVDjALjAPv@nCpIhI~Rd@t@hA`Ah@`@l@Pj@Dj@C\\Qr@i@hOwMxEgETMRCTF\\XnB|CX^`Az@nBvAbAkD~AoBjAuB~AqE`BeDLo@`@eEZw@pAsBh@sAR{@pC~ClEbGxCxDnC~C|CxDz@x@`IxFpAzA`A`BhA|D|CtFhAbBz@^zD|@dL|AdFlA~o@d`@`CjAd@Fd@?~BMlE[f@IZOZYZe@\\}@VaA^kBF{@J}APcIDo@Jk@Tc@ZU`@CVFXPz@n@|@f@h@Pb@Hf@Bb@?jAOl@Ud@Wf@c@d@k@h@y@vCeGp@iAdCkDXi@Vm@Pi@j@uCPc@TSREXDRNJTHd@Bh@ClOFpANp@JNDBBVP`@\\h@TVz@Xh@X^ZpCzCd@m@j@uB~DmDTaMBuCC_BYmCq@mCOsBNsDFwDc@iL?iE",
+      "transfers" : 0,
+      "legs" : [],
+      "details" : {},
+      "time" : 29740120,
+      "snapped_waypoints" : "awawHqbxjAt`wPxyds@"
+    }
+  ],
+  "info" : {
+    "took" : 63,
+    "copyrights" : [
+        "GraphHopper", "OpenStreetMap contributors"
+    ]
+  }
+}
