@@ -1,4 +1,12 @@
 
+0.0.26 / 2017-11-07
+===================
+
+ * GraphHopper Routing API
+ * increase google directions limit to 25
+ * fix test to work with node 8
+ * update node versions used for testing
+
 0.0.25 / 2017-10-31
 ===================
 
