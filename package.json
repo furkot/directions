@@ -27,7 +27,7 @@
     "vis-why": "^1.2.2"
   },
   "devDependencies": {
-    "jshint": "^2.9.4",
+    "jshint": "~2",
     "lodash.clonedeep": "^4.5.0",
     "lodash.clonedeepwith": "^4.5.0",
     "mocha": "~4",
