@@ -1,4 +1,9 @@
 
+0.0.27 / 2017-11-16
+===================
+
+ * set flexible options only when GraphHopper plan in use supports them
+
 0.0.26 / 2017-11-07
 ===================
 
