@@ -3,15 +3,15 @@ var should = require('should');
 var model = require('../../../lib/model');
 
 var response;
-var directions = require('../../../lib/service/mapzen')({
-  name: 'mapzen',
+var directions = require('../../../lib/service/valhalla')({
+  name: 'valhalla',
   skip: function () {},
   request: function (url, req, fn) {
     fn(undefined, response);
   }
 });
 
-describe('mapzen directions', function () {
+describe('valhalla directions', function () {
 
   it('test', function (done) {
     var query, result = [];
@@ -40,7 +40,7 @@ describe('mapzen directions', function () {
       result[0].routes[0].should.have.property('path').with.length(511);
       result[0].routes[0].should.not.have.property('segmentIndex');
       result[0].should.not.have.property('segments');
-      result[0].should.have.property('provider', 'mapzen');
+      result[0].should.have.property('provider', 'valhalla');
       done();
     });
   });
@@ -77,7 +77,7 @@ describe('mapzen directions', function () {
       result[0].segments[0].should.have.property('path').with.length(2);
       result[0].segments[0].should.have.property('instructions', 'Drive south.');
       result[0].segments.reduce(function (len, seg) { return len + seg.path.length; }, 0).should.equal(511);
-      result[0].should.have.property('provider', 'mapzen');
+      result[0].should.have.property('provider', 'valhalla');
       done();
     });
   });

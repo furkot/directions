@@ -80,7 +80,7 @@ describe('furkot-directions node module', function () {
 
   it('only enabled services', function () {
     var options = {
-        mapzen_enable: function () {}
+        valhalla_enable: function () {}
     };
     furkotDirections(options);
     options.should.have.property('services').with.length(1);
