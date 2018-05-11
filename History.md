@@ -1,4 +1,10 @@
 
+0.0.29 / 2018-05-11
+===================
+
+ * replace lodash.defaults with Object.assign
+ * change mapzen to valhalla
+
 0.0.28 / 2017-12-04
 ===================
 
