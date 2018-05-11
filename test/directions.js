@@ -82,8 +82,8 @@ describe('furkot-directions node module', function () {
     var options = {
         valhalla_enable: function () {}
     };
-    furkotDirections(options);
-    options.should.have.property('services').with.length(1);
+    var directions = furkotDirections(options);
+    directions.options.should.have.property('services').with.length(1);
   });
 
   it('timeout', function (done) {
@@ -93,7 +93,7 @@ describe('furkot-directions node module', function () {
       ],
       timeout: 100
     })([{}], function (query, result) {
-      
+
       query.should.have.length(1);
       result.should.have.length(1);
       should.not.exists(result[0]);
