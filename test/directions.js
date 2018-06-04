@@ -86,6 +86,16 @@ describe('furkot-directions node module', function () {
     directions.options.should.have.property('services').with.length(1);
   });
 
+  it('override provider name', function () {
+    var options = {
+        order: ['stadiamaps'],
+        stadiamaps: 'valhalla',
+        stadiamaps_enable: function () {}
+    };
+    var directions = furkotDirections(options);
+    directions.options.should.have.property('services').with.length(1);
+  });
+
   it('timeout', function (done) {
     furkotDirections({
       services: [
