@@ -1,0 +1,988 @@
+{
+  "routes": [
+    {
+      "summary": {
+        "distance": 881238.2,
+        "duration": 29696.2
+      },
+      "geometry_format": "encodedpolyline",
+      "geometry": "ktawH{mxjAx@Wp@]~@m@z@y@p@w@n@aAtEqIz@sAr@_At@s@jA{@t@_@`A[|@O`AKr]eB|@Gz@Mz@SdAa@xA{@fGyDv@Yn@Md@Ef@?`ALnAb@j@^`@^h@n@b@n@t@xAn@pAbApBnAbC~BpERPZNNBJBDn@Dz@LhD@|@FjBFjBPpAJn@n@~Af@vATh@v@jAf@j@nTjPr@r@`AnAdCnDlA~Ax@r@h@^|@\\~@P|Q`Br@Pb@Pb@Vz@t@d@j@Vb@\\r@Xr@Ld@J\\@DBFNz@Hj@RxBBbA?|@EbB{@hTw@bVOlBShB_CdQOjBC|ABzBJzAT|ATbAZfAb@~@d@v@f@l@x@t@dAf@l@NvAFrBStAC~AHvJ`Bb@FbFz@`Bb@^V^\\b@d@f@t@d@v@tLn]Pt@H^ZjBB~@?x@CdAOpB]xCc@tCUhCQlE@dCBjAFtCPxI?rBIzH?LATIf@m@bCOn@k@dDM`A?HAL?r@@b@Hl@V|@Th@VZTV`@n@fAhBn@lA\\|@j@lBb@vBXvBP`CDbCk@`p@InCSfI{@pLaAtIqAzHwAxG{A|FkAnDoBjFuCfGeDvF{B~CeDxDe@b@KJu@r@mCzBeDxBqA|@}@j@QPe@h@OR}@nAe@hA_@hAYhAW|ACXIx@IpAClB@rA@bANC~@S~@Uv@QX?zDt@rA?R?VFTFXH~@\\b@DZEHERAN@LDPLVTDBrBlBr@f@`E|BfH|DLHJFVN`B|@r@^t@`@RLvBhAd@TfH~DpDxBXNnAp@vAt@xBlAzElCTLJFHDfDdBvLzGbA\\bB^jC`@LBl@HvCXxAF^F\\XPZHXFLJKVUZWJI|@g@jDcAlAUbAKhAAhADzGhAbE|@lCv@dHpCdAr@lHpHrFhFxEbExEbEfFlEr@p@b@Zr@d@l@ZfC`ApBl@l@RRF@?z@Vd@PvGnBbAXvIlChA^vInCjCbAjEjBbAb@lAf@RJZPXRHHVX`@r@d@jAjAnDb@rA~ApEz@jBrHhN|ApCR`@rBzDbAxA`CtDh@l@pAhA|BjAvClAJJh@l@VZHJM^AFWdAUlAEVO~@IvAGzAE`BArBDnA?NHpBT|DJxAPvEFxBH|DNrIFjB@|@?FDfBDpBDfCThDL|ABTLnAN|A?J?j@?hAAfC?bBAbB@|BHjBN`BL|ADh@Bh@@\\?bA?~@?bI@t@Bl@RfCn@nJT~FBtDF`K?LDxAJbCPdBRzANt@BFb@jB|BrIhAdEpBnHfDbMvFzQbJbYrGlSjA|Ep@fDxBdNhCzOdD~MjDdLh@fBd@zAb@jBd@tCFj@Hp@HlBBdCG|E_Btt@QzHItDAtAGzBI|DKfDSrLwB|aAG|E?~BD~BHtBJzARfBXlBXdBt@bDLp@rAbGrHh]|@jEd@`DT~AZzCnDbh@v@nLDbBAtDoA~n@EnBM|CGt@C^Ip@MfAO|@Kj@y@tCc@lAcA|BiApCeAzBy@pBVTh@VN@PAVI^WbA_A`@Ub@Q|@SbEDtR`@~@Rdl@zRxEj@~@Dx@CjGg@hGKX?lBD~EDzBCZAnACfDMnBMf@ENAtC_@hDm@d@ElOi@pAMbAOj@IpCc@~B[vDY`AMlEyAnDgArCm@|Dq@lAG|DH~@BbCNnCRN~@bApH|D~XJz@BRAx@A\\I~BCfB@xAHjAVfAv@dC`@rBPv@n@xAZn@JRnBzD|A~CX|@HnAHlJB|ATdB`Fn\\`AtGRhAz@rCTxAFlA@VXA`ADfAZtB`Ad[fO\\NfAXzAVhANNBvATh@Jt@Lt@Pt@PdEz@dJdBf@N|@^|Ax@|@`@~@Xv@JjADhACnASpJsC|@SbAOhAEpA@hDNbADX?`ADzANrAH^BR@xA?n@?p@BVDvAp@vAt@nFtEj@`@LBbCr@|Ad@l@Vl@d@zBnCxQxT~AnBtL`OlAtArB~Bd@n@tAfB|AlBfTvWzIdLhJzMzC|DVVd@f@nAnAzBnBfChB~AbAjBx@v@XfBb@rANzAHdA@|@GfAKpB]lA_@fAc@d@Ur@a@~@o@lBgBb@i@jA{AfBuC\\s@b@_Ah@uAr@wBl@aCRw@p@kDl@wE|@wHXkBVeBdBwJ`ByHbEsL`B_EzA}CtCcFbA_BpAgBh@q@j@s@rDcEpC}BtCsBfC{AlDeBn@Ul@UVK`FwAfDc@tFYdAAtA?~@BxAH~AJlBRdANtBVr@H`D^XDn@D|BT~Jr@~BJtIZnJRrH?pCTxAPbCj@nC`ApAn@XLTNd@\\bAn@fBxAnBpBlAvAj@fAx@nAn@hAz@zAFVNh@Hl@Bt@]hDQfF?`ABr@RdBH~@Ad@KfAa@hAE^qCnH]~@kA`Ec@bBKhAeAlDq@dCy@bD{@fEwAbImA~IgDtXo@dGWtByFfg@yBjRGn@OnAa@|DWdDWpD]xGSbHO`K?bEFrHNxEDdBZdGT|CxD`g@|@lLrAlPbAtMPtBz@tLJdAXlDJnAPhC|@fNjApSVxETdDv@vNt@hMNpCj@~LTlKDhCFbDRxMDxBRrJdBt~@tA|x@\\pNXhHb@jHt@zH|@rHJ|@NnA|Ipv@ZjCRbBnAzJjOps@nBvJLx@b@pCl@vE`@|E`Enp@fAdPLfAb@dEn@vEJl@ZlBx@bExAlGlAzEn@hCzB~IpD|Nb@dBjBlH~@pD|DjQtChOJ|@|C`VdBfT~@rSR|JFxFD`MEbISrIS~GYbG[bGa@bGyD`d@aHzt@_AbMi@vLyB|bAErB_Bnx@?pJNnH`@vIx@jJz@lGZvBj@zCf@`Cf@zBt@rCdAnDvCfI~@vBzBfFZv@fB`EvFfMjGtNh@jARf@~IlSjAlCdAtCf@pAXt@rAlEf@nBNh@VnAp@lD\\fCxAdMv@rIN|BJzAjB~[Bf@|@fOL`Cj@jJHlBTtDhAlT^|Fj@zJj@nJn@zLFdAn@tKZpG`AjTn@|Ph@pNNjEz@nVXzGZjJT`Gx@zTF`CNrDn@zNJxBZhEp@hGf@`EbAtGZfBlCfMlPpo@|C~Lh@zBdA|EhAtG~@hGh@hE^vCp@~FRjBX|BZnCf@fE^|ClBrPlCfV`BrNVtBrChVnAbNj@|JTpKEdJWxKe@`Im@hHgA~HcBxI{B|IaBdFqBdFqE|K_DxHuDxI[v@_BzD}BbGqAlEo@|ByAvG{@|Fm@pFSdCUpDYbGsBdk@i@hNGpAeAvXgAjY_@fKQvEk@bOq@fQIhBGjByHfrBm@nREpACnD?~ABpE@hAVhG`@nG~AjSx@`KFz@r@fJ\\`F`@`IDjAJdCXnJNfJDfH@pJG`KIjGQrFSxGS`F[rF_@~Gg@lGCTEp@KjA}B|Xo@bIoA`OkAtN[|De@zFg@~F}@hKoCd][zFOrDEdBEpEB~B@`AHjB@Nd@nGX|BXjBxApGpBhGv@pB|B`Fp@xALTLZpLzWzErKnDrHx@dBdBbEd@lAjA~C\\dAp@vBj@xB\\|Ah@zC`@lCVrBPpBTjDJlCDjC@dGElBEhBYvFS~BiBpQi@|EwD~]kPr|AcSvlBiA~MWfFE|DCzCA`C@`CBzBFrBJdDThEZ|E\\tDXvCh@~Dp@bEjA|FdEfRv@xDl@tDd@~C^|Cl@xFl@fJXtHFrDBvD?tDGbEK`FYdGYjEg@pFm@hFk@xDm@jDw@zDaAdE}@jDaBpFaAbDoBrGqJv[eNrd@kSpr@aDdLkCnKkBjIaBvH}A`ImBfKaC~NiBfM_Jxq@mAjIs@xEq@|D{AbIwA~GuA`GmD|LUt@qCpIi@rAe@nAoCnHkA|CmAbDg@tAkFjNQ^kF`NaGtOiHnReCtGg@hAkDxH{DpHmFxIwCnEuFjHu_AvcAoCzCgCxCuDbFsCfEuBhDiB`DuS|_@iCvEMTyIjPUb@OXYj@wBdE{AtC{@~A]p@qEnIw@`B_CbF_A|B_BpEkAbEqAnFu@vD}@fF]`Cu@lGiFrc@OhBObBKzASpDMtCOzGClGDbHXzSXfQF`GVnPHxH@|A?`FElFGzDk@|Ms@hKw@~GQ`BO`Ae@jDuMt}@W`BWfBQpA}@~GgAxJcBfRu@rMg@rNa@zOAnAEhH@~k@@zNIfE[bGaB`Ry@xIMvA_@xDc@~Ei@tFUpCIt@eAtLk@`Gs@xHUfCgGbr@e@tGW|EWhHIdEWdUCfBWbSy@hl@Af@Az@SbKMdFgBbf@UtF_@hKIvBIhBSdFQxEIzBEv@a@tKYxHc@zL_@hKQpIEjCGfO@f@FhE|A|aAv@de@|@rh@DbCBrALtIN`Ir@r^t@jNTvCVrCT~Bp@dGn@rEb@bD~@fHjB`NNjAv@`G|Fzb@RrA`AhHF`@`AxGNfAjAtGd@`CNp@VlA`A~DdAzDzA`FfBzFbJvUhGpPlDbJrCpGhCvEpBzCzD|ErJzKbGfHtC~DvBlDfCzErAzCzA~DdBbFxFjQxDtLtAdEtAfEd@bBhA`E`@fBj@dC`@vBh@bDt@vEn@hGj@xHtCff@^zE^hDh@`Er@dE`AdFlBpIdC`LHZn@xCdDvPjBdKxArI~Ipi@`DdS`Hza@nDrWv@vGlBnPrAfMx@`If@xE`BjPpA`Q\\pGd@`MXzNv@zf@f@n`@X~N^~\\`A|a@z@bU|Bje@FdAB^JfCpJrmBNtCj@bLLzBBp@FlAp@pNPtCr@fMRnCRhClAnLrHdi@vDpW|Gpe@VfBN`AlAjIpAlJtDzV~BjP|BxOv@nF~AvKr@|ED\\dAtHp@fEhDtUt@bFp@~EXhBhAxHxAtL^nDZzCXbEXbE`@jHXrJH|CDfG@vGCrEKxIa@hPQnHE|@m@pUQ~GQ~FKbD[zL]lMK~Dy@h[S`LChEC|C?|@@lEBlETtMNhFl@zN\\dHJtBZbHTtED~@HdB\\zHJtBLjCpApYHjAJ~Bf@xK~B~g@VfEXbET|CFp@PbBz@vHr@bFx@xElAhG~@zD`ArDtAxExAjE~\\laAfA|C^bA\\bApLz\\|BvGxAdEpArDfBnF~@jDfAxEp@xD`@jCx@`Hb@xFNnCNhEFvCBzDCrFYpLItCKvEO|FCf@IzDO|EW~J?FChAWlJOjFCv@U|JSdHYxJYzJAz@o@`Vq@zVWpJC`AMrE}@n[S~Fc@pIa@~FiAvKqAlJaArF{EbVkWvoAcBxHcBlHeA`EiCzIgAdDk@dBcArCiCvG}@vBwBtEeBnDkD~GgN~V}BjEmFnKcCfFcDrHiBxEwCzIeApDyBpI{@pEgAfG_AjGu@rFk@fGg@|FWrEIpAS|FOjHG~EAdE@zKB|F?^BpP?v@BtOFvZDtO@pMDnU@rC@~FF~^B`J?lC@nJA|JChHOfJo@vRo@~KYtDOfBQvBwApNcAbIcBzLSnA_BnKsRjqAa@rCo@rF_@nDMbBWhDQxCY|FMdEGzCGxKDrHNrHbExtAZpPDlG?n@HjMFbPHtNNhOLfHJ~FD|AJvEHbFRlK@VNbIFvCFhCBjABjBFzDFfE@jB@|FEpEIrCObGWrFa@`G]`E_@`Eg@xDs@~EcA|FeBjIk@~B_AnDm@xBcBbFa@jAyAvDmArCoBdEwHvO{IvQqAnCuAxC_AtBg@nAyCjIu@bCe@zAeAvDu@xCi@jCu@jDWzAi@xCc@~Cu@xFk@lFa@`F[dF[zGOxGKbGm@l}@OhRO`RIjHKbKQ`MEhACbBG|CMvEk@zO[vG]jGk@bIe@dGi@tFi@bFs@rFiAlIsAdIaArFwA|GiAbF}AlGoAvEaAjDyAtEwAlEuBzFaBdE{BjFuClGyDnHeChEsErHsFtIqL~R{D`HaM~UiEtHyBfDsAhBiDfEqErEqCbCsCvBqAv@uCjBuGbDmFxBm@TiAZkDz@eBXoAPaANmCTy@DsAH}ADsBAkCEiCImCUoFs@mB[WEmg@eJ}Ew@}Gu@eCM_EMaE?}CJkDRaFj@aEr@yD~@yDlAuCdA{DfB{CzAeCvAwFbE_Ar@iD~CqDhDoAzAqE~FwCfEaBhCgAhBwFxK}CjHoCrHoBfGeBdGoAdFiAbFgAjF_AlFy@pFu@nFeBpNkGdl@_BdOs@~G_AtIAJkBfQqAxLw@nHADSnBqA|Lw@tHaStkBwAtLyAhK_AjFgAvFiAbFaBrGkAbEqBvGELsDtLa@fAk@jB}AbFmBhGgGvR_DtJ}DzKsCjHkEjK}@nBi@hAELi@hAkDnHuKxS{EzJ_DtHuCnIeAlDqBpH_ApDgAdFmAtG{@fFuAhKw@fH]`Em@bJe@lKUjJEjEAtKBhERzKRzFr@`Md@|Fn@dHvC|Xr@jHj@hHRvCRhDZ~HL|ELtI@`HC~GGjEw@x^]|SEjDAhBEnL?xKFvKJhIZzO\\xK\\~I`AzQj@|Ip@zIdA~Lt@fHv@dHnAfKt@tF`AxGbCjOlD`RvDpQtI~]`BtHpAnHh@jDh@xDn@tFd@zEXfDTrCj@~K@PH`CJxF@n@B`CBhF?nD?fAIbHM~FY`Ic@fHY`EWvCGj@KlAC\\]~CUxBgEb`@e@zEaAvIYdCm@~FCXOzAg@pFcAvL[hEi@tIYxFOlCKnBwCxi@}@jPk@dKOpCOzCMlC[pKEvCAdH@xCBfB\\|L`@hH`AhKZnC^lC`BrJdB|HlAvEr@bCfAfD\\dAjBxFdBhFt@dC~@nDj@fCXzAT~AZrCZhELhEA~FCdBMzCMxBK`BYpEi@xGcA~McEbi@Gn@Ep@c@vFyAjR]rEa@dFCVa@rFg@bHcAdMu@lIa@lDe@fD[`CcBlLmAfIO`A{Hzh@wBnNiC|NkB|J{Gx^uApLUdDUlHU|IQ~HClA?PYlKQtJEhDUxHQbJKbJBvBDlBJfCT`D^~Cp@lEp@jDr@rCb@tAbLpZlEtLf@rAh@|A^`AxCpIn@|ArAtC~BtDxGzIbD~EbAlB`AzBfAzCjBrFXx@|ApEvAbE|@vB~@pBr@pAzBfD~@fAf@d@dB`BhBlAdD`BlFbB`HxBxBp@tBp@pJzCvClAxAz@lBvAjPdNtBrBbBxBtAbC~@pBj@|An@lBxKda@~@`Dj@xAjB~D`AfBz@hAjAvApAtApAfAnAz@tAt@jAf@pA^hB`@~@J|BP~YpApBL`CXxBl@pBr@pAn@vA|@hBtAvArArBdClBrClCfEjBvCvFvIrXxb@vBtDrBpE`AnCr@zBdAfE`AtEf@hCPx@hArFl@|CZ~ArDjRl@|CdF`V|AnHnArGl@pD^xCZdENvCL~FAfECfBKjDObCWbDIr@[|Bs@jEs@fDg@fBeBlFoD`Kc@vA]tA[lAYvAWxAk@fEQjBM|AKjBKbDAtA?xC?t@BbBFbBPtCF|@j@lFp@~DdAdFvArGbCzKZxA`@hB|Hn^`@~Bb@zCZdCPnB\\nFFpBD`BBxAHp]DxCDrBLvCNfCNbBPdBh@~Dx@dEl@hCbGdSnAlEtA`H`EbUb@xBz@rDjAxDdI~RrChHjAlC~C~HbAtCt@`CdBrGr@hDr@zD`A|G\\rCZ`Dd@|GPbDPpHDnHYjs@DpGJxCLjCLbBNdBh@`Ep@~Dz@rDf@dBr@zBz@zBx@jBj@hAt@pArApB`@h@~GhJlClDjBdCbCvClBrBlAlAdBhBfCjCxAxAfHpHbAjAbC|Dj@fAv@lBzCvInBvFr@rBz@dCnEnMv@fBp@nA|@vAx@~@pApApAdAlAr@rBx@pLvCz@XpCrAvA|@~@r@`C~BtBjCdA`BdApBbA|Bp@dBr@xBz@xCrA|EpGpUx@lDb@jCdCjPXzA`@`Bj@pBx@vBn@vAtNfVv@`BlAzC`AbDbEdO~BnIxApFnApDr@hBn@rA~@dB`AxAtAfBxAtAfB~ApDrCxFnEpCzCt@~@p@dAVb@Xf@t@|Af@jAx@vBdA~C`@jAlF|OtK~[v@|Bv@hC|@`DhAlE`ArDvBpIZpAvAbElAfDhCzGdDbHb@|@~@hBhF~KN\\\\p@lBhFbGhOfCxHzAxE|AhGf@vBl@tCj@xCjAfHp@hF~AtLT|Bz@pKh@tJr@ba@TpQ^rQ^~Ld@pJx@|L`@vEnAxKv@zF`B~JjBlJlBnIt@vCxAzEb@tAfH`Ur@xBjKr[n@hBzA`DnAxB~DvFjOtShAlA~@z@r@j@|AbA|Ar@tCx@|@NdAJ|ABnBApACt@Cz@?x@@bBJ~Bf@~@\\zAt@hBtApArAvBxCt@vAn@tAl@~Az@|CZ|A\\jBpCrUf@xCj@vBj@pBv@jBx@fBfAfBdLpPdA`Br@xA`AzBn@jBl@xB`@dB^lBRtAPxA^dEJbBFfB@tB?fC[xRAdBDzDHhBLnBP`BPrAZhBlEdTl@zDPdB\\tEPnFB~BCtCEdCIbBYdEO~A_BbMwAxLSbCK|BElC@bEP`EXvCRzA\\~BTlAd@hBbFxNf@bBn@|B^jB^bC`@hEHtBFlCJpH?l@DdCDfGBpBD|CB`DD|EBxA?d@NhMB|BBhABtCBpB@dBJbJ@jDAtD@vB?hA@bD?hK@fJ?jC?z@@`B@~@DbB@n@NzCRbDNxA`BlOp@dGp@nFnAlL|Ezb@n@nFd@fEd@dEt@vGZlBb@~Bj@jCrEdOfAtD^zA\\|A`@bCr@|FNvBPxE\\pJD|B`@hNl@|SJzI?|AElJObIKlBi@zLg@nLq@fNo@~E{@|DaF~QkAxFUjB[dFG~DFxEP|Cb@pFRjBNlAh@tFfBlPrAzIpB~HrBtF~A|DbBbElGhN~FtMbB`ExAjE^zA\\dB`@~CZlFNvYFdC^~HvAxLr@xEr@jF\\nDVbEPfDFdDEhHOpCUxCs@~G{@pG{@xFYdCSrCE~@GlF@xBF|Ab@zFx@jGjBlMZtC`@fFFt@F|@d@lF^lDf@vCd@xBb@zAd@xAv@jB~@fBhAdB|@dAfAhAn@l@t@b@~@^`AVx@Jz@Fx@Bj@?vB?nBNt@Np@Vf@ZJDXLZR^XfChBzC|B|EhD~AdAlBhAzBlA^E|Ar@rCpAbBr@rEnB`Bl@nBr@fAf@tAr@pA|@~@t@fCnCp@|@~AfCpAjCtAdDf@vAz@dCpAjEr@dCh@dCb@lCd@vFLvD?bAArCG`BIlBs@bMEdBA`BBpDLhDLxAXnCh@jDj@~Bp@`Cx@tB`MtXz@bBXj@|@`BdBnCd@t@b@p@j@z@zAvB`BbCzArBpGlJzAxBn@hAh@hAfApCp@lBfA|D`@jBVvAb@|Cf@jFRlE^lK\\zKfAx[FpECzDEvAO`DUhDy@vI[lDKnBI~AElBAlB?`B@zAP~EHzALbBd@~DTxA\\jB^lB\\pAl@vBjAbDhF|NZz@rArDb@fA\\~@xArCp@hAh@x@rB|BxFpFnAvAlBbCbAdBb@|@xAjDt@pBVp@n@hB|AbF|@bDh@dCf@xCh@jF`@xHX|GPbDThC\\|C^|B^jBfB|HjCjKfArEr@rCf@tBjAbE`@pAr@fBr@`BhBhDnHvL\\n@tAxC`AbDRt@TfAf@vCPvAXzDHhBB`BAzDKbCOdCUlBYpB]pBiJ~b@}@jEe@fDUfCQtCG`BA|CBpBTfFNbBP|At@fE\\vAd@bB^bAd@hAdAzBl@dA`AbBzAhC~ArCbB`DZr@`A`Cp@nBX~@XlAdAbF`@tCZ~BTlBBZd@~DpBnQrBhQ`AjH~@|GjGh`@~BhOtAxJn@zEF^fBzMhHth@hIlh@b@zBb@hB|@|Ct@~BrAjDrArC|@`BhGzJlArBlAdClAzCnCpIxNze@lCnIjKv[r@lBpA~CfAvBxAjCdB`CfBrBvI|InAvApAhBzChFbA~BlA`DnBtGh@bC`@zBr@xE\\`D^|DTdCTdCTjBb@pCh@vCtGrZf@zC\\zBh@zDb@|Cj@bEfOnfAx@`GXfCf@dGLhCLdDDjEC`EC`BUzFSpCs@`HeH~o@g@`F]pEKbCSxFEtB?xBAl@BfFDdCT|F`@bGp@vGb@|CtAxHh@fCt@nCl@tBt@zBrApD|@rB~@nBzApCT^jAfBhA~AnAxA`BhBfB`BjDxCZVdCpBtGjFf@b@~BrBJHz@x@hAlAz@hAf@r@lApBz@bBdAzBp@lBvArEl@hCt@|Df@pDTrBRbCNpCHtCBnD@vA@`G@dPDxGNdGTvE`@tFf@fFf@|Dn@vDn@tDRlAx@zErCnPv@tEj@vCpCdPx@fFl@jEjBhNPxAbAfJhAxLvAnQn@fJl@~INfB@Nf@fHLlBVfDPhBp@rFVtBt@hFZdBX~Az@jEv@rDl@`ChDdLvA~D~A|DpAvCpItQlCxGvAdEtAnEtB~HbOvn@`AfELb@jA`FvBbJr@~CJ`@vA~FpArEzApEvBhFlDjHbl@rjAn@pAhAjCpArDnAvE~@~EZ|Bd@hETnDNrDDdD?fDC`BE`BKzBGlAYrDMbBGh@WvCk@fHQrCOtFC~FBdDNjHjAz^Z~J@PHrCnApb@DhIAxFGrEQzGKpCO`Dm@lI]dEs@jGmA|Iy@jFGZkAbHuCtQm@~D]nCi@|FUzCO|CMtCKxDuAjmAUjT@zD@|CFlEJrE@b@@XLtCNvClAzQLvBHnAVzDLtCFfBBbB?nGM`GIbBa@zFuArOcBhUy@hLE`@e@|GeBfVa@zGMbDKfEC~FBjFFvCZpHTbDVrC|@~GfAlGxAlGp@~BxAnEfBbEvDpH|ArCJPrBtDlKjR|BpExCzG`CpGx@fC~Mbe@fArDPl@`A~CfA`D`BbEbB~D|AbDtAhCP\\|@xAzDbGrAbBzCpDnBpBdAdAtBhBxSfOnD|BxBlAdBx@lEfBxC~@|[jIxBz@nBhA~@r@jA`ArBvBp@z@bAzAdJ~N`BbCt@|@~@bAr@v@p@p@nAbAvBzAhHvEdf@b[lJ`GfGxCbDtA~UlJ|KpEhCnAjCzAlCfBjCpBbBxAnAnA~@|@d@f@|@bA~BtCvBvCtCtElBhDdCxEj@hA|JtRnP|[pFhK`@v@fBhDzEfJlApCn@`Bv@|Bn@pBj@~B\\zAZbBb@jC\\`CLfA`@pDPvA`@jDX`Cz@|G|@vHP~AXbCVtCnCx]pAvPFv@bBlTtApQVbEZ|FLfCJ|CJpCb@zQXpLXjMPfIDdANdHnA|g@VfGTtD`@rEh@rFf@|D`@lC\\tB`@tBVvApBdJpBdJbFfURx@lB|InDdPbAlErAjGfCbLR~@Jb@ZtAlBvI~Hf^hXrmArAdG\\xA`@dBr@pC`BnGnBlHf@hBpD|MrCjKV|@DP^vAr@hCjAlEhExOz^ltA`E`O~BbKj@|Cv@hFn@hFb@vE\\~FLhCLfGDlD@jEArFEl{@C|HKxT?zGFdW?`N?dAAvB@fDJlFTzEL|ATjC\\rCf@`D`@~BNp@Rz@bAxDn@lB`AlC~@xB~A~Cp@jAjAdB|AjBzDtD`CtBhHlGjIlHp@j@hN|LdDlCbBjA`CxAbAj@hAj@hBx@~An@tBz@xEjBn@VhBr@n@TxCjA`k@pTfEpBvAx@pBpAjDjClElDLJdG|E|C`C~AdAvAv@tB~@`Ct@~HtBLDhCp@vI`CnCbAbCfAdE|BtDhCpHxF~GpFf@^zBdBbHxElIbFbY~Nr\\dQTJ|LnGjQjJ`B~@jBnAlBrAz@j@vFzDfExCzAdAdBrAh@b@lAdAzC~CvB|Bp@t@`FnFnG~GzPvQ|FlGPP`QbRrm@dp@tExElAnA|@~@~GvHXZrAtA~D~D`ErDzF~E|@t@fGhFb@^hGjFzJbJpGvGlFfFlCtBlDdCvDdChErCTNxFxDlGzDtEbCfH~C|EtBvMvF|TnJZN^PhUvJhJ|DNHrJ`ElJ`EVJfSvIrGnCrGpC`FtBbEfBdL|EtD~AlAh@nAh@nInDtB|@vB~@|BbAnAf@j@TtS|IrEnB`A`@dDvAnDzAz@d@~Ap@bBt@bDdBdDpBfDbCrAjAfAbAjAhAjAlApB~BfBzBxArB~CbFxAnCpCxF~BxF~BtGpUvr@zAfEzArDbApB`@r@`BfC~BvC`D|CrCnBvAx@zClA`Dx@bCXdDN|BEvAKtGm@f@E~@IzDa@bAKdD]dIy@nEc@lJ_AzpByRtI{@^EzRmBvD_@zBWhFg@`Iw@vHu@pO{AvQgBvHu@jAKhEc@zq@_H`Ho@vHu@nFi@tD_@bAKtD]bHu@~AOjAK~BUrCQjDGzDDdCL~D`@xB\\bE|@zA`@fA`@nAb@r@ZhAd@|@`@rCzAjC~AbCfBpNzKrCxBp@f@fL|IzC~BtCxBtFjEdC`BzEjCtElBdErAnBd@xBb@L@v@L`BRdBP|AHbADdBBdC?fEKhCShC]xB_@zBg@x^eKlCq@vBc@tBYhCYlBKfFK`CDdCHzAJlBTlBVbANnrAvRvHlAvBf@|Bn@~Bx@xBz@`Bv@rC|ArExCnEpDlDlDzDrEzl@jt@nBrBnBlBtBfBtB~AvBvAxBpA|BjA|BbA~Bz@~Br@pOtDhDz@v@PfDv@`HbBrJ|B`JxBxBf@jBb@r@PfDx@dCl@lEdAvKhC~D`Adc@fKhCn@l@N~@Ttn@dOfB`@h@LdCb@jC^zBP|CLnFBt^OxB?dAAhHA|BAdGCdCA~HE~@?`A?rDC`@?nDAxyAi@pGCj@?vDA`s@WpGC\\?tECj@?fED~DP`BN~BZ~E`AtDhAxDvAnDdB~Az@tBpAvB~A~@v@p@j@tBhBfBhBxDlEbB|Bn@|@xBhDzAjCnDdHxIzQtArCdCdFjGpMbBlDt@|AnB~Dn@pAdBlDlAfC`ArBrEjJlDlH|BxE|A`Dbl@~lAvB|DlCdEjDxEjAvA`DhD~DtDjBvAjFlDvAv@lGvCnb@rRvCvAjCnAzFlCnDzA|ErB~_@fQtErBh@VbCjAlZ`Nb@RpIxD~Ar@`LfFxHlDxGzChCjAzAp@vbAjd@tAl@hD~A~@`@xLpFpEbB|Cv@bCb@nBVp@DbAFvAFhC@pDOlBQ`C]rAYjBg@vCaAtB}@hAm@lQwJzNoIxBmA|@i@nBcAb@WpMsH`DgBPIlAs@pDsBn@]fAm@pBiAhJkFzDyBpC}AlAu@xBkAzA}@xHoEfCkBrC_C`DwChCmC`H{H|FkH~ByCpA}AvCuD|CkDhBiBrBiBxBaBr@k@pA{@tD{BvAo@j@WnAi@zAi@j@UhA]`Co@~AY~@Q^GbAOdBSfPoBjDe@bFg@dFS|@?~B@lBFp@DrBLnEn@xB`@bCj@bDbAt@XvFxBhBt@nBt@v@Z~An@xJ|DnFtBzF~BlRtHzMnFjGfCvDvAzD~AfBbAjAj@XP~@f@lAf@nAh@n@f@nB`B~B|BvAzA^h@f@|@Th@^hALd@J^TxAP`BF|@D|B@|AGnBq@nSCfAAfAEhC?z@AbA?lB?tDBtCBt@B|@HjCJ~Ah@hFd@vDvApJ|AlKxBfORpAJx@NhATzARxAhA|IRjB^xC~BhUv@zIjB|TlCn_@J`BDl@Fv@Fn@N|Bb@jGDf@Z|DVpCv@|HJr@NlA\\bC`@vCJl@hArGn@~Cd@dCz@pDx@`DNp@bB~FHX`@pAL^Rp@Pv@DPDV~@rFj@rBr@`BxCxERb@Rj@n@hBhA|Df@bBpAfEtCxJ~ApFrDbMpDrLtd@d}AfCxIr@fC|@tCPn@v@tC`A~CV|@fAnD`Vpx@h@jB^lBTrAjBpJTlAvCfOtArHf@bC\\hBXjA\\~@Pd@j@bAz@hA`@`@n@d@PN`@T`@Rz@^b@Ld@N|@Lh@Fj@B|@A~@EbAOx@S~Am@vA}@`BsAzBwCpByCpBcCtBeBjBgAlBy@lCe@jAG|@@bAFjCHl@N|@TnDhArEpBhCrArCjBnDnClD`DrCzC`EhFlBrCdBnC`BpC`G~Kl@hAfHtNR`@|BpEbCxE`CrETb@jDbGp@fAxDbGfE~FbEdF|EnF|B`CpCjCnC`ClDrCdChBvCpBpFdDf@XxDnB~BfA|@`@dHnChHvBnJpBt@LdFx@~A`@pGvArA`@t@Xt@`@rA~@|A|At@dAr@lA|@hBx@zBj@~Bp@pDN|AVtDLtE@`CDbGD~BD~EF~Cj@|M^bG\\lEl@fH^fEx@`JbBvTXpEZzEFrAJfBPjDHpBJvCTfGFbBHhEJ`ENhKDdH@~OEfKMbTIfMEfM?dF?J@zHBvEJtHTvMl@zQ\\vIfAxU\\hHBh@b@pK^tKDnBHhCVbMNpOFdMAlKI|NMnICpBU`KOdGAd@SrFWhGg@`Ky@|Mg@pHaBnRqBrRgAzI}@nGgAhG}@lEuB~H_AtCkA~C_CpF}AbDwGpM{@nBw@pB{AbF{@fDId@]rBUdBOjAKnAI`BGlCAxBBbBFtBRfDN|Ah@jDRhAn@jCjAhEjBtFz@|B|BtFbCfGzDpJ`A|BpDjIrO`_@`FvLjAvChApCpAlDt@|Bj@tBp@pCf@~BLf@^rBZvBJt@VlB`@xEPrCNdDB|@J|E@hDAjBEvCIdCKrBUtDM|AIr@g@hE_@lCwAlHqAhF}EnQm@bCa@dBeAjF]rB]~Ba@vCWvBYfCKnAWfD[lFKnCKlDC~ACzD?|DBpC@pBD`BLvDZlGTzCb@`FZfCXvBj@zDv@pEbB|IzDdRjCnMrCdNrBbKv@vD~@tEnCtMbCvL@JRbAnBrJ\\bBfC~LDRhAxFdArFx@zEr@bFh@pERlBTtE`@nJDjCB|BBdDDxDGxBAl@IZKPKFY@QGWe@GYq@{E?k@BUFUTYJE`@@\\L`ErFrDlEdC~CX`@xEfGzAlBbEfFbFhGpF~FzD|DzEtEdAbAzF|F|FnGnEtF~A~BhA`B~AjC~AvCdBlDxAfDb@jAf@rAdA`D|AnF`A`EdAxEb@nBbAxEdAvE`@bBpA~ElAtDdBtEjAdCvAhCzBnDxAlB`BjBnCdCrCrB|A|@`CjA|Bx@|Bl@xBd@jLjBbDl@dDz@bDjAfEhBrQzI~E~BdUpJxIdDrDlAVH~CdA|IdCfEbA`JjB|Ev@tDh@bAL\\D~Dj@j@HbBTlEf@pIdAjDb@jBT~KdBbHnAdFlAhGbBjGjB`ItCxGpCjB~@zEbCdFnC~A|@dF~CfH|EbGnEb@\\dCnBjCvBrC`CnGxF~EpEtKpKrEvEdMxMrp@bt@bGtGb@f@pAtAjGxGnGnG~HnHjJbIlElDxIpGz@l@ZR|HjFfC`B|D~BfIrEpE|BhJnEnInDvDxArKzDvGrBfLzClHdBdJhB`Dd@~Cf@pBZnNbBvD\\xKr@jLb@dLNfLC`Te@~HS`@A|HSj_AeCdFKfCE`NGtB@`KXjDPtE`@lEl@nEt@~D|@|H`CtBx@rBz@|DlBlBbAvD|BhAp@zB`BpB|AvBdBlC~BxDxDpEhFtDzEfGbJvA~BtBtDbGjLpInRvBfFjEbLpA~CbEtK~J`XjC~G\\~@dApCVp@Rj@d@jAjA|CRh@|@`C`AjCjA|CxBzF`EhKfEjKxDzIjBzDjFzJjCnE|BlDxB~CtBpCdCzCtCdDpCrCvCpCjB`BrDvCvFzDlEjC`D`BfD~A|B`AfDlAlJrCxG`BvL~B~GfAbDf@vCd@jIpArJzAdInAlS~CnEr@rFx@|_@dGnUxD~E|@zDz@lG~AbF|A~Bx@lHvCnG~C~FdDzCjB|FdEnDnCtG~F|BxBhDjDl@p@~BhCbCpClAxAjEpFlDtErCzDvw@vhAvExG~@pAfDvEns@dcA~E`H|FjIjEdGdGrIv@dA`EfF~@jA~CnDzEzEbFjEbFpD|ExCrFtCjJ|DhDpAfD`Av@RpD|@dCf@dBZpANfFn@vBRj@DnBJhBHzBHbC@dD@^?tCGnEQlIu@zF{@xFiA`FqA|EwAxFoB`G_CzHcDfRkI~HaDtDwAhDqA~FiBzC{@hCm@|Be@|Ci@~JmAlCUlDQfJItCBtGThHn@lD`@nDl@fE|@dFtAfF|A|CjAxD~AvDjBpDpBlC`BbHvEtC~BjCzBnHfHnD|DtExF|EzGzDdGdGpKzAxClC|FlBfE|AvDbBfEzA~DtB~FvEnNrBvGlC~InDlMdEdOJ`@nCbKzAvFV|@pBtHxYbgApDxM^vAjAhEvHbYlLlc@xAbGjAlFjAzFfAzG`BvLJ|@^dDj@lFZtCLzAz@`IdB`Or@hFpA|H|AxHbAjEn@lCjBzGlCfInAjD`B~DzBbF|BzEbLlUdBvDvAfDvAtD|AfEtAlEpAnEr@lChAvErAjGpAhHl@vDhArIh@zEt@lItC|_@d@|F^zDz@zH`@xCh@jDp@rDt@pDjAtEv@lCvAfExAtDrC`Gr@pA|AdCnBrCbCxCxC|CbDnC|BzAnEbClBv@rPzFvAl@nB~@pC`BrA~@`BlAtAjAzAzAfBnBfApAxClEn@dAxAjCbBnDrAbDtAxDbAfDhAjEjAjFb@~B^zBd@dDh@rE\\dEZlEt@~Ml@pI^nDf@~Dt@pEz@~Db@dBp@|BvAnEp@hB|@`Cl@dBbAhCvB|FnCpHnAlDnKjYdCfGvAxClAnBbAzAlAvAhBlBvBbBlC|AxB~@|Bn@bCb@dGv@tCn@rDrA~BzAjCzB~B`ClBrBf@l@j@t@tDrE~AnBtC`DpBlBtAhAbDdCxA|@vBlAzBdAzD|A`Bh@fDx@`Fv@dE^fCHtFDzBA|DQ`EKzGa@fLs@~ESdAArDEzFBxENlAF`Gj@hFr@`IpA\\Ff@HzCf@vBZnDf@rEn@tBRbFf@nHp@bmAfH`Gn@xF`AvFzAlEzAvErB`Bz@vDzBlAz@~AfAtB`BnFzEnDxDvAbBzDjFbCnDzBjD`C|DlCnE`BjCdDpFlB|Ct@dAX`@vBdCvBhBfAr@rBbAl@T|@XhAT~BZjELbDAxDC~AB|BP~@N~@VhA`@lAl@vA~@v@t@nAtAdAtAnA|Br@|AbAxCj@vBZbB`@pC\\|DJxBBvB?~BGrCc@nHS|CM~AQdCOpEAjB?zBBtABfAH~BXxDLlAJbAT|Al@hDfBlIVdBV|BFfADhA@tACdBM|BUpBeAtHk@zEi@zE@r@OtBQzBOlCEfAQfGGxE?|B?tBDzDHzDPvDP~CZlE`@`Ez@pGt@pERvAh@bDbAvGdAhIjBtLxClR~Fj_@ZdCV~CHhBN|FDhDXzVJxJBnBZlERbEh@dQTxFP|CL|BdBjYXtENnBZvDb@dD^~Bd@fCdAdEpBzG|@lCx@bCXdA`AnEd@bB|AxEvCtKlB|Ij@zCv@bFrAdLRtBd@`HZ|GVpINlIHfJPlJHlDPrF@^@j@ZxHp@lMv@xLb@zFd@jFRvBtAxMlAxJvAdKl@bELdAHh@NhAhAtJPtAj@xGp@xHz@`Lr@dNRpE|@r^ZnRx@n`@`@tOl@rPZjHj@nKl@|IRzBZzDt@~Hl@|FZdCZfCbB`MhBdLv@pEx@fEtBbKjDzNdCnJnCpJfDpK^hAnDjK`@fAfEpLdN~]|GpPnLlZ`IjTnEnNzBvHhBhHnBrIrAvGdBlJbCjPt@zFl@vFvAlOv@|Lb@lIb@vLLhGHfGDzJ@vKIpLYzR]hPShGa@bPUbHQnFa@lOQzHShJA~@KpGGbJCnI?rB?nCBjGLdILxHD`BB`AVnIDnAN`Er@|N`AvNb@tF`BfQ|@dIt@fGVtBz@nGz@lGbAfHnEnX~@rFf@rCvBrLxFnZ\\nBP|@bC`MdCvMTfAnFbYjHn_@zA`IRbApGt\\fJbf@zB`LZ`BlL|m@lEdUfHx^RfAxBzKbGdZvA`HpCjM~AnH`BlHt@`DlCbLtBjIvCnLh@tBrCjKtGrUlE`OjCrIbBnFvExNjB|F~B`HlEtMbFzNdCnHpDlKfFjO`AtCpDxKbA|CbCxHrChJjC~IhA~DjDpMfClK`BhH`B~HpBlKrA~HpAdItA~JfBfOxAhOn@fIx@lLt@tNd@jM`@|OT~KBtAHbFHpEFnEHrEPzHX`NTlHTxFPzDNzCTxDX`Ef@dH`@hE^vDn@bGr@bGbAbH`AjGh@|Ch@tCTbA\\fBb@xBj@nCn@pCzAjGjApEhDhLhAnD`@jAtA~DjAbDZv@nAhDbBlEvHjRxElLx@pB`EzJjBrEfK~VbJzTt@hBtCbHfMb[~DxJ`@`A~DvJfa@bbAn@~AdBfEpExKzHhRHTVl@`E|Jn@~AzAnDhEjKlBtEpB|Eb@hAn@xAjCjGlClGd@bArCrG~AjDhAfC`GdMd@|@~@nB|GrMnGfL`DnFdH~KhDjFb@n@`B`CfHzJzBzCjEzF`C~C|I~Kd@h@fEhFv]pb@nDnEn@t@v@`AnCfD`JvK~CxDj@r@xEzF|BpC`GnHlB`C|B`Dr@bAnBzChB|ClA|BrAlClApCzBzFd@tA\\`An@rBzAnFn@bCrAbGtAjHpArHfAxGbCdOPhAtGpa@l\\nsBpCbQnBvL`A`G~@~F|I|i@jAlGn@~CxArGl@bCp@|BzB|GjBtEr@xAvAtCR`@t@nAx@vAdA|AfBbCzAlBlBxBjBnBbBbB~@~@zEnExElEbCzBrAtAl@l@bDlD~C~DbAxArAvBjAtBr@vAh@jAz@vBp@jBx@pCb@bBf@|B\\jBh@hD\\bDh@~GVjGPjK?dEArCG~IUtNK`IGbJ@tIDnDLhFR|DN~B\\nDZvCv@bFd@bC|@vDj@zBr@zBr@pBrAhDhA`CpBdEfAxB`AlBp@tAfA|Bt@fBrApDd@zA`@vAh@tBf@dCl@pDTnBVbC\\zEFfBLjEAdFIfFy@hXGfF?~B@zADjBV|FLdBh@~ENfAXjB^pBXnAZtA^tAd@`Bt@xBlCtGrBnElJbRhAbC~@`Cr@fBtApDx@pBzAjEvB~Fr@rBRj@pAnD|@|BbAnCjAnCbAzBfC~EpClErAhBdAnAjCtChAfAtBdBlD`ChEzBhCbArBp@dG~AtCl@bJjBnCt@jA^nAl@lAj@`B~@bBhA~ArAhAdArCxCbI~JlBzBrBpBpB~A~BzA~@d@zDxAdDz@bEj@bCTfHf@dCFxLXvDRvFh@vB\\|Bf@tDhAxAj@bBx@zCdBf@Zn@d@vAdArAjAhBdBdBlBdBxB~A|Bf@v@f@x@fB`Dr@`Bx@hB`AzBfEhJrFbMjChFz@bB|AlCfBfChBxBjBfBjCxBlCtB`@\\tDpCjGrFzBzB|AjBlCvDhAlB|@nBd@jA`@hAp@vBnBfHz@jDn@hDl@dETlBLxANpBRjFH|HCzDEnACnAKxBUrDYlCKlAQrAOvAQxAg@|DO~@[|A_@lBm@xCMn@a@vBQ`AkAlHa@rC}@vIUpCCh@MlBSfEq@hZIvBW~Dc@tDm@|Dy@~D}BvJy@pDkA|E{@nDU`A[pA}@|D{AzHkA~HIf@It@Q|AOfBWzDKjBIrCE~D?`BFzFF|A^vG\\pDd@rDlArHfBjJbAjFb@`Cj@fDz@nGN|A\\dERrEFrC@zC?jAI~DI|BMpB_@lEQbBq@tE]~Bg@xCoBhL}@lGi@jFS`CSbECr@C|ACjA?zBBfDBnAHtBJtB\\hEDf@VtBPjANfAJj@RfA^hBp@pCXfAn@xBp@vB`BrEx@rBJTLVr@bBl@tA^v@~BzEtBzD^r@r@rA~AvCrAbCn@pA`AlBlApCdBzEHVLd@V|@Rv@p@fDRjAb@xDL~ARlCt@vMPlCX~CX`C\\jCrHjg@d@|Ch@vC~AtHfAzDjAfDr@fBz@jB|@bB~@`BbBfClD`EhD~CnFtExEdEtDjElC`EnCjFxEjLbBfEjDvIbB|DjA`CvA~BdBxBnCfCzAdAhB|@hAb@dBb@tBZnDZhBLxANtAX|Ad@fAf@fAt@zBvB|AbC`@v@`@bAl@dBp@`Cn@zCbBhLn@nGXlDh@|KP~GDpHCdIEhJEnH@`H?pB@XH|DNzDPbCLfBX`DhAnIzA`IvArFh@dBfBhFzBfFfBjDxAfCdBvCr@hA`AxAdKlPj@|@pN`UtAdCpAdCt@dBx@~Bp@pCb@`C`@~CXvDJtCd@~WLrDVxDz@rGvAtG~@fDv@jCvChIjAxCfAbC`AjB~@rAtA|A~@x@~AlAjGnDjCdBbCzBxAnBbAdBbA~Bn@bBd@~Ah@|B`@|BtA~JrBvNhAhGjArFfApEfBxGvKl`@bE`NhBjFbHtPtCzGhA`ChCvGfBbGhAzEvAtGfAbFp@lCtDdMxBrG~DzKt@zBpBrHvAzFTdArApH~BvOZdCz@hJp@xI`Bz]J|Bx@tHb@nCrGn^jB`Ln@tEb@|C\\fC\\nCRpCJxBH|BFnFKzF]lFUrBS~A_A~EoJj^aGxUoA|Gs@jFu@~H]lFUlL@rEVdI`@nHjAhJdBhLpDfV`BxKhIni@VzBh@tFNpCFtBBhB?fAAdAKbEY|EOxAk@hEa@`CkAhGeAvGm@pFKlBOxDAdAAjB?vGFj]DvZDtS@xIAdCO`KGjLb@jW?`E@bJBjGD~CJpDVlFd@|Fr@`Fv@rEThAr@`DdAzDvEdRhAjFrA~JfAfNZnKBnEIpIgAhW[rFkAbS{@|Le@~GqAbPq@bIoCtXgDpZ}CnVgDbWwApLa@|FQhFM|KPdIb@pH|@fI`BdKjDvO|A`I`@nCn@dGTfCL~BJ`CHhHGhKo@pLqAfL{Fv[qAdMa@rKEpJJbG\\tItAnMdEh[hMtbAdAvL^pJNrJ@jP\\bP|A|WX`JNjF@bJOtJWtGg@jHu@hI{BvRc@rDYpDY|DYxHGdEDdIDfBb@tJt@vJj@|FvAtP|@rLh@|J`@vJ^lOJjIBtFI~WSxJ]tK_AvR}@tLw@pIm@xFoAdK_AxGeAxGiAvGqAtG{CdNoDtNaMjf@eAvEaA|EqAlIs@pFs@lHq@dKQfEMvECjBGjG@hFDzE^bTFhCN|IR|J^pRp@v^VvMNnM@xCAnHQhJc@nJKdB_@bF}Ddb@m@dIc@~KMfKBfFJjF^pJ^`Ff@rFrA|JjBbKjCtKhEpNlCdK|@fEn@hEl@lE^nEZzEL`E@jEAxDGjFUhFa@vEe@dEo@fEcCfMoCxMu@lEs@lFg@pFW`EQjEGtCEnD@rBDnCFhDPpE^dFh@fFx@~F`DbRx@hEh@tCNz@hDvRdAtG~@xGhAxLt@zMRtJDzJM`SGhTDtTJnMPtM^jQd@vPr@lPnA`W`BzVpBlVlEza@lBbOtBpOPjADVjDhTxB|LvFhYpBdL|A|LbAjM^tIV~J@`IInIg@rSSdLF`N`@pLz@dOp@|NHtG?bESzIO~Ci@rHg@nEm@dEm@hDOt@]fBgA|F{@vEo@jE_@xCm@pHSpES|EMnEKzCSjE]rEm@nFq@bEgAdFyAhFqBxFkBtDo@jAk@~@cB~BuA|AaD~CeDdCyDtBkC|@iCn@}Dj@eCPqFJiDG{AKqEa@aC[_B[aFmAqDmAkHeDeRaKiJuEmCkAqC_Au@UoBe@mBg@{Ew@}Hs@oKL}Ed@_Ft@oEbAcHhBkGjBoEdAkEj@cDVgHFsGCuGFoFZuDd@sCj@aDbAmD|AuDrBqCrBoEzDqB|BkB~B_ApAQTmAlBaBxCuBpE{ApDuBpGy@tCs@tCaAxE_AlF{@jFG^c@~CyB|NsAjHgBfIsAdFwA|EsB|FeBlEkF~KyBjEsL|TyDvH{EhKkF`OwBjHeC`KgCfMm@vDu@rFiArJc@jEaBbPqBnWc@rIKpCCl@a@fPq@n]SfKMrGK~FGdE@xDLhGFfBVhEr@fH`AtGrApGzAnGfC~JxA`GxDtOxBlJt@xDp@bE^~Cd@bGNvCJ~CBrEIlFIjEYxE_@rC]rCK|@u@pEw@jDu@lCy@fCqBhFuA|CyA~BqEdG{HhIoDrD_ElEgBrBuAlBkCpEgBdEm@`BsBtHgBnKa@vFSdFC`FHfG`@bHVvBjEhY|CtTpCfU|AjGdGjRhCrMlAlFdB|E`JvObCpGlEnQtCjH|DtF|JxJdCtDxCzH|C~JdCvGhC`FlD`EnM|IzB~BfDhFlB|EhB`I~@dJR`KJzMZhGp@vFlBvIbI|ZvA`GhAjIZbET|DXxGDl@|Bhg@`@fIfAzW@`@?|IWfHu@pIuFtc@{AzOw@tP{@vv@_@bP_@fIk@fI}AtOcBvLoB|KoCxLgDnLeEnLs@hByDzIiEjIkBxCq@bAkEjG{AjBeS`TqFzHcBzCyB~EiC~H}@hD}AzHaAtG_B|Vy@`JoAvIiBbIkDdNeJt_@sChRu@dIg@~IUrHMhIU`VAlEBpBDhBLxCN|BVlCVpBXlBd@bCh@|BjAdEjA~CxIfUlAhEd@tB`@zB\\nC`@vFNpEXdK|@dZMbH?hDDvDP~Dd@pF^hFb@hL\\dMJ~G@jCAfCKhGGrCm@lPQtFO`JCzI@dDBxCFlCHtDZ~HjAxTvBxa@d@rIj@jPH`FTx`@TjMb@~LTfFp@xKZpEr@pIbAzJh@jEv@dGj@bE`AfGxE|Y~A`K|BjNPjAJj@|CxRt@dFTzAb@dDhAzJp@lHP~BPbC@PRbD^bIVjI\\vRT|ILtDb@zI\\bF`AzKb@rEbD`Y|@~I^rEb@vFp@dL|Aj]VpEXhEz@fL~@lJr@jGvAzK`@tCvAtInC~NzOfz@rBpLx@jFrLz{@p@vEdAvGnA~G~BfLdAxEbB|GzAvFhBhGrCxIfBhFtDnJjDbItAvC~ChGtCnF`BrC`EtGlQrW\\b@rBzCdMpQ`FnHrEdH`DjF|CpFpGvLpEjJv@bBlCdG|CnHbFrMhDvJpCnItCrJfQbn@lC`JxAnEbCxHnSjl@pB|FzA|EdCpIn@vBpFxSbCrKzBnKtD`S~Fx[pAnGbB~HvTp~@xA`HlArGdAbGv@jFz@rGbAxIj@xFd@tF^hF@Vb@xHXjG^hNN~K^x`@PjKn@tSjAbW^zJZlMHvI@nGA|B?fDAhDA|ACdP?|KF~IHpE@b@R~HXhH^nHXnEZ`Ex@hJn@fGl@`FrArJfBlKnBdKpAhHz@vFp@xEn@tFbBdPxArLvAnI`AxEt@`DFVf@pBdBbGpB~FdAnCtA`D|BxElC~EzBjDrRbY|@zA|@bBz@lBrAhDz@rC`@zAr@xCl@dDd@bDb@lEPhCPlEDhCA~GSlGS~Ce@|Ea@lCs@~Dk@dCq@bCy@dCy@zBeLvXiHfQs@`BoC|Gy@tBu@xBaB|Fk@nCi@zC_@jCo@bHQxCIzCG`D@~ENdFjArXVzGN~LAdKa@bRs@tOm@bPYfPEjK@`Y@rI@X@|EFtWMdJs@~PIpAiDz[qCvRc@bEQrB[fFIxCEfEHjH^|GnA~NrBjOn@|OCfFkAjVUlLBzE`ArMr@xFp@rEl@xCxNrg@bAjIhBrWj@fMXtEf@zF`@bDj@bDvAvG|FhRdPf\\bGjPzFzO|BzM~@nQAfMw@bL{A|J]`BeBlHgCbKMj@Sx@iBtHe@pBqE|Qw@|CkBbGaAlCu@lBuB~DaBlCwArB_EdFgDpEkClEu@|AUj@a@`A{AfEy@~Ci@xBa@vBe@rCy@tGQxBKfBCl@GbBErE@hFD|BHvB\\pGNlBBb@d@bEx@jHf@tDvAhIx@~DhA|EbAfDhAhDnB`FbMhZ|A|DxAdExAvExApFtAnGnAvGl@|Dj@hEn@zFZvDVdD\\tGnAzYBt@^fGX~Dh@lGjEr`@x@tI~D`d@t@tHzAnMr@|EJp@b@tChAfHtCtObBrJpA~In@|Fd@~E`@rFfB~W`@fD`@jCr@pDj@bCfAzDbEzM`AjDn@lCr@hDl@bDj@`EZlC\\tDVvDHhBJtBFlCDvCHpQFlFNbKVxGdAzTL|BD~@~@xRr@rNt@pOLhCZxGB`@|@zQn@nMb@|Gx@vKr@jHrAfKdExZf@fE^lEZfETlEp@rPTlEXpD^rDj@jEp@|DdDvPv@hE^fCd@~DP|BRvCHbCDdBBzCC~CGrCI|BYtEy@bJ{Cj\\c@xFOjCMvFChBDzEFrCjBhd@VnIDzE@hDAz\\BtFHxFNdHLtEVhFdAlPt@pJvEbi@d@zGZjGHhDHrDFbF?zEEnGeAnd@E~C@hFDdCJ~BNjCf@pF\\nCtCvRh@~DNxATpCNbCJlDDvC?fDIvDKtCQtCY|Ca@dDi@fDy@dE{GvZmBbJo@fDe@xCm@lEc@zDYfDc@hHYlH{Cl|@i@hNg@zNKnEEvGFtGFbCNpDVnEjC|\\XvEVhGFjG@pFOh`@?|BEdIAnGCzFKbWEfFS`H[pG]nEe@pEq@|Eg@bDy@hE{@xDcA`E{H~XmAxEi@~Ba@tBeAlGa@fDq@rHUtDI`CO`GCtC@hDF|EJ~CRdERvCXdDpA`M|A`O|@lIv@bI\\~DTdDTtEJhCJ|EDxD?lEC~DKfFOrDO`DWvD]bEa@rD]jC[zBeAxGwPhaAy@dF]lCYlCUvCKrBKxCCbD@|FL~DL~BPzB\\hDb@~C^zBl@vCv@zCr@|B~@fCl@vAj@nApAbCnApBhA`BvIbLrAnBhAjBx@~AbA~B~@~BjAzDz@dDj@pCh@lDh@rEXbEPvDFvD@rCC`CKzDeAjUw@jNgBz_@}@~QQ`EElB?hBAtCBnCHbDX`Gf@vFf@bEv@|Ed@xBhA|Er@~Bv@|BlA|Cx@hBx@dBlAxBbC`ElC`FvAzCbA~Bv@tBz@pCdAtDt@xCf@~BlAhHdBlKfB`L~G~b@xBjNtEjYxDhYbClPdFpj@~Ejn@lBxXXxEXjJJbORpJ`@tGbAhIvD|UzH|g@`BjK|AbMj@xG`@|GXfGRxJFnJIjJ]`OIzCKvDu@rY_Av]m@lUe@tPU`Ha@jIa@xFk@nHaCvY[xE_@hGWhFUhGOpHEjDEpJDzVHrY?tEI`HGzBO`DSxCa@nEg@hEm@~D}@jFwApHg@|Cm@pEk@jFe@`HY~ICzC?jD@nCH~CPnF~@`WfDfx@xA|T~Gvr@TrB|Ir|@~H`w@Db@dBpQp@vHd@dH\\vFVvF`@dLNbGLpIH|NE~LGvEq@db@CpE?|FDlK@l@@fBV~JVfHd@~Iz@dLnAbMl@`Fx@zF|@vFdA~Fz@pElDlOfH`ZtBvJ`AjF~@rFhAvHdAfIl_@jvC~A~Kf@~ClAxG~AtHbDtMrQ~m@fC~IxDnOpB|InCdN|BrMhAbHxBbPnD`[fAzIbAbHfAxG|@|EpAbGnBlIpKjb@jJj_@^|AlBrIdBjIbCpNjAfHdAjHlApJfAdJl@jGl@pGf@vGl@xIb@bILrBFhAh@nNT`JT|MHjL?pMGhMW`\\]l\\_@l_@?v@EjHAtHBbFRfL^zKZ|FXpEj@nHjAlLlF`e@dAhKtApPbAbOjAfSp@vIx@zIrArLnCrW`AzKn@nLhChm@fA|Y|@pOrBfX|A~Sn@tJPlDj@~LZxJLnM@lM[xTo@|Pq@pLkBbUyBnVoBrWqAvZmBxh@_A~NqBzSuDfYeD~WgBtTaAdT_@fT[~i@Y~OOxEc@tJi@tImBxZ_@rFKbBg@zJc@lKUlHSzKIrM?fG?d@@`DFzFR~KNlFRxFXzFf@zIn@`K~C`d@r@dNl@fTJzQQzT_ApXgArXs@pYChPNtMbBnj@^nRQpR{@nP{AnNaDjQ{HfXm@hBoBlG_AfDu@|Co@rCu@zDq@bEo@lEg@rE_@`E[vEY~FcAnY]nHa@lHa@lFi@jGqAzLw@|F}AxJe@nCOx@qDtRgDrQw@dEiCpNqCvPyEp]wAhJmAdH{AnHuCtLyCnKkAnDkBpFi@vAsBjFe@p@sE`Jm@r@]ZWTuBrAQN[b@_@dAMj@Gd@GjA@f@Fv@Lv@Nh@h@fBl@fBbBlF\\jAf@hAVb@\\d@z@t@`@X`@ThAb@lAZ`Dr@`BRd@JzAVbHv@v@L`APvHlBfCf@tATjFp@zD\\xCNnGJtDAxAEvEU~AM|Ek@pBYhB[pDy@dFsArG}BnCiAtFqCdI{ErVcPxEsC|QeKbEcCnf@cZdH_EdEmB|Ao@nDgAzEgApCa@|C[xCQjBEtBAtDHhDVzAPnDl@fB\\tBb@zAZhF`Ap\\nGlBb@vDj@vFz@lJ~A~Cp@RFbAT|DnA~CpA`ClAxAv@vBvAtDnCdHfGvC|BnEnDdDjCfBpA~FxDbIjElEpBvCfA`Bj@xAb@jA\\bB^zB`@tDd@xCTpELnCAbBErGi@nHeAxEgAhFwA`KqD`EqBjIuD|FwBnHwBlGsAjDm@|BYjHe@vGK~E@pDNvEZjD^rBVzH|AbIxBjDlA|WpHnUtFxOrC|PpBbM|@pKZ|LPpQCp]WvPq@v]wCjd@qFpLaBxJkBbLgCpTuFbLkCfCi@fEo@fFk@rIm@tGMvHCfJ\\vDX`MvAjNpBrQnCvMbCzPlDfIxAdFv@nHv@zE\\vHNdA@L?jBBjC@rJQtS}Afc@yDzPqAvh@iEpQ}@ha@cAlm@iB|HInGHbFTfFh@`GdA|@NhBd@~LjDlFxB~H~DjG`E~IbHfG|Fx_@`b@rIzIdRfRxFtFfJ`IfJjH|HrF|XfRnXpQvMlJ`LlJ~IfJ`@f@jJjLlFxHpHvLbIdNfFdJtI`O|C|E`DpErBpCpBdCrHpInGdGdHvFzF~DxG~DnFlCnF|BtHhCfFtAbFhArDp@nWlD~K~ArFv@N@bH`AlE~@jHbB~FjB|B|@zB|@vAn@rCtA`EvBxDxBtRtLxK|Gf@ZdItE~H`EjFbC|ExB|b@lQbFbCd@Vv@`@zD~BnD`C`FzDzDfD~B|B`EpE`DtDbFrG~E~G~GbK~HpMzK`Sbb@bu@pWne@hDrF`FzGPP~E`GhFjF`GhF~EpD|E|C`FnC~DhBlDtA`HxBXHjEdAlEx@fHz@n@DpG^~GH~FI|F]jGs@`GcAdGyAdIgCnJcDxR_HvH_CjHmBxHcBnQsCbMcBtJyArRmDvAYbM_C|IyAtJkAzLsAnLmAzGm@jYqCzIo@tHS~D?fGNlN`A`YbC|]vDlMlAxG^|CJnGLhHIpI]dIu@`Ek@v@K|LcC`JgCxPmGvd@wQnX}Jvb@gOlVgIh@QfHuBpKgChIsAfHm@rJ_@|G?vHRlF^pKnAdKxBlKbDbI`DhQ|H`CdAtFbClD~AxAp@dSvItF|BlBv@lEfBxJpDjFpBnMtExKtD`A\\~c@vNjErAfJjDvHbDrIfEtGrDtRbMxAhA`VvPzDhCtElCzE~BpGjCbF~A`GxAzFbAlFn@vF^`HRt[a@~IQjLKtKKrf@S~H?|DFdFXvD\\xEn@bEx@lG|AbF`BtMbFfLrExEdBhGtBbG~AfDr@tK`Bb]nE\\DrHdAvI|@jLn@f\\`AzET~CTbCXz@JlEr@|FnApF`BxFvBhIxD|o@p^zAt@jAh@~EhB`GjBjEdAhEx@lG|@lF`@tGPnF@r@HbIM`AXd@T\\Xt@x@h@~@Pb@V~@`AdFLZVl@l@v@p@`@t@Lr@Ev@SpFcApCeAVQfAeAb@WVRNZFZXhFJpALbCHdBZrCN|@j@pCb@xA^jApJ~WzA~En@`CXpApHn_@rArFpJn_@bA|DFRT|@^lAh@xAl@tAl@jA~@zAd@j@RV~@dAdMnKLLn@l@hAhAx@fAz@vA`@v@Tn@~AjEPt@B^?VILEVC\\BX@FLZNNPFP?RKJODINGn@KdAEhAKxAAf@Bb@LfEtA|@RxFr@pFh@xF`@r@F~CXzHl@pMdAvJx@|Hr@F@fGd@PBfXxBpJt@|[lCjVlBtAJvOpAp@DTBdAHVBhIp@dXvBhXxBtY~BfF`@zCZ^Bp@BjAJbFF~@F~Cr@jANXDdCNrCRrCTdGf@XDRFHFJNBNJPJHNBHATNNPTb@xEjO`AtDjAfGf@dClB|JbClMpBdKh@rCxArHdHn^ZdBdApFr@bEPfAJt@TdBb@xD\\dE^pGNtFDlC?zGAzA?|AClIKve@C~K?tBCfIAfCAbCEdDSfEKhAK~@Gp@Kr@SxA}EzXOfAOfAYdDEj@GbBG`D?rCFhCNhCHhANvA\\zC`A|HLdAtBtPhAhJRhBd@vDd@vD\\hCh@nCT|@v@|Bj@pAn@fAv@lAf@p@rApAd@`@t@d@~GjDj@\\rAbAh@f@VV|AtBx@xAp@`Bd@nAp@nBd@jArApCxAzB`AjA`A~@jA|@dAn@t@Zr@X|@Vz@PtBRtA@x@CtFg@bPgBrAMpCYtAQjFi@lBShEe@~Ei@tB[bB_@lA[`Cw@x@[dBUxAU`A[vBmArAuAZLHDt@t@hAnEtEnW`Nhw@pB|JhBnIFd@Jn@@r@CTCNC`@F^FPHHHFTDLDJFHLTd@P\\fG`Q|Xhp@vAlEp@|BhAlFbBjINd@Nr@Db@?RIVAZ@ZFRJNPJN@LCLKFKLCX?r@Td@RhDvArAl@`FtBhBv@l@Tb@RNLzB`Ad@P~@d@x@Z`@JlBx@LFbDvA^V~@`@dAd@^Nf@LjAf@vAn@`@Zt@ZlAf@XL^NbBr@bAd@nAv@Z^\\l@Xf@?HDLDB?JBZBPBVPx@^rAJb@T~@l@jIDb@V`Ab@pARl@Zx@N`@Z|@HRJTLNTXJNHHNRBDZ`@TZPVTZp@xAPh@FXRlABX@LCAC?IJAP@DBDH@FEBELHPBfEA^D~@ZXNl@`@RLNJFBNJXNZPjAt@zCnChAzAZf@R\\\\l@FLBFDDd@r@H^l@r@dHbJdElFbApAvK`N`D`EzA`CRb@Tj@p@lBf@nBLd@vCrMh@dBl@lAh@v@|ExCp[hStKlHjL|LxF~Ft@v@|CfDl@l@t@v@jA|@tEj@pBTlAL^HH@PBTAJE\\OfDoAn@Wd@j@NZh@|Al@nBPPJJ|FbDt@f@LJhUxFp@d@bElFbAtATh@ZjAPrB`B~ZPnAVtATz@Vp@`AxAhGfGfA`@r@Nv@\\\\Xl@p@fDnCdAf@r@N~@JXDl@?nBShAq@h@a@\\_@^m@^y@HSt@{Cf@mDL_@RSRGRBNPHZBZYpH@nCFdATdCPbATfATr@p@dB^l@`@j@~IvJf@^p@\\t@ZXN\\X^Z\\TvAbANRJVDTD^LzBT~ARvA@DvBrQBNn@nDd@vBJv@Dh@Bx@GzB}@`JKpACp@BhAPpAx@rDL~@TfENxCD~ACfAQnDg@vGKbB?V@tBnApSJfBJr@fAjDb@lB`@x@VT\\NZDhADf@H`@Pr@b@`@\\`@h@bFnILXHZB\\?XCZETWf@m@h@MPQh@C\\@t@FZRd@V^JJhArAfBpBd@Zb@F`AMrCi@zB_@t@@vALtGdAr@Hj@?v@EdB[l@Ep@HZNJHDDPRj@pAdBhGNVjAz@FJHNNViBz@oCtAc@L_C^q@XcJxDuF|B}BfAeCtAi@^sBjBaDrCaI|EkEhCyFnDMH[V]Zi@n@]^aI|KyEdIuAxCwB~Ke@pBbAVtEj@h@^u@nFq@hDWvDBrCTzDB`NZdC?xB",
+      "segments": [
+        {
+          "distance": 881238.2,
+          "duration": 29696.2,
+          "steps": [
+            {
+              "distance": 2226,
+              "duration": 94.3,
+              "type": 11,
+              "instruction": "Head south on K 7931",
+              "name": "K 7931",
+              "way_points": [
+                0,
+                41
+              ]
+            },
+            {
+              "distance": 244.4,
+              "duration": 14.7,
+              "type": 1,
+              "instruction": "Turn right onto Heuersdorfer Straße",
+              "name": "Heuersdorfer Straße",
+              "way_points": [
+                41,
+                49
+              ]
+            },
+            {
+              "distance": 4216.4,
+              "duration": 253,
+              "type": 4,
+              "instruction": "Turn slight left onto S 50",
+              "name": "S 50",
+              "way_points": [
+                49,
+                119
+              ]
+            },
+            {
+              "distance": 1940.6,
+              "duration": 116.4,
+              "type": 6,
+              "instruction": "Continue straight onto Hauptstraße, S 50",
+              "name": "Hauptstraße, S 50",
+              "way_points": [
+                119,
+                157
+              ]
+            },
+            {
+              "distance": 2129,
+              "duration": 127.7,
+              "type": 6,
+              "instruction": "Continue straight onto Ramsdorfer Straße, L 1350",
+              "name": "Ramsdorfer Straße, L 1350",
+              "way_points": [
+                157,
+                191
+              ]
+            },
+            {
+              "distance": 431.8,
+              "duration": 25.9,
+              "type": 0,
+              "instruction": "Turn left onto Pegauer Straße, L 1350",
+              "name": "Pegauer Straße, L 1350",
+              "way_points": [
+                191,
+                208
+              ]
+            },
+            {
+              "distance": 454.7,
+              "duration": 27.3,
+              "type": 5,
+              "instruction": "Turn slight right onto Bahnhofstraße, L 1350",
+              "name": "Bahnhofstraße, L 1350",
+              "way_points": [
+                208,
+                218
+              ]
+            },
+            {
+              "distance": 1650.7,
+              "duration": 99,
+              "type": 6,
+              "instruction": "Continue straight onto Meuselwitzer Straße, L 1350",
+              "name": "Meuselwitzer Straße, L 1350",
+              "way_points": [
+                218,
+                249
+              ]
+            },
+            {
+              "distance": 1733.2,
+              "duration": 104,
+              "type": 0,
+              "instruction": "Turn left onto L 1361",
+              "name": "L 1361",
+              "way_points": [
+                249,
+                270
+              ]
+            },
+            {
+              "distance": 760.5,
+              "duration": 45.6,
+              "type": 6,
+              "instruction": "Continue straight onto Breitenhainer Straße, L 1361",
+              "name": "Breitenhainer Straße, L 1361",
+              "way_points": [
+                270,
+                284
+              ]
+            },
+            {
+              "distance": 1736,
+              "duration": 104.2,
+              "type": 6,
+              "instruction": "Continue straight onto Luckaer Straße, L 1361",
+              "name": "Luckaer Straße, L 1361",
+              "way_points": [
+                284,
+                314
+              ]
+            },
+            {
+              "distance": 4673.2,
+              "duration": 259.4,
+              "type": 1,
+              "instruction": "Turn right onto Zeitzer Straße, B 180",
+              "name": "Zeitzer Straße, B 180",
+              "way_points": [
+                314,
+                389
+              ]
+            },
+            {
+              "distance": 5177.5,
+              "duration": 213.3,
+              "type": 6,
+              "instruction": "Continue straight onto B 180",
+              "name": "B 180",
+              "way_points": [
+                389,
+                441
+              ]
+            },
+            {
+              "distance": 4039.6,
+              "duration": 161.6,
+              "type": 0,
+              "instruction": "Turn left onto K 2217",
+              "name": "K 2217",
+              "way_points": [
+                441,
+                488
+              ]
+            },
+            {
+              "distance": 154.6,
+              "duration": 12.4,
+              "type": 6,
+              "instruction": "Continue straight onto An der Alten Schmiede, K 2217",
+              "name": "An der Alten Schmiede, K 2217",
+              "way_points": [
+                488,
+                490
+              ]
+            },
+            {
+              "distance": 469.3,
+              "duration": 33.8,
+              "type": 1,
+              "instruction": "Turn right",
+              "name": "",
+              "way_points": [
+                490,
+                494
+              ]
+            },
+            {
+              "distance": 1441.7,
+              "duration": 74.4,
+              "type": 6,
+              "instruction": "Continue straight onto Hauptstraße",
+              "name": "Hauptstraße",
+              "way_points": [
+                494,
+                522
+              ]
+            },
+            {
+              "distance": 2188.7,
+              "duration": 90.5,
+              "type": 0,
+              "instruction": "Turn left onto B 2",
+              "name": "B 2",
+              "way_points": [
+                522,
+                555
+              ]
+            },
+            {
+              "distance": 4008.5,
+              "duration": 190.2,
+              "type": 6,
+              "instruction": "Continue straight onto Giebelroth, B 2",
+              "name": "Giebelroth, B 2",
+              "way_points": [
+                555,
+                608
+              ]
+            },
+            {
+              "distance": 180.6,
+              "duration": 7.2,
+              "type": 4,
+              "instruction": "Turn slight left onto B 2",
+              "name": "B 2",
+              "way_points": [
+                608,
+                612
+              ]
+            },
+            {
+              "distance": 4456.3,
+              "duration": 181.2,
+              "type": 6,
+              "instruction": "Continue straight onto Stadtring Nord-Ost, B 2",
+              "name": "Stadtring Nord-Ost, B 2",
+              "way_points": [
+                612,
+                673
+              ]
+            },
+            {
+              "distance": 161.5,
+              "duration": 8.3,
+              "type": 6,
+              "instruction": "Continue straight onto Stadtring Ost, B 2",
+              "name": "Stadtring Ost, B 2",
+              "way_points": [
+                673,
+                677
+              ]
+            },
+            {
+              "distance": 701.5,
+              "duration": 42.1,
+              "type": 5,
+              "instruction": "Turn slight right",
+              "name": "",
+              "way_points": [
+                677,
+                696
+              ]
+            },
+            {
+              "distance": 22150.6,
+              "duration": 675.9,
+              "type": 5,
+              "instruction": "Turn slight right onto A 4",
+              "name": "A 4",
+              "way_points": [
+                696,
+                856
+              ]
+            },
+            {
+              "distance": 82688.1,
+              "duration": 2552,
+              "type": 6,
+              "instruction": "Continue straight onto A 4",
+              "name": "A 4",
+              "way_points": [
+                856,
+                1479
+              ]
+            },
+            {
+              "distance": 8490.8,
+              "duration": 244.5,
+              "type": 4,
+              "instruction": "Turn slight left onto A 4",
+              "name": "A 4",
+              "way_points": [
+                1479,
+                1538
+              ]
+            },
+            {
+              "distance": 59213,
+              "duration": 1748.9,
+              "type": 6,
+              "instruction": "Continue straight onto A 4",
+              "name": "A 4",
+              "way_points": [
+                1538,
+                2108
+              ]
+            },
+            {
+              "distance": 28936.4,
+              "duration": 1006.6,
+              "type": 4,
+              "instruction": "Turn slight left onto A 4",
+              "name": "A 4",
+              "way_points": [
+                2108,
+                2446
+              ]
+            },
+            {
+              "distance": 1026.3,
+              "duration": 52.8,
+              "type": 4,
+              "instruction": "Turn slight left",
+              "name": "",
+              "way_points": [
+                2446,
+                2469
+              ]
+            },
+            {
+              "distance": 265,
+              "duration": 13.6,
+              "type": 6,
+              "instruction": "Continue straight onto A 7",
+              "name": "A 7",
+              "way_points": [
+                2469,
+                2476
+              ]
+            },
+            {
+              "distance": 355.1,
+              "duration": 15.3,
+              "type": 4,
+              "instruction": "Turn slight left",
+              "name": "",
+              "way_points": [
+                2476,
+                2481
+              ]
+            },
+            {
+              "distance": 2856.3,
+              "duration": 112.8,
+              "type": 5,
+              "instruction": "Turn slight right onto A 7",
+              "name": "A 7",
+              "way_points": [
+                2481,
+                2524
+              ]
+            },
+            {
+              "distance": 5349.8,
+              "duration": 176.7,
+              "type": 4,
+              "instruction": "Turn slight left onto A 5",
+              "name": "A 5",
+              "way_points": [
+                2524,
+                2602
+              ]
+            },
+            {
+              "distance": 54257.9,
+              "duration": 1575.4,
+              "type": 6,
+              "instruction": "Continue straight onto A 5",
+              "name": "A 5",
+              "way_points": [
+                2602,
+                3115
+              ]
+            },
+            {
+              "distance": 38954.2,
+              "duration": 1303.5,
+              "type": 4,
+              "instruction": "Turn slight left onto A 5",
+              "name": "A 5",
+              "way_points": [
+                3115,
+                3403
+              ]
+            },
+            {
+              "distance": 27545.6,
+              "duration": 991.5,
+              "type": 6,
+              "instruction": "Continue straight onto A 5",
+              "name": "A 5",
+              "way_points": [
+                3403,
+                3609
+              ]
+            },
+            {
+              "distance": 254.8,
+              "duration": 15.3,
+              "type": 5,
+              "instruction": "Turn slight right",
+              "name": "",
+              "way_points": [
+                3609,
+                3615
+              ]
+            },
+            {
+              "distance": 1223.5,
+              "duration": 37.3,
+              "type": 5,
+              "instruction": "Turn slight right onto B 43",
+              "name": "B 43",
+              "way_points": [
+                3615,
+                3643
+              ]
+            },
+            {
+              "distance": 3113.8,
+              "duration": 99.8,
+              "type": 4,
+              "instruction": "Continue slight left onto B 43",
+              "name": "B 43",
+              "way_points": [
+                3643,
+                3681
+              ]
+            },
+            {
+              "distance": 237.2,
+              "duration": 12.2,
+              "type": 6,
+              "instruction": "Continue straight onto B 43",
+              "name": "B 43",
+              "way_points": [
+                3681,
+                3689
+              ]
+            },
+            {
+              "distance": 3839,
+              "duration": 148,
+              "type": 6,
+              "instruction": "Continue straight onto A 3",
+              "name": "A 3",
+              "way_points": [
+                3689,
+                3715
+              ]
+            },
+            {
+              "distance": 575.1,
+              "duration": 20.5,
+              "type": 5,
+              "instruction": "Turn slight right",
+              "name": "",
+              "way_points": [
+                3715,
+                3721
+              ]
+            },
+            {
+              "distance": 5947.3,
+              "duration": 191.9,
+              "type": 4,
+              "instruction": "Turn slight left onto A 67",
+              "name": "A 67",
+              "way_points": [
+                3721,
+                3800
+              ]
+            },
+            {
+              "distance": 2311.9,
+              "duration": 66.6,
+              "type": 5,
+              "instruction": "Turn slight right onto A 60",
+              "name": "A 60",
+              "way_points": [
+                3800,
+                3830
+              ]
+            },
+            {
+              "distance": 7007.3,
+              "duration": 201.8,
+              "type": 6,
+              "instruction": "Continue straight onto A 60",
+              "name": "A 60",
+              "way_points": [
+                3830,
+                3892
+              ]
+            },
+            {
+              "distance": 7836.2,
+              "duration": 331.5,
+              "type": 4,
+              "instruction": "Turn slight left onto A 60",
+              "name": "A 60",
+              "way_points": [
+                3892,
+                3994
+              ]
+            },
+            {
+              "distance": 41.2,
+              "duration": 2.1,
+              "type": 6,
+              "instruction": "Continue straight onto A 60",
+              "name": "A 60",
+              "way_points": [
+                3994,
+                3995
+              ]
+            },
+            {
+              "distance": 431.4,
+              "duration": 34.6,
+              "type": 5,
+              "instruction": "Turn slight right onto A 60",
+              "name": "A 60",
+              "way_points": [
+                3995,
+                4001
+              ]
+            },
+            {
+              "distance": 7288.1,
+              "duration": 257.5,
+              "type": 5,
+              "instruction": "Turn slight right onto A 63",
+              "name": "A 63",
+              "way_points": [
+                4001,
+                4084
+              ]
+            },
+            {
+              "distance": 62481.7,
+              "duration": 1836.9,
+              "type": 6,
+              "instruction": "Continue straight onto Talbrücke Eselsbachtal, A 63",
+              "name": "Talbrücke Eselsbachtal, A 63",
+              "way_points": [
+                4084,
+                4582
+              ]
+            },
+            {
+              "distance": 196.8,
+              "duration": 8.4,
+              "type": 4,
+              "instruction": "Turn slight left onto A 63",
+              "name": "A 63",
+              "way_points": [
+                4582,
+                4587
+              ]
+            },
+            {
+              "distance": 7113.3,
+              "duration": 244.6,
+              "type": 6,
+              "instruction": "Continue straight onto Lautertalbrücke, A 6",
+              "name": "Lautertalbrücke, A 6",
+              "way_points": [
+                4587,
+                4670
+              ]
+            },
+            {
+              "distance": 59001.2,
+              "duration": 1824.5,
+              "type": 4,
+              "instruction": "Turn slight left onto A 6",
+              "name": "A 6",
+              "way_points": [
+                4670,
+                5182
+              ]
+            },
+            {
+              "distance": 4962.3,
+              "duration": 167.5,
+              "type": 5,
+              "instruction": "Turn slight right onto A 6",
+              "name": "A 6",
+              "way_points": [
+                5182,
+                5255
+              ]
+            },
+            {
+              "distance": 1543.8,
+              "duration": 96.3,
+              "type": 4,
+              "instruction": "Continue slight left onto A 6",
+              "name": "A 6",
+              "way_points": [
+                5255,
+                5288
+              ]
+            },
+            {
+              "distance": 13675.6,
+              "duration": 497.8,
+              "type": 6,
+              "instruction": "Continue straight onto A 320",
+              "name": "A 320",
+              "way_points": [
+                5288,
+                5434
+              ]
+            },
+            {
+              "distance": 148.9,
+              "duration": 5.4,
+              "type": 4,
+              "instruction": "Turn slight left",
+              "name": "",
+              "way_points": [
+                5434,
+                5436
+              ]
+            },
+            {
+              "distance": 40998.7,
+              "duration": 1309.9,
+              "type": 6,
+              "instruction": "Continue straight onto Autoroute de l'Est, A 4",
+              "name": "Autoroute de l'Est, A 4",
+              "way_points": [
+                5436,
+                5734
+              ]
+            },
+            {
+              "distance": 159379.3,
+              "duration": 4999.2,
+              "type": 5,
+              "instruction": "Turn slight right onto Autoroute de l'Est, A 4",
+              "name": "Autoroute de l'Est, A 4",
+              "way_points": [
+                5734,
+                6907
+              ]
+            },
+            {
+              "distance": 1393.5,
+              "duration": 82.5,
+              "type": 5,
+              "instruction": "Turn slight right",
+              "name": "",
+              "way_points": [
+                6907,
+                6940
+              ]
+            },
+            {
+              "distance": 74250.9,
+              "duration": 2332.1,
+              "type": 6,
+              "instruction": "Continue straight onto L'Autoroute des Anglais, A 26",
+              "name": "L'Autoroute des Anglais, A 26",
+              "way_points": [
+                6940,
+                7330
+              ]
+            },
+            {
+              "distance": 684.8,
+              "duration": 41.1,
+              "type": 5,
+              "instruction": "Turn slight right",
+              "name": "",
+              "way_points": [
+                7330,
+                7347
+              ]
+            },
+            {
+              "distance": 307.1,
+              "duration": 18.4,
+              "type": 5,
+              "instruction": "Turn slight right",
+              "name": "",
+              "way_points": [
+                7347,
+                7352
+              ]
+            },
+            {
+              "distance": 3018.4,
+              "duration": 136,
+              "type": 7,
+              "instruction": "Enter the roundabout and take the 1st exit onto D 15",
+              "name": "D 15",
+              "exit_number": 1,
+              "way_points": [
+                7352,
+                7394
+              ]
+            },
+            {
+              "distance": 6635.1,
+              "duration": 298.6,
+              "type": 7,
+              "instruction": "Enter the roundabout and take the 2nd exit onto D 677",
+              "name": "D 677",
+              "exit_number": 2,
+              "way_points": [
+                7394,
+                7459
+              ]
+            },
+            {
+              "distance": 385.6,
+              "duration": 14.2,
+              "type": 7,
+              "instruction": "Enter the roundabout and take the 1st exit",
+              "name": "",
+              "exit_number": 1,
+              "way_points": [
+                7459,
+                7469
+              ]
+            },
+            {
+              "distance": 7881.1,
+              "duration": 283.7,
+              "type": 6,
+              "instruction": "Continue straight onto D 610",
+              "name": "D 610",
+              "way_points": [
+                7469,
+                7574
+              ]
+            },
+            {
+              "distance": 275.6,
+              "duration": 9.9,
+              "type": 5,
+              "instruction": "Turn slight right",
+              "name": "",
+              "way_points": [
+                7574,
+                7579
+              ]
+            },
+            {
+              "distance": 3092.8,
+              "duration": 143.1,
+              "type": 7,
+              "instruction": "Continue left onto D 660",
+              "name": "D 660",
+              "exit_number": 2,
+              "way_points": [
+                7579,
+                7613
+              ]
+            },
+            {
+              "distance": 1025.7,
+              "duration": 61.1,
+              "type": 7,
+              "instruction": "Enter the roundabout and take the 3rd exit onto D 141",
+              "name": "D 141",
+              "exit_number": 3,
+              "way_points": [
+                7613,
+                7645
+              ]
+            },
+            {
+              "distance": 483.8,
+              "duration": 29,
+              "type": 6,
+              "instruction": "Continue straight onto Rue du Casino, D 141",
+              "name": "Rue du Casino, D 141",
+              "way_points": [
+                7645,
+                7660
+              ]
+            },
+            {
+              "distance": 698.8,
+              "duration": 41.9,
+              "type": 7,
+              "instruction": "Enter the roundabout and take the 1st exit onto Rue de la Mairie, D 53",
+              "name": "Rue de la Mairie, D 53",
+              "exit_number": 1,
+              "way_points": [
+                7660,
+                7697
+              ]
+            },
+            {
+              "distance": 656.1,
+              "duration": 39.4,
+              "type": 7,
+              "instruction": "Enter the roundabout and take the 2nd exit onto Rue du Réservoir, D 53",
+              "name": "Rue du Réservoir, D 53",
+              "exit_number": 2,
+              "way_points": [
+                7697,
+                7730
+              ]
+            },
+            {
+              "distance": 3213.6,
+              "duration": 192.8,
+              "type": 4,
+              "instruction": "Turn slight left onto D 53",
+              "name": "D 53",
+              "way_points": [
+                7730,
+                7758
+              ]
+            },
+            {
+              "distance": 240.6,
+              "duration": 14.4,
+              "type": 6,
+              "instruction": "Continue straight onto Route de Troyes, D 53",
+              "name": "Route de Troyes, D 53",
+              "way_points": [
+                7758,
+                7767
+              ]
+            },
+            {
+              "distance": 338.2,
+              "duration": 20.3,
+              "type": 1,
+              "instruction": "Turn right onto Route de Troyes, D 53",
+              "name": "Route de Troyes, D 53",
+              "way_points": [
+                7767,
+                7775
+              ]
+            },
+            {
+              "distance": 3154.2,
+              "duration": 189.2,
+              "type": 6,
+              "instruction": "Continue straight onto Route de Troyes, D 53",
+              "name": "Route de Troyes, D 53",
+              "way_points": [
+                7775,
+                7838
+              ]
+            },
+            {
+              "distance": 520.9,
+              "duration": 41.7,
+              "type": 5,
+              "instruction": "Turn slight right onto Route de Bercenay, D 53",
+              "name": "Route de Bercenay, D 53",
+              "way_points": [
+                7838,
+                7849
+              ]
+            },
+            {
+              "distance": 3030.6,
+              "duration": 181.9,
+              "type": 6,
+              "instruction": "Continue straight onto Rue de Maraye, D 53",
+              "name": "Rue de Maraye, D 53",
+              "way_points": [
+                7849,
+                7927
+              ]
+            },
+            {
+              "distance": 988.7,
+              "duration": 71.2,
+              "type": 3,
+              "instruction": "Turn sharp right onto Rue d'Estissac, D 23",
+              "name": "Rue d'Estissac, D 23",
+              "way_points": [
+                7927,
+                7939
+              ]
+            },
+            {
+              "distance": 1268.1,
+              "duration": 91.3,
+              "type": 6,
+              "instruction": "Continue straight onto D 23",
+              "name": "D 23",
+              "way_points": [
+                7939,
+                7952
+              ]
+            },
+            {
+              "distance": 820,
+              "duration": 196.8,
+              "type": 2,
+              "instruction": "Turn sharp left",
+              "name": "",
+              "way_points": [
+                7952,
+                7963
+              ]
+            },
+            {
+              "distance": 0,
+              "duration": 0,
+              "type": 10,
+              "instruction": "Arrive at your destination, on the right",
+              "name": "",
+              "way_points": [
+                7963,
+                7963
+              ]
+            }
+          ]
+        }
+      ],
+      "way_points": [
+        0,
+        7963
+      ],
+      "bbox": [
+        3.867005,
+        48.208271,
+        12.42556,
+        51.131738
+      ]
+    }
+  ],
+  "bbox": [
+    3.867005,
+    48.208271,
+    12.42556,
+    51.131738
+  ],
+  "info": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "osm_file_md5_hash": "783b5a0ed086d6cc3eb6f98df9d5d79b",
+    "engine": {
+      "version": "4.5.0",
+      "build_date": "2018-03-26T13:41:46Z"
+    },
+    "service": "routing",
+    "timestamp": 1528074034669,
+    "query": {
+      "profile": "driving-car",
+      "preference": "fastest",
+      "coordinates": [
+        [
+          12.414,
+          51.131
+        ],
+        [
+          3.867,
+          48.224
+        ]
+      ],
+      "language": "en",
+      "units": "m",
+      "geometry": true,
+      "geometry_format": "encodedpolyline",
+      "geometry_simplify": false,
+      "instructions_format": "text",
+      "instructions": true,
+      "elevation": false
+    }
+  }
+}
