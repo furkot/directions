@@ -1,4 +1,10 @@
 
+1.0.0 / 2018-06-03
+==================
+
+ * openroute service directions
+ * support multiple providers of the same service
+
 0.0.29 / 2018-05-11
 ===================
 
