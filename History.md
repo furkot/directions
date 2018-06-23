@@ -1,4 +1,11 @@
 
+1.0.1 / 2018-06-22
+==================
+
+ * let next service calculate route when Valhalla cannot find any
+ * let next service calculate route when MapQuest cannot find any
+ * return empty directions when no route is found
+
 1.0.0 / 2018-06-03
 ==================
 
