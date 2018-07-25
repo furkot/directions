@@ -15,7 +15,7 @@
     "directions"
   ],
   "dependencies": {
-    "@pirxpilot/google-polyline": "^2.0.3",
+    "@pirxpilot/google-polyline": "^2.2.0",
     "debug": "~2 || ~3",
     "eviltransform": "^0.2.2",
     "fetchagent": "^1.0.0",
