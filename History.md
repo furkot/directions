@@ -1,4 +1,10 @@
 
+1.0.3 / 2018-07-25
+==================
+
+ * use decode utility uniformly
+ * @pirxpilot/google-polyline 2.0.3 -> 2.2.0
+
 1.0.2 / 2018-07-07
 ==================
 
