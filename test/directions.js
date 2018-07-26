@@ -106,7 +106,11 @@ describe('furkot-directions node module', function () {
 
       query.should.have.length(1);
       result.should.have.length(1);
-      should.not.exists(result[0]);
+      should.exists(result[0]);
+      result[0].routes.should.have.length(1);
+      should.exists(result[0].routes[0]);
+      result[0].routes[0].should.have.property('distance', 0);
+      result[0].routes[0].should.have.property('duration', 0);
       setTimeout(done, 250);
     });
   });
