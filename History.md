@@ -1,4 +1,9 @@
 
+1.0.4 / 2018-07-25
+==================
+
+ * return no route (empty result) only when all queried routes timeouted
+
 1.0.3 / 2018-07-25
 ==================
 
