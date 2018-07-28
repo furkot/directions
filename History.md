@@ -1,4 +1,9 @@
 
+1.0.5 / 2018-07-28
+==================
+
+ * make max point for Valhalla configurable and default to 2
+
 1.0.4 / 2018-07-25
 ==================
 
