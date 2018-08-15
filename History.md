@@ -1,4 +1,9 @@
 
+1.0.6 / 2018-08-15
+==================
+
+ * pass options to avoid highwas and tolls to Valhalla
+
 1.0.5 / 2018-07-28
 ==================
 
