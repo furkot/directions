@@ -1,4 +1,11 @@
 
+1.1.0 / 2018-11-14
+==================
+
+ * remove google directions API
+ * fix checking Valhalla status
+ * fix error handling in mapquest directions
+
 1.0.6 / 2018-08-15
 ==================
 
