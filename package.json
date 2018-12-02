@@ -17,7 +17,6 @@
   "dependencies": {
     "@pirxpilot/google-polyline": "^3.0.0",
     "debug": "~2 || ~3",
-    "eviltransform": "^0.2.2",
     "fetchagent": "^1.0.0",
     "geodesy": "^1.1.1",
     "limiter-component": "^1.0.0",
