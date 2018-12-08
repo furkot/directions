@@ -1,4 +1,11 @@
 
+1.1.1 / 2018-12-07
+==================
+
+ * fix timeout for empty queries
+ * remove unused eviltransform module
+ * upgrade google-polyline to 3.0.0
+
 1.1.0 / 2018-11-14
 ==================
 
