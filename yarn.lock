@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@pirxpilot/google-polyline@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@pirxpilot/google-polyline/-/google-polyline-2.2.0.tgz#8b88322db305034fef73d2dd3a21f0654a5d14bb"
+"@pirxpilot/google-polyline@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@pirxpilot/google-polyline/-/google-polyline-3.0.0.tgz#0aeb2a4544d131ffd386467830996a88f420bdb8"
 
 balanced-match@^1.0.0:
   version "1.0.0"
@@ -99,10 +99,6 @@ entities@~1.1.1:
 escape-string-regexp@1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
-
-eviltransform@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/eviltransform/-/eviltransform-0.2.2.tgz#246c310edfca1c980103182c0c307f65ce00f270"
 
 exit@0.1.2, exit@0.1.x:
   version "0.1.2"
