@@ -1,4 +1,11 @@
 
+1.1.2 / 2018-12-15
+==================
+
+ * replace strategy with run-waterfall-until
+ * optimize checking for valid polyline before decoding
+ * pass decode factor property to google polyline
+
 1.1.1 / 2018-12-07
 ==================
 
