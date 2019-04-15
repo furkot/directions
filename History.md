@@ -1,4 +1,10 @@
 
+1.2.0 / 2019-04-14
+==================
+
+ * default truck/RV routing
+ * refactor service connectors to ES6
+
 1.1.2 / 2018-12-15
 ==================
 
