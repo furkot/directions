@@ -1,4 +1,10 @@
 
+1.2.1 / 2019-04-20
+==================
+
+ * specify vehicle size
+ * fix setting default truck routing properties
+
 1.2.0 / 2019-04-14
 ==================
 
