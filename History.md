@@ -1,4 +1,9 @@
 
+1.2.2 / 2019-06-03
+==================
+
+ * check validity of result returned by Valhalla
+
 1.2.1 / 2019-04-20
 ==================
 
