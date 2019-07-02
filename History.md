@@ -1,4 +1,9 @@
 
+1.2.3 / 2019-07-02
+==================
+
+ * fix result of openrouteservice when there is no road
+
 1.2.2 / 2019-06-03
 ==================
 
