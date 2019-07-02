@@ -81,4 +81,25 @@ describe('valhalla directions', function () {
       done();
     });
   });
+
+  it('empty', function (done) {
+    var query, result = [];
+
+    response = require('./fixtures/empty');
+
+    query = _cloneDeep(model.directionsQuery);
+    query[0].points = [
+      [response.trip.locations[0].lon, response.trip.locations[0].lat],
+      [response.trip.locations[1].lon, response.trip.locations[1].lat]
+    ];
+    query[0].turnbyturn = true;
+    query[0].path = model.pathType.full;
+    directions(2, query, result, function (err, value, id, query, result) {
+      should.not.exist(err);
+      value.should.equal(false);
+      should.exist(result);
+      result.should.have.length(0);
+      done();
+    });
+  });
 });

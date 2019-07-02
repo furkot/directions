@@ -49,4 +49,41 @@ describe('openroute directions', function () {
       done();
     });
   });
+
+  it('empty', function (done) {
+    var query, result = [];
+
+    response = require('./fixtures/empty');
+
+    query = _cloneDeep(model.directionsQuery);
+    query[0].points = [
+      [-107.04742870308806, 40.10879725627518],
+      [-107.04732141473033,40.10881161617999]
+    ];
+    query[0].turnbyturn = true;
+    query[0].path = model.pathType.smooth;
+    directions(2, query, result, function (err, value, id, query, result) {
+      should.not.exist(err);
+      value.should.equal(false);
+      should.exist(result);
+      result.should.have.length(1);
+      result[0].should.have.property('query');
+      result[0].query.should.deepEqual(query[0]);
+      result[0].should.not.have.property('name');
+      result[0].should.not.have.property('places');
+      result[0].should.have.property('routes').with.length(1);
+      result[0].routes[0].should.have.property('duration', 0);
+      result[0].routes[0].should.have.property('distance', 0);
+      result[0].routes[0].should.have.property('path').with.length(0);
+      result[0].routes[0].should.have.property('segmentIndex', 0);
+      result[0].should.have.property('segments').with.length(1);
+      result[0].segments[0].should.have.property('duration', 0);
+      result[0].segments[0].should.have.property('distance', 0);
+      result[0].segments[0].should.have.property('path').with.length(0);
+      result[0].segments[0].should.have.property('instructions', 'Head east');
+      result[0].segments.reduce(function (len, seg) { return len + seg.path.length; }, 0).should.equal(0);
+      result[0].should.have.property('provider', 'openroute');
+      done();
+    });
+  });
 });

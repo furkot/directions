@@ -1,0 +1,74 @@
+{
+  "trip": {
+    "language": "en-US",
+    "status": 0,
+    "units": "miles",
+    "status_message": "Found route between points",
+    "legs": [
+      {
+        "shape": "}iiokAjzmckE??",
+        "summary": {
+          "max_lon": -107.027893,
+          "max_lat": 40.113327,
+          "time": 0,
+          "length": 0.001,
+          "min_lat": 40.113327,
+          "min_lon": -107.027893
+        },
+        "maneuvers": [
+          {
+            "travel_type": "foot",
+            "time": 0,
+            "type": 3,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Walk north for less than 10 feet. Then Your destination will be on the left.",
+            "instruction": "Walk north.",
+            "end_shape_index": 1,
+            "length": 0.001,
+            "begin_shape_index": 0,
+            "rough": true,
+            "travel_mode": "pedestrian"
+          },
+          {
+            "travel_type": "foot",
+            "travel_mode": "pedestrian",
+            "begin_shape_index": 1,
+            "time": 0,
+            "type": 6,
+            "end_shape_index": 1,
+            "instruction": "Your destination is on the left.",
+            "length": 0.000,
+            "verbal_transition_alert_instruction": "Your destination will be on the left.",
+            "verbal_pre_transition_instruction": "Your destination is on the left."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "max_lon": -107.027893,
+      "max_lat": 40.113327,
+      "time": 0,
+      "length": 0.001,
+      "min_lat": 40.113327,
+      "min_lon": -107.027893
+    },
+    "locations": [
+      {
+        "type": "break",
+        "side_of_street": "left",
+        "lat": 40.107601,
+        "lon": -107.041901,
+        "original_index": 0,
+        "date_time": "2019-07-08T00:00-06:00"
+      },
+      {
+        "type": "break",
+        "side_of_street": "left",
+        "lat": 40.107616,
+        "lon": -107.042557,
+        "original_index": 1,
+        "date_time": "2019-07-08T00:00-06:00"
+      }
+    ]
+  }
+}
