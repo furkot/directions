@@ -1,4 +1,11 @@
 
+1.2.4 / 2019-07-25
+==================
+
+ * upgrade dev dependencies
+ * allow using debug ~4
+ * upgrade fetchagent to ~2
+
 1.2.3 / 2019-07-02
 ==================
 
