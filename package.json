@@ -16,8 +16,8 @@
   ],
   "dependencies": {
     "@pirxpilot/google-polyline": "^3.0.0",
-    "debug": "~2 || ~3",
-    "fetchagent": "^1.0.0",
+    "debug": "~2 || ~3 || ~4",
+    "fetchagent": "~2",
     "geodesy": "^1.1.1",
     "limiter-component": "^1.0.0",
     "run-series": "^1.1.4",
@@ -28,9 +28,9 @@
     "jshint": "~2",
     "lodash.clonedeep": "^4.5.0",
     "lodash.clonedeepwith": "^4.5.0",
-    "mocha": "~4",
+    "mocha": "~6",
     "should": "~13",
-    "sinon": "~4"
+    "sinon": "~7"
   },
   "scripts": {
     "test": "make check"
