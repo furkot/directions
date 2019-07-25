@@ -16,7 +16,7 @@
   ],
   "dependencies": {
     "@pirxpilot/google-polyline": "^3.0.0",
-    "debug": "~2 || ~3",
+    "debug": "~2 || ~3 || ~4",
     "fetchagent": "~2",
     "geodesy": "^1.1.1",
     "limiter-component": "^1.0.0",
