@@ -1,4 +1,12 @@
 
+1.3.1 / 2019-10-25
+==================
+
+ * confugurable maximum points for GraphHopper
+ * restrict calculating curvy roads to configured maximum distance
+ * extended road curvature options for GraphHopper
+ * more tests for aborting requests
+
 1.3.0 / 2019-09-25
 ==================
 
