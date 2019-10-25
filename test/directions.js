@@ -18,13 +18,23 @@ function timeService(timeout) {
     resultInProgress = result;
     callback = fn;
     timeoutId = setTimeout(function () {
-      query.forEach(function (res, i) {
-        result[i] = {
-          query: query[i],
-          name: 'success'
-        };
-      });
-      fn(undefined, false, queryId, query, result);
+      if (!query.some(function (res, i) {
+        if (query[i].points && query[i].points.length > 2) {
+          const q = [{
+            points: query[i].points.slice(0, 2)
+          }];
+          service(queryId, q, new Array(1), fn);
+          return true;
+        }
+        else {
+          result[i] = {
+            query: query[i],
+            name: 'success'
+          };
+        }
+      })) {
+        fn(undefined, false, queryId, query, result);
+      }
     }, timeout);
   };
   service.abort = function (queryId) {
@@ -103,6 +113,27 @@ describe('furkot-directions node module', function () {
       ],
       timeout: 100
     })([{}], function (query, result) {
+
+      query.should.have.length(1);
+      result.should.have.length(1);
+      should.exists(result[0]);
+      result[0].routes.should.have.length(1);
+      should.exists(result[0].routes[0]);
+      result[0].routes[0].should.have.property('distance', 0);
+      result[0].routes[0].should.have.property('duration', 0);
+      setTimeout(done, 250);
+    });
+  });
+
+  it('timeout second phase', function (done) {
+    furkotDirections({
+      services: [
+        timeService(150)
+      ],
+      timeout: 200
+    })([{
+      points: [{}, {}, {}]
+    }], function (query, result) {
 
       query.should.have.length(1);
       result.should.have.length(1);
