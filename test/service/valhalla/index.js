@@ -67,7 +67,7 @@ describe('valhalla directions', function () {
       result[0].should.not.have.property('name');
       result[0].should.not.have.property('places');
       result[0].should.have.property('routes').with.length(1);
-      result[0].routes[0].should.have.property('duration', 2300);
+      result[0].routes[0].should.have.property('duration', 2293);
       result[0].routes[0].should.have.property('distance', 44761);
       result[0].routes[0].should.have.property('path').with.length(511);
       result[0].routes[0].should.have.property('segmentIndex', 0);
