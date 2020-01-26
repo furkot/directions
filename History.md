@@ -1,8 +1,14 @@
 
+1.3.2 / 2020-01-26
+==================
+
+ * assume 15 km/h as the minimum speed on rough roads
+
+
 1.3.1 / 2019-10-25
 ==================
 
- * confugurable maximum points for GraphHopper
+ * configurable maximum points for GraphHopper
  * restrict calculating curvy roads to configured maximum distance
  * extended road curvature options for GraphHopper
  * more tests for aborting requests
