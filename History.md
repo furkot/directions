@@ -1,4 +1,11 @@
 
+1.4.0 / 2020-10-28
+==================
+
+ * upgrade openrouteservice to version 2
+ * support passing authorization header
+ * support POST as well as GET
+
 1.3.2 / 2020-01-26
 ==================
 
