@@ -1,0 +1,170 @@
+{
+  "routes": [
+    {
+      "summary": {
+        "distance": 932.6,
+        "duration": 854.0
+      },
+      "segments": [
+        {
+          "distance": 932.6,
+          "duration": 854.0,
+          "steps": [
+            {
+              "distance": 226.2,
+              "duration": 45.2,
+              "type": 11,
+              "instruction": "Head northeast",
+              "name": "-",
+              "way_points": [
+                0,
+                13
+              ]
+            },
+            {
+              "distance": 7.5,
+              "duration": 1.5,
+              "type": 0,
+              "instruction": "Turn left",
+              "name": "-",
+              "way_points": [
+                13,
+                14
+              ]
+            },
+            {
+              "distance": 692.7,
+              "duration": 804.5,
+              "type": 1,
+              "instruction": "Turn right onto Mieczysława Boguckiego, 501",
+              "name": "Mieczysława Boguckiego, 501",
+              "way_points": [
+                14,
+                34
+              ]
+            },
+            {
+              "distance": 6.2,
+              "duration": 2.8,
+              "type": 3,
+              "instruction": "Turn sharp right",
+              "name": "-",
+              "way_points": [
+                34,
+                36
+              ]
+            },
+            {
+              "distance": 0.0,
+              "duration": 0.0,
+              "type": 10,
+              "instruction": "Arrive at your destination, on the left",
+              "name": "-",
+              "way_points": [
+                36,
+                36
+              ]
+            }
+          ]
+        }
+      ],
+      "bbox": [
+        18.934372,
+        54.332642,
+        18.946143,
+        54.334838
+      ],
+      "geometry": "ugsjIybqrBAA?M\\y@LOJKhB_ANORg@FSP}AJU|@WBICWBGHm@?MvBwd@B_@B]?SG[MYe@a@QYCKESOo@GMqAkCWu@K_@_@_CAQF?@@",
+      "way_points": [
+        0,
+        36
+      ],
+      "extras": {
+        "waytypes": {
+          "values": [
+            [
+              0,
+              14,
+              4
+            ],
+            [
+              14,
+              17,
+              2
+            ],
+            [
+              17,
+              18,
+              9
+            ],
+            [
+              18,
+              34,
+              2
+            ],
+            [
+              34,
+              36,
+              5
+            ]
+          ],
+          "summary": [
+            {
+              "value": 9.0,
+              "distance": 397.2,
+              "amount": 42.59
+            },
+            {
+              "value": 2.0,
+              "distance": 295.5,
+              "amount": 31.69
+            },
+            {
+              "value": 4.0,
+              "distance": 233.7,
+              "amount": 25.06
+            },
+            {
+              "value": 5.0,
+              "distance": 6.2,
+              "amount": 0.66
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "bbox": [
+    18.934372,
+    54.332642,
+    18.946143,
+    54.334838
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1648308845160,
+    "query": {
+      "coordinates": [
+        [
+          18.934332752037932,
+          54.33484550254147
+        ],
+        [
+          18.946177387050938,
+          54.33389466800375
+        ]
+      ],
+      "profile": "cycling-regular",
+      "format": "json",
+      "extra_info": [
+        "waytype"
+      ]
+    },
+    "engine": {
+      "version": "6.7.0",
+      "build_date": "2022-02-18T19:37:41Z",
+      "graph_date": "2022-03-13T08:40:20Z"
+    }
+  }
+}

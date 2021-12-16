@@ -102,4 +102,61 @@ describe('valhalla directions', function () {
       done();
     });
   });
+
+  it('ferry', function (done) {
+    var query, result = [];
+
+    response = require('./fixtures/ferry');
+
+    query = _cloneDeep(model.directionsQuery);
+    query[0].points = [
+      [response.trip.locations[0].lon, response.trip.locations[0].lat],
+      [response.trip.locations[1].lon, response.trip.locations[1].lat]
+    ];
+    query[0].turnbyturn = true;
+    query[0].path = model.pathType.full;
+    directions(2, query, result, function (err, value, id, query, result) {
+      should.not.exist(err);
+      value.should.equal(false);
+      should.exist(result);
+      result.should.have.length(1);
+      result[0].should.have.property('routes').with.length(1);
+      result[0].routes[0].should.have.property('ferry').eql(true);
+      result[0].should.have.property('segments').with.length(4);
+      result[0].segments[0].should.not.have.property('mode');
+      result[0].segments[1].should.have.property('mode', 6);
+      result[0].segments[2].should.not.have.property('mode');
+      result[0].segments[3].should.not.have.property('mode');
+      result[0].should.have.property('provider', 'valhalla');
+      done();
+    });
+  });
+
+  it('only ferry end', function (done) {
+    var query, result = [];
+
+    response = require('./fixtures/end-ferry');
+
+    query = _cloneDeep(model.directionsQuery);
+    query[0].points = [
+      [response.trip.locations[0].lon, response.trip.locations[0].lat],
+      [response.trip.locations[1].lon, response.trip.locations[1].lat]
+    ];
+    query[0].turnbyturn = true;
+    query[0].path = model.pathType.full;
+    directions(2, query, result, function (err, value, id, query, result) {
+      should.not.exist(err);
+      value.should.equal(false);
+      should.exist(result);
+      result.should.have.length(1);
+      result[0].should.have.property('routes').with.length(1);
+      result[0].routes[0].should.have.property('ferry').eql(true);
+      result[0].should.have.property('segments').with.length(3);
+      result[0].segments[0].should.have.property('mode', 6);
+      result[0].segments[1].should.not.have.property('mode');
+      result[0].segments[2].should.not.have.property('mode');
+      result[0].should.have.property('provider', 'valhalla');
+      done();
+    });
+  });
 });

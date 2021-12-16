@@ -1,0 +1,102 @@
+{
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 54.333286,
+        "lon": 18.936794,
+        "date_time": "2022-04-08T00:00",
+        "original_index": 0
+      },
+      {
+        "type": "break",
+        "lat": 54.333005,
+        "lon": 18.943778,
+        "date_time": "2022-04-08T00:08",
+        "original_index": 1
+      }
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 1,
+            "instruction": "Drive east on Świbno - Mikoszewo/501.",
+            "verbal_succinct_transition_instruction": "Drive east.",
+            "verbal_pre_transition_instruction": "Drive east on Świbno - Mikoszewo, 501.",
+            "verbal_post_transition_instruction": "Continue for a quarter mile.",
+            "street_names": [
+              "Świbno - Mikoszewo",
+              "501"
+            ],
+            "time": 477.6,
+            "length": 0.247,
+            "cost": 470.436,
+            "begin_shape_index": 0,
+            "end_shape_index": 1,
+            "toll": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 29,
+            "instruction": "Drive east on Gdańska/501.",
+            "verbal_succinct_transition_instruction": "Drive east. Then You will arrive at your destination.",
+            "verbal_pre_transition_instruction": "Drive east on Gdańska, 501. Then You will arrive at your destination.",
+            "verbal_post_transition_instruction": "Continue for 300 feet.",
+            "street_names": [
+              "Gdańska",
+              "501"
+            ],
+            "time": 11.885,
+            "length": 0.051,
+            "cost": 11.399,
+            "begin_shape_index": 1,
+            "end_shape_index": 15,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 4,
+            "instruction": "You have arrived at your destination.",
+            "verbal_transition_alert_instruction": "You will arrive at your destination.",
+            "verbal_pre_transition_instruction": "You have arrived at your destination.",
+            "time": 0.0,
+            "length": 0.0,
+            "cost": 0.0,
+            "begin_shape_index": 15,
+            "end_shape_index": 15,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "min_lat": 54.332642,
+          "min_lon": 18.936789,
+          "max_lat": 54.333279,
+          "max_lon": 18.943774,
+          "time": 489.485,
+          "length": 0.298,
+          "cost": 481.835
+        },
+        "shape": "_ufsfBi|xbc@hd@oxJd@iIj@{GEiEUmCi@wCs@qBe@eAu@eAcD}B}CgC_AcA{@uAw@oAO_@"
+      }
+    ],
+    "summary": {
+      "has_time_restrictions": false,
+      "min_lat": 54.332642,
+      "min_lon": 18.936789,
+      "max_lat": 54.333279,
+      "max_lon": 18.943774,
+      "time": 489.485,
+      "length": 0.298,
+      "cost": 481.835
+    },
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "miles",
+    "language": "en-US"
+  }
+}
