@@ -1,4 +1,11 @@
 
+1.4.1 / 2022-04-03
+==================
+
+ * fix missing last point in the path of openrouteservice detailed directions
+ * upgrade dev dependencies
+ * replace '.npmignore' with package/files
+
 1.4.0 / 2020-10-28
 ==================
 
@@ -10,7 +17,6 @@
 ==================
 
  * assume 15 km/h as the minimum speed on rough roads
-
 
 1.3.1 / 2019-10-25
 ==================
