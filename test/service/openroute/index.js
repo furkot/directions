@@ -37,7 +37,7 @@ describe('openroute directions', function () {
       result[0].should.have.property('routes').with.length(1);
       result[0].routes[0].should.have.property('duration', 29696);
       result[0].routes[0].should.have.property('distance', 881238);
-      result[0].routes[0].should.have.property('path').with.length(7963);
+      result[0].routes[0].should.have.property('path').with.length(7964);
       result[0].routes[0].should.have.property('segmentIndex', 0);
       result[0].should.have.property('segments').with.length(83);
       result[0].segments[0].should.have.property('duration', 94);
