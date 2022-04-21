@@ -1,4 +1,9 @@
 
+1.5.0 / 2022-04-21
+==================
+
+ * return mixed-mode directions containing segments by ferry
+
 1.4.1 / 2022-04-03
 ==================
 
