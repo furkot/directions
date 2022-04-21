@@ -86,4 +86,36 @@ describe('openroute directions', function () {
       done();
     });
   });
+
+  it('ferry', function (done) {
+    var query, result = [];
+
+    response = require('./fixtures/ferry');
+
+    query = _cloneDeep(model.directionsQuery);
+    query[0].points = [
+      [18.934332752037932, 54.33484550254147],
+      [18.946177387050938, 54.33389466800375]
+    ];
+    query[0].turnbyturn = true;
+    query[0].path = model.pathType.full;
+    directions(2, query, result, function (err, value, id, query, result) {
+      should.not.exist(err);
+      value.should.equal(false);
+      should.exist(result);
+      result.should.have.length(1);
+      result[0].should.have.property('query');
+      result[0].query.should.deepEqual(query[0]);
+      result[0].should.have.property('routes').with.length(1);
+      result[0].routes[0].should.have.property('ferry').eql(true);
+      result[0].should.have.property('segments').with.length(5);
+      result[0].segments[0].should.not.have.property('mode');
+      result[0].segments[1].should.not.have.property('mode');
+      result[0].segments[2].should.have.property('mode', 6);
+      result[0].segments[3].should.not.have.property('mode');
+      result[0].segments[4].should.not.have.property('mode');
+      result[0].should.have.property('provider', 'openroute');
+      done();
+    });
+  });
 });
