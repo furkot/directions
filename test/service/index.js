@@ -41,7 +41,10 @@ describe('service', function () {
 
   it('success', function (done) {
     s(1, [{
-      points: [[0, 0], [1, 1]]
+      points: [
+        [0, 0],
+        [1, 1]
+      ]
     }], [], function (err, trueValue, id, query, result) {
       should.not.exist(err);
       trueValue.should.equal(false);
@@ -55,7 +58,10 @@ describe('service', function () {
   it('request later', function (done) {
     st = [status.error];
     s(2, [{
-      points: [[0, 0], [1, 1]]
+      points: [
+        [0, 0],
+        [1, 1]
+      ]
     }], [], function (err, trueValue, id, query, result) {
       should.not.exist(err);
       trueValue.should.equal(false);
@@ -77,7 +83,9 @@ describe('service', function () {
 
   it('one point', function (done) {
     s(4, [{
-      points: [[0, 0]]
+      points: [
+        [0, 0]
+      ]
     }], [], function (err, trueValue, id, query, result) {
       should.not.exist(err);
       trueValue.should.equal(true);
@@ -89,7 +97,10 @@ describe('service', function () {
   it('cascade to next service', function (done) {
     reqResponse = undefined;
     s(5, [{
-      points: [[0, 0], [1, 1]]
+      points: [
+        [0, 0],
+        [1, 1]
+      ]
     }], [], function (err, trueValue, id, query, result) {
       should.not.exist(err);
       trueValue.should.equal(false);
@@ -103,7 +114,10 @@ describe('service', function () {
     let aborted;
     reqTimeout = 2 * timeout;
     s(6, [{
-      points: [[0, 0], [1, 1]]
+      points: [
+        [0, 0],
+        [1, 1]
+      ]
     }], [], function (err, trueValue, id, query, result) {
       should.not.exist(err);
       trueValue.should.equal(true);
@@ -126,7 +140,11 @@ describe('service', function () {
     reqResponse = undefined;
     st = [status.empty];
     s(7, [{
-      points: [[0, 0], [1, 1], [2, 2]]
+      points: [
+        [0, 0],
+        [1, 1],
+        [2, 2]
+      ]
     }], [], function (err, trueValue, id, query, result) {
       should.not.exist(err);
       trueValue.should.equal(true);

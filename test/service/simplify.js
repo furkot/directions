@@ -4,7 +4,7 @@ const pathType = require("../../lib/model").pathType;
 const simplify = require('../../lib/service/simplify')({
   algorithm(path, num) {
     num = num / 2;
-    return path.slice(0, Math.ceil(num)).concat(path.slice(- Math.floor(num)));
+    return path.slice(0, Math.ceil(num)).concat(path.slice(-Math.floor(num)));
   }
 });
 
@@ -28,7 +28,9 @@ describe('simplify', function () {
     }];
 
     simplify(pathType.none, 1000, routes, [{
-      path: [[0, 0]]
+      path: [
+        [0, 0]
+      ]
     }]);
     routes[0].should.not.have.property('path');
   });

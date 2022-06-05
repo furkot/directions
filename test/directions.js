@@ -23,20 +23,19 @@ function timeService(timeout) {
     callback = fn;
     timeoutId = setTimeout(function () {
       if (!query.some(function (res, i) {
-        if (query[i].points && query[i].points.length > 2) {
-          const q = [{
-            points: query[i].points.slice(0, 2)
-          }];
-          service(queryId, q, new Array(1), fn);
-          return true;
-        }
-        else {
-          result[i] = {
-            query: query[i],
-            name: 'success'
-          };
-        }
-      })) {
+          if (query[i].points && query[i].points.length > 2) {
+            const q = [{
+              points: query[i].points.slice(0, 2)
+            }];
+            service(queryId, q, new Array(1), fn);
+            return true;
+          } else {
+            result[i] = {
+              query: query[i],
+              name: 'success'
+            };
+          }
+        })) {
         fn(undefined, false, queryId, query, result);
       }
     }, timeout);
@@ -94,7 +93,7 @@ describe('furkot-directions node module', function () {
 
   it('only enabled services', function () {
     const options = {
-        valhalla_enable() {}
+      valhalla_enable() {}
     };
     const directions = furkotDirections(options);
     directions.options.should.have.property('services').with.length(1);
@@ -102,9 +101,9 @@ describe('furkot-directions node module', function () {
 
   it('override provider name', function () {
     const options = {
-        order: ['stadiamaps'],
-        stadiamaps: 'valhalla',
-        stadiamaps_enable() {}
+      order: ['stadiamaps'],
+      stadiamaps: 'valhalla',
+      stadiamaps_enable() {}
     };
     const directions = furkotDirections(options);
     directions.options.should.have.property('services').with.length(1);

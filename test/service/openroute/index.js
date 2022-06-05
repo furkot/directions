@@ -60,7 +60,7 @@ describe('openroute directions', function () {
     query = _cloneDeep(model.directionsQuery);
     query[0].points = [
       [-107.04742870308806, 40.10879725627518],
-      [-107.04732141473033,40.10881161617999]
+      [-107.04732141473033, 40.10881161617999]
     ];
     query[0].turnbyturn = true;
     query[0].path = model.pathType.smooth;
