@@ -1,6 +1,6 @@
 [![NPM version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Dependency Status][gemnasium-image]][gemnasium-url]
+[![Build Status][build-image]][build-url]
+[![Dependency Status][deps-image]][deps-url]
 
 # furkot-directions
 
@@ -24,11 +24,11 @@ furkotDirections('Rainbow');
 
 MIT © [Damian Krzeminski](https://pirxpilot.me)
 
-[npm-image]: https://img.shields.io/npm/v/furkot-directions.svg
-[npm-url]: https://npmjs.org/package/furkot-directions
+[npm-image]: https://img.shields.io/npm/v/@furkot/directions
+[npm-url]: https://npmjs.org/package/@furkot/directions
 
-[travis-url]: https://travis-ci.org/furkot/directions
-[travis-image]: https://img.shields.io/travis/furkot/directions.svg
+[build-url]: https://github.com/furkot/directions/actions/workflows/check.yaml
+[build-image]: https://img.shields.io/github/workflow/status/furkot/directions/check
 
-[gemnasium-image]: https://img.shields.io/gemnasium/furkot/directions.svg
-[gemnasium-url]: https://gemnasium.com/furkot/directions
+[deps-image]: https://img.shields.io/librariesio/release/npm/@furkot/directions
+[deps-url]: https://libraries.io/npm/@furkot%2Fdirections
