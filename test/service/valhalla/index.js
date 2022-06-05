@@ -1,12 +1,12 @@
-var _cloneDeep = require('lodash.clonedeep');
-var should = require('should');
-var model = require('../../../lib/model');
+const _cloneDeep = require('lodash.clonedeep');
+const should = require('should');
+const model = require('../../../lib/model');
 
-var response;
-var directions = require('../../../lib/service/valhalla')({
+let response;
+const directions = require('../../../lib/service/valhalla')({
   name: 'valhalla',
-  skip: function () {},
-  request: function (url, req, fn) {
+  skip() {},
+  request(url, req, fn) {
     fn(undefined, response);
   }
 });
@@ -14,7 +14,8 @@ var directions = require('../../../lib/service/valhalla')({
 describe('valhalla directions', function () {
 
   it('test', function (done) {
-    var query, result = [];
+    let query;
+    const result = [];
 
     response = require('./fixtures/response');
 
@@ -46,7 +47,8 @@ describe('valhalla directions', function () {
   });
 
   it('turn-by-turn', function (done) {
-    var query, result = [];
+    let query;
+    const result = [];
 
     response = require('./fixtures/turnbyturn');
 
@@ -83,7 +85,8 @@ describe('valhalla directions', function () {
   });
 
   it('empty', function (done) {
-    var query, result = [];
+    let query;
+    const result = [];
 
     response = require('./fixtures/empty');
 
@@ -104,7 +107,8 @@ describe('valhalla directions', function () {
   });
 
   it('ferry', function (done) {
-    var query, result = [];
+    let query;
+    const result = [];
 
     response = require('./fixtures/ferry');
 
@@ -133,7 +137,8 @@ describe('valhalla directions', function () {
   });
 
   it('only ferry end', function (done) {
-    var query, result = [];
+    let query;
+    const result = [];
 
     response = require('./fixtures/end-ferry');
 

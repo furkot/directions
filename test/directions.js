@@ -1,5 +1,5 @@
-var should = require('should');
-var furkotDirections = require('../lib/directions');
+const should = require('should');
+const furkotDirections = require('../lib/directions');
 
 function mockService(queryId, query, result, fn) {
   query.forEach(function (res, i) {
@@ -12,7 +12,11 @@ function mockService(queryId, query, result, fn) {
 }
 
 function timeService(timeout) {
-  var service, timeoutId, queryInProgress, resultInProgress, callback;
+  let service;
+  let timeoutId;
+  let queryInProgress;
+  let resultInProgress;
+  let callback;
   service = function (queryId, query, result, fn) {
     queryInProgress = query;
     resultInProgress = result;
@@ -89,20 +93,20 @@ describe('furkot-directions node module', function () {
   });
 
   it('only enabled services', function () {
-    var options = {
-        valhalla_enable: function () {}
+    const options = {
+        valhalla_enable() {}
     };
-    var directions = furkotDirections(options);
+    const directions = furkotDirections(options);
     directions.options.should.have.property('services').with.length(1);
   });
 
   it('override provider name', function () {
-    var options = {
+    const options = {
         order: ['stadiamaps'],
         stadiamaps: 'valhalla',
-        stadiamaps_enable: function () {}
+        stadiamaps_enable() {}
     };
-    var directions = furkotDirections(options);
+    const directions = furkotDirections(options);
     directions.options.should.have.property('services').with.length(1);
   });
 

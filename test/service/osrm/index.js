@@ -1,9 +1,9 @@
-var should = require('should');
-var _cloneDeep = require('lodash.clonedeep');
-var sinon = require('sinon');
+const should = require('should');
+const _cloneDeep = require('lodash.clonedeep');
+const sinon = require('sinon');
 
-var osrm = require('../../../lib/service/osrm');
-var model = require('../../../lib/model');
+const osrm = require('../../../lib/service/osrm');
+const model = require('../../../lib/model');
 
 describe('osrm', function () {
   beforeEach(function() {
@@ -12,7 +12,7 @@ describe('osrm', function () {
 
   it('should return turnbyturn directions', function (done) {
 
-    var request = sinon.stub();
+    const request = sinon.stub();
 
     // if called with expected arguments
     request
@@ -26,10 +26,10 @@ describe('osrm', function () {
     // otherwise
     request.yieldsAsync(400);
 
-    var directions = osrm({
+    const directions = osrm({
       name: 'osrm',
-      skip: function() {},
-      request: request
+      skip() {},
+      request
     });
 
     this.query[0].points = [
@@ -45,7 +45,7 @@ describe('osrm', function () {
 
 
       results.should.have.length(1);
-      var result = results[0];
+      const result = results[0];
 
       result.should.have.property('provider', 'osrm');
       result.should.have.property('places',  [
@@ -79,7 +79,7 @@ describe('osrm', function () {
 
   it('should return zero results', function (done) {
 
-    var request = sinon.stub();
+    const request = sinon.stub();
 
     // if called with expected arguments
     request
@@ -93,10 +93,10 @@ describe('osrm', function () {
     // otherwise
     request.yieldsAsync(400);
 
-    var directions = osrm({
+    const directions = osrm({
       name: 'osrm',
-      skip: function() {},
-      request: request
+      skip() {},
+      request
     });
 
     this.query[0].points = [
@@ -111,7 +111,7 @@ describe('osrm', function () {
 
 
       results.should.have.length(1);
-      var result = results[0];
+      const result = results[0];
 
       result.should.have.property('provider', 'osrm');
       result.should.not.have.property('places');

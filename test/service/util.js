@@ -1,9 +1,10 @@
-var should = require('should');
-var util = require('../../lib/service/util');
+const should = require('should');
+const util = require('../../lib/service/util');
 
 describe('util', function () {
   it('splitPoints', function () {
-    var query, segments;
+    let query;
+    let segments;
 
     segments = util.splitPoints({}, 10);
     should.not.exist(segments);

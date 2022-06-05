@@ -1,9 +1,13 @@
-var should = require('should');
-var service = require('../../lib/service');
-var status = require('../../lib/service/status');
+const should = require('should');
+const service = require('../../lib/service');
+const status = require('../../lib/service/status');
 
 describe('service', function () {
-  var s, st, reqTimeout, reqResponse, timeout = 200;
+  let s;
+  let st;
+  let reqTimeout;
+  let reqResponse;
+  const timeout = 200;
 
   beforeEach(function () {
     st = [];
@@ -11,27 +15,27 @@ describe('service', function () {
     reqTimeout = 1;
 
     s = service({
-      timeout: timeout,
+      timeout,
       interval: 10,
       penaltyInterval: 20,
       maxPoints: 10,
-      request: function (url, req, fn) {
+      request(url, req, fn) {
         req = setTimeout(function () {
           fn(undefined, reqResponse);
         }, reqTimeout);
         req.abort = function () {};
         return req;
       },
-      status: function () {
+      status() {
         return st.shift() || status.success;
       },
-      prepareRequest: function (query) {
+      prepareRequest(query) {
         return query;
       },
-      processResponse: function (response) {
+      processResponse(response) {
         return response;
       },
-      skip: function () {}
+      skip() {}
     });
   });
 
