@@ -1,4 +1,12 @@
 
+1.5.1 / 2022-09-03
+==================
+
+ * format and modernize code
+ * upgrade dev dependencies
+ * replace Travis CI with github actions
+ * change package name to @furkot/directions
+
 1.5.0 / 2022-04-21
 ==================
 
