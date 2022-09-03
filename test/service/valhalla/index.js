@@ -1,201 +1,169 @@
-const _cloneDeep = require('lodash.clonedeep');
 const should = require('should');
-const model = require('../../../lib/model');
-
-let response;
-const directions = require('../../../lib/service/valhalla')({
-  name: 'valhalla',
-  skip() {},
-  request(url, req, fn) {
-    fn(undefined, response);
-  }
-});
+const { directionsQuery, pathType } = require('../../../lib/model');
+const valhalla = require('../../../lib/service/valhalla');
 
 describe('valhalla directions', function () {
+  let response;
+  const directions = valhalla({
+    name: 'valhalla',
+    interval: 1,
+    skip() { },
+    request() { return { response }; }
+  }).operation;
 
-  it('test', function (done) {
-    let query;
-    const result = [];
+  it('test', async function () {
 
     response = require('./fixtures/response');
 
-    query = _cloneDeep(model.directionsQuery);
-    query[0].points = [
-      [response.trip.locations[0].lon, response.trip.locations[0].lat],
-      [response.trip.locations[1].lon, response.trip.locations[1].lat]
-    ];
-    query[0].units = 'km';
-    query[0].path = model.pathType.full;
-    directions(1, query, result, function (err, value, id, query, result) {
-      should.not.exist(err);
-      value.should.equal(false);
-      should.exist(result);
-      result.should.have.length(1);
-      result[0].should.have.property('query');
-      result[0].query.should.deepEqual(query[0]);
-      result[0].should.not.have.property('name');
-      result[0].should.not.have.property('places');
-      result[0].should.have.property('routes').with.length(1);
-      result[0].routes[0].should.have.property('duration', 2300);
-      result[0].routes[0].should.have.property('distance', 44760);
-      result[0].routes[0].should.have.property('path').with.length(511);
-      result[0].routes[0].should.not.have.property('segmentIndex');
-      result[0].should.not.have.property('segments');
-      result[0].should.have.property('provider', 'valhalla');
-      done();
-    });
+    const query = {
+      ...directionsQuery,
+      points: [
+        [response.trip.locations[0].lon, response.trip.locations[0].lat],
+        [response.trip.locations[1].lon, response.trip.locations[1].lat]
+      ],
+      units: 'km',
+      path: pathType.full
+    };
+    const result = await directions(query);
+    should.exist(result);
+    result.should.have.property('query');
+    result.query.should.deepEqual(query);
+    result.should.not.have.property('name');
+    result.should.not.have.property('places');
+    result.should.have.property('routes').with.length(1);
+    result.routes[0].should.have.property('duration', 2300);
+    result.routes[0].should.have.property('distance', 44760);
+    result.routes[0].should.have.property('path').with.length(511);
+    result.routes[0].should.not.have.property('segmentIndex');
+    result.should.not.have.property('segments');
+    result.should.have.property('provider', 'valhalla');
   });
 
-  it('turn-by-turn', function (done) {
-    let query;
-    const result = [];
+  it('turn-by-turn', async function () {
 
     response = require('./fixtures/turnbyturn');
 
-    query = _cloneDeep(model.directionsQuery);
-    query[0].points = [
-      [response.trip.locations[0].lon, response.trip.locations[0].lat],
-      [response.trip.locations[1].lon, response.trip.locations[1].lat]
-    ];
-    query[0].turnbyturn = true;
-    query[0].path = model.pathType.full;
-    directions(2, query, result, function (err, value, id, query, result) {
-      should.not.exist(err);
-      value.should.equal(false);
-      should.exist(result);
-      result.should.have.length(1);
-      result[0].should.have.property('query');
-      result[0].query.should.deepEqual(query[0]);
-      result[0].should.not.have.property('name');
-      result[0].should.not.have.property('places');
-      result[0].should.have.property('routes').with.length(1);
-      result[0].routes[0].should.have.property('duration', 2293);
-      result[0].routes[0].should.have.property('distance', 44761);
-      result[0].routes[0].should.have.property('path').with.length(511);
-      result[0].routes[0].should.have.property('segmentIndex', 0);
-      result[0].should.have.property('segments').with.length(7);
-      result[0].segments[0].should.have.property('duration', 30);
-      result[0].segments[0].should.have.property('distance', 254);
-      result[0].segments[0].should.have.property('path').with.length(2);
-      result[0].segments[0].should.have.property('instructions', 'Drive south.');
-      result[0].segments.reduce(function (len, seg) { return len + seg.path.length; }, 0).should.equal(511);
-      result[0].should.have.property('provider', 'valhalla');
-      done();
-    });
+    const query = {
+      ...directionsQuery,
+      points: [
+        [response.trip.locations[0].lon, response.trip.locations[0].lat],
+        [response.trip.locations[1].lon, response.trip.locations[1].lat]
+      ],
+      turnbyturn: true,
+      path: pathType.full
+    };
+    const result = await directions(query);
+    should.exist(result);
+    result.should.have.property('query');
+    result.query.should.deepEqual(query);
+    result.should.not.have.property('name');
+    result.should.not.have.property('places');
+    result.should.have.property('routes').with.length(1);
+    result.routes[0].should.have.property('duration', 2293);
+    result.routes[0].should.have.property('distance', 44761);
+    result.routes[0].should.have.property('path').with.length(511);
+    result.routes[0].should.have.property('segmentIndex', 0);
+    result.should.have.property('segments').with.length(7);
+    result.segments[0].should.have.property('duration', 30);
+    result.segments[0].should.have.property('distance', 254);
+    result.segments[0].should.have.property('path').with.length(2);
+    result.segments[0].should.have.property('instructions', 'Drive south.');
+    result.segments.reduce(function (len, seg) { return len + seg.path.length; }, 0).should.equal(511);
+    result.should.have.property('provider', 'valhalla');
   });
 
-  it('empty', function (done) {
-    let query;
-    const result = [];
+  it('empty', async function () {
 
     response = require('./fixtures/empty');
 
-    query = _cloneDeep(model.directionsQuery);
-    query[0].points = [
-      [response.trip.locations[0].lon, response.trip.locations[0].lat],
-      [response.trip.locations[1].lon, response.trip.locations[1].lat]
-    ];
-    query[0].turnbyturn = true;
-    query[0].path = model.pathType.full;
-    directions(2, query, result, function (err, value, id, query, result) {
-      should.not.exist(err);
-      value.should.equal(false);
-      should.exist(result);
-      result.should.have.length(0);
-      done();
-    });
+    const query = {
+      ...directionsQuery,
+      points: [
+        [response.trip.locations[0].lon, response.trip.locations[0].lat],
+        [response.trip.locations[1].lon, response.trip.locations[1].lat]
+      ],
+      turnbyturn: true,
+      path: pathType.full,
+    };
+    const result = await directions(query);
+    should.not.exist(result);
   });
 
-  it('ferry', function (done) {
-    let query;
-    const result = [];
+  it('ferry', async function () {
 
     response = require('./fixtures/ferry');
 
-    query = _cloneDeep(model.directionsQuery);
-    query[0].points = [
-      [response.trip.locations[0].lon, response.trip.locations[0].lat],
-      [response.trip.locations[1].lon, response.trip.locations[1].lat]
-    ];
-    query[0].turnbyturn = true;
-    query[0].path = model.pathType.full;
-    directions(2, query, result, function (err, value, id, query, result) {
-      should.not.exist(err);
-      value.should.equal(false);
-      should.exist(result);
-      result.should.have.length(1);
-      result[0].should.have.property('routes').with.length(1);
-      result[0].routes[0].should.have.property('ferry').eql(true);
-      result[0].should.have.property('segments').with.length(4);
-      result[0].segments[0].should.not.have.property('mode');
-      result[0].segments[1].should.have.property('mode', 6);
-      result[0].segments[2].should.not.have.property('mode');
-      result[0].segments[3].should.not.have.property('mode');
-      result[0].should.have.property('provider', 'valhalla');
-      done();
-    });
+    const query = {
+      ...directionsQuery,
+      points: [
+        [response.trip.locations[0].lon, response.trip.locations[0].lat],
+        [response.trip.locations[1].lon, response.trip.locations[1].lat]
+      ],
+      turnbyturn: true,
+      path: pathType.full
+    };
+    const result = await directions(query);
+    should.exist(result);
+    result.should.have.property('routes').with.length(1);
+    result.routes[0].should.have.property('ferry').eql(true);
+    result.should.have.property('segments').with.length(4);
+    result.segments[0].should.not.have.property('mode');
+    result.segments[1].should.have.property('mode', 6);
+    result.segments[2].should.not.have.property('mode');
+    result.segments[3].should.not.have.property('mode');
+    result.should.have.property('provider', 'valhalla');
   });
 
-  it('only ferry end', function (done) {
-    let query;
-    const result = [];
+  it('only ferry end', async function () {
 
     response = require('./fixtures/end-ferry');
 
-    query = _cloneDeep(model.directionsQuery);
-    query[0].points = [
-      [response.trip.locations[0].lon, response.trip.locations[0].lat],
-      [response.trip.locations[1].lon, response.trip.locations[1].lat]
-    ];
-    query[0].turnbyturn = true;
-    query[0].path = model.pathType.full;
-    directions(2, query, result, function (err, value, id, query, result) {
-      should.not.exist(err);
-      value.should.equal(false);
-      should.exist(result);
-      result.should.have.length(1);
-      result[0].should.have.property('routes').with.length(1);
-      result[0].routes[0].should.have.property('ferry').eql(true);
-      result[0].should.have.property('segments').with.length(3);
-      result[0].segments[0].should.have.property('mode', 6);
-      result[0].segments[1].should.not.have.property('mode');
-      result[0].segments[2].should.not.have.property('mode');
-      result[0].should.have.property('provider', 'valhalla');
-      done();
-    });
+    const query = {
+      ...directionsQuery,
+      points: [
+        [response.trip.locations[0].lon, response.trip.locations[0].lat],
+        [response.trip.locations[1].lon, response.trip.locations[1].lat]
+      ],
+      turnbyturn: true,
+      path: pathType.full
+    };
+    const result = await directions(query);
+    should.exist(result);
+    result.should.have.property('routes').with.length(1);
+    result.routes[0].should.have.property('ferry').eql(true);
+    result.should.have.property('segments').with.length(3);
+    result.segments[0].should.have.property('mode', 6);
+    result.segments[1].should.not.have.property('mode');
+    result.segments[2].should.not.have.property('mode');
+    result.should.have.property('provider', 'valhalla');
   });
 
-  it('no ferry end', function (done) {
-    let query;
-    const result = [];
+  it('no ferry end', async function () {
 
     response = require('./fixtures/no-end-ferry');
 
-    query = _cloneDeep(model.directionsQuery);
-    query[0].points = [
-      [response.trip.locations[0].lon, response.trip.locations[0].lat],
-      [response.trip.locations[1].lon, response.trip.locations[1].lat]
-    ];
-    query[0].turnbyturn = true;
-    query[0].path = model.pathType.full;
-    directions(2, query, result, function (err, value, id, query, result) {
-      should.not.exist(err);
-      value.should.equal(false);
-      should.exist(result);
-      result.should.have.length(1);
-      result[0].should.have.property('routes').with.length(1);
-      result[0].routes[0].should.have.property('ferry').eql(true);
-      result[0].should.have.property('segments').with.length(8);
-      result[0].segments[0].should.not.have.property('mode');
-      result[0].segments[1].should.not.have.property('mode');
-      result[0].segments[2].should.not.have.property('mode');
-      result[0].segments[3].should.not.have.property('mode');
-      result[0].segments[4].should.not.have.property('mode');
-      result[0].segments[5].should.have.property('mode', 6);
-      result[0].segments[6].should.not.have.property('mode');
-      result[0].segments[7].should.not.have.property('mode');
-      result[0].should.have.property('provider', 'valhalla');
-      done();
-    });
+    const query = {
+      ...directionsQuery,
+      points: [
+        [response.trip.locations[0].lon, response.trip.locations[0].lat],
+        [response.trip.locations[1].lon, response.trip.locations[1].lat]
+      ],
+      turnbyturn: true,
+      path: pathType.full
+    };
+    const result = await directions(query);
+    should.exist(result);
+    result.should.have.property('routes').with.length(1);
+    result.routes[0].should.have.property('ferry').eql(true);
+    result.should.have.property('segments').with.length(8);
+    result.segments[0].should.not.have.property('mode');
+    result.segments[1].should.not.have.property('mode');
+    result.segments[2].should.not.have.property('mode');
+    result.segments[3].should.not.have.property('mode');
+    result.segments[4].should.not.have.property('mode');
+    result.segments[5].should.have.property('mode', 6);
+    result.segments[6].should.not.have.property('mode');
+    result.segments[7].should.not.have.property('mode');
+    result.should.have.property('provider', 'valhalla');
   });
 });

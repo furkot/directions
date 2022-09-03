@@ -1,90 +1,76 @@
-const _cloneDeep = require('lodash.clonedeep');
 const should = require('should');
 const model = require('../../../lib/model');
+const mapquest = require('../../../lib/service/mapquest');
 
 let response;
-const directions = require('../../../lib/service/mapquest')({
+const directions = mapquest({
   name: 'mapquest',
-  skip() {},
-  request(url, req, fn) {
-    fn(undefined, response);
-  }
-});
+  skip() { },
+  interval: 1,
+  request() { return { response }; }
+}).operation;
 
 describe('mapquest directions', function () {
 
-  it('test', function (done) {
-    let query;
-    const result = [];
-
+  it('test', async function () {
     response = require('./fixtures/turnbyturn');
 
-    query = _cloneDeep(model.directionsQuery);
-    query[0].points = [
-      [response.route.locations[0].latLng.lng, response.route.locations[0].latLng.lat],
-      [response.route.locations[1].latLng.lng, response.route.locations[1].latLng.lat]
-    ];
-    query[0].alternate = true;
-    query[0].turnbyturn = true;
-    query[0].path = model.pathType.full;
-    query[0].units = 'km';
-    directions(1, query, result, function (err, value, id, query, result) {
-      should.not.exist(err);
-      value.should.equal(false);
-      should.exist(result);
-      result.should.have.length(1);
-      result[0].should.have.property('query');
-      result[0].query.should.deepEqual(query[0]);
-      result[0].should.have.property('name', 'US-54 W');
-      result[0].should.not.have.property('places');
-      result[0].should.have.property('routes').with.length(1);
-      result[0].routes[0].should.have.property('duration', 1939);
-      result[0].routes[0].should.have.property('distance', 41603);
-      result[0].routes[0].should.have.property('path').with.length(40);
-      result[0].routes[0].should.have.property('segmentIndex', 0);
-      result[0].should.have.property('segments').with.length(7);
-      result[0].segments[0].should.have.property('duration', 86);
-      result[0].segments[0].should.have.property('distance', 906);
-      result[0].segments[0].should.have.property('path').with.length(3);
-      result[0].segments[0].should.have.property('instructions',
-        'Start out going south on Quay Road V toward US Highway 54/US-54 W/US-54 E.');
-      result[0].should.have.property('provider', 'mapquest');
-      done();
-    });
+    const query = {
+      ...model.directionsQuery,
+      points: [
+        [response.route.locations[0].latLng.lng, response.route.locations[0].latLng.lat],
+        [response.route.locations[1].latLng.lng, response.route.locations[1].latLng.lat]
+      ],
+      alternate: true,
+      turnbyturn: true,
+      path: model.pathType.full,
+      units: 'km',
+    };
+    const result = await directions(query);
+    should.exist(result);
+    result.should.have.property('query');
+    result.query.should.deepEqual(query);
+    result.should.have.property('name', 'US-54 W');
+    result.should.not.have.property('places');
+    result.should.have.property('routes').with.length(1);
+    result.routes[0].should.have.property('duration', 1939);
+    result.routes[0].should.have.property('distance', 41603);
+    result.routes[0].should.have.property('path').with.length(40);
+    result.routes[0].should.have.property('segmentIndex', 0);
+    result.should.have.property('segments').with.length(7);
+    result.segments[0].should.have.property('duration', 86);
+    result.segments[0].should.have.property('distance', 906);
+    result.segments[0].should.have.property('path').with.length(3);
+    result.segments[0].should.have.property('instructions',
+      'Start out going south on Quay Road V toward US Highway 54/US-54 W/US-54 E.');
+    result.should.have.property('provider', 'mapquest');
   });
 });
 
 describe('open mapquest directions', function () {
-
-  it('test', function (done) {
-    let query;
-    const result = [];
-
+  it('test', async function () {
     response = require('./fixtures/response');
 
-    query = _cloneDeep(model.directionsQuery);
-    query[0].points = [
-      [response.route.locations[0].latLng.lng, response.route.locations[0].latLng.lat],
-      [response.route.locations[1].latLng.lng, response.route.locations[1].latLng.lat]
-    ];
-    query[0].path = model.pathType.smooth;
-    directions(2, query, result, function (err, value, id, query, result) {
-      should.not.exist(err);
-      value.should.equal(false);
-      should.exist(result);
-      result.should.have.length(1);
-      result[0].should.have.property('query');
-      result[0].query.should.deepEqual(query[0]);
-      result[0].should.have.property('name', 'US-54 W');
-      result[0].should.not.have.property('places');
-      result[0].should.have.property('routes').with.length(1);
-      result[0].routes[0].should.have.property('duration', 1939);
-      result[0].routes[0].should.have.property('distance', 41603);
-      result[0].routes[0].should.have.property('path').with.length(40);
-      result[0].routes[0].should.have.property('segmentIndex', 0);
-      result[0].should.not.have.property('segments');
-      result[0].should.have.property('provider', 'openmapquest');
-      done();
-    });
+    const query = {
+      ...model.directionsQuery,
+      points: [
+        [response.route.locations[0].latLng.lng, response.route.locations[0].latLng.lat],
+        [response.route.locations[1].latLng.lng, response.route.locations[1].latLng.lat]
+      ],
+      path: model.pathType.smooth
+    };
+    const result = await directions(query);
+    should.exist(result);
+    result.should.have.property('query');
+    result.query.should.deepEqual(query);
+    result.should.have.property('name', 'US-54 W');
+    result.should.not.have.property('places');
+    result.should.have.property('routes').with.length(1);
+    result.routes[0].should.have.property('duration', 1939);
+    result.routes[0].should.have.property('distance', 41603);
+    result.routes[0].should.have.property('path').with.length(40);
+    result.routes[0].should.have.property('segmentIndex', 0);
+    result.should.not.have.property('segments');
+    result.should.have.property('provider', 'openmapquest');
   });
 });
