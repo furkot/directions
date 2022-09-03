@@ -1,9 +1,13 @@
-var should = require('should');
-var service = require('../../lib/service');
-var status = require('../../lib/service/status');
+const should = require('should');
+const service = require('../../lib/service');
+const status = require('../../lib/service/status');
 
 describe('service', function () {
-  var s, st, reqTimeout, reqResponse, timeout = 200;
+  let s;
+  let st;
+  let reqTimeout;
+  let reqResponse;
+  const timeout = 200;
 
   beforeEach(function () {
     st = [];
@@ -11,33 +15,36 @@ describe('service', function () {
     reqTimeout = 1;
 
     s = service({
-      timeout: timeout,
+      timeout,
       interval: 10,
       penaltyInterval: 20,
       maxPoints: 10,
-      request: function (url, req, fn) {
+      request(url, req, fn) {
         req = setTimeout(function () {
           fn(undefined, reqResponse);
         }, reqTimeout);
         req.abort = function () {};
         return req;
       },
-      status: function () {
+      status() {
         return st.shift() || status.success;
       },
-      prepareRequest: function (query) {
+      prepareRequest(query) {
         return query;
       },
-      processResponse: function (response) {
+      processResponse(response) {
         return response;
       },
-      skip: function () {}
+      skip() {}
     });
   });
 
   it('success', function (done) {
     s(1, [{
-      points: [[0, 0], [1, 1]]
+      points: [
+        [0, 0],
+        [1, 1]
+      ]
     }], [], function (err, trueValue, id, query, result) {
       should.not.exist(err);
       trueValue.should.equal(false);
@@ -51,7 +58,10 @@ describe('service', function () {
   it('request later', function (done) {
     st = [status.error];
     s(2, [{
-      points: [[0, 0], [1, 1]]
+      points: [
+        [0, 0],
+        [1, 1]
+      ]
     }], [], function (err, trueValue, id, query, result) {
       should.not.exist(err);
       trueValue.should.equal(false);
@@ -73,7 +83,9 @@ describe('service', function () {
 
   it('one point', function (done) {
     s(4, [{
-      points: [[0, 0]]
+      points: [
+        [0, 0]
+      ]
     }], [], function (err, trueValue, id, query, result) {
       should.not.exist(err);
       trueValue.should.equal(true);
@@ -85,7 +97,10 @@ describe('service', function () {
   it('cascade to next service', function (done) {
     reqResponse = undefined;
     s(5, [{
-      points: [[0, 0], [1, 1]]
+      points: [
+        [0, 0],
+        [1, 1]
+      ]
     }], [], function (err, trueValue, id, query, result) {
       should.not.exist(err);
       trueValue.should.equal(false);
@@ -99,7 +114,10 @@ describe('service', function () {
     let aborted;
     reqTimeout = 2 * timeout;
     s(6, [{
-      points: [[0, 0], [1, 1]]
+      points: [
+        [0, 0],
+        [1, 1]
+      ]
     }], [], function (err, trueValue, id, query, result) {
       should.not.exist(err);
       trueValue.should.equal(true);
@@ -122,7 +140,11 @@ describe('service', function () {
     reqResponse = undefined;
     st = [status.empty];
     s(7, [{
-      points: [[0, 0], [1, 1], [2, 2]]
+      points: [
+        [0, 0],
+        [1, 1],
+        [2, 2]
+      ]
     }], [], function (err, trueValue, id, query, result) {
       should.not.exist(err);
       trueValue.should.equal(true);

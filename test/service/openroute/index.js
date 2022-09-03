@@ -1,12 +1,12 @@
-var _cloneDeep = require('lodash.clonedeep');
-var should = require('should');
-var model = require('../../../lib/model');
+const _cloneDeep = require('lodash.clonedeep');
+const should = require('should');
+const model = require('../../../lib/model');
 
-var response;
-var directions = require('../../../lib/service/openroute')({
+let response;
+const directions = require('../../../lib/service/openroute')({
   name: 'openroute',
-  skip: function () {},
-  request: function (url, req, fn) {
+  skip() {},
+  request(url, req, fn) {
     fn(undefined, response);
   }
 });
@@ -14,7 +14,8 @@ var directions = require('../../../lib/service/openroute')({
 describe('openroute directions', function () {
 
   it('turn-by-turn', function (done) {
-    var query, result = [];
+    let query;
+    const result = [];
 
     response = require('./fixtures/turnbyturn');
 
@@ -51,14 +52,15 @@ describe('openroute directions', function () {
   });
 
   it('empty', function (done) {
-    var query, result = [];
+    let query;
+    const result = [];
 
     response = require('./fixtures/empty');
 
     query = _cloneDeep(model.directionsQuery);
     query[0].points = [
       [-107.04742870308806, 40.10879725627518],
-      [-107.04732141473033,40.10881161617999]
+      [-107.04732141473033, 40.10881161617999]
     ];
     query[0].turnbyturn = true;
     query[0].path = model.pathType.smooth;
@@ -88,7 +90,8 @@ describe('openroute directions', function () {
   });
 
   it('ferry', function (done) {
-    var query, result = [];
+    let query;
+    const result = [];
 
     response = require('./fixtures/ferry');
 

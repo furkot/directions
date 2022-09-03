@@ -1,10 +1,10 @@
-var LatLon = require('geodesy/latlon-spherical');
-var pathType = require("../../lib/model").pathType;
+const LatLon = require('geodesy/latlon-spherical');
+const pathType = require("../../lib/model").pathType;
 
-var simplify = require('../../lib/service/simplify')({
-  algorithm: function (path, num) {
+const simplify = require('../../lib/service/simplify')({
+  algorithm(path, num) {
     num = num / 2;
-    return path.slice(0, Math.ceil(num)).concat(path.slice(- Math.floor(num)));
+    return path.slice(0, Math.ceil(num)).concat(path.slice(-Math.floor(num)));
   }
 });
 
@@ -23,20 +23,25 @@ function distance(path) {
 describe('simplify', function () {
 
   it('path type none', function () {
-    var routes = [{
+    const routes = [{
       segmentIndex: 0
     }];
 
     simplify(pathType.none, 1000, routes, [{
-      path: [[0, 0]]
+      path: [
+        [0, 0]
+      ]
     }]);
     routes[0].should.not.have.property('path');
   });
 
   it('path type full', function () {
-    var routes = [{
+    const routes = [{
       segmentIndex: 0
-    }], path = [], i;
+    }];
+
+    const path = [];
+    let i;
 
     for (i = 0; i < 105; i += 1) {
       path.push([i / 10, i / 10]);
@@ -44,16 +49,20 @@ describe('simplify', function () {
     routes[0].distance = distance(path);
 
     simplify(pathType.full, 10 * routes[0].distance, routes, [{
-      path: path,
+      path,
       distance: routes[0].distance
     }]);
     routes[0].should.have.property('path', path);
   });
 
   it('path type smooth with ends', function () {
-    var routes = [{
+    const routes = [{
       segmentIndex: 0,
-    }], path = [], i, segments;
+    }];
+
+    let path = [];
+    let i;
+    let segments;
 
     for (i = 0; i < 200; i += 1) {
       path.push([i / 10, i / 10]);
@@ -79,9 +88,12 @@ describe('simplify', function () {
   });
 
   it('path type smooth single segment', function () {
-    var routes = [{
+    const routes = [{
       segmentIndex: 0
-    }], path = [], i;
+    }];
+
+    let path = [];
+    let i;
 
     for (i = 0; i < 105; i += 1) {
       path.push([i / 5, i / 5]);
@@ -89,7 +101,7 @@ describe('simplify', function () {
     routes[0].distance = distance(path);
 
     simplify(pathType.smooth, distance(path.slice(0, 25)), routes, [{
-      path: path,
+      path,
       distance: routes[0].distance
     }]);
     routes[0].should.have.property('path').with.length(100);
@@ -98,9 +110,12 @@ describe('simplify', function () {
   });
 
   it('path type smooth no ends', function () {
-    var routes = [{
+    const routes = [{
       segmentIndex: 0
-    }], path = [], i;
+    }];
+
+    const path = [];
+    let i;
 
     for (i = 0; i < 105; i += 1) {
       path.push([i / 10, i / 10]);
@@ -108,7 +123,7 @@ describe('simplify', function () {
     routes[0].distance = distance(path);
 
     simplify(pathType.smooth, 10 * routes[0].distance, routes, [{
-      path: path,
+      path,
       distance: routes[0].distance
     }]);
     routes[0].should.have.property('path', path.slice(0, 50).concat(path.slice(-50)));

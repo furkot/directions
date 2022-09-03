@@ -1,12 +1,12 @@
-var _cloneDeep = require('lodash.clonedeep');
-var should = require('should');
-var model = require('../../../lib/model');
+const _cloneDeep = require('lodash.clonedeep');
+const should = require('should');
+const model = require('../../../lib/model');
 
-var response;
-var directions = require('../../../lib/service/mapquest')({
+let response;
+const directions = require('../../../lib/service/mapquest')({
   name: 'mapquest',
-  skip: function () {},
-  request: function (url, req, fn) {
+  skip() {},
+  request(url, req, fn) {
     fn(undefined, response);
   }
 });
@@ -14,7 +14,8 @@ var directions = require('../../../lib/service/mapquest')({
 describe('mapquest directions', function () {
 
   it('test', function (done) {
-    var query, result = [];
+    let query;
+    const result = [];
 
     response = require('./fixtures/turnbyturn');
 
@@ -56,7 +57,8 @@ describe('mapquest directions', function () {
 describe('open mapquest directions', function () {
 
   it('test', function (done) {
-    var query, result = [];
+    let query;
+    const result = [];
 
     response = require('./fixtures/response');
 
