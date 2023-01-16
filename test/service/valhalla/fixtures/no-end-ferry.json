@@ -1,0 +1,181 @@
+{
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 48.678719,
+        "lon": -123.421071,
+        "date_time": "2023-01-30T00:00",
+        "side_of_street": "right",
+        "original_index": 0
+      },
+      {
+        "type": "break",
+        "lat": 49.035897,
+        "lon": -123.082469,
+        "date_time": "2023-01-30T01:50",
+        "side_of_street": "right",
+        "original_index": 1
+      }
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 2,
+            "instruction": "Drive northeast on 17/Patricia Bay Highway.",
+            "verbal_succinct_transition_instruction": "Drive northeast.",
+            "verbal_pre_transition_instruction": "Drive northeast on 17, Patricia Bay Highway.",
+            "verbal_post_transition_instruction": "Continue for a half mile.",
+            "street_names": [
+              "17",
+              "Patricia Bay Highway"
+            ],
+            "time": 80.682,
+            "length": 0.607,
+            "cost": 169.323,
+            "begin_shape_index": 0,
+            "end_shape_index": 19,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 16,
+            "instruction": "Bear left.",
+            "verbal_transition_alert_instruction": "Bear left.",
+            "verbal_succinct_transition_instruction": "Bear left. Then Turn left.",
+            "verbal_pre_transition_instruction": "Bear left. Then Turn left.",
+            "verbal_post_transition_instruction": "Continue for 70 feet.",
+            "time": 4.025,
+            "length": 0.013,
+            "cost": 9.662,
+            "begin_shape_index": 19,
+            "end_shape_index": 20,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left.",
+            "verbal_succinct_transition_instruction": "Turn left. Then, in 90 feet, Turn right onto 1.",
+            "verbal_pre_transition_instruction": "Turn left. Then, in 90 feet, Turn right onto 1.",
+            "verbal_post_transition_instruction": "Continue for 90 feet.",
+            "time": 8.063,
+            "length": 0.016,
+            "cost": 17.495,
+            "begin_shape_index": 20,
+            "end_shape_index": 23,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto 1.",
+            "verbal_transition_alert_instruction": "Turn right onto 1.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_pre_transition_instruction": "Turn right onto 1.",
+            "verbal_post_transition_instruction": "Continue for a quarter mile.",
+            "street_names": [
+              "1"
+            ],
+            "time": 47.77,
+            "length": 0.203,
+            "cost": 65.989,
+            "begin_shape_index": 23,
+            "end_shape_index": 45,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 17,
+            "instruction": "Stay straight to take the ramp.",
+            "verbal_transition_alert_instruction": "Stay straight to take the ramp.",
+            "verbal_pre_transition_instruction": "Stay straight to take the ramp.",
+            "time": 33.037,
+            "length": 0.164,
+            "cost": 33.504,
+            "begin_shape_index": 45,
+            "end_shape_index": 54,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 28,
+            "instruction": "Take the Berth 3 approach Ferry.",
+            "verbal_transition_alert_instruction": "Take the Berth 3 approach Ferry.",
+            "verbal_pre_transition_instruction": "Take the Berth 3 approach Ferry.",
+            "verbal_post_transition_instruction": "Continue for 29 miles.",
+            "street_names": [
+              "Berth 3 approach"
+            ],
+            "time": 6176.628,
+            "length": 29.377,
+            "cost": 6511.024,
+            "begin_shape_index": 54,
+            "end_shape_index": 99,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 21,
+            "instruction": "Take the exit on the left.",
+            "verbal_transition_alert_instruction": "Take the exit on the left.",
+            "verbal_pre_transition_instruction": "Take the exit on the left.",
+            "verbal_post_transition_instruction": "Continue for 3 miles.",
+            "street_names": [
+              "17"
+            ],
+            "time": 249.308,
+            "length": 3.085,
+            "cost": 238.833,
+            "begin_shape_index": 99,
+            "end_shape_index": 173,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 5,
+            "instruction": "Your destination is on the right.",
+            "verbal_transition_alert_instruction": "Your destination will be on the right.",
+            "verbal_pre_transition_instruction": "Your destination is on the right.",
+            "time": 0.0,
+            "length": 0.0,
+            "cost": 0.0,
+            "begin_shape_index": 173,
+            "end_shape_index": 173,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "min_lat": 48.678766,
+          "min_lon": -123.441747,
+          "max_lat": 49.036059,
+          "max_lon": -123.08265,
+          "time": 6599.516,
+          "length": 33.469,
+          "cost": 7045.834
+        },
+        "shape": "}ubz{Ab{_ljFqaAylCqRcg@mQ{b@iUuh@kSgc@_T_c@sOcZmTy`@{Sy^gR{[kTua@gOkWaEcH}So_@cTshAmDsFkAiBmAkBQ[{I_HkBhDsBtDoBlDgDSoBaD}@wAsAkB{AeBqCuC{C}B_DsBeDkBqCoAwC_AyCk@{Ca@kFYoFFkFNkF\\qRvBuPlBgWtCaZdDqB_@{M`BseAzLyAa@uHx@kFB{BoAyDoD}Pa`@iAmBkVqe@a]a_@u`@sSw~@kFk~ClbB_{I`jd@eqDfyMkx@liCelAnuAajAlo@mx@j[mrAYyyC{yAw}CqpGmfNci]of^y`r@ad`A{vjAk_[i_K_}WcpE{lKomCakKwbA_{`@|nAg|IpdEqrLf`IcbElvBa|B~e@u}CeEmxDsDugIsrEchFusGag@miIboAsaMboAs_N~RqcL~HmuH_~AonFcuFs}Cs}HwjB}nNisGykQcjLexLyeI}vvEiwiHohAy`EqaByiCoKqPw@s@_D_FkFkI]i@yLwQmDgIGoGIiRAaMQmQw@aLaC_RaC{OcAyGeH__@qDuP{DeRaFaUaBuGgBqGsAgEyAaEyAmD}AkDaD}FiDqFcQsXqf@sv@ed@us@mHeLwCoE}CmEqBeCuByBqD{C{DcC}M{FyPoGmNkFoJqDeNcHgFcDkFsDeHwGaIsIcMcOwMgT{k@m_Ay}@mxAirVmj`@qSc\\s^wk@sSm]kSg^qRu^uHsOkHkO{GuOiHiQia@edA{AaEmLk[yJkWuMi]otCwsHwCuHmDgJ[{@_]u|@M[_CiGuBoFatBgsFq~AieE"
+      }
+    ],
+    "summary": {
+      "has_time_restrictions": false,
+      "min_lat": 48.678766,
+      "min_lon": -123.441747,
+      "max_lat": 49.036059,
+      "max_lon": -123.08265,
+      "time": 6599.516,
+      "length": 33.469,
+      "cost": 7045.834
+    },
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "miles",
+    "language": "en-US"
+  }
+}
