@@ -1,4 +1,9 @@
 
+1.5.2 / 2023-01-16
+==================
+
+ * accept the next manouver after ferry enter as ferry exit in Valhalla service
+
 1.5.1 / 2022-09-03
 ==================
 
