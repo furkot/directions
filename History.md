@@ -1,4 +1,11 @@
 
+2.0.0 / 2023-01-19
+==================
+
+ * rewrite to support promise based API
+ * add support for passing MOCHA_OPTS
+ * update limiter-component and fetchagent
+
 1.5.2 / 2023-01-16
 ==================
 
