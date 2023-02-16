@@ -128,4 +128,53 @@ describe('graphhopper directions', function () {
     result.segments[1].should.have.property('path').with.length(2);
     result.should.have.property('provider', 'graphhopper');
   });
+
+  it('rough surface', async function () {
+
+    response = require('./fixtures/rough');
+
+    const query = {
+      ...directionsQuery,
+      points: [
+        [-117.66331, 37.19828],
+        [-118.05343279926038, 36.56441786808713]
+      ],
+      turnbyturn: true,
+      path: pathType.full
+    };
+    const result = await directions(query);
+    should.exist(result);
+    result.should.have.property('routes').with.length(1);
+    result.routes[0].should.have.property('rough').eql(true);
+    result.should.have.property('segments').with.length(14);
+    result.segments[0].should.have.property('rough', true);
+    result.segments[0].should.have.property('path').with.length(150);
+    result.segments[1].should.not.have.property('rough');
+    result.segments[1].should.have.property('path').with.length(94);
+    result.segments[2].should.have.property('rough', true);
+    result.segments[2].should.have.property('path').with.length(4);
+    result.segments[3].should.have.property('rough', true);
+    result.segments[3].should.have.property('path').with.length(259);
+    result.segments[4].should.not.have.property('rough');
+    result.segments[4].should.have.property('path').with.length(399);
+    result.segments[5].should.not.have.property('rough');
+    result.segments[5].should.have.property('path').with.length(32);
+    result.segments[6].should.not.have.property('rough');
+    result.segments[6].should.have.property('path').with.length(156);
+    result.segments[7].should.have.property('rough', true);
+    result.segments[7].should.have.property('path').with.length(2);
+    result.segments[8].should.not.have.property('rough');
+    result.segments[8].should.have.property('path').with.length(65);
+    result.segments[9].should.not.have.property('rough');
+    result.segments[9].should.have.property('path').with.length(3);
+    result.segments[10].should.not.have.property('rough');
+    result.segments[10].should.have.property('path').with.length(2);
+    result.segments[11].should.not.have.property('rough');
+    result.segments[11].should.have.property('path').with.length(3);
+    result.segments[12].should.have.property('rough', true);
+    result.segments[12].should.have.property('path').with.length(15);
+    result.segments[13].should.not.have.property('rough');
+    result.segments[13].should.have.property('path').with.length(2);
+    result.should.have.property('provider', 'graphhopper');
+  });
 });

@@ -128,4 +128,36 @@ describe('openroute directions', function () {
     const result = await directions(query);
     should.not.exist(result);
   });
+
+  it('rough surface', async function () {
+
+    response = require('./fixtures/rough');
+
+    const query = {
+      ...model.directionsQuery,
+      points: response.metadata.query.coordinates,
+      turnbyturn: true,
+      path: model.pathType.full
+    };
+    const result = await directions(query);
+    should.exist(result);
+    result.should.have.property('routes').with.length(1);
+    result.routes[0].should.have.property('rough').eql(true);
+    result.should.have.property('segments').with.length(7);
+    result.segments[0].should.have.property('rough', true);
+    result.segments[0].should.have.property('path').with.length(159);
+    result.segments[1].should.not.have.property('rough');
+    result.segments[1].should.have.property('path').with.length(99);
+    result.segments[2].should.have.property('rough', true);
+    result.segments[2].should.have.property('path').with.length(7);
+    result.segments[3].should.have.property('rough', true);
+    result.segments[3].should.have.property('path').with.length(40);
+    result.segments[4].should.have.property('rough', true);
+    result.segments[4].should.have.property('path').with.length(232);
+    result.segments[5].should.not.have.property('rough');
+    result.segments[5].should.have.property('path').with.length(140);
+    result.segments[6].should.not.have.property('rough');
+    result.segments[6].should.have.property('path').with.length(2);
+    result.should.have.property('provider', 'openroute');
+  });
 });

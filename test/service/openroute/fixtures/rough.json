@@ -1,0 +1,161 @@
+{
+  "routes": [
+    {
+      "summary": {
+        "distance": 54486.6,
+        "duration": 6197.6
+      },
+      "segments": [
+        {
+          "distance": 54486.6,
+          "duration": 6197.6,
+          "steps": [
+            {
+              "distance": 14245.6,
+              "duration": 1709.5,
+              "type": 11,
+              "instruction": "Head southwest on Death Valley Road",
+              "name": "Death Valley Road",
+              "way_points": [
+                0,
+                262
+              ]
+            },
+            {
+              "distance": 12314.7,
+              "duration": 1477.8,
+              "type": 6,
+              "instruction": "Continue straight onto Loretta Mine Road",
+              "name": "Loretta Mine Road",
+              "way_points": [
+                262,
+                301
+              ]
+            },
+            {
+              "distance": 27926.3,
+              "duration": 3010.4,
+              "type": 12,
+              "instruction": "Keep left onto Death Valley Road, 9S18",
+              "name": "Death Valley Road, 9S18",
+              "way_points": [
+                301,
+                671
+              ]
+            },
+            {
+              "distance": 0.0,
+              "duration": 0.0,
+              "type": 10,
+              "instruction": "Arrive at Death Valley Road, 9S18, on the left",
+              "name": "-",
+              "way_points": [
+                671,
+                671
+              ]
+            }
+          ]
+        }
+      ],
+      "bbox": [
+        -118.086018,
+        37.122876,
+        -117.66331,
+        37.286602
+      ],
+      "geometry": "gh`bFtbdmU??~C~AlHhEp@h@^t@`@f@HNFXHfA@xBAZ@TDXFJd@ZV^L\\\\fBFPNRbBdB~@fBLr@P`Ej@vCNf@Th@Vb@TZbBpA^Tn@NrBBLDLJHPDR@TERQTw@n@Y\\i@z@Of@Q|@GP[vA[z@CP@RBRpA~BN`@V~@B^?`@Eb@M~@w@pDy@tCGZA\\F`D?bAUvFAhCHbJBx@HhAz@vH`@vABX?XCVGVMRWZk@\\sB|@e@`@kAtAqCbEu@t@{BrAeAZs@Fk@AkDiAqFcA}Ae@e@CUDSHQNi@p@q@hAOLQHSDS?QE{D_Ba@Ck@F[RKVG^?N@ZDNEd@KTQNQFU@YGw@YyAYc@GyACq@GWGYMgAcAcBkC{@}A]y@i@wAUu@OOOGQAm@Je@GYDqAf@mBf@qBnAKBIDi@HkDRsELm@NWNUTKPM`@Sr@U`@]\\qAx@UXSXOd@q@|BKv@Gl@s@~FS`AQd@_@r@UXcAfByJxPmBzC{CrFqBhDiArAu@p@aAr@{@h@yJhF_@X[XW\\U`@Up@YhAuAbIo@|A[f@aAhA}D~DwCdDe@^e@TWHsBRmJr@cATaA^y@j@o@r@Q`@c@nAuAdDsFvLOf@Kl@C`@?dAH`APv@f@bAX^h@h@ZTt@|@|BxBjBdAh@b@^|@Ph@Hf@Df@P~IFzAR`DXrDj@zEl@tDzChSvCvQJv@Dx@@z@Az@mBp^A|@XnFTrCb@vDLf@nApEzA`F~CpMRl@r@pAnAfBnBnDf@pARdAB^B`@B\\?VI`BKt@Ml@uE`P_CxHiG|R_Kn\\M`@qEvNcCjHmGtR{BnHeG|QuBvGIP_BpEeBhFkKfZuCtHeHvRoEtL_E~KeBdFiCtGoGhQsChHqCvGmCvGcHtPwHpQuQ~b@a`@d`AoMd[mMr[oHjQeMv[qHbQuCfH{O`b@iMv[wD|JgGjOiH~QsCvHgR|e@sHdRi@~Ai@|A}@jCSz@iDvSsGja@_ShnAE^ATIvA@hAHlBHn@Hf@TbAfSro@X~@dDnKbA~CvFzQb@fAnAfCpN|V|@rAx@z@`RhPxAfAr@d@pQjJnJpF|BzAtIfFvB~@b@Nl@JvG\\bAJ`@H~Al@hNnGpCnAzAt@bBr@tAb@bJfBjDj@rA\\t@X`Ad@xCnBVXbFjDfBtAnDfErArApAlAr@f@nAj@d@TzC`BvDtBnC|AbCbBlAfA|GtHdF`GlApApNtNzArAnAv@`@LnA^vIlBh@Pn@b@j@n@^z@V~@b@fEVzALb@P`@R^d@j@RNtAr@jBr@v@\\^Tl@r@LTPf@RbAp@pENj@Th@Vd@Zb@zDjDr@v@jA`Bp@|AnBfFXfAJdAAfACb@Oz@]bAcAtB[t@Mj@EXEt@@ZFt@Pn@JXvBfDRf@JZH^H|@?`AC^Qz@}A|Ei@jBMj@SpAeA~I_@tC]fB}ArHGx@AjAJhAv@tEB`@?bAC`@Q~@qAnEg@pBQdAGx@IvCMnCg@fQ?`@Fv@J|@P|@Vx@Zv@p@hAjCbDj@bARh@Ph@Ln@`AhHZfANXjAbBRTjBpAdC~AvEdD`@T`@LxOtDfK|BpCr@pKbClCf@nCb@rSrDfPvCpGlAhAZxB`AnJrFxBhAfFzCpC|A`BdAtGnDzAn@nHlCpGzBjBj@`AR~@JpHf@d_@vBvATlA^j@ZjAz@XVPNVVnKlKh@f@vVlV~BjCnBrBxPxSzBhCvAhBtDbEl@dAbBfDlEbJtA|CzClGrAbCdAbBbJpMbBfCdAdBbC`D\\n@Xp@d@~At@pDJp@b@~An@zA`@r@l@v@lCtCtAjAbC~ArB`B~^j\\`PzNdBfBx@z@x@lAzAhDt@zAd@fAd@bAn@xAn@lAjBfCn@v@b@^lAx@xE|CrBvAHDP@hBBf@Bt@Vp@JR?RChAi@TCTBNHl@l@JDlAd@z@Tj@VPVHZLtAPl@f@~@Tj@Z^TRh@j@X^dCnERf@XbAJPp@\\RTl@`At@v@v@h@vB`A^Fv@ET@hA\\^THF`Ax@h@n@Vb@jH|O~@jBT\\j@p@NN\\RXJx@Rl@D`AAR?VAtA_@xD_BfA]vAW|@?RBd@Nb@X`@b@dA~AxBxC~@fA|@jA~GhJzDzEhBrB~FbFVLXDzFCfEBfCLxBb@zCv@bAN`CTnDATDPHPNLRHVFVRbERxCPvGEbC?b@JbBF|D@VFpAJtADnCHz@`@zB^|AXrBp@jFl@|DdB~Jp@fEHv@JtAPfFDn@Hn@ZrAj@~AHZ@`@?h@QrCq@hGuCxTy@|Fy@`H",
+      "way_points": [
+        0,
+        671
+      ],
+      "extras": {
+        "surface": {
+          "values": [
+            [
+              0,
+              158,
+              10
+            ],
+            [
+              158,
+              256,
+              1
+            ],
+            [
+              256,
+              532,
+              10
+            ],
+            [
+              532,
+              671,
+              1
+            ]
+          ],
+          "summary": [
+            {
+              "value": 10.0,
+              "distance": 39603.9,
+              "amount": 72.69
+            },
+            {
+              "value": 1.0,
+              "distance": 14882.7,
+              "amount": 27.31
+            }
+          ]
+        },
+        "waytypes": {
+          "values": [
+            [
+              0,
+              671,
+              2
+            ]
+          ],
+          "summary": [
+            {
+              "value": 2.0,
+              "distance": 54486.6,
+              "amount": 100.0
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "bbox": [
+    -118.086018,
+    37.122876,
+    -117.66331,
+    37.286602
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1678898915651,
+    "query": {
+      "coordinates": [
+        [
+          -117.66331,
+          37.19828
+        ],
+        [
+          -118.08662513579114,
+          37.12262114545156
+        ]
+      ],
+      "profile": "driving-car",
+      "format": "json",
+      "extra_info": [
+        "surface",
+        "waytype"
+      ]
+    },
+    "engine": {
+      "version": "6.8.1",
+      "build_date": "2023-03-05T05:01:48Z",
+      "graph_date": "2023-03-05T14:39:12Z"
+    }
+  }
+}
