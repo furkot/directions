@@ -1,4 +1,10 @@
 
+2.0.1 / 2023-03-02
+==================
+
+ * fix occasional taking off-ramp when driving on the highway
+ * discard routes that are too long
+
 2.0.0 / 2023-01-19
 ==================
 
