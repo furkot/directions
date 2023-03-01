@@ -105,4 +105,18 @@ describe('openroute directions', function () {
     result.segments[4].should.not.have.property('mode');
     result.should.have.property('provider', 'openroute');
   });
+
+  it('too long roundabout route', async function () {
+
+    response = require('./fixtures/roundabout-too-long');
+
+    const query = {
+      ...model.directionsQuery,
+      points: response.metadata.query.coordinates,
+      turnbyturn: true,
+      path: model.pathType.full,
+    };
+    const result = await directions(query);
+    should.not.exist(result);
+  });
 });
