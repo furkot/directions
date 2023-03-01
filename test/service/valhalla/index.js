@@ -166,4 +166,38 @@ describe('valhalla directions', function () {
     result.segments[7].should.not.have.property('mode');
     result.should.have.property('provider', 'valhalla');
   });
+
+  it('too long roundabout route', async function () {
+
+    response = require('./fixtures/roundabout-too-long');
+
+    const query = {
+      ...directionsQuery,
+      points: [
+        [response.trip.locations[0].lon, response.trip.locations[0].lat],
+        [response.trip.locations[1].lon, response.trip.locations[1].lat]
+      ],
+      turnbyturn: true,
+      path: pathType.full,
+    };
+    const result = await directions(query);
+    should.not.exist(result);
+  });
+
+  it('acceptable roundabout route', async function () {
+
+    response = require('./fixtures/roundabout');
+
+    const query = {
+      ...directionsQuery,
+      points: [
+        [response.trip.locations[0].lon, response.trip.locations[0].lat],
+        [response.trip.locations[1].lon, response.trip.locations[1].lat]
+      ],
+      turnbyturn: true,
+      path: pathType.full,
+    };
+    const result = await directions(query);
+    should.exist(result);
+  });
 });
