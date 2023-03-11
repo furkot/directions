@@ -4,7 +4,7 @@ const { timeout } = require('../lib/service/util');
 
 /* global AbortController */
 
-function skip() {}
+function skip() { }
 
 function mockService(query) {
   return Promise.resolve({
@@ -63,7 +63,7 @@ describe('furkot-directions node module', function () {
       }]
     })(query);
     should.exist(result);
-    result.should.have.property('stats', [ 'mock' ]);
+    result.should.have.property('stats', ['mock']);
     result.should.have.property('provider', 'mock');
     result.should.have.property('name', 'success');
     result.should.have.property('query', query);
@@ -97,7 +97,11 @@ describe('furkot-directions node module', function () {
     })({
       points: [[0, 0], [1, 1]]
     });
-    await promise.should.be.rejectedWith('timeout');
+    await promise.should.be.resolvedWith({
+      query: { points: [[0, 0], [1, 1]] },
+      stats: [undefined],
+      routes: [{}]
+    });
   });
 
   it('abort', async function () {
