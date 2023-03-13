@@ -1,0 +1,275 @@
+{
+  "routes": [
+    {
+      "summary": {
+        "distance": 18903.1,
+        "duration": 1295.0
+      },
+      "segments": [
+        {
+          "distance": 18903.1,
+          "duration": 1295.0,
+          "steps": [
+            {
+              "distance": 173.9,
+              "duration": 38.8,
+              "type": 11,
+              "instruction": "Head northwest on Seaport Boulevard",
+              "name": "Seaport Boulevard",
+              "way_points": [
+                0,
+                12
+              ]
+            },
+            {
+              "distance": 209.1,
+              "duration": 37.4,
+              "type": 0,
+              "instruction": "Turn left onto Purchase Street",
+              "name": "Purchase Street",
+              "way_points": [
+                12,
+                26
+              ]
+            },
+            {
+              "distance": 787.9,
+              "duration": 59.2,
+              "type": 12,
+              "instruction": "Keep left",
+              "name": "-",
+              "way_points": [
+                26,
+                43
+              ]
+            },
+            {
+              "distance": 130.6,
+              "duration": 16.9,
+              "type": 13,
+              "instruction": "Keep right",
+              "name": "-",
+              "way_points": [
+                43,
+                47
+              ]
+            },
+            {
+              "distance": 5014.6,
+              "duration": 319.7,
+              "type": 13,
+              "instruction": "Keep right",
+              "name": "-",
+              "way_points": [
+                47,
+                107
+              ]
+            },
+            {
+              "distance": 5006.1,
+              "duration": 289.9,
+              "type": 12,
+              "instruction": "Keep left onto Massachusetts Turnpike, I 90",
+              "name": "Massachusetts Turnpike, I 90",
+              "way_points": [
+                107,
+                164
+              ]
+            },
+            {
+              "distance": 4577.7,
+              "duration": 238.6,
+              "type": 12,
+              "instruction": "Keep left onto Massachusetts Turnpike, I 90",
+              "name": "Massachusetts Turnpike, I 90",
+              "way_points": [
+                164,
+                196
+              ]
+            },
+            {
+              "distance": 689.3,
+              "duration": 65.7,
+              "type": 13,
+              "instruction": "Keep right",
+              "name": "-",
+              "way_points": [
+                196,
+                221
+              ]
+            },
+            {
+              "distance": 464.7,
+              "duration": 56.3,
+              "type": 13,
+              "instruction": "Keep right",
+              "name": "-",
+              "way_points": [
+                221,
+                248
+              ]
+            },
+            {
+              "distance": 1037.3,
+              "duration": 95.3,
+              "type": 1,
+              "instruction": "Turn right onto Auburn Street",
+              "name": "Auburn Street",
+              "way_points": [
+                248,
+                285
+              ]
+            },
+            {
+              "distance": 95.2,
+              "duration": 21.0,
+              "type": 1,
+              "instruction": "Turn right onto Auburn Street",
+              "name": "Auburn Street",
+              "way_points": [
+                285,
+                295
+              ]
+            },
+            {
+              "distance": 716.7,
+              "duration": 56.1,
+              "type": 0,
+              "instruction": "Turn left onto Auburn Street",
+              "name": "Auburn Street",
+              "way_points": [
+                295,
+                327
+              ]
+            },
+            {
+              "distance": 0.0,
+              "duration": 0.0,
+              "type": 10,
+              "instruction": "Arrive at Auburn Street, on the left",
+              "name": "-",
+              "way_points": [
+                327,
+                327
+              ]
+            }
+          ]
+        }
+      ],
+      "bbox": [
+        -71.255222,
+        42.344493,
+        -71.050546,
+        42.358431
+      ],
+      "geometry": "uhoaG|`tpL_@~@ADa@n@UXIJMP[Pg@t@IPGHABIVFFl@|@NZDLJXPf@Zx@HTHRVj@DLVj@@FJTPR`@r@zBbFVv@l@xBh@bCZdBR|@^lAZn@^l@`@d@`@^`@Xj@Xl@RhJbBvAj@LFl@^`Al@nClBZV`@j@N\\Nd@DVDTFdAIxA_AnIg@bDa@lDy@fMIrC?bCAlR?|B@xORfNFrLPxYBrI?tB?T?^GzAK~ACTCZMpCAtC?tB?xB?n@@x_@BdJ?nDEfBIbBYbD{Dt]Ir@g@hDa@lBo@~BeAvCa@|@wCnGq@~Ay@bCGPo@~Ba@pA[x@{HtQYl@m@~@a@b@u@r@UPSLy@f@mDfBi@ZOLKH{@x@e@l@g@|@c@`Ae@dB[|AU|AQ~AK`BEbB?~ADdCJ~AN~AT|Ab@zBdAtEH\\V|APzALtALtBBrBAtBC|@KrBqDjh@mDhj@MtBEvBArDHtDz@rNNnFNtLBxBP~Q@jAVfV@dAF~DLpMBrDAlFEnFKbGCvASbNIbGExCM~G?`A@pBDxBPnDNvBVtBpEr]`@jDTvBVjCrApMjDdXbAzGzL|n@z@`Ft@bF|@~Gj@fFd@fFFv@RrCr@`KpAhRb@hFl@dFbEzYb@jDRtBXnDTpDJtB|Al_@\\vKNpCBR?BVpCPpCAx@EZIZABABORABCBWL_@D_@IYWGKEKKg@CM?M?_@^cIBc@Fw@F_@LULMDADCJEHCdAENAp@IRAVDLHPLHHf@t@^h@z@|Af@dAf@`ANT@@NTVXZ^CV?T@Z@d@@BF`AJhBFdA@RPpCNpCJbBFdADb@PjCB`@A\\AXCTGd@c@zBMn@a@xBMp@G\\Mf@?@WpAKh@WxA_@vBKj@I^e@tCEt@@t@NzDKFC@CB{Av@C@UHA?C?E@G??JDd@Jd@BH\\|DBTFz@BTXzDPvABVDV?BBJVvADPDPFTz@zC@HN`@DPFLNd@FNBLJ^Jz@Hj@RnBVdCPzA",
+      "way_points": [
+        0,
+        327
+      ],
+      "extras": {
+        "waytypes": {
+          "values": [
+            [
+              0,
+              12,
+              2
+            ],
+            [
+              12,
+              230,
+              1
+            ],
+            [
+              230,
+              327,
+              2
+            ]
+          ],
+          "summary": [
+            {
+              "value": 1.0,
+              "distance": 16508.4,
+              "amount": 87.33
+            },
+            {
+              "value": 2.0,
+              "distance": 2394.7,
+              "amount": 12.67
+            }
+          ]
+        },
+        "tollways": {
+          "values": [
+            [
+              0,
+              44,
+              0
+            ],
+            [
+              44,
+              230,
+              1
+            ],
+            [
+              230,
+              327,
+              0
+            ]
+          ],
+          "summary": [
+            {
+              "value": 1.0,
+              "distance": 15459.4,
+              "amount": 81.78
+            },
+            {
+              "value": 0.0,
+              "distance": 3443.7,
+              "amount": 18.22
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "bbox": [
+    -71.255222,
+    42.344493,
+    -71.050546,
+    42.358431
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1678899672788,
+    "query": {
+      "coordinates": [
+        [
+          -71.05062802116984,
+          42.35409658897228
+        ],
+        [
+          -71.25520452012677,
+          42.34468043962673
+        ]
+      ],
+      "profile": "driving-car",
+      "format": "json",
+      "extra_info": [
+        "tollways",
+        "waytype"
+      ],
+      "options": {
+        "avoid_features": [
+          "ferries"
+        ]
+      }
+    },
+    "engine": {
+      "version": "6.8.1",
+      "build_date": "2023-03-05T05:01:48Z",
+      "graph_date": "2023-03-05T14:39:12Z"
+    }
+  }
+}

@@ -177,4 +177,55 @@ describe('graphhopper directions', function () {
     result.segments[13].should.have.property('path').with.length(2);
     result.should.have.property('provider', 'graphhopper');
   });
+
+  it('toll roads', async function () {
+
+    response = require('./fixtures/tolls');
+
+    const query = {
+      ...directionsQuery,
+      points: [
+        [-71.23879, 42.34696],
+        [-71.06060028076172, 42.35549949225654]
+      ],
+      turnbyturn: true,
+      path: pathType.full
+    };
+    const result = await directions(query);
+    should.exist(result);
+    result.should.have.property('routes').with.length(1);
+    result.routes[0].should.have.property('tolls').eql(true);
+    result.should.have.property('segments').with.length(15);
+    result.segments[0].should.have.property('tolls', true);
+    result.segments[0].should.have.property('path').with.length(23);
+    result.segments[1].should.have.property('tolls', true);
+    result.segments[1].should.have.property('path').with.length(13);
+    result.segments[2].should.have.property('tolls', true);
+    result.segments[2].should.have.property('path').with.length(5);
+    result.segments[3].should.not.have.property('tolls');
+    result.segments[3].should.have.property('path').with.length(6);
+    result.segments[4].should.have.property('tolls', true);
+    result.segments[4].should.have.property('path').with.length(147);
+    result.segments[5].should.have.property('tolls', true);
+    result.segments[5].should.have.property('path').with.length(5);
+    result.segments[6].should.have.property('tolls', true);
+    result.segments[6].should.have.property('path').with.length(14);
+    result.segments[7].should.not.have.property('tolls');
+    result.segments[7].should.have.property('path').with.length(5);
+    result.segments[8].should.not.have.property('tolls');
+    result.segments[8].should.have.property('path').with.length(4);
+    result.segments[9].should.not.have.property('tolls');
+    result.segments[9].should.have.property('path').with.length(3);
+    result.segments[10].should.not.have.property('tolls');
+    result.segments[10].should.have.property('path').with.length(3);
+    result.segments[11].should.not.have.property('tolls');
+    result.segments[11].should.have.property('path').with.length(2);
+    result.segments[12].should.not.have.property('tolls');
+    result.segments[12].should.have.property('path').with.length(7);
+    result.segments[13].should.not.have.property('tolls');
+    result.segments[13].should.have.property('path').with.length(2);
+    result.segments[14].should.not.have.property('tolls');
+    result.segments[14].should.have.property('path').with.length(2);
+    result.should.have.property('provider', 'graphhopper');
+  });
 });

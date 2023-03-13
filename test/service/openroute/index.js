@@ -160,4 +160,52 @@ describe('openroute directions', function () {
     result.segments[6].should.have.property('path').with.length(2);
     result.should.have.property('provider', 'openroute');
   });
+
+  it('toll roads', async function () {
+
+    response = require('./fixtures/tolls');
+
+    const query = {
+      ...model.directionsQuery,
+      points: response.metadata.query.coordinates,
+      turnbyturn: true,
+      path: model.pathType.full,
+    };
+    const result = await directions(query);
+    should.exist(result);
+    result.should.have.property('routes').with.length(1);
+    result.routes[0].should.have.property('tolls').eql(true);
+    result.should.have.property('segments').with.length(15);
+    result.segments[0].should.not.have.property('tolls');
+    result.segments[0].should.have.property('path').with.length(13);
+    result.segments[1].should.not.have.property('tolls');
+    result.segments[1].should.have.property('path').with.length(15);
+    result.segments[2].should.not.have.property('tolls');
+    result.segments[2].should.have.property('path').with.length(18);
+    result.segments[3].should.not.have.property('tolls');
+    result.segments[3].should.have.property('path').with.length(2);
+    result.segments[4].should.have.property('tolls', true);
+    result.segments[4].should.have.property('path').with.length(4);
+    result.segments[5].should.have.property('tolls', true);
+    result.segments[5].should.have.property('path').with.length(61);
+    result.segments[6].should.have.property('tolls', true);
+    result.segments[6].should.have.property('path').with.length(58);
+    result.segments[7].should.have.property('tolls', true);
+    result.segments[7].should.have.property('path').with.length(33);
+    result.segments[8].should.have.property('tolls', true);
+    result.segments[8].should.have.property('path').with.length(26);
+    result.segments[9].should.have.property('tolls', true);
+    result.segments[9].should.have.property('path').with.length(10);
+    result.segments[10].should.not.have.property('tolls');
+    result.segments[10].should.have.property('path').with.length(19);
+    result.segments[11].should.not.have.property('tolls');
+    result.segments[11].should.have.property('path').with.length(38);
+    result.segments[12].should.not.have.property('tolls');
+    result.segments[12].should.have.property('path').with.length(11);
+    result.segments[13].should.not.have.property('tolls');
+    result.segments[13].should.have.property('path').with.length(33);
+    result.segments[14].should.not.have.property('tolls');
+    result.segments[14].should.have.property('path').with.length(2);
+    result.should.have.property('provider', 'openroute');
+  });
 });

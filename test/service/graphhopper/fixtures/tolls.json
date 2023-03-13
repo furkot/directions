@@ -1,0 +1,222 @@
+{
+  "hints": {
+    "visited_nodes.sum": 3724,
+    "visited_nodes.average": 3724.0
+  },
+  "info": {
+    "copyrights": [
+      "GraphHopper",
+      "OpenStreetMap contributors"
+    ],
+    "took": 13
+  },
+  "paths": [
+    {
+      "distance": 22475.793,
+      "weight": 1474.817485,
+      "time": 1137681,
+      "transfers": 0,
+      "points_encoded": true,
+      "bbox": [
+        -71.268941,
+        42.337862,
+        -71.055374,
+        42.358271
+      ],
+      "points": "o{maGnyxqLjDhy@PtCRrBZpBb@pBf@hBn@dB`AvB`E~G`AnBr@dBj@fBd@jB\\lBxB~MXrAXhAp@vB`AzBbAnBjDdGjA|Bd@nAZvAX~AJnAFzAL|HAl@El@Qz@u@rBIZCZ@X@JDHLHn@{@tBsCpAeB\\UTIDW?_AGgBSgB[qA_@_AYi@uBgDyD}GuDwGgAsB{@yBm@mBo@{CiCwOa@mBa@wAi@}AoAsCqEwHi@gAe@gAa@kAi@iBa@mB[qBOuASqCoDkz@KqDM_MGsCKwB}@{Ki@aJwB}f@UmD[oDm@gFcByLeByLWuB]mDaAyMoB}Xk@wGa@qDy@}Gu@eFiAyG}Ga^cDwPcA{GsBgPgCyTWkCaAwIeEw[UqBQuBQqDCwB?sBTgPDqCXiRNcLBiHCoFS}RAeAWcWCqASoRC}BIyIIsDWmFg@cIMoDAuDDuBHsBtDal@vDgj@HqDAyBGqBOuBa@kDmAoIc@gEOoCGsBEsC@sBHsBNqBPsAXoAd@wAb@w@j@{@x@y@dAq@tE}Bv@i@v@s@p@y@j@cApI_Sr@qBr@oC^kAn@_B~DsIp@aBl@cBf@gBr@cDZuBTiBdEi_@TmDFuBBuBCcJEsb@?q@?yIDwALcCNaCFwBEaNY_g@SkNCcP?_W@eCF{At@qLT}BXuBrAwIb@cDNwAViDLuBHwBF_CAw@GkAKm@Oq@]}@i@y@i@e@]Qq@SiFeAkBGeAOa@U_McFoAk@_Am@q@nDq@|AMZQS{@sBuD`@aE`@LbDBTBdAEdAGb@Kb@i@nAtCdD",
+      "instructions": [
+        {
+          "street_ref": "I 90",
+          "distance": 2230.595,
+          "heading": 262.9,
+          "sign": 0,
+          "interval": [
+            0,
+            22
+          ],
+          "text": "Continue onto Massachusetts Turnpike",
+          "time": 95191,
+          "street_name": "Massachusetts Turnpike"
+        },
+        {
+          "distance": 469.021,
+          "sign": 7,
+          "interval": [
+            22,
+            34
+          ],
+          "text": "Keep right and drive toward Weston",
+          "time": 31268,
+          "street_destination": "Weston",
+          "street_name": ""
+        },
+        {
+          "distance": 29.367,
+          "sign": -7,
+          "interval": [
+            34,
+            38
+          ],
+          "text": "Keep left",
+          "time": 1958,
+          "street_name": ""
+        },
+        {
+          "distance": 219.743,
+          "sign": -2,
+          "interval": [
+            38,
+            43
+          ],
+          "text": "Turn left onto Park Road",
+          "time": 28252,
+          "street_name": "Park Road"
+        },
+        {
+          "distance": 17684.485,
+          "sign": -2,
+          "interval": [
+            43,
+            189
+          ],
+          "text": "Turn left and take I 90 East toward Boston, Mass Pike",
+          "time": 778528,
+          "street_destination": "Boston, Mass Pike",
+          "street_destination_ref": "I 90 East",
+          "street_name": ""
+        },
+        {
+          "distance": 207.091,
+          "sign": -7,
+          "interval": [
+            189,
+            193
+          ],
+          "text": "Keep left and take I 93 toward South Station, Concord New Hampshire, Quincy",
+          "time": 13806,
+          "street_destination": "South Station, Concord New Hampshire, Quincy",
+          "street_destination_ref": "I 93",
+          "street_name": ""
+        },
+        {
+          "distance": 898.017,
+          "sign": 7,
+          "interval": [
+            193,
+            210
+          ],
+          "text": "Keep right and drive toward South Station",
+          "time": 83117,
+          "street_destination": "South Station",
+          "street_name": ""
+        },
+        {
+          "distance": 139.258,
+          "sign": -2,
+          "interval": [
+            210,
+            213
+          ],
+          "text": "Turn left onto Summer Street",
+          "time": 17686,
+          "street_name": "Summer Street"
+        },
+        {
+          "distance": 71.301,
+          "sign": 2,
+          "interval": [
+            213,
+            215
+          ],
+          "text": "Turn right onto High Street",
+          "time": 8022,
+          "street_name": "High Street"
+        },
+        {
+          "distance": 211.435,
+          "sign": -2,
+          "interval": [
+            215,
+            217
+          ],
+          "text": "Turn left onto Federal Street",
+          "time": 29277,
+          "street_name": "Federal Street"
+        },
+        {
+          "distance": 67.247,
+          "sign": -2,
+          "interval": [
+            217,
+            218
+          ],
+          "text": "Turn left onto Franklin Street",
+          "time": 10088,
+          "street_name": "Franklin Street"
+        },
+        {
+          "distance": 139.777,
+          "sign": -7,
+          "interval": [
+            218,
+            224
+          ],
+          "text": "Keep left onto Franklin Street",
+          "time": 20966,
+          "street_name": "Franklin Street"
+        },
+        {
+          "distance": 108.456,
+          "sign": -2,
+          "interval": [
+            224,
+            225
+          ],
+          "text": "Turn left onto Hawley Street",
+          "time": 19522,
+          "street_name": "Hawley Street"
+        },
+        {
+          "distance": 0.0,
+          "sign": 4,
+          "last_heading": 219.35116228788436,
+          "interval": [
+            225,
+            225
+          ],
+          "text": "Arrive at destination",
+          "time": 0,
+          "street_name": ""
+        }
+      ],
+      "legs": [],
+      "details": {
+        "toll": [
+          [
+            0,
+            38,
+            "all"
+          ],
+          [
+            38,
+            43,
+            "missing"
+          ],
+          [
+            43,
+            206,
+            "all"
+          ],
+          [
+            206,
+            225,
+            "missing"
+          ]
+        ]
+      },
+      "ascend": 170.32600092887878,
+      "descend": 163.53800082206726,
+      "snapped_waypoints": "o{maGnyxqLcq@a~a@"
+    }
+  ]
+}

@@ -203,4 +203,38 @@ describe('valhalla directions', function () {
     const result = await directions(query);
     should.exist(result);
   });
+
+  it('toll road', async function () {
+
+    response = require('./fixtures/has-toll');
+
+    const query = {
+      ...directionsQuery,
+      points: [
+        [response.trip.locations[0].lon, response.trip.locations[0].lat],
+        [response.trip.locations[1].lon, response.trip.locations[1].lat]
+      ],
+      turnbyturn: true,
+      path: pathType.full
+    };
+    const result = await directions(query);
+    should.exist(result);
+    result.should.have.property('query');
+    result.query.should.deepEqual(query);
+    result.should.not.have.property('name');
+    result.should.not.have.property('places');
+    result.should.have.property('routes').with.length(1);
+    result.routes[0].should.have.property('tolls').eql(true);
+    result.should.have.property('segments').with.length(10);
+    result.segments[0].should.not.have.property('tolls', true);
+    result.segments[1].should.not.have.property('tolls', true);
+    result.segments[2].should.not.have.property('tolls', true);
+    result.segments[3].should.have.property('tolls', true);
+    result.segments[4].should.have.property('tolls', true);
+    result.segments[5].should.have.property('tolls', true);
+    result.segments[6].should.not.have.property('tolls', true);
+    result.segments[7].should.not.have.property('tolls', true);
+    result.segments[8].should.not.have.property('tolls', true);
+    result.segments[9].should.not.have.property('tolls', true);
+  });
 });
