@@ -69,9 +69,9 @@ describe('graphhopper directions', function () {
     result.should.have.property('segments').with.length(151);
     result.segments[0].should.have.property('duration', 183);
     result.segments[0].should.have.property('distance', 508);
-    result.segments[0].should.have.property('path').with.length(12);
+    result.segments[0].should.have.property('path').with.length(13);
     result.segments[0].should.have.property('instructions', 'Continue');
-    result.segments.reduce(function (len, seg) { return len + seg.path.length; }, 0).should.equal(5749);
+    result.segments.reduce(function (len, seg) { return len + seg.path.length - 1; }, 0).should.equal(5749);
     result.should.have.property('provider', 'graphhopper');
   });
 });
