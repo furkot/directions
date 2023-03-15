@@ -1,0 +1,68 @@
+{
+  "hints": {
+    "visited_nodes.sum": 4,
+    "visited_nodes.average": 4.0
+  },
+  "info": {
+    "copyrights": [
+      "GraphHopper",
+      "OpenStreetMap contributors"
+    ],
+    "took": 2
+  },
+  "paths": [
+    {
+      "distance": 38819.156,
+      "weight": 2765.864862,
+      "time": 2183578,
+      "transfers": 0,
+      "points_encoded": true,
+      "bbox": [
+        1.275833,
+        50.937341,
+        1.746702,
+        51.111017
+      ],
+      "points": "ku{uH{ctIkOzT{Y~a@iYze@wIdQmDtIgCvHoM`c@yCpJcBzHwAbIgAdIaP`tAaApIeAxH_DzQ_B|GsFjRqE~QqKlj@iBhIuBnIqSzt@wCtLeFxVgAtGmApIiCpS_BnKoBdKuFrXcj@nxByD`TuGbd@{EzZw@nG{CdZUtCs@nL_@jF{BbZeJl~AgC`ZuCbWgt@reEwJpl@yC|PoD|QsDzSaFlXePl{@qA`FkH~Vo^xjA_a@`bAyIbQc^jm@waAp{AifAriB{`BteD{FdMyFbNqF|N{EnNcEzMeEjOaLrd@}YjnAeC`KmHvZiCjKynCvdLyD|P}CbPoCnOuBlN_G`d@aNdfAcCnS",
+      "instructions": [
+        {
+          "distance": 38819.156,
+          "heading": 320.38,
+          "sign": 0,
+          "interval": [
+            0,
+            78
+          ],
+          "text": "Continue onto Eurotunnel Shuttle",
+          "time": 2183578,
+          "street_name": "Eurotunnel Shuttle"
+        },
+        {
+          "distance": 0.0,
+          "sign": 4,
+          "last_heading": 286.37003558433673,
+          "interval": [
+            78,
+            78
+          ],
+          "text": "Arrive at destination",
+          "time": 0,
+          "street_name": ""
+        }
+      ],
+      "legs": [],
+      "details": {
+        "road_environment": [
+          [
+            0,
+            78,
+            "ferry"
+          ]
+        ]
+      },
+      "ascend": 39.75000047683716,
+      "descend": 0.0,
+      "snapped_waypoints": "ku{uH{ctIm|`@|}zA"
+    }
+  ]
+}

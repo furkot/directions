@@ -1,0 +1,295 @@
+{
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 42.354096,
+        "lon": -71.050628,
+        "date_time": "2023-08-01T00:00",
+        "side_of_street": "left",
+        "original_index": 0
+      },
+      {
+        "type": "break",
+        "lat": 42.173228,
+        "lon": -72.586738,
+        "date_time": "2023-08-01T01:23",
+        "original_index": 1
+      }
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 3,
+            "instruction": "Drive northwest on Seaport Boulevard.",
+            "verbal_succinct_transition_instruction": "Drive northwest. Then, in 600 feet, Turn left onto Purchase Street.",
+            "verbal_pre_transition_instruction": "Drive northwest on Seaport Boulevard. Then, in 600 feet, Turn left onto Purchase Street.",
+            "verbal_post_transition_instruction": "Continue for 600 feet.",
+            "street_names": [
+              "Seaport Boulevard"
+            ],
+            "time": 17.603,
+            "length": 0.108,
+            "cost": 92.364,
+            "begin_shape_index": 0,
+            "end_shape_index": 16,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left onto Purchase Street.",
+            "verbal_transition_alert_instruction": "Turn left onto Purchase Street.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_pre_transition_instruction": "Turn left onto Purchase Street.",
+            "verbal_post_transition_instruction": "Continue for 700 feet.",
+            "street_names": [
+              "Purchase Street"
+            ],
+            "time": 25.509,
+            "length": 0.129,
+            "cost": 77.042,
+            "begin_shape_index": 16,
+            "end_shape_index": 36,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 19,
+            "instruction": "Take the I 90 West ramp on the left toward Quincy/Worcester.",
+            "verbal_transition_alert_instruction": "Take the Interstate 90 West ramp on the left.",
+            "verbal_pre_transition_instruction": "Take the Interstate 90 West ramp on the left toward Quincy, Worcester.",
+            "time": 33.835,
+            "length": 0.489,
+            "cost": 81.619,
+            "begin_shape_index": 36,
+            "end_shape_index": 60,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "text": "I 90 West",
+                  "consecutive_count": 3
+                },
+                {
+                  "text": "I 93 South"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Quincy"
+                },
+                {
+                  "text": "Worcester"
+                }
+              ]
+            },
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 23,
+            "instruction": "Keep right to take exit 20B onto I 90 West toward Mass Pike.",
+            "verbal_transition_alert_instruction": "Keep right to take exit 20B.",
+            "verbal_pre_transition_instruction": "Keep right to take exit 20B onto Interstate 90 West toward Mass Pike. Then Keep right to take Interstate 90 West.",
+            "time": 5.625,
+            "length": 0.081,
+            "cost": 21.826,
+            "begin_shape_index": 60,
+            "end_shape_index": 66,
+            "toll": true,
+            "sign": {
+              "exit_number_elements": [
+                {
+                  "text": "20B"
+                }
+              ],
+              "exit_branch_elements": [
+                {
+                  "text": "I 90 West",
+                  "consecutive_count": 3
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Mass Pike",
+                  "consecutive_count": 1
+                },
+                {
+                  "text": "Albany Street"
+                }
+              ]
+            },
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 23,
+            "instruction": "Keep right to take I 90 West toward Mass Pike.",
+            "verbal_transition_alert_instruction": "Keep right to take Interstate 90 West.",
+            "verbal_pre_transition_instruction": "Keep right to take Interstate 90 West toward Mass Pike.",
+            "verbal_post_transition_instruction": "Continue for 55 miles.",
+            "street_names": [
+              "I 90 West",
+              "Massachusetts Turnpike"
+            ],
+            "time": 3178.207,
+            "length": 55.451,
+            "cost": 3249.022,
+            "begin_shape_index": 66,
+            "end_shape_index": 1751,
+            "toll": true,
+            "highway": true,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "text": "I 90 West",
+                  "consecutive_count": 2
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Mass Pike",
+                  "consecutive_count": 1
+                },
+                {
+                  "text": "Worcester"
+                }
+              ]
+            },
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 24,
+            "instruction": "Keep left to stay on I 90 West/Massachusetts Turnpike.",
+            "verbal_transition_alert_instruction": "Keep left to stay on Interstate 90 West.",
+            "verbal_pre_transition_instruction": "Keep left to stay on Interstate 90 West, Massachusetts Turnpike.",
+            "verbal_post_transition_instruction": "Continue for 30 miles.",
+            "street_names": [
+              "I 90 West",
+              "Massachusetts Turnpike"
+            ],
+            "time": 1633.37,
+            "length": 29.597,
+            "cost": 1509.585,
+            "begin_shape_index": 1751,
+            "end_shape_index": 2547,
+            "toll": true,
+            "highway": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 20,
+            "instruction": "Take exit 49 onto MA 33 toward Chicopee.",
+            "verbal_transition_alert_instruction": "Take exit 49.",
+            "verbal_pre_transition_instruction": "Take exit 49 onto Massachusetts 33 toward Chicopee.",
+            "time": 38.014,
+            "length": 0.262,
+            "cost": 42.028,
+            "begin_shape_index": 2547,
+            "end_shape_index": 2558,
+            "sign": {
+              "exit_number_elements": [
+                {
+                  "text": "49"
+                }
+              ],
+              "exit_branch_elements": [
+                {
+                  "text": "MA 33"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Chicopee"
+                }
+              ]
+            },
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 24,
+            "instruction": "Keep left at the fork.",
+            "verbal_transition_alert_instruction": "Keep left at the fork.",
+            "verbal_pre_transition_instruction": "Keep left at the fork.",
+            "time": 42.747,
+            "length": 0.37,
+            "cost": 45.633,
+            "begin_shape_index": 2558,
+            "end_shape_index": 2577,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto Montgomery Street.",
+            "verbal_transition_alert_instruction": "Turn right onto Montgomery Street.",
+            "verbal_succinct_transition_instruction": "Turn right. Then You will arrive at your destination.",
+            "verbal_pre_transition_instruction": "Turn right onto Montgomery Street. Then You will arrive at your destination.",
+            "verbal_post_transition_instruction": "Continue for 50 feet.",
+            "street_names": [
+              "Montgomery Street"
+            ],
+            "time": 1.233,
+            "length": 0.008,
+            "cost": 26.154,
+            "begin_shape_index": 2577,
+            "end_shape_index": 2578,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 4,
+            "instruction": "You have arrived at your destination.",
+            "verbal_transition_alert_instruction": "You will arrive at your destination.",
+            "verbal_pre_transition_instruction": "You have arrived at your destination.",
+            "time": 0.0,
+            "length": 0.0,
+            "cost": 0.0,
+            "begin_shape_index": 2578,
+            "end_shape_index": 2578,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": true,
+          "has_highway": true,
+          "has_ferry": false,
+          "min_lat": 42.129616,
+          "min_lon": -72.586755,
+          "max_lat": 42.358435,
+          "max_lon": -71.050546,
+          "time": 4976.146,
+          "length": 86.5,
+          "cost": 5145.278
+        },
+        "shape": "q_bxoAdrqofCcIbSa@t@wAnCiBfDaChDcFpGeBvBkCbDmG~DyFhIwBrCm@p@_B`EeAzAYl@{ArFbAhA|@bA`ApA|AvBdAzArAvBpAbC|C~GjAlCvBfGnDdK|CxIrBlFdBlEfBjEfFbMbAbCfFbM^|@pB|EfDpE`CbDt@hAj@~@l@fAnApCle@lfA~FzOjEbOlFjUpLhh@xGt^vA~H`BhHbBhGjFfOlG~M~HdMlI~JpI|HrIbGxL`GxMbEroBx^nZrLnClAvCzAxChB~CpBhSvMfl@fa@nCtBdCxBxBfClBlClBxCrApCpAtCpAtDhAlEbAhFr@~Eh@dFXnFFdFM~Fa@xHw@hI}RfhBoKhr@_BtLyAxLiAvKeApLeAhN}@`NsKldBk@hJ[fIYzI]zKM`KG~RA|SUraECjf@X~fDjEzwCvAxfCjDhkGj@`iBDfH@bH?jHEhHE~EIzHShHWpI[~Ga@`Hg@`Hg@|GMvA]tEg@~Gc@~G_@`H[dHUfHSfHM`HGpHEhHArH?~GC~c@@be@BfN\\dgIBfRJjc@FfRDbQHhQB|PArQMxQ[fPa@dNm@`Ou@xMkA`QwA`QyAjNyy@~qHiBjOwB`QeCtPmC`P}CzOqDhPwDlOaBhGcEnN{EhOyFdPaFjMmIjR}n@~sAcChF_CpFwBfF}BvFoCpHoBtFoBtFcAzCk@lBcB|FeApD}Mzf@cB~FgBxFkCdIeC|GkCxGwyArkD}BfFcCjF}BtEoCfFqCtEsCnEeDvEkDdE_DlDoDjDqDdDaEfD}EvDeEtCkDzBsElCuDxBgu@n_@eDhB}BrAcC`BiDhCwBbBgBzAkBdBmBhBaBbB{A~AmApAwAbB_BpBqBhCsAnB{AzBoArBwAbCkAtBkA|BeAvBkAjCaA`CgAnC}@bCgA~C_ArC}@xC_AnDaAzDcAdE_BtH}AtHsArHkAhHoAjIcAnH{@bIy@bIs@jIm@`Ig@dIa@hIY~HQnHQfJEbICbI@bIHrIH|HTrIXjIb@bIb@`Ij@zHp@~Hx@jIx@xHbA`IhAtHjAlHxA`IpAjHtAbHfB`I|TjbAxAlHnAbHrA~HjAfIbAhH~@vHx@bHr@hHh@rGh@jHd@~G\\hH|@pQ^~QJxOCpQOzQg@|Qs@lQeAbQiQbhCw^zjFiDhg@gs@~}KkAjQcA`Qy@`Ri@tQ]nQSfRC~PF~QRvQf@zRj@`Qz@rQdArQfGn_AjAhQbAjQ|@hQp@fQn@dRb@lQ^xQnC|gCf@fe@`Ev|DTbWjF~fFT`U`Af{@tCrpCLxQHvQFpQ?|Q?vQElQCbQKdROxQQvQSnQoBzoAi@pZiEfvCiBrpA{@bo@_CvxAAtS@hPJhQVvQf@nRl@tPz@bRbAdQjAhQ~A`RdBlQtBjQxBxPf}@d_HpBrPpBjQlB|PzEnd@rF|j@fYppCpt@tzFfT`xAliCj~M|C~PtChPpClPtCzPjCzPjCtPfCvPdCzPbCdQzBrPxB~PtBpPxBrQpBxPlBnQnE`c@bBdQ~A~P~ApQvA~PnA~OpEdm@fOvwBnS`{CjAhQpAvQpAhQtAdQ~A`QdBpQjBdQnB`QrBtP|BhQ`|@jkGzB~PrBhQlBvPnBdQdBjQzAjQxAbQnAlQnAtQbAlQ`AlQx@tQt@hQv\\tcI~@jQ|@xQ|@hQdAlQjAtQrApRhAnPlAfQtAlQvAhQ`Fxl@h@`Hf@hHd@`H`@hH\\hH\\zGZnHTjHR`HPhHJnHJ|Gr@`x@`@jc@RvQJdHNdHLdHRnHN~GTnHTnHVfHXhHtKhjCfg@`sLXxG`@lHZrH`@`Hb@`Hh@hHl@dHn@zGt@dHz@hH|@tG`A~GhA~GfAtGnAzGpArGxAvG`B`HzAlGhBnGfBfGjBfGnB`GvB`GvB|FxBtF|BpFbCvF|BdFlCpFnChFlC~ErCbFrC`Fjm@`dAlC~EnCdFnCjFdC~EpBhEpCnGzBhFbClGpBvFrBbGlBzFjBdGbBdGbBhG|AlGzArGtAjGnAnGrA`HjAlGdAlGp`@jcCfArGjAzGnAxGpApGxAxGrA~FbBtGlArE|BxH`BrF|AzE~AzE|AfErBvFzBpF~BvF~BrFtCfG~BxEhC`FfCzEbClEvClFzt@nqAvMnVvCzFjClFlCxFjClGzBzFzBpGtBxGlB|G~A`G|A~GvAdHnA`HjAhHdAvHv@dHp@hHl@rHf@vH\\`ITtHNlHFvHB|H@xH?xRElRAtRK|RMpRWj\\o@rcAO~R{EfmEGhHEbICdIArH?zHBjHD|HFfHJnHLfHvFp{Bz@l\\fD~rAhRzqGl@`Qj@`Qt@tP|@pQbAfQ`AbPpAtQnA|PvA`QzAzP`BjPlB`QlBxPpBhPdcChbSjBzPbBlPbB~PvA~PjApPhAjPfAzQ`A~P|@vPt@hQp@bQj@xPh@tQ`@|PXhQTjQRnQNzPJnPBpQ?lQE~PGvQmBp~CQj_@W`v@CbRA~QFxQHhRNfQTbRZtQd@rQf@vQp@lQt@zQ|@tQ`AjQhAnQrAhQpAdQ~ApQbB`QlB~QnBvPvBfQzBtPfCnQjCbQhCnP|CbQtCbPzCxO`DxOzDfQrD|OpDjObEtPbE|OfEjOrEtOtErNpWbx@xQ|h@zqAzzD~CjJ~~CfkJxJnYv[d`AbFxNjFnO|ElNpF~NrFvNxFvNvFdNzFbNhGbNjG~MpG|MrGrMrGfM~GnMfHdMjH~LpHdMdHdLnHrLtHbLzHbL~HzKxnDp`Fdg@tr@bIxKxH|KxHhLjHjLnHrLdHxLbH`M|GfM~GnMrGnMdGrMdG`N~FdNzFfNrFvNtFpNfFrN`FxN|EfOrEbOpErOfEhO`ErO|D`PvDzOxDfPfDbP~ClP~ClPpC|OhCxPhCbQbCzPvBxPnBxPnBjQfBxP~AjQvA|PnAfQlUrcDpAjQrAfQxAjQlBnR`BfPnBnP`CpQbCpPnCxPtChP|ClPnDpPhDxOtDbP|DxO`ErOlEpOtEhO~EzNbFxNlFxNlFfNzFdN`G~MrG~MvGvMpGjMlDvGlRb_@j_@hs@bHbNpGjMvG|MdG~MzFvMxFrNxFpNhFxNbFdOxE`OvElOdEtO|DjO~DbPrD`PjDfPdDhPnC|OvCrPhCzP~BlPpBnPnB~PjB`Q`BhQvAzPhAbQ`AtQfA`Ub@lMh@xQ^rQXpQJpQBhR@bQMrQUdQW|Qe@nQo@hQy@lQ_AhQ_AjOgCj\\mXxbDoVtyCs|@jqKqOzjB}Cx^aaA`oLkCdZqCdZwCpZ{C|YyChZqd@lgEkEx`@qKvdAaBzQyArQuAfQkApQaAlQw@dQq@dRm@lQa@xQa@zQY~PStQO`RCpQDtQJzQTnQZpQ`@pQd@fQj@zQr@lQt@fQ`AvQhAnQrAnQtAbQzAfQdBtPjBjQtBbQzB|PzBtPfCdQdCrPbg@vaDtElZrGna@pJ|l@|}Af_K`PddAlvAr`J`[zqBhYbhBd]`zBjMny@tFx]jCdP|CvPvBxKlDlPdD`NfE|OpEpPbE`OnEpOtElO`F~NbFzNxFzNvFhNdGhNdGbNnG`NvGvM|pD`hHtGzMjGpM`GvMxFrMfGxNrFjNnFlNlFzNbFxNtEzNzEdOnEjOjElO`EpO~DzOzD|OlD~OhDxObDnP|CdPvCrPlCvPhCpP`ChPzBhQlBxPnB~PjBhQ~A|PrAhQnA~PlAnQfApQ~@~Pt@pQl@jQj@tQdk@jrU^hQj@zQl@rQr@tQ`AjQjArQnAhQ~@fMfBbQhB`QjClT~BhQdCpPjC|PvChPzCjPfDdPjDfPvDvO|DlOjErOrEnOvE~N~EjObF|NhFrNzFxNvF`N`G|MnG`NjGjMvG~LbHhM|G~Ldm@jdAvCbF|bB|rCbfAdjBxq@|jAfhBp{CfmF~cJjr@nuAjUvi@rI~T|Vvt@vZhcAd_@p`BzIfd@nXnwAd^flBhg@pqCns@jxD~j@nxC`_@`uBrZr|Afa@feCpEvYdB|J~WpcBhPxdAtAvIvMrz@z[ppBhc@rlC~Y`mBzE`[F^`VnxAvZrnBzd@rvCre@b{CrUbwAhJtn@fClObE|VxUdxAho@`aEhW~~AhTxtAnc@znCpHld@dWbaBlVh{AbE|WfObaA|ZxlBtAzIbRhkAhG|^`Gr[fCfMhC~LlC~LrCzLnDnNtDjNpJj]zD|M`ExM|DtLdK`ZvSno@pOde@fInVnJnYpBnGvLj^nz@vgCjOxd@j`AduCdqAb`EjIpWdq@rnBrQrg@rH|RfGzN`Pd^zGrN~GpNfHfN`DbG|K~RhHtLfGvJfXna@nGjJtG~IpF|GvFrGpM~NvUvYxC~Cra@h_@d}AruAvi@pg@pz@`u@lk@zh@`h@td@n_Af{@`u@hq@fi@ze@|vBboBrRtP`BzAbh@be@|SlRr_BxwAdj@~f@zEnEpv@rr@xSnRzEnEtLhLnLrLtE~EpEbFbi@dn@zKvMtK~MfEpFnKhN|@rAbDfEjJnM`KxNjb@xo@xDdGl\\`j@jgChfEvnAhtBnUz`@tOrXnDrGlDtGbOfYpIvPfI~PxRxc@x`@d`AnIbTxKdYzjC`{GxCtG|BnGlBvEhp@lcBrm@t}AzZzw@nd@pjAdH`R~GfRbPbf@dCzHdGxRzFbStBxHxBnIpBhI|EvSvHl^rHn^xOf_AxI`j@z~A|bKpAxIfFr_@~Ev_@fA|I`A`J|B`UdDh`@dBhUvAlUlAnU`AnUv@pUVhJTjJ`@rUVtUFjJFtUAtUMvUs@`g@]fMa@dMe@dMqAb[k@`MiLvvB}L``CsFhdAaCdd@eKvqB_Mj|BOxCuLz|BoJfjBgKxnBuIzcByDns@a@tHUlE_Bn^k@tNqAlb@_@tPSzPMxPEzP?jRFhR`@dd@VvP\\xPf@pPn@pPt@nPr@pNx@pN`Cz^fAhOjAhOrArNvApN~ApNfBpNxE`^t^~qCtNvhAxF~b@tBbQhB~P`B`QxAbQvAvRlAxR|Bf`@dAxSR~Dl@fQ`@fQ\\hQ\\dWNlTLjMFnKeAtzAuF|wE}C||BiCpfCqCz_Cm@bc@cDxzCeG|eFoEn_E{BtvBAhPQbR?`ED~JBjEFjEJnQJ`KP~Jb@~Q~@tZ~A|b@lBt]n@~JxAhSNvBvAdQr@nHZtD`BdQb@|DrBtPpAvJbA~GbBhPf@|DvAxJfAzGxCrPlCfP~AfJjOtx@rOtz@xPb{@`u@d|D~Fj[`H`_@hDlPpFrXpAbJ~AnJt@zDzBvMvGfb@bCpPxDhYvBtPzBhPx@tGv@dHfBjQf@~DhA~J`B|PlBxQp@nHtAvQ`ChXx@~K`Cd`@zBrc@n@bKn@nNdA|ZX~GhAf[J~DD|DH|Dj@fRRrQ^fQjAjrAbBdwB|@h`ArA`|A~@viAdAliA`CtrCr@j_AbAdhAF~FJzKFpJX|`@PlXRzQ|@l~@v@f~@rAnyBJtPdAbgAvDrvEv@hz@`EvvEh@dc@|BvhAtBvt@zDbgApAhUn@bLp@pLdApRdApUpEjt@hE`n@lHp`AbJrcArJv`AfGxh@zLlaApOlgAzUbzArJri@jAjGlAtGnAtG`D|PnRz`ArQtz@lJz`@jOvn@|Qpr@rUh{@vW~|@xUlt@vWvw@h[l|@b_@d`Ahu@bhBtr@x`Bn}AbsDjIxQveAjeCpKxWpWnm@vn@~yAz^d{@~a@vaArYtq@bN~]hTrm@xNpd@~CxKlNbi@`DvM|ClNtCnNhDbPpCdObC|MvIhg@dBfL`BxLrBpQlAvJnD|\\pEhf@tCrb@hAhQrBxc@fBpi@nAvn@dC`yB`Iv~DzEbkCfCnrA|DhmAhFfhAzHppAzHvhArGvt@hHlv@|Jpz@|h@~jEtMxeAhDvZfOnpA~Fnh@zG|n@xF~m@lF~r@bIxhANnBlK~gBtB`^bEbw@hBx]rJx{AlHftAtJhaBhJpaBvB~^|C|h@rDnn@XjFvC~_@nAlObB|PfBzPpBxPdBvMhBrMnBpMjCjPrCfPxCdPpBjKtBjKxBfK~DfPnE|OtExObE~MjExMtMb`@lGfQxGzPlF|LlNlZdn@bjAjkAjuBrLxTvE~I|LrVvE~JlD`IrIlSh@vArGxPhT|g@nNt_@da@`iAlVps@|JhZpB`GnLl]p\\~dAfa@hsAbKv]`Jn\\bDbM~CdMdE~P`EbQvDfQ`AdFbBvI~@fFnB`L~ChR~BxNzBzNrB|NlBfOdBhO~AhOfBfQbBfQzAhQbAbN~@`Nz@dN|@fQnBtc@rC|aAfDroAvF`xBv@tU^jJr@vNx@tN~@tN|@vMhCl\\tCb\\pAnMhAjKlAjKpAfKjBhNnBdNvE|ZpEjX~BrMdCnMhCnMrC|MvC|MzCvM`DlMdDhMjDfMbEtNnKb^bf@ryAvUhs@vWxx@|Ohe@dSpo@nHnWxDpNlGjWdErQpExTdFfX~Pt`AbQnbA~t@leEr]nnB|Xl_BpQ~bAnLzs@`Kbr@lAnJtRdvApNveAnV~hBtRrxApX|pBtN|eAnBtMvKht@hHxb@tJxk@bV~jAlWhkApTly@dWx_AjbBl}Fd[piAvSpx@hRf{@jPtx@pPf~@dRvjAvFta@dApH`Jzp@tPrvA~OzpAtNvmAbR~wAzOdgA|Mly@bIxa@hI`c@bJlb@tM`o@rMri@~Jf`@lQbq@pR~n@vHzW`Ohd@`o@jgBfj@rrAbm@rwAzc@zdAxe@jiAbs@`dBd^bz@x}@`wBfh@flAbb@pbAtUhl@jTrl@zK~ZhP|f@pSbq@n[feAxUjy@ra@zvAb`@vqAhe@|aBlw@|kC`Mnb@hZhbA`Mf_@|\\daA~KrZpNl]nTzi@~[|t@fBxDzXjm@|Wrm@d\\hv@~Zxu@tNpb@bOfd@dNle@rLvd@fLdf@dKpe@pC~OrDxSpIrg@hHfe@dEx[|CdY`CpUnCzUlAxQ|AjSn@rHv@lLlCdc@`AfUr@vNj@rN`@jM`@pSp@jURlQHjR`Anu@r@do@FxFfBd`A`B|}@L~JpBpxA`Cb|AhCznA|@jXtAr\\vCro@vCti@rA~TvEdn@~AlWdBpSzBvVrAnPfFbf@~BtU~Dt]lF|a@`Hzj@pGxj@fHzh@dC`UrHxn@fJfs@`I|r@~Kp|@jKd}@lHjh@nHln@dHvh@xL~cA|Kpx@|F|j@nJvw@`XtwBjDb^dItk@hDbYvB~N`Fxb@tF~b@zJ|t@dCzPnGbb@|C~PtGpa@nCzOdD`QhIna@dDzOrHt`@jEdPfOdq@fQjq@fKf_@tEdPrEjNfPvj@fQni@xYly@zc@fkAfb@deAbjAzuCpg@tqAbf@~mAxJlWlJlUhRff@pEbMvH|TvCbJhOdg@jHxSpCpI|EzPnEdQhT|z@~Ptr@tFxUhJhc@lIv_@|CnOfJfi@`Ntr@`Kjk@`Ppx@pKtk@jGb\\x[r`BjLvi@fEnRlLjg@nLli@lJpa@hNrm@bTl_ArTbbAdHrZ|\\pyArJrb@xJrc@hKdf@|F~WzP`u@vKrg@nEfSfIh]bKnc@tl@|lCpYfoAzCvL~A~F`ArD|CtL~CdNrHn]fIx^zOdr@pHp\\hFxVbCzL|B|LxB~LjEvXnExZhBzM`B|MbBrPvAvPvFnw@z@jNx@hNz@rOl@lNd@nN\\lNRdNL~MJ~[CdZEbMe@lh@OfLUdLe@~MsEv_AaAjPqAzOyDn`@gBxPqCdVALmAxJ{B~OeG|`@kL`k@sBpJwCnM_DlMaDhM_DvLaDtLeDpLyDhMeKb[}FjPeOna@qVtr@ce@xqAiXzv@{Tzn@}Qxg@gP~f@kRvo@gMve@uHj[{Kvg@kIjb@iJ~i@kGta@eHvj@{Gnm@aHzw@iDzh@qCvk@mB`c@uAvn@u@js@Mjn@Ppe@p@bl@pAlf@tAvb@`C`f@xErs@rFdx@JtAnF`v@~Gp~@pFrw@vLbcBhGd}@zHrfAvGf`AlHhdAdGpx@zFv{@xGt_A`JpnAfAnOXvD`Fzr@bE`m@dFds@|Blb@zBtc@~A|d@xArl@nAlo@b@fk@?jv@Wpm@y@hm@mB|v@cBli@UxFi@vJQpDgAnTyDfl@oExn@sG`s@cFdd@uIbs@gKnr@}Izj@aLvm@wHt_@aDdOwBlJoJ|`@cB~GwClLoAzEmAvEsMle@mLj`@mCtIcHlToHlTwDrKyDpK}DnKiD`JyI~TiFjM{Mp[gFvLyMfZuLxV_FxJcFrJsM`V_MpTkLdSkElH_Tx]kFpIwQtXsk@b}@sHfL_OjUoAhBka@do@kT|[qIrM{GnKoPbX{|@|tAq[df@kaA|{A{a@lo@a^|i@sn@`aA}NpUeJzN_C~Ckv@xkA}c@nr@{Wzc@}X~e@iTjb@}Sbc@iK`UmKxUuPlb@sR`g@oInU{GhSaLh]sHxUcIpXaK|^gNxh@cTjx@sVbaAqTjy@}}@dlD}a@n_ByCzOgKd_@{FjRw\\voA_Nfh@uZpdAmMha@yPff@qQte@kR|d@iNh[Ut@mOl\\}O|[iPb[yPpZeQ`ZaPlWmP~VuPtViQtVed@vm@}_AtqAkrBlpC}wAjpBi]he@}MnRaOxTyNdUqNpUcNtU{M~UqMlVwN|Yw]tu@}nA~sCq{BbfFe|B|gFuvA`cDw_AdwB{~AhrDcoAtsCw_@d|@mQla@kXnn@_Ylq@mKtX{Kx[eKh\\qJv\\uHvYw@xC}ExSwBfJsDfQkCdMsFtYcF`ZsEdZ}Ep^eEz^sD~^cD`a@oCfa@sBja@{At`@eAx`@m@z`@Spc@Drc@`@pc@v@t^zCf~@nDvq@dFv_ArOp|CjPh`DrVr{EzKrvBvNjxC~RftDpL|aCrGvnAxHjpAhJzfAbBvOdH|n@bOnhAjNz{@rMvq@|Nzr@zOfp@vMzf@~Nhh@nN`d@vNtc@bRfh@rXtt@r]haArn@leBv_@~eApi@hyAr_@zdAre@~pAbf@ptAfDhJzL~[pEjMf\\~}@|CrIlMb]lJbXtKjZtGpQzZfz@~ItVhClHnEjMjNj_@nu@ltB|M|^lNtb@|Jd[vLda@`Kr\\zIv\\vHdYzH~[fHjYzKxf@tJjd@tDvQbDzPvH|b@vDtTtDvTpDxThBfLlEnYdD`U~C`UxCdUrCvUjCvUfCxU`B`P|AbPzAbPfBfSdEpg@nAlPtC~a@`BfZl@tLpA~Z`AlYVjKRlKPtMRn\\Hz]AlNK~QS|Q[|Q_@xPqAnb@o@dQu@bQ}@`QwA|ScBzSkBvSaEx`@gBxOoB`PuB|O{BzOaCxOgCxOmCrOuCdOyHd_@kHd\\gG~VcI~YwHlWwKj]_HbS{HvSsJzVgJ|TuHdPqFzKqT`c@w_@jt@yc@dz@qp@zpAmfAprBqf@r~@aY|i@_`@~t@i[jl@ka@vv@oe@v}@eXlg@}S`a@qRt`@}J`TyDvIeDrIaDxI_DzIuEfNoEjNiEpN{DfNsDjNmDpNaDdNyChNsClNsBzKmB~KgB`LaBhL}AjLwAnLiAbKeAdKoCdYgA~LaA~Lu@rLuAhZi@tOc@vOm@n]OvLGvLA|J@~JF~JLpKXlQZnNd@|Pl@zPv@zPr@lLzDxh@fA|MpAxMxA~L`B|Lv@pFp@fEx@nE|DjTlAtGxB|KtCjNrHr]vFlVnYveAfl@pxBbl@zyBp~A`aGp_@rwAtCrNdHj^hCpNbCpN~BtNzBxNtB|NnB~NzAxLbGfi@rApMnArMfAzMbA|M|@|MjBhZp@tL|CrcAtDhoAtBbs@xCzgA~EzdB|B`n@dDlm@dCr]`BzQlA|MdB`P~@fJnBhPzAbM`CvQ~ApKvBvM`FpY`ExTzCvOfD~OnDzOdIl\\jE|PtDbNnEjOvEdO|E`OtDxKtJlXtE|LxExLxMb\\`GfNjG|MbFdKjF`KjFzJvQl\\bf@nv@pfBxfCx\\ff@zc@np@r\\ff@zWj_@R\\x`AfvA~e@ps@pkA|cB|m@h}@rq@|fAhd@py@b[`n@xb@pbAnXjs@nTdo@hQbl@tQtp@hOhm@bObr@nOxv@~Jbn@rJxo@jI`r@bHnr@jGvu@xBl\\|B~\\|Dh}@fCp}@jAxw@Tn~@e@v`AcBjaAqC`x@{Ctl@oElt@iGvz@gKvuAqDbe@kf@fuGyTfyCyB~YyMzfB{bAbiNcErl@iOdtBuKvwAgFnr@kC`ZyBvRiH~j@yC~QqIdf@oDzP{Lxf@gGbUiIzX{HhU_FhPoSlm@iMb_@eZl}@oMv_@kS|l@y`@nlAyZv}@wqAv{D}Vbu@}gApeDsWzv@kSrm@mV`t@iQrh@sDzKuCtI_Zp{@}Off@_Xlw@{d@~tAsb@dqA{JtZmLza@oI|ZmHdZgG~WwF|WmGd[wE~VgGz^oE`YwDfY_Jvu@gE~a@aGrt@oBhZcB~XiAl\\s@`Q_C|z@SfKUvPUlSArQEzRDvVVx\\\\l\\pAbl@n@fTt@zRTjEjDzq@|a@nrIfIxbBhBr`@dBp\\tE`|@|Hv`BvCbl@fIxaBvEd`AnEn`AfHzpAzJdhB|JxlB|FpeAtEhx@hEty@pFl~@xFhdAbFr{@bE`}@xEn~@nEj~@nBj_@d@pKh@nKFtApErz@|D|x@vEr_ArBfc@hAdVLlClDpu@lRjxDxDz|@vJnwBzJr|BLpC~IttBzD~z@jEr|@rEnbAlEd{@tEj|@xDdz@|Cxm@fEx`AhC|i@|Bfd@dBt[lBr`@xBxa@fBt`@dAxWxBx]nB`d@pB~^pBnd@bCjf@zAnZ`AlQjEt|@zBhc@~Al]zA`ZhEp}@zBhb@lCtl@bBv\\pEr}@zDvbAdChf@lB|]fLpuBvBla@zE|bA`BnZlBrb@rClj@lH`zAdAxSrAlY|I|dBbCfk@`NnmCJfArBnd@xE|`A~Bxi@zAh[lAr[~@~Zp@j[VvOfAz~@Nd[Md{@Sv]u@jl@k@f[_C~v@w@dT_@xIGrAiDfp@{GboAeHtpAkDbl@eB~ZsC`g@Cd@uBd_@yAvYcBfZ_AfPqDll@cBpScCzYaBjPwBfRqChWqFpb@sCvQeCzPGVyBvNcFtY}ExWmLxj@wD|OcHfYoNxi@yUpy@sWj_AqLp`@cGbUcPhk@iWl~@_bAtlDwm@jzBaOrn@cKve@qIde@wJ~k@aHpg@gFbc@cFzd@sCr[cCb[mB`XiB~ZeBh\\uBrl@uAl`@cCnt@sCvy@}IjoCcBbf@s@~SUjHkFpi@aCdOqE~PcG|MqGfKyEzFaGdFcHdEgKlDiMbC{|AeImLiAcI]aDGkDTuCpB{DlEyA`EsAnE{A|Jq@rKChL`AdTrC|e@~FddAdEht@nHpqAbC|a@oBdLeF|L_Gl@"
+      }
+    ],
+    "summary": {
+      "has_time_restrictions": false,
+      "has_toll": true,
+      "has_highway": true,
+      "has_ferry": false,
+      "min_lat": 42.129616,
+      "min_lon": -72.586755,
+      "max_lat": 42.358435,
+      "max_lon": -71.050546,
+      "time": 4976.146,
+      "length": 86.5,
+      "cost": 5145.278
+    },
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "miles",
+    "language": "en-US"
+  }
+}

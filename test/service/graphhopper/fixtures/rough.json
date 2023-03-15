@@ -1,0 +1,192 @@
+{
+  "hints": {
+    "visited_nodes.sum": 2086,
+    "visited_nodes.average": 2086.0
+  },
+  "info": {
+    "copyrights": [
+      "GraphHopper",
+      "OpenStreetMap contributors"
+    ],
+    "took": 18
+  },
+  "paths": [
+    {
+      "distance": 150292.153,
+      "weight": 16984.789883,
+      "time": 9176559,
+      "transfers": 0,
+      "points_encoded": true,
+      "bbox": [
+        -118.29029,
+        36.560471,
+        -117.66331,
+        37.286602
+      ],
+      "points": "gh`bFvbdmU@?|C~AlHfEr@j@\\t@b@d@HPFXFfABvBCZ@VFVDJf@ZT`@L\\\\fBHNNT`BbB~@hBNp@NbEl@vCNf@Th@Tb@VZ`BpA`@Rl@NtBDJDLJJNDR?TCTQRy@p@{@hAO`@{@zD[z@CR?RDPpA`CL^V`AD^?^Eb@O`Au@pDy@tCGXA\\F`DAdAUvF?hCFbJNbCz@tH`@xABVAXCXGTKTYXk@\\qB~@g@^iAtAsCbEu@t@yBtAgAXs@Hk@CiDgAsFcA}Ag@c@AUBSJQNk@p@o@hAOLQHSBS?SEyD_Ba@Am@FYRMVG\\?NBZBPEb@KTONSHU@YGw@YwAYc@GyAEs@GWGYMeAcAcBiC{@_B_@w@i@wAUw@MMQGQAm@Je@IYDoAf@mBh@}A~@_@Rs@NmDRcFN[JYPUTKP_@rAWb@[\\qAv@i@t@cAbDSdBs@~FS~@Od@sNnVoB|C{CpFqBhDs@`AkAdA}B|AwJfF_@X[ZY\\U`@Up@WfAwAdIm@zA]f@aAhA{D`EwCdDe@^e@TWHuBRmJp@aATcA`@y@h@o@t@Q^a@nAwAdDsFvLOh@Il@E`@?bAHbARt@d@bAZ`@h@h@XRt@|@|BxBjAr@`@Rf@`@`@~@Nh@Hf@Df@P|IHzAP`DXtDl@xEl@tDxCjShAvGlA~HJt@Fz@@x@Cz@kBr^Cz@XpFVpCb@vDJh@nAnEzAbF~CpMTj@r@pAlAfBnBnDf@rATdAHvBG~AKv@cAvDk@fBuBlH_CxHiG|R}Jp\\aFvOuG`SuFpQgKf[cExLmKhZsCtHeHtRoEtLaE`LeBdFgCrGoGhQsChHqCvGmCxGcHrPyHpQsQ`c@c`@b`AmMd[mMt[oHhQgMv[oHdQuCfH}O`b@gMv[wDzJgGjOkH~QsCvHeR|e@sHdRqChIU|@SbAiL|s@_ShnAOjBA`@@jAJlBFl@Hh@V`A~Stq@bNjc@b@fAlAdCrN~Vz@pAx@|@`RfPzAhAp@b@rQlJlJpF|BxAtIfFvB~@d@Pj@JvGZdAJ`@J|Aj@|R`JzAt@dCbAr@P`JfBjDl@rAZt@X`Af@xClBXZ`FhDfBvAnDdErAtApAjAt@f@nGbDhIrE`CbBn@h@|HtIpHrIvGvGxE|EzApAnAv@`@NnA\\xIlBf@Rp@b@h@n@`@x@J^H`@n@tFJj@Lb@d@`Ad@j@RPvAp@jBr@t@^^Tn@r@JRRh@PbAp@nEPj@Rh@Xd@Zb@xDlDt@v@hA~Ar@~AlBfFNd@PbABb@?dAEb@M|@]`AeAvBa@fAMr@Ct@?XHt@DXVn@tBhDTd@Rz@D^B^?~@C^O|@_BzEi@lBKh@SrAeA~Ia@rC[fB_BtHGv@?jAJjAv@rEB`@?bAE`@O`AqAnEi@nBQdAGz@GvCMlCi@fQ@b@Dt@L~@P|@Vx@Zt@p@jAhCbDj@bATf@Pj@Ln@~@fHZfA^r@z@jATRhBrAdC~AxEbD`@V^LzOrDfK|BpCr@pKbCjCh@pCb@pSpDfPxCrGlAhAZvB`ApJpFvBhAfF|CpCzAbBdArGpDzAn@pHlCpGxBhBj@bAR|@JpHh@d_@tBvATlA`@l@ZbBpAh@f@pKnK`XrW|BlCpBpBvCpD`LhNxBfCvAjBtDbEl@bAdBhDjEbJtA|C|CjGpAbCfAbB`JrMbBdCdAdBbC`D^n@Vp@f@~At@rDJn@`@`Bn@zAb@r@j@v@nCtCrAjAdC|ArB`BdO|MxNnM~OxNfBfBv@z@z@nAhHzOR\\hBdCp@v@b@^jAz@zEzCzB|A|BDd@Dv@Tp@LR?PEjAg@TCRBNHl@j@JFnAb@x@Tj@XPTJ\\LtANl@f@~@Th@Z^VRh@j@X`@dClERf@VdALNn@^RRl@`At@v@v@h@xB`A\\Fx@Cb@Bx@Zj@\\~@x@h@n@Xb@hHzO`AjBT^h@p@l@`@ZLv@Rn@BtAAf@EbAYxD_BfA]vAW|@?RBf@NPJr@n@dA~AxBzC~@dA|ItLzDzEfBrB`GdFVJVF|FCdEBfCJxBb@|Cx@bAN~BTnDCTDRJNNLRJTDXh@|INvGE`C?b@JbBB|BFxAPdDFnCHz@^zB^~AZpBn@jFn@~DdB~Jn@dEJv@HvAPdFDp@Hn@\\rAj@|AF\\B`@Ah@OpCq@jGuCvTy@~FsBxPgBlMc@bGQpCq@jG{BdOgAdGCZ?fBLtDE|@Oz@cAlCsA~Dk@tAg@t@gD`G_C`F_FrJ{B~DeArBYl@cBzF]`BSzAUhAYt@i@v@{AnAoOrJi@^i@l@y@jAqBbDw@zA]~@uBfHaAtDgAjD}C~DkErCeCrCs@xAmB|BMTGXE\\BrBAPGZOXoAzAKPeA`DMPMJQHeANc@TiAzAi@nAy@vD}BtICT@^\\hE@lAGbEIlBGh@O~@Un@Wb@g@l@KTOh@KhAKl@Ob@}@pAIVAX@VXz@p@jBLh@p@jDXfB^jEDn@?`@EtAO|@y@bEa@~Ac@~@aApAi@dAe@lAmBnFETQjBa@tKF`JQzFMlBc@~B[dASj@]h@]\\yBxA}ExHqAfCIXEZ?ZRhDB~AGxBUlD?^L~CCjBInA]pDQnAg@hCsDnM{@tCk@nBMj@Gj@Gl@AxAAxFK|@G\\y@hCkA`DoBvFU`@o@v@_A~@a@^u@x@mEhGQ\\K`@CRCb@@fBKbAOl@s@dCeAxCOj@U|BS~Ac@nCS`AmAfEa@bB{@lFK`Bg@vE_@rBwAvEm@rAu@bAa@b@g@`@kAn@YTe@x@s@|Ai@pAiAvD]x@e@p@]Ty@b@yA`@a@RwDnCa@f@Wb@eAhCa@jAST[TsAh@sEzAk@TWRMPmAdCe@jA{AhEc@~A]dA]z@qBpDIVIb@C`@@zACnBUzG@hBBx@LlB@hAIjGHrDCbBKbBIdG_@vEYxCGpAEjACtEIbAOnAYlA_@lA{@bCsE|Km@rCa@`DKjC@j@Dj@Fh@Lh@`@lAV`@V^f@d@nBjAZ^JPRl@^tD?t@It@iAvEu@lBWd@aJfMuHnJ{@jAyBnDeHnM{CfFmCfFwAvCy@jByBtF{@fCc@tBMn@cBxOq@vF_CzPaAfGiFpXkGd[Kt@IXEp@nJz_@ZdAtAfDjA`ChBnCVXfAvApHfJnF`HdAtA~CrDhCdDtAbBzC~DtA~Bl@pA|@vBhAfD`AhEVzA^nCNjBRjDBdCCp_@@rKGjKBrDCdEA~@A`UdCaAjBg@h@K~AM`BGvFEnTAhm@OfKGzBWn@QfBo@hAo@dAy@fGqFhNuLzFwEpCsBl@Cth@o\\lsCykBdLoHxVsPnLyHpFoCpHqCp@SdIoBfiBca@dLcChHaBjXcGnJyB~XiG|c@{KhAYfJ{BdLoCjE_A~LgDrL_DhCgAlCeBrIaI~CuBrAq@bD_ApAUdBOn_@uBx]iAjlAoG~WuA|GYrF@bx@`D|yClLnIb@~C\\nc@rF|L`Bzn@~Hfd@|FrZtD~Fp@xEPxiAbAh_BvA`sAlA`HBvrBfBxe@h@fGGvCM~BSp{Bs]hgAyP|HqAnHaBrJoBtHqAnWaEvy@mM`K_B`Bg@dBo@r@a@z@m@nPsMlEaDbGuEfG_FhDaDlE{DhUoW`g@gj@bJeKvBwB|KeIhSoKvLyGpAw@jPaJzDoBna@oT|F}Dn_@yVrFuDhf@c\\lGcEjvAq_Avh@s]xIeG|HeFpbAup@z`@cX|CiCdHgHvDoD~UgPzHeFdcAmq@pEmC`D}A~J_EtBaAnEmCdKaH~b@kYpFwD|@s@nBcBp@q@v@_A|@mAz@yAd@u@hK}PdH_IpGsFnHcHnBcBb\\}ZlNmM~DaDpJgH|L_KfC{B|\\g[zT_TzOwOlBqBpB}AtA}@rAu@TK|CoAlCu@tB_@hOu@rVkAvEUhDEnC?fEDjKTfBC`GWhC]bDi@zCs@jDkAlF_C|A{@hBgAhBqAzBgBjK{K~T}VvCkDbCcCfC_CvCaChDcCzGgEpbAwj@f\\yQ|EuC~YwMvGsCfC_AxD{@fAOv\\gGvL_C|GoC`DkAlCkAbZmLpKaEpHoCdOeGhD_A|@O|AMbAEj]@n\\QjG@xYC|AGdD]zDeArUqIz^oMnNuE|Aa@jE{@`Ca@~IcA?xBFXUZkAm@IZsAk@m@Aq@FiAI_@B]L}@z@gCdAe@^a@f@Kb@Ez@KXy@v@",
+      "instructions": [
+        {
+          "distance": 14287.164,
+          "heading": 206.84,
+          "sign": 0,
+          "interval": [
+            0,
+            245
+          ],
+          "text": "Continue onto Death Valley Road",
+          "time": 1118125,
+          "street_name": "Death Valley Road"
+        },
+        {
+          "distance": 57687.671,
+          "sign": 0,
+          "interval": [
+            245,
+            901
+          ],
+          "text": "Continue onto Loretta Mine Road",
+          "time": 4118025,
+          "street_name": "Loretta Mine Road"
+        },
+        {
+          "street_ref": "CA 168",
+          "distance": 3732.457,
+          "sign": -1,
+          "interval": [
+            901,
+            932
+          ],
+          "text": "Turn slight left onto CA 168",
+          "time": 186622,
+          "street_name": ""
+        },
+        {
+          "street_ref": "US 395",
+          "distance": 73982.539,
+          "sign": -3,
+          "interval": [
+            932,
+            1152
+          ],
+          "text": "Turn sharp left onto Grand Army of the Republic Highway",
+          "time": 3482742,
+          "street_name": "Grand Army of the Republic Highway"
+        },
+        {
+          "distance": 67.215,
+          "sign": 2,
+          "interval": [
+            1152,
+            1154
+          ],
+          "text": "Turn right",
+          "time": 30247,
+          "street_name": ""
+        },
+        {
+          "distance": 17.607,
+          "sign": 2,
+          "interval": [
+            1154,
+            1155
+          ],
+          "text": "Turn right",
+          "time": 7923,
+          "street_name": ""
+        },
+        {
+          "distance": 61.027,
+          "sign": 2,
+          "interval": [
+            1155,
+            1157
+          ],
+          "text": "Turn right",
+          "time": 27462,
+          "street_name": ""
+        },
+        {
+          "distance": 456.473,
+          "sign": 2,
+          "interval": [
+            1157,
+            1171
+          ],
+          "text": "Turn right",
+          "time": 205413,
+          "street_name": ""
+        },
+        {
+          "distance": 0.0,
+          "sign": 4,
+          "last_heading": 322.27157102723413,
+          "interval": [
+            1171,
+            1171
+          ],
+          "text": "Arrive at destination",
+          "time": 0,
+          "street_name": ""
+        }
+      ],
+      "legs": [],
+      "details": {
+        "surface": [
+          [
+            0,
+            149,
+            "gravel"
+          ],
+          [
+            149,
+            242,
+            "paved"
+          ],
+          [
+            242,
+            503,
+            "gravel"
+          ],
+          [
+            503,
+            931,
+            "missing"
+          ],
+          [
+            931,
+            1068,
+            "asphalt"
+          ],
+          [
+            1068,
+            1069,
+            "concrete"
+          ],
+          [
+            1069,
+            1087,
+            "asphalt"
+          ],
+          [
+            1087,
+            1088,
+            "sand"
+          ],
+          [
+            1088,
+            1157,
+            "asphalt"
+          ],
+          [
+            1157,
+            1171,
+            "unpaved"
+          ]
+        ]
+      },
+      "ascend": 1957.8195190429688,
+      "descend": 2301.9445190429688,
+      "snapped_waypoints": "gh`bFvbdmUzxzBrekA"
+    }
+  ]
+}

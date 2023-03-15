@@ -1,0 +1,79 @@
+{
+  "hints": {
+    "visited_nodes.sum": 400,
+    "visited_nodes.average": 400.0
+  },
+  "info": {
+    "copyrights": [
+      "GraphHopper",
+      "OpenStreetMap contributors"
+    ],
+    "took": 9
+  },
+  "paths": [
+    {
+      "distance": 564.769,
+      "weight": 857.768565,
+      "time": 806175,
+      "transfers": 0,
+      "points_encoded": true,
+      "bbox": [
+        18.936002,
+        54.332642,
+        18.943776,
+        54.333786
+      ],
+      "points": "casjI_mqrBHe@JMt@SJKHc@Bc@tBwd@F}@?SE]MYg@_@KS",
+      "instructions": [
+        {
+          "street_ref": "501",
+          "distance": 564.769,
+          "heading": 108.4,
+          "sign": 0,
+          "interval": [
+            0,
+            13
+          ],
+          "text": "Continue onto Mieczysława Boguckiego",
+          "time": 806175,
+          "street_name": "Mieczysława Boguckiego"
+        },
+        {
+          "distance": 0.0,
+          "sign": 4,
+          "last_heading": 54.45963842718475,
+          "interval": [
+            13,
+            13
+          ],
+          "text": "Arrive at destination",
+          "time": 0,
+          "street_name": ""
+        }
+      ],
+      "legs": [],
+      "details": {
+        "road_environment": [
+          [
+            0,
+            6,
+            "road"
+          ],
+          [
+            6,
+            7,
+            "ferry"
+          ],
+          [
+            7,
+            13,
+            "road"
+          ]
+        ]
+      },
+      "ascend": 0.5,
+      "descend": 5.231999933719635,
+      "snapped_waypoints": "casjI_mqrBzCqo@"
+    }
+  ]
+}
