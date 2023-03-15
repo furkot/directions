@@ -1,4 +1,13 @@
 
+2.1.0 / 2023-03-15
+==================
+
+ * mark a route with tolls or route flag if it contains such section
+ * add routing optionis avoidFerry and avoidUnpaved
+ * pass RV restrictions to Graphhopper service
+ * detect ferry segments in Graphhopper directions
+ * update Graphhopper options to new version of API
+
 2.0.2 / 2023-03-11
 ==================
 
