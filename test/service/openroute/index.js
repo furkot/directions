@@ -39,9 +39,9 @@ describe('openroute directions', function () {
     result.should.have.property('segments').with.length(83);
     result.segments[0].should.have.property('duration', 94);
     result.segments[0].should.have.property('distance', 2226);
-    result.segments[0].should.have.property('path').with.length(41);
+    result.segments[0].should.have.property('path').with.length(42);
     result.segments[0].should.have.property('instructions', 'Head south on K 7931');
-    result.segments.reduce(function (len, seg) { return len + seg.path.length; }, 0).should.equal(7964);
+    result.segments.reduce(function (len, seg) { return len + seg.path.length - 1; }, 0).should.equal(7964);
     result.should.have.property('provider', 'openroute');
   });
 
@@ -97,12 +97,21 @@ describe('openroute directions', function () {
     result.query.should.deepEqual(query);
     result.should.have.property('routes').with.length(1);
     result.routes[0].should.have.property('ferry').eql(true);
-    result.should.have.property('segments').with.length(5);
+    result.should.have.property('segments').with.length(7);
     result.segments[0].should.not.have.property('mode');
+    result.segments[0].should.have.property('path').with.length(14);
     result.segments[1].should.not.have.property('mode');
-    result.segments[2].should.have.property('mode', 6);
-    result.segments[3].should.not.have.property('mode');
+    result.segments[1].should.have.property('path').with.length(2);
+    result.segments[2].should.not.have.property('mode');
+    result.segments[2].should.have.property('path').with.length(4);
+    result.segments[3].should.have.property('mode', 6);
+    result.segments[3].should.have.property('path').with.length(2);
     result.segments[4].should.not.have.property('mode');
+    result.segments[4].should.have.property('path').with.length(17);
+    result.segments[5].should.not.have.property('mode');
+    result.segments[5].should.have.property('path').with.length(3);
+    result.segments[6].should.not.have.property('mode');
+    result.segments[6].should.have.property('path').with.length(2);
     result.should.have.property('provider', 'openroute');
   });
 
