@@ -1,4 +1,9 @@
 
+2.1.1 / 2024-03-04
+==================
+
+ * add vehicle type to enable restrictions for open route service
+
 2.1.0 / 2023-03-15
 ==================
 
