@@ -1,4 +1,10 @@
 
+2.1.2 / 2024-03-05
+==================
+
+ * optional car routing with dimensions supported by Valhalla and GraphHopper
+ * use the same default dimensions for RV regardless of service
+
 2.1.1 / 2024-03-04
 ==================
 
