@@ -1,3 +1,4 @@
+const { describe, it } = require('node:test');
 const should = require('should');
 const model = require('../../../lib/model');
 const mapquest = require('../../../lib/service/mapquest');
@@ -10,9 +11,9 @@ const directions = mapquest({
   request() { return { response }; }
 }).operation;
 
-describe('mapquest directions', function () {
+describe('mapquest directions', async function () {
 
-  it('test', async function () {
+  await it('test', async function () {
     response = require('./fixtures/turnbyturn');
 
     const query = {
@@ -47,8 +48,8 @@ describe('mapquest directions', function () {
   });
 });
 
-describe('open mapquest directions', function () {
-  it('test', async function () {
+describe('open mapquest directions', async function () {
+  await it('test', async function () {
     response = require('./fixtures/response');
 
     const query = {

@@ -1,9 +1,10 @@
+const { describe, it } = require('node:test');
 const should = require('should');
 const { directionsQuery, pathType } = require('../../../lib/model');
 const graphhopper = require('../../../lib/service/graphhopper');
 
 
-describe('graphhopper directions', function () {
+describe('graphhopper directions', async function () {
   let response;
 
   const directions = graphhopper({
@@ -13,7 +14,7 @@ describe('graphhopper directions', function () {
     request() { return { response }; }
   }).operation;
 
-  it('test', async function () {
+  await it('test', async function () {
     response = require('./fixtures/response');
 
     const query = {
@@ -40,7 +41,7 @@ describe('graphhopper directions', function () {
     result.should.have.property('provider', 'graphhopper');
   });
 
-  it('turn-by-turn', async function () {
+  await it('turn-by-turn', async function () {
 
     response = require('./fixtures/turnbyturn');
 
@@ -75,7 +76,7 @@ describe('graphhopper directions', function () {
     result.should.have.property('provider', 'graphhopper');
   });
 
-  it('ferry', async function () {
+  await it('ferry', async function () {
 
     response = require('./fixtures/ferry');
 
@@ -104,7 +105,7 @@ describe('graphhopper directions', function () {
     result.should.have.property('provider', 'graphhopper');
   });
 
-  it('other ferry', async function () {
+  await it('other ferry', async function () {
 
     response = require('./fixtures/ferry-2');
 
@@ -129,7 +130,7 @@ describe('graphhopper directions', function () {
     result.should.have.property('provider', 'graphhopper');
   });
 
-  it('rough surface', async function () {
+  await it('rough surface', async function () {
 
     response = require('./fixtures/rough');
 
@@ -178,7 +179,7 @@ describe('graphhopper directions', function () {
     result.should.have.property('provider', 'graphhopper');
   });
 
-  it('toll roads', async function () {
+  await it('toll roads', async function () {
 
     response = require('./fixtures/tolls');
 
