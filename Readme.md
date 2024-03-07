@@ -28,7 +28,7 @@ MIT © [Damian Krzeminski](https://pirxpilot.me)
 [npm-url]: https://npmjs.org/package/@furkot/directions
 
 [build-url]: https://github.com/furkot/directions/actions/workflows/check.yaml
-[build-image]: https://img.shields.io/github/workflow/status/furkot/directions/check
+[build-image]: https://img.shields.io/github/actions/workflow/status/furkot/directions/check.yaml?branch=main
 
 [deps-image]: https://img.shields.io/librariesio/release/npm/@furkot/directions
 [deps-url]: https://libraries.io/npm/@furkot%2Fdirections
