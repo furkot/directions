@@ -1,3 +1,5 @@
+const { describe, it } = require('node:test');
+
 const LatLon = require('geodesy/latlon-spherical');
 const pathType = require("../../lib/model").pathType;
 

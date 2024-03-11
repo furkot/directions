@@ -1,24 +1,15 @@
+const { describe, it } = require('node:test');
 const should = require('should');
-const sinon = require('sinon');
 
 const osrm = require('../../../lib/service/osrm');
 const model = require('../../../lib/model');
 
-describe('osrm', function () {
-  it('should return turnbyturn directions', async function () {
+describe('osrm', async function () {
+  await it('should return turnbyturn directions', async function (t) {
 
-    const request = sinon.stub();
-
-    // if called with expected arguments
-    request
-      .withArgs(
-        'https://router.project-osrm.org/route/v1/car/-71.05890,42.36010;-71.80230,42.26260;-72.58980,42.10150', { alternatives: false, steps: true, overview: false, radiuses: '1000;1000;1000' }
-      )
-      .onFirstCall()
-      .returns({ response: require('./fixtures/turnbyturn.json') });
-
-    // otherwise
-    request.throws(400);
+    const request = t.mock.fn(undefined, async () => {
+      return { response: require('./fixtures/turnbyturn.json') };
+    });
 
     const directions = osrm({
       name: 'osrm',
@@ -65,22 +56,23 @@ describe('osrm', function () {
       segment.should.have.property('instructions').which.is.String();
     });
 
+    request.mock.calls.should.have.length(1);
+    request.mock.calls[0].arguments.should.be.deepEqual([
+      'https://router.project-osrm.org/route/v1/car/-71.05890,42.36010;-71.80230,42.26260;-72.58980,42.10150',
+      {
+        alternatives: false,
+        steps: true,
+        overview: false,
+        radiuses: '1000;1000;1000'
+      }
+    ]);
   });
 
-  it('should return zero results', async function () {
+  await it('should return zero results', async function (t) {
 
-    const request = sinon.stub();
-
-    // if called with expected arguments
-    request
-      .withArgs(
-        'https://router.project-osrm.org/route/v1/car/-118.53010,37.02720;-118.50270,36.97350', { alternatives: false, steps: true, overview: false, radiuses: '1000;1000' }
-      )
-      .onFirstCall()
-      .returns({ response: require('./fixtures/zeroresults.json') });
-
-    // otherwise
-    request.throws(400);
+    const request = t.mock.fn(undefined, async () => {
+      return { response: require('./fixtures/zeroresults.json') };
+    });
 
     const directions = osrm({
       name: 'osrm',
@@ -99,5 +91,16 @@ describe('osrm', function () {
     };
     const result = await directions(query);
     should.not.exist(result);
+
+    request.mock.calls.should.have.length(1);
+    request.mock.calls[0].arguments.should.be.deepEqual([
+      'https://router.project-osrm.org/route/v1/car/-118.53010,37.02720;-118.50270,36.97350',
+      {
+        alternatives: false,
+        steps: true,
+        overview: false,
+        radiuses: '1000;1000'
+      }
+    ]);
   });
 });

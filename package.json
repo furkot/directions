@@ -7,7 +7,10 @@
     "email": "pirxpilot@furkot.com",
     "url": "https://pirxpilot.me"
   },
-  "repository": "furkot/directions",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furkot/directions.git"
+  },
   "license": "MIT",
   "keywords": [
     "furkot-directions",
@@ -23,10 +26,8 @@
     "vis-why": "^1.2.2"
   },
   "devDependencies": {
-    "jshint": "~2",
-    "mocha": "~10",
-    "should": "~13",
-    "sinon": "~14"
+    "@pirxpilot/jshint": "~3",
+    "should": "~13"
   },
   "scripts": {
     "test": "make check"

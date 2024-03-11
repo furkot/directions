@@ -1,3 +1,4 @@
+const { describe, it } = require('node:test');
 const should = require('should');
 const model = require('../../../lib/model');
 const openroute = require('../../../lib/service/openroute');
@@ -10,9 +11,9 @@ const directions = openroute({
   request() { return { response }; }
 }).operation;
 
-describe('openroute directions', function () {
+describe('openroute directions', async function () {
 
-  it('turn-by-turn', async function () {
+  await it('turn-by-turn', async function () {
 
     response = require('./fixtures/turnbyturn');
 
@@ -45,7 +46,7 @@ describe('openroute directions', function () {
     result.should.have.property('provider', 'openroute');
   });
 
-  it('empty', async function () {
+  await it('empty', async function () {
 
     response = require('./fixtures/empty');
 
@@ -78,7 +79,7 @@ describe('openroute directions', function () {
     result.should.have.property('provider', 'openroute');
   });
 
-  it('ferry', async function () {
+  await it('ferry', async function () {
 
     response = require('./fixtures/ferry');
 
@@ -115,7 +116,7 @@ describe('openroute directions', function () {
     result.should.have.property('provider', 'openroute');
   });
 
-  it('too long roundabout route', async function () {
+  await it('too long roundabout route', async function () {
 
     response = require('./fixtures/roundabout-too-long');
 
@@ -129,7 +130,7 @@ describe('openroute directions', function () {
     should.not.exist(result);
   });
 
-  it('rough surface', async function () {
+  await it('rough surface', async function () {
 
     response = require('./fixtures/rough');
 
@@ -161,7 +162,7 @@ describe('openroute directions', function () {
     result.should.have.property('provider', 'openroute');
   });
 
-  it('toll roads', async function () {
+  await it('toll roads', async function () {
 
     response = require('./fixtures/tolls');
 

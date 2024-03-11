@@ -1,3 +1,4 @@
+const { describe, it, beforeEach } = require('node:test');
 const should = require('should');
 const service = require('../../lib/service');
 const status = require('../../lib/service/status');
