@@ -34,7 +34,7 @@ describe('service', function () {
       processResponse(response) {
         return response;
       },
-      skip() { }
+      skip() {}
     }).operation;
   });
 

@@ -6,14 +6,13 @@ const model = require('../../../lib/model');
 
 describe('osrm', async function () {
   await it('should return turnbyturn directions', async function (t) {
-
     const request = t.mock.fn(undefined, async () => {
       return { response: require('./fixtures/turnbyturn.json') };
     });
 
     const directions = osrm({
       name: 'osrm',
-      skip() { },
+      skip() {},
       interval: 1,
       request
     }).operation;
@@ -31,11 +30,7 @@ describe('osrm', async function () {
     const result = await directions(query);
     should.exist(result);
     result.should.have.property('provider', 'osrm');
-    result.should.have.property('places', [
-      'Cambridge Street',
-      'Main Street',
-      'City Hall Place'
-    ]);
+    result.should.have.property('places', ['Cambridge Street', 'Main Street', 'City Hall Place']);
 
     result.should.have.property('routes').with.length(2);
 
@@ -69,7 +64,6 @@ describe('osrm', async function () {
   });
 
   await it('should return zero results', async function (t) {
-
     const request = t.mock.fn(undefined, async () => {
       return { response: require('./fixtures/zeroresults.json') };
     });
@@ -77,7 +71,7 @@ describe('osrm', async function () {
     const directions = osrm({
       name: 'osrm',
       interval: 1,
-      skip() { },
+      skip() {},
       request
     }).operation;
 

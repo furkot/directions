@@ -3,15 +3,16 @@ const should = require('should');
 const { directionsQuery, pathType } = require('../../../lib/model');
 const graphhopper = require('../../../lib/service/graphhopper');
 
-
 describe('graphhopper directions', async function () {
   let response;
 
   const directions = graphhopper({
     name: 'graphhopper',
-    skip() { },
+    skip() {},
     interval: 1,
-    request() { return { response }; }
+    request() {
+      return { response };
+    }
   }).operation;
 
   await it('test', async function () {
@@ -42,7 +43,6 @@ describe('graphhopper directions', async function () {
   });
 
   await it('turn-by-turn', async function () {
-
     response = require('./fixtures/turnbyturn');
 
     const query = {
@@ -72,12 +72,15 @@ describe('graphhopper directions', async function () {
     result.segments[0].should.have.property('distance', 508);
     result.segments[0].should.have.property('path').with.length(13);
     result.segments[0].should.have.property('instructions', 'Continue');
-    result.segments.reduce(function (len, seg) { return len + seg.path.length - 1; }, 0).should.equal(5749);
+    result.segments
+      .reduce(function (len, seg) {
+        return len + seg.path.length - 1;
+      }, 0)
+      .should.equal(5749);
     result.should.have.property('provider', 'graphhopper');
   });
 
   await it('ferry', async function () {
-
     response = require('./fixtures/ferry');
 
     const query = {
@@ -106,7 +109,6 @@ describe('graphhopper directions', async function () {
   });
 
   await it('other ferry', async function () {
-
     response = require('./fixtures/ferry-2');
 
     const query = {
@@ -131,7 +133,6 @@ describe('graphhopper directions', async function () {
   });
 
   await it('rough surface', async function () {
-
     response = require('./fixtures/rough');
 
     const query = {
@@ -180,7 +181,6 @@ describe('graphhopper directions', async function () {
   });
 
   await it('toll roads', async function () {
-
     response = require('./fixtures/tolls');
 
     const query = {

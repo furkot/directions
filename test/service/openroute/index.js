@@ -6,15 +6,15 @@ const openroute = require('../../../lib/service/openroute');
 let response;
 const directions = openroute({
   name: 'openroute',
-  skip() { },
+  skip() {},
   interval: 1,
-  request() { return { response }; }
+  request() {
+    return { response };
+  }
 }).operation;
 
 describe('openroute directions', async function () {
-
   await it('turn-by-turn', async function () {
-
     response = require('./fixtures/turnbyturn');
 
     const query = {
@@ -42,12 +42,15 @@ describe('openroute directions', async function () {
     result.segments[0].should.have.property('distance', 2226);
     result.segments[0].should.have.property('path').with.length(42);
     result.segments[0].should.have.property('instructions', 'Head south on K 7931');
-    result.segments.reduce(function (len, seg) { return len + seg.path.length - 1; }, 0).should.equal(7964);
+    result.segments
+      .reduce(function (len, seg) {
+        return len + seg.path.length - 1;
+      }, 0)
+      .should.equal(7964);
     result.should.have.property('provider', 'openroute');
   });
 
   await it('empty', async function () {
-
     response = require('./fixtures/empty');
 
     const query = {
@@ -75,12 +78,15 @@ describe('openroute directions', async function () {
     result.segments[0].should.have.property('distance', 0);
     result.segments[0].should.have.property('path').with.length(0);
     result.segments[0].should.have.property('instructions', 'Head east');
-    result.segments.reduce(function (len, seg) { return len + seg.path.length; }, 0).should.equal(0);
+    result.segments
+      .reduce(function (len, seg) {
+        return len + seg.path.length;
+      }, 0)
+      .should.equal(0);
     result.should.have.property('provider', 'openroute');
   });
 
   await it('ferry', async function () {
-
     response = require('./fixtures/ferry');
 
     const query = {
@@ -117,21 +123,19 @@ describe('openroute directions', async function () {
   });
 
   await it('too long roundabout route', async function () {
-
     response = require('./fixtures/roundabout-too-long');
 
     const query = {
       ...model.directionsQuery,
       points: response.metadata.query.coordinates,
       turnbyturn: true,
-      path: model.pathType.full,
+      path: model.pathType.full
     };
     const result = await directions(query);
     should.not.exist(result);
   });
 
   await it('rough surface', async function () {
-
     response = require('./fixtures/rough');
 
     const query = {
@@ -163,14 +167,13 @@ describe('openroute directions', async function () {
   });
 
   await it('toll roads', async function () {
-
     response = require('./fixtures/tolls');
 
     const query = {
       ...model.directionsQuery,
       points: response.metadata.query.coordinates,
       turnbyturn: true,
-      path: model.pathType.full,
+      path: model.pathType.full
     };
     const result = await directions(query);
     should.exist(result);

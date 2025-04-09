@@ -8,12 +8,13 @@ describe('valhalla directions', async function () {
   const directions = valhalla({
     name: 'valhalla',
     interval: 1,
-    skip() { },
-    request() { return { response }; }
+    skip() {},
+    request() {
+      return { response };
+    }
   }).operation;
 
   await it('test', async function () {
-
     response = require('./fixtures/response');
 
     const query = {
@@ -41,7 +42,6 @@ describe('valhalla directions', async function () {
   });
 
   await it('turn-by-turn', async function () {
-
     response = require('./fixtures/turnbyturn');
 
     const query = {
@@ -71,12 +71,15 @@ describe('valhalla directions', async function () {
     result.segments[0].should.have.property('path').with.length(2);
     result.segments[0].should.have.property('instructions', 'Drive south.');
     result.segments[4].should.have.property('rough', true);
-    result.segments.reduce(function (len, seg) { return len + seg.path.length; }, 0).should.equal(511);
+    result.segments
+      .reduce(function (len, seg) {
+        return len + seg.path.length;
+      }, 0)
+      .should.equal(511);
     result.should.have.property('provider', 'valhalla');
   });
 
   await it('empty', async function () {
-
     response = require('./fixtures/empty');
 
     const query = {
@@ -86,14 +89,13 @@ describe('valhalla directions', async function () {
         [response.trip.locations[1].lon, response.trip.locations[1].lat]
       ],
       turnbyturn: true,
-      path: pathType.full,
+      path: pathType.full
     };
     const result = await directions(query);
     should.not.exist(result);
   });
 
   await it('ferry', async function () {
-
     response = require('./fixtures/ferry');
 
     const query = {
@@ -119,7 +121,6 @@ describe('valhalla directions', async function () {
   });
 
   await it('only ferry end', async function () {
-
     response = require('./fixtures/end-ferry');
 
     const query = {
@@ -143,7 +144,6 @@ describe('valhalla directions', async function () {
   });
 
   await it('no ferry end', async function () {
-
     response = require('./fixtures/no-end-ferry');
 
     const query = {
@@ -172,7 +172,6 @@ describe('valhalla directions', async function () {
   });
 
   await it('too long roundabout route', async function () {
-
     response = require('./fixtures/roundabout-too-long');
 
     const query = {
@@ -182,14 +181,13 @@ describe('valhalla directions', async function () {
         [response.trip.locations[1].lon, response.trip.locations[1].lat]
       ],
       turnbyturn: true,
-      path: pathType.full,
+      path: pathType.full
     };
     const result = await directions(query);
     should.not.exist(result);
   });
 
   await it('acceptable roundabout route', async function () {
-
     response = require('./fixtures/roundabout');
 
     const query = {
@@ -199,14 +197,13 @@ describe('valhalla directions', async function () {
         [response.trip.locations[1].lon, response.trip.locations[1].lat]
       ],
       turnbyturn: true,
-      path: pathType.full,
+      path: pathType.full
     };
     const result = await directions(query);
     should.exist(result);
   });
 
   await it('toll road', async function () {
-
     response = require('./fixtures/has-toll');
 
     const query = {

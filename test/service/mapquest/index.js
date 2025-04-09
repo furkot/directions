@@ -6,13 +6,14 @@ const mapquest = require('../../../lib/service/mapquest');
 let response;
 const directions = mapquest({
   name: 'mapquest',
-  skip() { },
+  skip() {},
   interval: 1,
-  request() { return { response }; }
+  request() {
+    return { response };
+  }
 }).operation;
 
 describe('mapquest directions', async function () {
-
   await it('test', async function () {
     response = require('./fixtures/turnbyturn');
 
@@ -25,7 +26,7 @@ describe('mapquest directions', async function () {
       alternate: true,
       turnbyturn: true,
       path: model.pathType.full,
-      units: 'km',
+      units: 'km'
     };
     const result = await directions(query);
     should.exist(result);
@@ -42,8 +43,10 @@ describe('mapquest directions', async function () {
     result.segments[0].should.have.property('duration', 86);
     result.segments[0].should.have.property('distance', 906);
     result.segments[0].should.have.property('path').with.length(3);
-    result.segments[0].should.have.property('instructions',
-      'Start out going south on Quay Road V toward US Highway 54/US-54 W/US-54 E.');
+    result.segments[0].should.have.property(
+      'instructions',
+      'Start out going south on Quay Road V toward US Highway 54/US-54 W/US-54 E.'
+    );
     result.should.have.property('provider', 'mapquest');
   });
 });
