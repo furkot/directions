@@ -73,15 +73,13 @@ describe('simplify', function () {
     ];
 
     let path = [];
-    let i;
-    let segments;
 
-    for (i = 0; i < 200; i += 1) {
+    for (let i = 0; i < 200; i += 1) {
       path.push([i / 10, i / 10]);
     }
     routes[0].distance = distance(path);
 
-    segments = [
+    const segments = [
       {
         path: path.slice(0, 30)
       },
