@@ -23,7 +23,7 @@
     "fetchagent": "~2.1.0",
     "geodesy": "^1.1.1",
     "limiter-component": "^1.2.0",
-    "vis-why": "^1.2.2"
+    "vis-why": "~2"
   },
   "devDependencies": {
     "@pirxpilot/jshint": "~3",
