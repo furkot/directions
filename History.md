@@ -1,4 +1,13 @@
 
+2.1.3 / 2025-06-12
+==================
+
+ * replace mocha with `node:test`
+ * replace `should` with `node:assert`
+ * use biome to format and lint code
+ * upgrade vis-why to ~2
+ * update github actions
+
 2.1.2 / 2024-03-05
 ==================
 
