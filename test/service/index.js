@@ -1,17 +1,17 @@
 const { describe, it, beforeEach } = require('node:test');
-const should = require('should');
+const assert = require('node:assert/strict');
 const service = require('../../lib/service');
 const status = require('../../lib/service/status');
 const util = require('../../lib/service/util');
 
-describe('service', function () {
+describe('service', () => {
   let s;
   let st;
   let reqTimeout;
   let reqResponse;
   const timeout = 200;
 
-  beforeEach(function () {
+  beforeEach(() => {
     st = [];
     reqResponse = 'response';
     reqTimeout = 1;
@@ -34,21 +34,21 @@ describe('service', function () {
       processResponse(response) {
         return response;
       },
-      skip() { }
+      skip() {}
     }).operation;
   });
 
-  it('success', async function () {
+  it('success', async () => {
     const result = await s({
       points: [
         [0, 0],
         [1, 1]
       ]
     });
-    result.should.equal('response');
+    assert.equal(result, 'response');
   });
 
-  it('request later', async function () {
+  it('request later', async () => {
     st = [status.error];
     const result = await s({
       points: [
@@ -56,10 +56,10 @@ describe('service', function () {
         [1, 1]
       ]
     });
-    result.should.equal('response');
+    assert.equal(result, 'response');
   });
 
-  it('cascade to next service', async function () {
+  it('cascade to next service', async () => {
     reqResponse = undefined;
     const result = await s({
       points: [
@@ -67,6 +67,6 @@ describe('service', function () {
         [1, 1]
       ]
     });
-    should.not.exist(result);
+    assert.equal(result, undefined);
   });
 });

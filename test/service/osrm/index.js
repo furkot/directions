@@ -1,19 +1,18 @@
 const { describe, it } = require('node:test');
-const should = require('should');
+const assert = require('node:assert/strict');
 
 const osrm = require('../../../lib/service/osrm');
 const model = require('../../../lib/model');
 
-describe('osrm', async function () {
-  await it('should return turnbyturn directions', async function (t) {
-
-    const request = t.mock.fn(undefined, async () => {
-      return { response: require('./fixtures/turnbyturn.json') };
-    });
+describe('osrm', async () => {
+  await it('should return turnbyturn directions', async t => {
+    const request = t.mock.fn(undefined, async () => ({
+      response: require('./fixtures/turnbyturn.json')
+    }));
 
     const directions = osrm({
       name: 'osrm',
-      skip() { },
+      skip() {},
       interval: 1,
       request
     }).operation;
@@ -29,35 +28,30 @@ describe('osrm', async function () {
     };
 
     const result = await directions(query);
-    should.exist(result);
-    result.should.have.property('provider', 'osrm');
-    result.should.have.property('places', [
-      'Cambridge Street',
-      'Main Street',
-      'City Hall Place'
-    ]);
+    assert.ok(result);
+    assert.equal(result.provider, 'osrm');
+    assert.deepEqual(result.places, ['Cambridge Street', 'Main Street', 'City Hall Place']);
+    assert.equal(result.routes.length, 2);
 
-    result.should.have.property('routes').with.length(2);
-
-    result.routes.forEach(function (route) {
-      route.should.have.property('distance').which.is.Number();
-      route.should.have.property('duration').which.is.Number();
-      route.should.have.property('path').which.is.Array();
-      route.should.have.property('segmentIndex').which.is.Number();
-      route.should.not.have.property('segments');
+    result.routes.forEach(route => {
+      assert.equal(typeof route.distance, 'number');
+      assert.equal(typeof route.duration, 'number');
+      assert.ok(Array.isArray(route.path));
+      assert.equal(typeof route.segmentIndex, 'number');
+      assert.equal(Object.hasOwn(route, 'segments'), false);
     });
 
-    result.should.have.property('segments').which.is.Array();
+    assert.ok(Array.isArray(result.segments));
 
-    result.segments.forEach(function (segment) {
-      segment.should.have.property('distance').which.is.Number();
-      segment.should.have.property('duration').which.is.Number();
-      segment.should.have.property('path').which.is.Array();
-      segment.should.have.property('instructions').which.is.String();
+    result.segments.forEach(segment => {
+      assert.equal(typeof segment.distance, 'number');
+      assert.equal(typeof segment.duration, 'number');
+      assert.ok(Array.isArray(segment.path));
+      assert.equal(typeof segment.instructions, 'string');
     });
 
-    request.mock.calls.should.have.length(1);
-    request.mock.calls[0].arguments.should.be.deepEqual([
+    assert.strictEqual(request.mock.calls.length, 1);
+    assert.deepStrictEqual(request.mock.calls[0].arguments, [
       'https://router.project-osrm.org/route/v1/car/-71.05890,42.36010;-71.80230,42.26260;-72.58980,42.10150',
       {
         alternatives: false,
@@ -68,16 +62,15 @@ describe('osrm', async function () {
     ]);
   });
 
-  await it('should return zero results', async function (t) {
-
-    const request = t.mock.fn(undefined, async () => {
-      return { response: require('./fixtures/zeroresults.json') };
-    });
+  await it('should return zero results', async t => {
+    const request = t.mock.fn(undefined, async () => ({
+      response: require('./fixtures/zeroresults.json')
+    }));
 
     const directions = osrm({
       name: 'osrm',
       interval: 1,
-      skip() { },
+      skip() {},
       request
     }).operation;
 
@@ -90,10 +83,10 @@ describe('osrm', async function () {
       turnbyturn: true
     };
     const result = await directions(query);
-    should.not.exist(result);
+    assert.strictEqual(result, undefined);
 
-    request.mock.calls.should.have.length(1);
-    request.mock.calls[0].arguments.should.be.deepEqual([
+    assert.strictEqual(request.mock.calls.length, 1);
+    assert.deepStrictEqual(request.mock.calls[0].arguments, [
       'https://router.project-osrm.org/route/v1/car/-118.53010,37.02720;-118.50270,36.97350',
       {
         alternatives: false,
