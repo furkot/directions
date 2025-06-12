@@ -1,5 +1,5 @@
 const { describe, it } = require('node:test');
-const should = require('should');
+const assert = require('node:assert/strict');
 const furkotDirections = require('../lib/directions');
 const { timeout } = require('../lib/service/util');
 
@@ -26,19 +26,19 @@ function timeService(millis, success = true) {
 describe('furkot-directions node module', async () => {
   await it('no input', async () => {
     const result = await furkotDirections()();
-    should.not.exist(result);
+    assert.strictEqual(result, undefined);
   });
 
   await it('empty input', async () => {
     const result = await furkotDirections()({});
-    should.not.exist(result);
+    assert.strictEqual(result, undefined);
   });
 
   await it('one point', async () => {
     const result = await furkotDirections()({
       points: [[0, 0]]
     });
-    should.not.exist(result);
+    assert.strictEqual(result, undefined);
   });
 
   await it('no service', async () => {
@@ -50,8 +50,8 @@ describe('furkot-directions node module', async () => {
         [1, 1]
       ]
     });
-    should.exist(result);
-    result.should.have.property('routes').with.length(1);
+    assert.ok(result);
+    assert.strictEqual(result.routes.length, 1);
   });
 
   await it('service', async () => {
@@ -70,11 +70,11 @@ describe('furkot-directions node module', async () => {
         }
       ]
     })(query);
-    should.exist(result);
-    result.should.have.property('stats', ['mock']);
-    result.should.have.property('provider', 'mock');
-    result.should.have.property('name', 'success');
-    result.should.have.property('query', query);
+    assert.ok(result);
+    assert.deepStrictEqual(result.stats, ['mock']);
+    assert.strictEqual(result.provider, 'mock');
+    assert.strictEqual(result.name, 'success');
+    assert.deepStrictEqual(result.query, query);
   });
 
   await it('only enabled services', () => {
@@ -82,7 +82,7 @@ describe('furkot-directions node module', async () => {
       valhalla_enable() {}
     };
     const directions = furkotDirections(options);
-    directions.options.should.have.property('services').with.length(1);
+    assert.strictEqual(directions.options.services.length, 1);
   });
 
   await it('override provider name', () => {
@@ -92,7 +92,7 @@ describe('furkot-directions node module', async () => {
       stadiamaps_enable() {}
     };
     const directions = furkotDirections(options);
-    directions.options.should.have.property('services').with.length(1);
+    assert.strictEqual(directions.options.services.length, 1);
   });
 
   await it('timeout', async () => {
@@ -110,7 +110,9 @@ describe('furkot-directions node module', async () => {
         [1, 1]
       ]
     });
-    await promise.should.be.resolvedWith({
+    await assert.doesNotReject(promise);
+    const result = await promise;
+    assert.deepStrictEqual(result, {
       query: {
         points: [
           [0, 0],
@@ -151,6 +153,6 @@ describe('furkot-directions node module', async () => {
     );
     await timeout(15);
     ac.abort();
-    await promise.should.be.rejectedWith(/aborted/);
+    await assert.rejects(promise, /aborted/);
   });
 });

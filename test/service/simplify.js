@@ -1,4 +1,5 @@
 const { describe, it } = require('node:test');
+const assert = require('node:assert/strict');
 
 const LatLon = require('geodesy/latlon-spherical');
 const pathType = require('../../lib/model').pathType;
@@ -38,7 +39,7 @@ describe('simplify', () => {
         path: [[0, 0]]
       }
     ]);
-    routes[0].should.not.have.property('path');
+    assert.equal(Object.hasOwn(routes[0], 'path'), false);
   });
 
   it('path type full', () => {
@@ -62,7 +63,7 @@ describe('simplify', () => {
         distance: routes[0].distance
       }
     ]);
-    routes[0].should.have.property('path', path);
+    assert.deepEqual(routes[0].path, path);
   });
 
   it('path type smooth with ends', () => {
@@ -94,7 +95,7 @@ describe('simplify', () => {
       seg.distance = distance(seg.path);
     });
     simplify(pathType.smooth, segments[0].distance, routes, segments);
-    routes[0].should.have.property('path').with.length(100);
+    assert.strictEqual(routes[0].path.length, 100);
     path = path
       .slice(0, 13)
       .concat(path.slice(18, 30))
@@ -102,7 +103,7 @@ describe('simplify', () => {
       .concat(path.slice(144, 169))
       .concat(path.slice(169, 182))
       .concat(path.slice(-12));
-    routes[0].path.should.eql(path);
+    assert.deepStrictEqual(routes[0].path, path);
   });
 
   it('path type smooth single segment', () => {
@@ -126,9 +127,9 @@ describe('simplify', () => {
         distance: routes[0].distance
       }
     ]);
-    routes[0].should.have.property('path').with.length(100);
+    assert.strictEqual(routes[0].path.length, 100);
     path = path.slice(0, 25).concat(path.slice(25, 50)).concat(path.slice(-50, -25)).concat(path.slice(-25));
-    routes[0].path.should.eql(path);
+    assert.deepStrictEqual(routes[0].path, path);
   });
 
   it('path type smooth no ends', () => {
@@ -152,6 +153,6 @@ describe('simplify', () => {
         distance: routes[0].distance
       }
     ]);
-    routes[0].should.have.property('path', path.slice(0, 50).concat(path.slice(-50)));
+    assert.deepStrictEqual(routes[0].path, path.slice(0, 50).concat(path.slice(-50)));
   });
 });

@@ -1,5 +1,5 @@
 const { describe, it, beforeEach } = require('node:test');
-const should = require('should');
+const assert = require('node:assert/strict');
 const service = require('../../lib/service');
 const status = require('../../lib/service/status');
 const util = require('../../lib/service/util');
@@ -45,7 +45,7 @@ describe('service', () => {
         [1, 1]
       ]
     });
-    result.should.equal('response');
+    assert.equal(result, 'response');
   });
 
   it('request later', async () => {
@@ -56,7 +56,7 @@ describe('service', () => {
         [1, 1]
       ]
     });
-    result.should.equal('response');
+    assert.equal(result, 'response');
   });
 
   it('cascade to next service', async () => {
@@ -67,6 +67,6 @@ describe('service', () => {
         [1, 1]
       ]
     });
-    should.not.exist(result);
+    assert.equal(result, undefined);
   });
 });

@@ -1,5 +1,5 @@
 const { describe, it } = require('node:test');
-const should = require('should');
+const assert = require('node:assert/strict');
 const model = require('../../../lib/model');
 const mapquest = require('../../../lib/service/mapquest');
 
@@ -29,25 +29,24 @@ describe('mapquest directions', async () => {
       units: 'km'
     };
     const result = await directions(query);
-    should.exist(result);
-    result.should.have.property('query');
-    result.query.should.deepEqual(query);
-    result.should.have.property('name', 'US-54 W');
-    result.should.not.have.property('places');
-    result.should.have.property('routes').with.length(1);
-    result.routes[0].should.have.property('duration', 1939);
-    result.routes[0].should.have.property('distance', 41603);
-    result.routes[0].should.have.property('path').with.length(40);
-    result.routes[0].should.have.property('segmentIndex', 0);
-    result.should.have.property('segments').with.length(7);
-    result.segments[0].should.have.property('duration', 86);
-    result.segments[0].should.have.property('distance', 906);
-    result.segments[0].should.have.property('path').with.length(3);
-    result.segments[0].should.have.property(
-      'instructions',
+    assert(result);
+    assert.deepEqual(result.query, query);
+    assert.equal(result.name, 'US-54 W');
+    assert(!Object.hasOwn(result, 'places'));
+    assert.equal(result.routes.length, 1);
+    assert.equal(result.routes[0].duration, 1939);
+    assert.equal(result.routes[0].distance, 41603);
+    assert.equal(result.routes[0].path.length, 40);
+    assert.equal(result.routes[0].segmentIndex, 0);
+    assert.equal(result.segments.length, 7);
+    assert.equal(result.segments[0].duration, 86);
+    assert.equal(result.segments[0].distance, 906);
+    assert.equal(result.segments[0].path.length, 3);
+    assert.equal(
+      result.segments[0].instructions,
       'Start out going south on Quay Road V toward US Highway 54/US-54 W/US-54 E.'
     );
-    result.should.have.property('provider', 'mapquest');
+    assert.equal(result.provider, 'mapquest');
   });
 });
 
@@ -64,17 +63,16 @@ describe('open mapquest directions', async () => {
       path: model.pathType.smooth
     };
     const result = await directions(query);
-    should.exist(result);
-    result.should.have.property('query');
-    result.query.should.deepEqual(query);
-    result.should.have.property('name', 'US-54 W');
-    result.should.not.have.property('places');
-    result.should.have.property('routes').with.length(1);
-    result.routes[0].should.have.property('duration', 1939);
-    result.routes[0].should.have.property('distance', 41603);
-    result.routes[0].should.have.property('path').with.length(40);
-    result.routes[0].should.have.property('segmentIndex', 0);
-    result.should.not.have.property('segments');
-    result.should.have.property('provider', 'openmapquest');
+    assert(result);
+    assert.deepEqual(result.query, query);
+    assert.equal(result.name, 'US-54 W');
+    assert(!Object.hasOwn(result, 'places'));
+    assert.equal(result.routes.length, 1);
+    assert.equal(result.routes[0].duration, 1939);
+    assert.equal(result.routes[0].distance, 41603);
+    assert.equal(result.routes[0].path.length, 40);
+    assert.equal(result.routes[0].segmentIndex, 0);
+    assert(!Object.hasOwn(result, 'segments'));
+    assert.equal(result.provider, 'openmapquest');
   });
 });
