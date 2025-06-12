@@ -12,7 +12,7 @@ const simplify = require('../../lib/service/simplify')({
 
 function distance(path) {
   return path.reduce(
-    function (result, p) {
+    (result, p) => {
       p = new LatLon(p[1], p[0]);
       result.d += result.p.distanceTo(p);
       result.p = p;
@@ -25,8 +25,8 @@ function distance(path) {
   ).d;
 }
 
-describe('simplify', function () {
-  it('path type none', function () {
+describe('simplify', () => {
+  it('path type none', () => {
     const routes = [
       {
         segmentIndex: 0
@@ -41,7 +41,7 @@ describe('simplify', function () {
     routes[0].should.not.have.property('path');
   });
 
-  it('path type full', function () {
+  it('path type full', () => {
     const routes = [
       {
         segmentIndex: 0
@@ -65,7 +65,7 @@ describe('simplify', function () {
     routes[0].should.have.property('path', path);
   });
 
-  it('path type smooth with ends', function () {
+  it('path type smooth with ends', () => {
     const routes = [
       {
         segmentIndex: 0
@@ -90,7 +90,7 @@ describe('simplify', function () {
         path: path.slice(170)
       }
     ];
-    segments.forEach(function (seg) {
+    segments.forEach(seg => {
       seg.distance = distance(seg.path);
     });
     simplify(pathType.smooth, segments[0].distance, routes, segments);
@@ -105,7 +105,7 @@ describe('simplify', function () {
     routes[0].path.should.eql(path);
   });
 
-  it('path type smooth single segment', function () {
+  it('path type smooth single segment', () => {
     const routes = [
       {
         segmentIndex: 0
@@ -131,7 +131,7 @@ describe('simplify', function () {
     routes[0].path.should.eql(path);
   });
 
-  it('path type smooth no ends', function () {
+  it('path type smooth no ends', () => {
     const routes = [
       {
         segmentIndex: 0

@@ -3,7 +3,7 @@ const should = require('should');
 const { directionsQuery, pathType } = require('../../../lib/model');
 const valhalla = require('../../../lib/service/valhalla');
 
-describe('valhalla directions', async function () {
+describe('valhalla directions', async () => {
   let response;
   const directions = valhalla({
     name: 'valhalla',
@@ -14,7 +14,7 @@ describe('valhalla directions', async function () {
     }
   }).operation;
 
-  await it('test', async function () {
+  await it('test', async () => {
     response = require('./fixtures/response');
 
     const query = {
@@ -41,7 +41,7 @@ describe('valhalla directions', async function () {
     result.should.have.property('provider', 'valhalla');
   });
 
-  await it('turn-by-turn', async function () {
+  await it('turn-by-turn', async () => {
     response = require('./fixtures/turnbyturn');
 
     const query = {
@@ -71,15 +71,11 @@ describe('valhalla directions', async function () {
     result.segments[0].should.have.property('path').with.length(2);
     result.segments[0].should.have.property('instructions', 'Drive south.');
     result.segments[4].should.have.property('rough', true);
-    result.segments
-      .reduce(function (len, seg) {
-        return len + seg.path.length;
-      }, 0)
-      .should.equal(511);
+    result.segments.reduce((len, seg) => len + seg.path.length, 0).should.equal(511);
     result.should.have.property('provider', 'valhalla');
   });
 
-  await it('empty', async function () {
+  await it('empty', async () => {
     response = require('./fixtures/empty');
 
     const query = {
@@ -95,7 +91,7 @@ describe('valhalla directions', async function () {
     should.not.exist(result);
   });
 
-  await it('ferry', async function () {
+  await it('ferry', async () => {
     response = require('./fixtures/ferry');
 
     const query = {
@@ -120,7 +116,7 @@ describe('valhalla directions', async function () {
     result.should.have.property('provider', 'valhalla');
   });
 
-  await it('only ferry end', async function () {
+  await it('only ferry end', async () => {
     response = require('./fixtures/end-ferry');
 
     const query = {
@@ -143,7 +139,7 @@ describe('valhalla directions', async function () {
     result.should.have.property('provider', 'valhalla');
   });
 
-  await it('no ferry end', async function () {
+  await it('no ferry end', async () => {
     response = require('./fixtures/no-end-ferry');
 
     const query = {
@@ -171,7 +167,7 @@ describe('valhalla directions', async function () {
     result.should.have.property('provider', 'valhalla');
   });
 
-  await it('too long roundabout route', async function () {
+  await it('too long roundabout route', async () => {
     response = require('./fixtures/roundabout-too-long');
 
     const query = {
@@ -187,7 +183,7 @@ describe('valhalla directions', async function () {
     should.not.exist(result);
   });
 
-  await it('acceptable roundabout route', async function () {
+  await it('acceptable roundabout route', async () => {
     response = require('./fixtures/roundabout');
 
     const query = {
@@ -203,7 +199,7 @@ describe('valhalla directions', async function () {
     should.exist(result);
   });
 
-  await it('toll road', async function () {
+  await it('toll road', async () => {
     response = require('./fixtures/has-toll');
 
     const query = {

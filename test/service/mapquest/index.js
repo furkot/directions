@@ -13,8 +13,8 @@ const directions = mapquest({
   }
 }).operation;
 
-describe('mapquest directions', async function () {
-  await it('test', async function () {
+describe('mapquest directions', async () => {
+  await it('test', async () => {
     response = require('./fixtures/turnbyturn');
 
     const query = {
@@ -51,8 +51,8 @@ describe('mapquest directions', async function () {
   });
 });
 
-describe('open mapquest directions', async function () {
-  await it('test', async function () {
+describe('open mapquest directions', async () => {
+  await it('test', async () => {
     response = require('./fixtures/response');
 
     const query = {

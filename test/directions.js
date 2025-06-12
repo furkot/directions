@@ -23,25 +23,25 @@ function timeService(millis, success = true) {
   }
 }
 
-describe('furkot-directions node module', async function () {
-  await it('no input', async function () {
+describe('furkot-directions node module', async () => {
+  await it('no input', async () => {
     const result = await furkotDirections()();
     should.not.exist(result);
   });
 
-  await it('empty input', async function () {
+  await it('empty input', async () => {
     const result = await furkotDirections()({});
     should.not.exist(result);
   });
 
-  await it('one point', async function () {
+  await it('one point', async () => {
     const result = await furkotDirections()({
       points: [[0, 0]]
     });
     should.not.exist(result);
   });
 
-  await it('no service', async function () {
+  await it('no service', async () => {
     const result = await furkotDirections({
       services: []
     })({
@@ -54,7 +54,7 @@ describe('furkot-directions node module', async function () {
     result.should.have.property('routes').with.length(1);
   });
 
-  await it('service', async function () {
+  await it('service', async () => {
     const query = {
       points: [
         [0, 0],
@@ -77,7 +77,7 @@ describe('furkot-directions node module', async function () {
     result.should.have.property('query', query);
   });
 
-  await it('only enabled services', function () {
+  await it('only enabled services', () => {
     const options = {
       valhalla_enable() {}
     };
@@ -85,7 +85,7 @@ describe('furkot-directions node module', async function () {
     directions.options.should.have.property('services').with.length(1);
   });
 
-  await it('override provider name', function () {
+  await it('override provider name', () => {
     const options = {
       order: ['stadiamaps'],
       stadiamaps: 'valhalla',
@@ -95,7 +95,7 @@ describe('furkot-directions node module', async function () {
     directions.options.should.have.property('services').with.length(1);
   });
 
-  await it('timeout', async function () {
+  await it('timeout', async () => {
     const promise = furkotDirections({
       services: [
         {
@@ -122,7 +122,7 @@ describe('furkot-directions node module', async function () {
     });
   });
 
-  await it('abort', async function () {
+  await it('abort', async () => {
     const ac = new AbortController();
     const promise = furkotDirections({
       services: [

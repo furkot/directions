@@ -38,8 +38,7 @@
         "noUnusedVariables": "error"
       },
       "complexity": {
-        "noForEach": "off",
-        "useArrowFunction": "off"
+        "noForEach": "off"
       },
       "style": {
         "noParameterAssign": "off",

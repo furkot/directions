@@ -4,11 +4,11 @@ const should = require('should');
 const osrm = require('../../../lib/service/osrm');
 const model = require('../../../lib/model');
 
-describe('osrm', async function () {
-  await it('should return turnbyturn directions', async function (t) {
-    const request = t.mock.fn(undefined, async () => {
-      return { response: require('./fixtures/turnbyturn.json') };
-    });
+describe('osrm', async () => {
+  await it('should return turnbyturn directions', async t => {
+    const request = t.mock.fn(undefined, async () => ({
+      response: require('./fixtures/turnbyturn.json')
+    }));
 
     const directions = osrm({
       name: 'osrm',
@@ -34,7 +34,7 @@ describe('osrm', async function () {
 
     result.should.have.property('routes').with.length(2);
 
-    result.routes.forEach(function (route) {
+    result.routes.forEach(route => {
       route.should.have.property('distance').which.is.Number();
       route.should.have.property('duration').which.is.Number();
       route.should.have.property('path').which.is.Array();
@@ -44,7 +44,7 @@ describe('osrm', async function () {
 
     result.should.have.property('segments').which.is.Array();
 
-    result.segments.forEach(function (segment) {
+    result.segments.forEach(segment => {
       segment.should.have.property('distance').which.is.Number();
       segment.should.have.property('duration').which.is.Number();
       segment.should.have.property('path').which.is.Array();
@@ -63,10 +63,10 @@ describe('osrm', async function () {
     ]);
   });
 
-  await it('should return zero results', async function (t) {
-    const request = t.mock.fn(undefined, async () => {
-      return { response: require('./fixtures/zeroresults.json') };
-    });
+  await it('should return zero results', async t => {
+    const request = t.mock.fn(undefined, async () => ({
+      response: require('./fixtures/zeroresults.json')
+    }));
 
     const directions = osrm({
       name: 'osrm',
