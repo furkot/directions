@@ -1,8 +1,8 @@
-const { describe, it, beforeEach } = require('node:test');
-const assert = require('node:assert/strict');
-const service = require('../../lib/service');
-const status = require('../../lib/service/status');
-const util = require('../../lib/service/util');
+import assert from 'node:assert/strict';
+import { beforeEach, describe, it } from 'node:test';
+import service from '../../lib/service/index.js';
+import * as status from '../../lib/service/status.js';
+import * as util from '../../lib/service/util.js';
 
 describe('service', () => {
   let s;

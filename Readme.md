@@ -15,7 +15,7 @@ $ npm install --save furkot-directions
 ## Usage
 
 ```js
-var furkotDirections = require('furkot-directions');
+import furkotDirections from 'furkot-directions';
 
 furkotDirections('Rainbow');
 ```
