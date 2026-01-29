@@ -1,7 +1,7 @@
-const { describe, it } = require('node:test');
-const assert = require('node:assert/strict');
-const furkotDirections = require('../lib/directions');
-const { timeout } = require('../lib/service/util');
+import assert from 'node:assert/strict';
+import { describe, it } from 'node:test';
+import furkotDirections from '../lib/directions.js';
+import { timeout } from '../lib/service/util.js';
 
 /* global AbortController */
 

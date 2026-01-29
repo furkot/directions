@@ -1,7 +1,13 @@
-const { describe, it } = require('node:test');
-const assert = require('node:assert/strict');
-const model = require('../../../lib/model');
-const openroute = require('../../../lib/service/openroute');
+import assert from 'node:assert/strict';
+import { describe, it } from 'node:test';
+import * as model from '../../../lib/model.js';
+import openroute from '../../../lib/service/openroute/index.js';
+import emptyFixture from './fixtures/empty.json' with { type: 'json' };
+import ferryFixture from './fixtures/ferry.json' with { type: 'json' };
+import roughFixture from './fixtures/rough.json' with { type: 'json' };
+import roundaboutTooLongFixture from './fixtures/roundabout-too-long.json' with { type: 'json' };
+import tollsFixture from './fixtures/tolls.json' with { type: 'json' };
+import turnbyturnFixture from './fixtures/turnbyturn.json' with { type: 'json' };
 
 let response;
 const directions = openroute({
@@ -15,7 +21,7 @@ const directions = openroute({
 
 describe('openroute directions', async () => {
   await it('turn-by-turn', async () => {
-    response = require('./fixtures/turnbyturn');
+    response = turnbyturnFixture;
 
     const query = {
       ...model.directionsQuery,
@@ -50,7 +56,7 @@ describe('openroute directions', async () => {
   });
 
   await it('empty', async () => {
-    response = require('./fixtures/empty');
+    response = emptyFixture;
 
     const query = {
       ...model.directionsQuery,
@@ -85,7 +91,7 @@ describe('openroute directions', async () => {
   });
 
   await it('ferry', async () => {
-    response = require('./fixtures/ferry');
+    response = ferryFixture;
 
     const query = {
       ...model.directionsQuery,
@@ -121,7 +127,7 @@ describe('openroute directions', async () => {
   });
 
   await it('too long roundabout route', async () => {
-    response = require('./fixtures/roundabout-too-long');
+    response = roundaboutTooLongFixture;
 
     const query = {
       ...model.directionsQuery,
@@ -134,7 +140,7 @@ describe('openroute directions', async () => {
   });
 
   await it('rough surface', async () => {
-    response = require('./fixtures/rough');
+    response = roughFixture;
 
     const query = {
       ...model.directionsQuery,
@@ -165,7 +171,7 @@ describe('openroute directions', async () => {
   });
 
   await it('toll roads', async () => {
-    response = require('./fixtures/tolls');
+    response = tollsFixture;
 
     const query = {
       ...model.directionsQuery,

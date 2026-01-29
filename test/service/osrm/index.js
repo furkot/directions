@@ -1,13 +1,14 @@
-const { describe, it } = require('node:test');
-const assert = require('node:assert/strict');
-
-const osrm = require('../../../lib/service/osrm');
-const model = require('../../../lib/model');
+import assert from 'node:assert/strict';
+import { describe, it } from 'node:test';
+import * as model from '../../../lib/model.js';
+import osrm from '../../../lib/service/osrm/index.js';
+import turnbyturnFixture from './fixtures/turnbyturn.json' with { type: 'json' };
+import zeroresultsFixture from './fixtures/zeroresults.json' with { type: 'json' };
 
 describe('osrm', async () => {
   await it('should return turnbyturn directions', async t => {
     const request = t.mock.fn(undefined, async () => ({
-      response: require('./fixtures/turnbyturn.json')
+      response: turnbyturnFixture
     }));
 
     const directions = osrm({
@@ -64,7 +65,7 @@ describe('osrm', async () => {
 
   await it('should return zero results', async t => {
     const request = t.mock.fn(undefined, async () => ({
-      response: require('./fixtures/zeroresults.json')
+      response: zeroresultsFixture
     }));
 
     const directions = osrm({

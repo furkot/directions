@@ -1,7 +1,9 @@
-const { describe, it } = require('node:test');
-const assert = require('node:assert/strict');
-const model = require('../../../lib/model');
-const mapquest = require('../../../lib/service/mapquest');
+import assert from 'node:assert/strict';
+import { describe, it } from 'node:test';
+import * as model from '../../../lib/model.js';
+import mapquest from '../../../lib/service/mapquest/index.js';
+import responseFixture from './fixtures/response.json' with { type: 'json' };
+import turnbyturnFixture from './fixtures/turnbyturn.json' with { type: 'json' };
 
 let response;
 const directions = mapquest({
@@ -15,7 +17,7 @@ const directions = mapquest({
 
 describe('mapquest directions', async () => {
   await it('test', async () => {
-    response = require('./fixtures/turnbyturn');
+    response = turnbyturnFixture;
 
     const query = {
       ...model.directionsQuery,
@@ -52,7 +54,7 @@ describe('mapquest directions', async () => {
 
 describe('open mapquest directions', async () => {
   await it('test', async () => {
-    response = require('./fixtures/response');
+    response = responseFixture;
 
     const query = {
       ...model.directionsQuery,

@@ -1,7 +1,16 @@
-const { describe, it } = require('node:test');
-const assert = require('node:assert');
-const { directionsQuery, pathType } = require('../../../lib/model');
-const valhalla = require('../../../lib/service/valhalla');
+import assert from 'node:assert';
+import { describe, it } from 'node:test';
+import { directionsQuery, pathType } from '../../../lib/model.js';
+import valhalla from '../../../lib/service/valhalla/index.js';
+import emptyFixture from './fixtures/empty.json' with { type: 'json' };
+import endFerryFixture from './fixtures/end-ferry.json' with { type: 'json' };
+import ferryFixture from './fixtures/ferry.json' with { type: 'json' };
+import hasTollFixture from './fixtures/has-toll.json' with { type: 'json' };
+import noEndFerryFixture from './fixtures/no-end-ferry.json' with { type: 'json' };
+import responseFixture from './fixtures/response.json' with { type: 'json' };
+import roundaboutFixture from './fixtures/roundabout.json' with { type: 'json' };
+import roundaboutTooLongFixture from './fixtures/roundabout-too-long.json' with { type: 'json' };
+import turnbyturnFixture from './fixtures/turnbyturn.json' with { type: 'json' };
 
 describe('valhalla directions', async () => {
   let response;
@@ -15,7 +24,7 @@ describe('valhalla directions', async () => {
   }).operation;
 
   await it('test', async () => {
-    response = require('./fixtures/response');
+    response = responseFixture;
 
     const query = {
       ...directionsQuery,
@@ -42,7 +51,7 @@ describe('valhalla directions', async () => {
   });
 
   await it('turn-by-turn', async () => {
-    response = require('./fixtures/turnbyturn');
+    response = turnbyturnFixture;
 
     const query = {
       ...directionsQuery,
@@ -79,7 +88,7 @@ describe('valhalla directions', async () => {
   });
 
   await it('empty', async () => {
-    response = require('./fixtures/empty');
+    response = emptyFixture;
 
     const query = {
       ...directionsQuery,
@@ -95,7 +104,7 @@ describe('valhalla directions', async () => {
   });
 
   await it('ferry', async () => {
-    response = require('./fixtures/ferry');
+    response = ferryFixture;
 
     const query = {
       ...directionsQuery,
@@ -120,7 +129,7 @@ describe('valhalla directions', async () => {
   });
 
   await it('only ferry end', async () => {
-    response = require('./fixtures/end-ferry');
+    response = endFerryFixture;
 
     const query = {
       ...directionsQuery,
@@ -143,7 +152,7 @@ describe('valhalla directions', async () => {
   });
 
   await it('no ferry end', async () => {
-    response = require('./fixtures/no-end-ferry');
+    response = noEndFerryFixture;
 
     const query = {
       ...directionsQuery,
@@ -171,7 +180,7 @@ describe('valhalla directions', async () => {
   });
 
   await it('too long roundabout route', async () => {
-    response = require('./fixtures/roundabout-too-long');
+    response = roundaboutTooLongFixture;
 
     const query = {
       ...directionsQuery,
@@ -187,7 +196,7 @@ describe('valhalla directions', async () => {
   });
 
   await it('acceptable roundabout route', async () => {
-    response = require('./fixtures/roundabout');
+    response = roundaboutFixture;
 
     const query = {
       ...directionsQuery,
@@ -203,7 +212,7 @@ describe('valhalla directions', async () => {
   });
 
   await it('toll road', async () => {
-    response = require('./fixtures/has-toll');
+    response = hasTollFixture;
 
     const query = {
       ...directionsQuery,

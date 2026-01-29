@@ -1,10 +1,10 @@
-const { describe, it } = require('node:test');
-const assert = require('node:assert/strict');
+import assert from 'node:assert/strict';
+import { describe, it } from 'node:test';
+import LatLon from 'geodesy/latlon-spherical.js';
+import { pathType } from '../../lib/model.js';
+import simplifyModule from '../../lib/service/simplify.js';
 
-const LatLon = require('geodesy/latlon-spherical');
-const pathType = require('../../lib/model').pathType;
-
-const simplify = require('../../lib/service/simplify')({
+const simplify = simplifyModule({
   algorithm(path, num) {
     num = num / 2;
     return path.slice(0, Math.ceil(num)).concat(path.slice(-Math.floor(num)));

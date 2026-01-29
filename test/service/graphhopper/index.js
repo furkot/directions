@@ -1,7 +1,13 @@
-const { describe, it } = require('node:test');
-const assert = require('node:assert/strict');
-const { directionsQuery, pathType } = require('../../../lib/model');
-const graphhopper = require('../../../lib/service/graphhopper');
+import assert from 'node:assert/strict';
+import { describe, it } from 'node:test';
+import { directionsQuery, pathType } from '../../../lib/model.js';
+import graphhopper from '../../../lib/service/graphhopper/index.js';
+import ferryFixture from './fixtures/ferry.json' with { type: 'json' };
+import ferry2Fixture from './fixtures/ferry-2.json' with { type: 'json' };
+import responseFixture from './fixtures/response.json' with { type: 'json' };
+import roughFixture from './fixtures/rough.json' with { type: 'json' };
+import tollsFixture from './fixtures/tolls.json' with { type: 'json' };
+import turnbyturnFixture from './fixtures/turnbyturn.json' with { type: 'json' };
 
 describe('graphhopper directions', async () => {
   let response;
@@ -16,7 +22,7 @@ describe('graphhopper directions', async () => {
   }).operation;
 
   await it('test', async () => {
-    response = require('./fixtures/response');
+    response = responseFixture;
 
     const query = {
       ...directionsQuery,
@@ -42,7 +48,7 @@ describe('graphhopper directions', async () => {
   });
 
   await it('turn-by-turn', async () => {
-    response = require('./fixtures/turnbyturn');
+    response = turnbyturnFixture;
 
     const query = {
       ...directionsQuery,
@@ -78,7 +84,7 @@ describe('graphhopper directions', async () => {
   });
 
   await it('ferry', async () => {
-    response = require('./fixtures/ferry');
+    response = ferryFixture;
 
     const query = {
       ...directionsQuery,
@@ -106,7 +112,7 @@ describe('graphhopper directions', async () => {
   });
 
   await it('other ferry', async () => {
-    response = require('./fixtures/ferry-2');
+    response = ferry2Fixture;
 
     const query = {
       ...directionsQuery,
@@ -130,7 +136,7 @@ describe('graphhopper directions', async () => {
   });
 
   await it('rough surface', async () => {
-    response = require('./fixtures/rough');
+    response = roughFixture;
 
     const query = {
       ...directionsQuery,
@@ -178,7 +184,7 @@ describe('graphhopper directions', async () => {
   });
 
   await it('toll roads', async () => {
-    response = require('./fixtures/tolls');
+    response = tollsFixture;
 
     const query = {
       ...directionsQuery,

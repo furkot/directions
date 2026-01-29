@@ -17,22 +17,23 @@
     "furkot",
     "directions"
   ],
+  "type": "module",
+  "exports": "./lib/directions.js",
   "dependencies": {
-    "@pirxpilot/google-polyline": "^3.0.0",
-    "debug": "~2 || ~3 || ~4",
-    "fetchagent": "~2.1.0",
-    "geodesy": "^1.1.1",
-    "limiter-component": "^1.2.0",
+    "@pirxpilot/google-polyline": "~4",
+    "debug": "~4",
+    "fetchagent": "~3",
+    "geodesy": "~2",
+    "limiter-component": "~2",
     "vis-why": "~2"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4"
+    "@biomejs/biome": "^2.3.13"
   },
   "scripts": {
     "test": "make check"
   },
   "files": [
-    "index.js",
     "lib"
   ]
 }
