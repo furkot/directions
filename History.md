@@ -1,4 +1,10 @@
 
+3.0.1 / 2026-02-11
+==================
+
+ * use nullish coalescing assignment `??=` where possible
+ * use `Array.at(-1)` to retrieve last item
+
 3.0.0 / 2026-01-29
 ==================
 
