@@ -10,6 +10,7 @@ import noEndFerryFixture from './fixtures/no-end-ferry.json' with { type: 'json'
 import responseFixture from './fixtures/response.json' with { type: 'json' };
 import roundaboutFixture from './fixtures/roundabout.json' with { type: 'json' };
 import roundaboutTooLongFixture from './fixtures/roundabout-too-long.json' with { type: 'json' };
+import startOnFerry from './fixtures/start-on-ferry.json' with { type: 'json' };
 import turnbyturnFixture from './fixtures/turnbyturn.json' with { type: 'json' };
 
 describe('valhalla directions', async () => {
@@ -145,6 +146,29 @@ describe('valhalla directions', async () => {
     assert.strictEqual(result.routes.length, 1);
     assert.strictEqual(result.routes[0].ferry, true);
     assert.strictEqual(result.segments.length, 3);
+    assert.strictEqual(result.segments[0].mode, 6);
+    assert.strictEqual(Object.hasOwn(result.segments[1], 'mode'), false);
+    assert.strictEqual(Object.hasOwn(result.segments[2], 'mode'), false);
+    assert.strictEqual(result.provider, 'valhalla');
+  });
+
+  await it('start on ferry', async () => {
+    response = startOnFerry;
+
+    const query = {
+      ...directionsQuery,
+      points: [
+        [response.trip.locations[0].lon, response.trip.locations[0].lat],
+        [response.trip.locations[1].lon, response.trip.locations[1].lat]
+      ],
+      turnbyturn: true,
+      path: pathType.full
+    };
+    const result = await directions(query);
+    assert.ok(result);
+    assert.strictEqual(result.routes.length, 1);
+    assert.strictEqual(result.routes[0].ferry, true);
+    assert.strictEqual(result.segments.length, 4);
     assert.strictEqual(result.segments[0].mode, 6);
     assert.strictEqual(Object.hasOwn(result.segments[1], 'mode'), false);
     assert.strictEqual(Object.hasOwn(result.segments[2], 'mode'), false);
