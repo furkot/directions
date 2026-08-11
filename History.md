@@ -1,4 +1,11 @@
 
+3.0.2 / 2026-08-10
+==================
+
+ * fix biome version
+ * use optional chaining ?.
+ * fix recognizing a ferry segment when a route starts already on a ferry and there is no explicit exit ferry manouver
+
 3.0.1 / 2026-02-11
 ==================
 
